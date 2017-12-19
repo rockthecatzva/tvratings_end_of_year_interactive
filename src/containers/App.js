@@ -90,9 +90,9 @@ class App extends Component {
 
   componentDidMount(){
     console.log("Mounted");
-    this.props.dispatch(fetchPodData("disc", "/pod-disc2016.json"))
-    this.props.dispatch(fetchPodData("tlc", "/pod-tlc2016.json"))
-    this.props.dispatch(fetchPodData("hgtv", "/pod-hgtv2016.json"))
+    this.props.dispatch(fetchPodData("disc", "/data/pod-disc2016.json"))
+    this.props.dispatch(fetchPodData("tlc", "/data/pod-tlc2016.json"))
+    this.props.dispatch(fetchPodData("hgtv", "/data/pod-hgtv2016.json"))
   }
 
   render() {
@@ -106,7 +106,7 @@ class App extends Component {
     return (
       <div onClick={() => { this.clearSelections() }}>
         <Header />
-        
+
       { appData.hasOwnProperty("disc") && 
           <DonutRadial renderData={appData.disc} interactionCallback={m=>{this.handleMessageUpdate("disc", m)}} message={selectionLabels.disc} />
       }
