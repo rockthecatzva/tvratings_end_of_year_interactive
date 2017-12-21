@@ -6,13 +6,14 @@ export const VIZ_CLICK = 'VIZ_CLICK'
 export const CLEAR_SELECTIONS = 'CLEAR_SELECTIONS'
 export const CHANGE_DATALABEL = 'CHANGE_DATALABEL'
 
-export const vizClick = (messageGroup, message) => {
+export const vizClick = (messageGroup, show) => {
   return {
     type: VIZ_CLICK,
-    message,
+    show,
     messageGroup
   }
 }
+
 
 export const changeDropDown = (group, label) => {
   return{

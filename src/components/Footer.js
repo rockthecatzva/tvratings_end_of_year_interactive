@@ -1,7 +1,11 @@
 import React from 'react';
+import styled from 'styled-components'
+
+const FootP = styled.p`
+    font-size: 0.7em;`
 
 const Footer = () => (
-    <p>Source: Nielsen Live + 3 day data. Prime = Strict Quarter Hour Program Based Dayparts. Premiere and repeat norms are program based that start/end/span Prime during prime.</p>
+    <FootP>Source: Nielsen Live + 3 day data. Prime = Strict Quarter Hour Program Based Dayparts. Premiere and repeat norms are program based that start/end/span Prime.</FootP>
     
 )
 

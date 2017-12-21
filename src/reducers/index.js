@@ -70,14 +70,14 @@ function postsBySubreddit(state = {}, action) {
 */
 
 
-function selectionLabels(state = {"timeperiod": "FullYear"}, action) {
+function selectionLabels(state = {"timeperiod": "FullYear", "ratingDurationToggle": "aa"}, action) {
   switch (action.type) {
     case RECEIVE_DATA:
-      return { ...state, ...{[action.group]:"Full Year Prime: "+action.data.prime.FullYear+"k"} };
+      return { ...state, ...{[action.group]: {}} };
     case VIZ_CLICK:
-      return { ...state, ...{ [action.messageGroup]: action.message} };
+      return { ...state, ...{ [action.messageGroup]: action.show} };
     case CLEAR_SELECTIONS:
-      return { ...state, ...{ "message": "Click on a graphic for more info", "highlightStates": [], "highlightValues": [] } };
+      return { ...state };
     case CHANGE_DATALABEL:
       return {...state, [action.group]: action.label}
     default:

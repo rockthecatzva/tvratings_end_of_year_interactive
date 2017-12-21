@@ -2,97 +2,50 @@ import { connect } from 'react-redux'
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
+import { injectGlobal } from 'styled-components'
 
 import {
-  fetchCensusData,
   vizClick,
   clearSelections,
-  changeDropDown,
   fetchPodData
 } from '../actions'
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-
-/*
-import Dropdown from '../components/Dropdown'
-//import MapUSA from '../components/MapUSA'
-import Histogram from '../components/Histogram'
-import ScatterPlotLine from '../components/ScatterPlotLine'
-import MessageModal from '../components/MessageModal'
-*/
-
 import DonutRadial from '../components/DonutRadial'
+
+import ToggleSwitch from '../components/ToggleSwitch'
+
 
 class App extends Component {
   constructor(props) {
     super(props);
-    //this.handleOptionChange = this.handleOptionChange.bind(this);
-    //this.handleMapClick = this.handleMapClick.bind(this);
     this.clearSelections = this.clearSelections.bind(this);
     this.handleMessageUpdate = this.handleMessageUpdate.bind(this);
   }
 
 
-  //NEED TO STANDARDIZE THE Click-EVent handlers ie, (stateSet, message)!!!!
 
 
-  handleMessageUpdate(msgGroup, message) {
+  handleMessageUpdate(msgGroup, show) {
     //const { dispatch } = this.props;
-    this.props.dispatch(vizClick(msgGroup, message));
+    console.log("in app.js", show)
+    this.props.dispatch(vizClick(msgGroup, show));
   }
 
+ 
 
-
-
-/*
-
-  handleScatterClick(idSet, message) {
-    const { dispatch, censusData } = this.props;
-    dispatch(vizClick(message, idSet, [0]));
-  }
-
-
-  handleMapClick(id) {
-    const { dispatch, censusData } = this.props;
-    //make the message - find state name, number format and value
-    const stateData = censusData.primaryData.filter(st => { if (st.id === id) return true; })[0],
-      message = stateData.state + ": " + stateData.value + stateData.numformat;
-    //dispatch with message & higlightState
-    dispatch(vizClick(message, [id], [stateData.value]));
-  }
-
-  handleHistoClick(vals) {
-    const { dispatch, censusData } = this.props;
-
-    const max = Math.max(...vals),
-      min = Math.min(...vals),
-      numformat = censusData.primaryData[0].numformat,
-      message = (max === min) ? "States with " + min + numformat : "States with " + min + "-" + max + numformat,
-      statesInRange = censusData.primaryData.filter(st => {
-        return vals.includes(st.value);
-      }).map(st => { return st.id });
-    console.log(statesInRange, message);
-
-    dispatch(vizClick(message, statesInRange, vals));
-  }
-*/
   clearSelections() {
     this.props.dispatch(clearSelections());
   }
 
 
-  handleOptionChange(optiongroup, val) {
-    console.log(optiongroup, val)
-    this.props.dispatch(fetchCensusData(optiongroup, val))
-    this.props.dispatch(changeDropDown(optiongroup, val.label))
-  }
-
-  componentDidMount(){
-    console.log("Mounted");
+  componentDidMount() {
     this.props.dispatch(fetchPodData("disc", "/data/pod-disc2016.json"))
     this.props.dispatch(fetchPodData("tlc", "/data/pod-tlc2016.json"))
     this.props.dispatch(fetchPodData("hgtv", "/data/pod-hgtv2016.json"))
+    this.props.dispatch(fetchPodData("vel", "/data/pod-vel2016.json"))
+    
   }
 
   render() {
@@ -102,23 +55,94 @@ class App extends Component {
     const ClearFloatHack = styled.div`
       clear: left;
     `;
+  
+  injectGlobal`
+    @font-face {
+      font-family: 'aileron';
+      src: url('../fonts/Aileron-Regular.otf');
+    }`;
+
+    const MainDiv = styled.div`
+      font-family: aileron;
+      width: 5000px;
+      `;
+    
+    const InstructionP = styled.p`
+      margin-bottom: 4px;
+      font-size: 0.8em;`
+
+    let allShowsSet = [],
+        showRatingRange = [];
+    
+    if(Object.keys(appData).length){
+      for (var net in appData){
+        //console.log(net)
+        if(appData[net].hasOwnProperty("series-prems")){
+          for (var show of appData[net]["series-prems"].FullYear){
+            allShowsSet.push(show);
+          }
+          for (show of appData[net]["series-repeats"].FullYear){
+            allShowsSet.push(show);
+          }
+        }
+      }
+
+
+      //this should probably be in the store - only needs to be calculated when RECIEVE_DATA and RATING_DELIVERY_TOGGLE (and time period change???)
+      showRatingRange = [
+        allShowsSet.reduce((accumulator, curr)=>{
+          if(curr[selectionLabels.ratingDurationToggle]<accumulator[selectionLabels.ratingDurationToggle]){
+            return curr;
+          }
+          return accumulator;
+        })[selectionLabels.ratingDurationToggle],
+        allShowsSet.reduce((accumulator, curr)=>{
+          if(curr[selectionLabels.ratingDurationToggle]>accumulator[selectionLabels.ratingDurationToggle]){
+            return curr
+          }
+          return accumulator;
+        })[selectionLabels.ratingDurationToggle]];
+
+    }
+    
+    console.log(showRatingRange)
+
+    
 
     return (
-      <div onClick={() => { this.clearSelections() }}>
+      <MainDiv >
         <Header />
 
-      { appData.hasOwnProperty("disc") && 
-          <DonutRadial renderData={appData.disc} interactionCallback={m=>{this.handleMessageUpdate("disc", m)}} message={selectionLabels.disc} />
-      }
-      { appData.hasOwnProperty("tlc") && 
-          <DonutRadial renderData={appData.tlc} interactionCallback={m=>{this.handleMessageUpdate("tlc", m)}} message={selectionLabels.tlc} />
-      } 
-      { appData.hasOwnProperty("hgtv") && 
-          <DonutRadial renderData={appData.hgtv} interactionCallback={m=>{this.handleMessageUpdate("hgtv", m)}} message={selectionLabels.hgtv} />
-      } 
-      <ClearFloatHack />
+        <InstructionP>Toggle the view between Delivery & Duration:</InstructionP>
+        <ToggleSwitch option1={{"label":"Delivery", "value": "aa"}} 
+                      option2={{"label":"Duration", "value":"mins"}} 
+                      interactionCallback={m => { this.handleMessageUpdate("ratingDurationToggle", m) }}
+                      selectedOption={selectionLabels.ratingDurationToggle}
+                       />
+
+
+
+        {appData.hasOwnProperty("disc") &&
+          <DonutRadial renderData={appData.disc} 
+                       interactionCallback={m => { this.handleMessageUpdate("disc", m) }} 
+                       selectedElement={selectionLabels.disc} 
+                       ratingDurationToggle={selectionLabels.ratingDurationToggle}
+                       network={"DISC"}
+                       ratingRange={showRatingRange}
+                       />
+        }
+        {appData.hasOwnProperty("tlc") &&
+          <DonutRadial renderData={appData.tlc} interactionCallback={m => { this.handleMessageUpdate("tlc", m) }} selectedElement={selectionLabels.tlc} ratingDurationToggle={selectionLabels.ratingDurationToggle} network={"TLC"} ratingRange={showRatingRange} />
+        }
+        {appData.hasOwnProperty("hgtv") &&
+          <DonutRadial renderData={appData.hgtv} interactionCallback={m => { this.handleMessageUpdate("hgtv", m) }} selectedElement={selectionLabels.hgtv} ratingDurationToggle={selectionLabels.ratingDurationToggle} network={"HGTV"} ratingRange={showRatingRange} />
+        }
+        {appData.hasOwnProperty("vel") &&
+          <DonutRadial renderData={appData.vel} interactionCallback={m => { this.handleMessageUpdate("vel", m) }} selectedElement={selectionLabels.vel} ratingDurationToggle={selectionLabels.ratingDurationToggle} network={"VEL"} ratingRange={showRatingRange} />
+        }
+        <ClearFloatHack />
         <Footer />
-      </div>
+      </MainDiv>
     );
 
   }
@@ -129,7 +153,6 @@ class App extends Component {
 
 const mapStateToProps = (state, ownProps) => {
   return {
-    //dataOptions: state.dataOptions,
     appData: state.appData,
     selectionLabels: state.selectionLabels
   }
