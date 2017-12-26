@@ -16,6 +16,7 @@ import DonutRadial from '../components/DonutRadial'
 
 import ToggleSwitch from '../components/ToggleSwitch'
 
+import VizPod from '../containers/VizPod'
 
 class App extends Component {
   constructor(props) {
@@ -27,10 +28,8 @@ class App extends Component {
 
 
 
-  handleMessageUpdate(msgGroup, show) {
-    //const { dispatch } = this.props;
-    console.log("in app.js", show)
-    this.props.dispatch(vizClick(msgGroup, show));
+  handleMessageUpdate(msgGroup, dataOb) {
+    this.props.dispatch(vizClick(msgGroup, dataOb));
   }
 
  
@@ -105,7 +104,7 @@ class App extends Component {
 
     }
     
-    console.log(showRatingRange)
+    //  console.log(showRatingRange)
 
     
 
@@ -123,7 +122,7 @@ class App extends Component {
 
 
         {appData.hasOwnProperty("disc") &&
-          <DonutRadial renderData={appData.disc} 
+          <VizPod renderData={appData.disc} 
                        interactionCallback={m => { this.handleMessageUpdate("disc", m) }} 
                        selectedElement={selectionLabels.disc} 
                        ratingDurationToggle={selectionLabels.ratingDurationToggle}
@@ -132,13 +131,13 @@ class App extends Component {
                        />
         }
         {appData.hasOwnProperty("tlc") &&
-          <DonutRadial renderData={appData.tlc} interactionCallback={m => { this.handleMessageUpdate("tlc", m) }} selectedElement={selectionLabels.tlc} ratingDurationToggle={selectionLabels.ratingDurationToggle} network={"TLC"} ratingRange={showRatingRange} />
+          <VizPod renderData={appData.tlc} interactionCallback={m => { this.handleMessageUpdate("tlc", m) }} selectedElement={selectionLabels.tlc} ratingDurationToggle={selectionLabels.ratingDurationToggle} network={"TLC"} ratingRange={showRatingRange} />
         }
         {appData.hasOwnProperty("hgtv") &&
-          <DonutRadial renderData={appData.hgtv} interactionCallback={m => { this.handleMessageUpdate("hgtv", m) }} selectedElement={selectionLabels.hgtv} ratingDurationToggle={selectionLabels.ratingDurationToggle} network={"HGTV"} ratingRange={showRatingRange} />
+          <VizPod renderData={appData.hgtv} interactionCallback={m => { this.handleMessageUpdate("hgtv", m) }} selectedElement={selectionLabels.hgtv} ratingDurationToggle={selectionLabels.ratingDurationToggle} network={"HGTV"} ratingRange={showRatingRange} />
         }
         {appData.hasOwnProperty("vel") &&
-          <DonutRadial renderData={appData.vel} interactionCallback={m => { this.handleMessageUpdate("vel", m) }} selectedElement={selectionLabels.vel} ratingDurationToggle={selectionLabels.ratingDurationToggle} network={"VEL"} ratingRange={showRatingRange} />
+          <VizPod renderData={appData.vel} interactionCallback={m => { this.handleMessageUpdate("vel", m) }} selectedElement={selectionLabels.vel} ratingDurationToggle={selectionLabels.ratingDurationToggle} network={"VEL"} ratingRange={showRatingRange} />
         }
         <ClearFloatHack />
         <Footer />
