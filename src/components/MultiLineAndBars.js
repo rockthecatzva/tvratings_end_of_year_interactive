@@ -22,21 +22,20 @@ export default class MultiLineAndBars extends React.Component {
 
         const width = 400,
             height = 300,
-            MARGIN = 30;
+            MARGIN = 60;
 
         const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
         const GraphBox = styled.div`
                 width: ${width + "px"};
                 height: ${height + "px"};
-                float: left;
-                position: relative;
-                top: -70px;
+                
               `;
 
         const SVG = styled.svg`
             width: ${width + "px"};
             height: ${height + "px"};
+            font-family: 'aileron';
               `;
 
         const LegendSVG = styled.svg`
@@ -49,19 +48,46 @@ export default class MultiLineAndBars extends React.Component {
         let maxVal = 0,
             circles = [],
             lines = [],
-            renderAxis = [];
+            renderAxis = [],
+            showBars = [],
+            textLabels = [];
 
         months.forEach(m => {
-            if (renderData.prime[m] > maxVal) {
+            /*if (renderData.prime[m] > maxVal) {
                 maxVal = renderData.prime[m]
+            }*/
+
+            //if a show is selected - then include show-level AA in maxVal
+            //this will only look at show premiers - not repeats - what if highly rated repeats??
+            if (selectedElement.hasOwnProperty("name")) {
+                if (selectedElement.premiereStatus === "premiere") {
+                    renderData["series-prems"][m].forEach((s) => {
+                        if (s.name === selectedElement.name) {
+                            if (s.aa > maxVal) {
+                                maxVal = s.aa;
+                            }
+                        }
+                    })
+                    if (renderData["series-prems"][m].aa > maxVal) {
+                        maxVal = renderData["series-prems"][m].aa
+                    }
+                }
             }
+
             if (renderData.premieres[m].aa > maxVal) {
                 maxVal = renderData.premieres[m].aa
             }
+
+
+            /*
             if (renderData.repeats[m].aa > maxVal) {
                 maxVal = renderData.repeats[m].aa
-            }
+            }*/
+
+
         });
+
+        console.log("max is ", maxVal)
 
         const x = d3.scaleLinear().domain([0, months.length - 1]).range([MARGIN, width - MARGIN])
         const y = d3.scaleLinear().domain([0, maxVal]).range([height - MARGIN, MARGIN]);
@@ -79,6 +105,11 @@ export default class MultiLineAndBars extends React.Component {
             stroke-width: 4;
             `;
 
+        const FillGap = styled.path`
+            stroke: #000;`;
+        
+        const HideAxis = styled.g`
+            stroke: none;`
 
         function onPrimeDotClick(ob) {
             console.log(ob)
@@ -90,7 +121,7 @@ export default class MultiLineAndBars extends React.Component {
                 circles.push(<CirclePointSelected r={4} cx={x(i)} cy={y(renderData.prime[m])} key={i} onClick={e => { onPrimeDotClick({ "timePeriod": m }) }} />)
             }
             else {
-                circles.push(<CirclePoint r={3} cx={x(i)} cy={y(renderData.prime[m])} key={i} onClick={e => { onPrimeDotClick( { "timePeriod": m }) }} />)
+                circles.push(<CirclePoint r={3} cx={x(i)} cy={y(renderData.prime[m])} key={i} onClick={e => { onPrimeDotClick({ "timePeriod": m }) }} />)
             }
 
         })
@@ -103,10 +134,12 @@ export default class MultiLineAndBars extends React.Component {
             yAxis = d3AxisLeft()
                 .scale(y)
                 .tickSize(tickSize);
-
+        
+        const barW = (width - MARGIN) / 12;
 
         renderAxis.push(<g transform={"translate(0," + (height - MARGIN) + ")"} ref={node => d3.select(node).call(xAxis)} />)
-        renderAxis.push(<g transform={"translate("+MARGIN+",0)"} ref={node => d3.select(node).call(yAxis)} />)
+        renderAxis.push(<g transform={"translate(" + (MARGIN-barW/2) + ",0)"} ref={node => d3.select(node).call(yAxis)} />)
+        renderAxis.push(<FillGap d={"M"+(MARGIN-barW/2) +" " + (0.5+height - MARGIN) + " H "+MARGIN  } />)
 
         var line = d3.line()
             .x(function (d, i) {
@@ -132,26 +165,72 @@ export default class MultiLineAndBars extends React.Component {
 
         const RepeatLine = styled.path`
             fill: none;
-            stroke: #AEB6BF;
+            stroke: #000;
             stroke-width: 2;
             `;
 
+        const BarText = styled.text`
+            font-size: 0.6em;
+            text-anchor: middle;`;
+        const ShowBar = styled.rect`
+            fill: #aeb6bf;
+            stroke: none;`
+
+        const PremiereLabel = styled.text`
+            font-size: 0.8em;
+            stroke: rgb(51,51,255);
+            text-anchor: middle;`;
 
 
 
-        if (selectedElement.hasOwnProperty("premiereStatus")) {
+        lines.push(<PrimeLine d={line(months.map(m => { return renderData.prime[m] }))} />);
+        lines.push(<PremiereLine d={line(months.map(m => { return renderData.premieres[m].aa }))} strokeDasharray={"5,5"} />);
+        lines.push(<RepeatLine d={line(months.map(m => { return renderData.repeats[m].aa }))} strokeDasharray={"5,5"} />);
 
-        } else {//no premiereStatus
-            lines.push(<PrimeLine d={line(months.map(m => { return renderData.prime[m] }))} />);
-            lines.push(<PremiereLine d={line(months.map(m => { return renderData.premieres[m].aa }))} strokeDasharray={"5,5"} />);
-            lines.push(<RepeatLine d={line(months.map(m => { return renderData.repeats[m].aa }))} strokeDasharray={"5,5"} />);
+        if (selectedElement.hasOwnProperty("name")) {
+            //a show has been selected?
+            let showGroup = "";
+            if (selectedElement.premiereStatus === "premiere") {
+                showGroup = "series-prems";
+            }
+            else {
+                showGroup = "series-repeats";
+            }
+
+            let monthlyShowData = [],
+                barH = 0;
+
+
+            months.forEach((m, i) => {
+                monthlyShowData = renderData[showGroup][m].filter((s) => { if (s.name === selectedElement.name) return s });
+                if (monthlyShowData.length) {
+                    barH = y(monthlyShowData[0].aa);
+                    console.log(m, monthlyShowData[0], barH)
+                    showBars.push(<ShowBar x={x(i)} y={barH} width={barW} height={(height - MARGIN) - barH} />)
+                    showBars.push(<BarText x={x(i) + (barW / 2)} y={barH - 5} >{monthlyShowData[0].aa} </BarText>)
+
+                    //<CirclePoint r={3} cx={x(i)} cy={y(renderData.prime[m])} key={i} onClick={e => { onPrimeDotClick({ "timePeriod": m }) }} />
+                }
+
+            })
+
+        } else {
+            if (selectedElement.timePeriod !== "FullYear") {
+                // a month has been selected
+                textLabels.push(<PremiereLabel x={x(months.indexOf(selectedElement.timePeriod))} y={y(renderData.premieres[selectedElement.timePeriod].aa)-5} >{renderData.premieres[selectedElement.timePeriod].aa}</PremiereLabel>)
+
+            }
         }
+
+
 
         return (
             <GraphBox>
                 <SVG>
-
-
+                    {textLabels}
+                    <g transform={"translate(" + (-barW / 2) + ",0)"} >
+                        {showBars}
+                    </g>
                     {lines}
                     {circles}
                     {renderAxis}

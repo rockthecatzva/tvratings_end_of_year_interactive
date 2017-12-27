@@ -5,6 +5,8 @@ export const RECEIVE_DATA = 'RECEIVE_DATA'
 export const VIZ_CLICK = 'VIZ_CLICK'
 export const CLEAR_SELECTIONS = 'CLEAR_SELECTIONS'
 export const CHANGE_DATALABEL = 'CHANGE_DATALABEL'
+export const UPDATE_NETSET = 'UPDATE_NETSET'
+
 
 export const vizClick = (messageGroup, show) => {
   return {
@@ -14,6 +16,13 @@ export const vizClick = (messageGroup, show) => {
   }
 }
 
+
+export const updateNetset = (nets) => {
+  return{
+    type: UPDATE_NETSET,
+    nets
+  }
+}
 
 export const changeDropDown = (group, label) => {
   return{
@@ -98,7 +107,7 @@ function fetchPosts(subreddit) {
 */
 
 function receiveData(group, data) {
-  console.log(data)
+  //console.log(data)
   return {
     type: RECEIVE_DATA,
     group,
@@ -121,7 +130,7 @@ function loadingError() {
 
 
 export function fetchCensusData(datagroup, apisettings) {
-  console.log(datagroup, apisettings)
+  //console.log(datagroup, apisettings)
   return (dispatch) => {
     return fetch(buildURL(apisettings))
       .then(response => response.json())

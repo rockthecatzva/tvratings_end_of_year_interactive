@@ -14,7 +14,7 @@ export default class DonutRadial extends Component {
         //console.log(renderData)
 
         const width = 450,
-            height = 550;
+            height = 600;
 
         const Donut = styled.div`
                 width: ${width + "px"};
@@ -164,6 +164,9 @@ export default class DonutRadial extends Component {
         }
         else{
            messageBox.push(<text x={width / 2} y={height / 2} textAnchor={"middle"} >{selectedElement.timePeriod+" Prime: "+renderData.prime+"k"}</text>)
+           if(selectedElement.timePeriod!="FullYear"){
+               messageBox.push()
+           }
         }
 
         const PrimeCircle = styled.circle`

@@ -12,7 +12,8 @@ import {
   RECEIVE_DATA,
   VIZ_CLICK,
   CLEAR_SELECTIONS,
-  CHANGE_DATALABEL
+  CHANGE_DATALABEL,
+  UPDATE_NETSET
 } from '../actions'
 
 /*
@@ -70,12 +71,14 @@ function postsBySubreddit(state = {}, action) {
 */
 
 
-function selectionLabels(state = {"ratingDurationToggle": "aa"}, action) {
+function selectionLabels(state = {"ratingDurationToggle": "aa", "netSet": []}, action) {
   switch (action.type) {
     case RECEIVE_DATA:
       return { ...state, ...{[action.group]: {"timePeriod": "FullYear"}} };
     case VIZ_CLICK:
       return { ...state, ...{ [action.messageGroup]: action.show} };
+    case UPDATE_NETSET:
+      return {...state, "netSet": action.nets}
     default:
       return state;
   }
