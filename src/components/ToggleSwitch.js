@@ -7,13 +7,14 @@ export default class ToggleSwitch extends React.Component {
 
     render() {
         const { option1, option2, interactionCallback, selectedOption } = this.props;
-        const Main = styled.div`
-            text-align: center;`
 
         const Container = styled.div`
-            border: solid 1px #AEB6BF;
-            width: 12em;
-            padding 3px;`
+            border: solid 1px #000;
+            border-radius: 3px;
+            width: fit-content;
+            padding 3px;
+            margin-left: auto;
+            margin-right: auto;`
 
         const optionClick = (e) => {
             console.log(e.target.value);

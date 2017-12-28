@@ -13,10 +13,7 @@ import {
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import DonutRadial from '../components/DonutRadial'
-
 import ToggleSwitch from '../components/ToggleSwitch'
-
 import VizPod from '../containers/VizPod'
 
 class App extends Component {
@@ -32,8 +29,6 @@ class App extends Component {
     ];
 
     this.props.dispatch(updateNetset(this.netOptions.map(n => n.value)))
-    //this.selectedNets = this.netOptions.map(n=>n.value);
-
   }
 
 
@@ -74,7 +69,6 @@ class App extends Component {
 
     const MainDiv = styled.div`
       font-family: aileron;
-      width: 5000px;
       `;
 
     const InstructionP = styled.p`
@@ -85,8 +79,8 @@ class App extends Component {
       showRatingRange = [];
 
 
-    selectionLabels.netSet.forEach((net)=>{
-      console.log(net)
+    selectionLabels.netSet.forEach((net) => {
+      //console.log(net)
       if (appData.hasOwnProperty(net)) {
         for (var show of appData[net]["series-prems"].FullYear) {
           allShowsSet.push(show);
@@ -97,9 +91,8 @@ class App extends Component {
       }
     })
 
-    console.log(allShowsSet)
 
-    if(allShowsSet.length){
+    if (allShowsSet.length) {
       //this should probably be in the store - only needs to be calculated when RECIEVE_DATA and RATING_DELIVERY_TOGGLE (and time period change???)
       showRatingRange = [
         allShowsSet.reduce((accumulator, curr) => {
@@ -116,12 +109,6 @@ class App extends Component {
         })[selectionLabels.ratingDurationToggle]];
     }
 
-    
-    
-
-
-
-    //console.log(selectionLabels.netSet)
 
 
 
@@ -135,13 +122,42 @@ class App extends Component {
           ratingRange={showRatingRange}
           key={i} />);
       }
-      else return;
     });
 
     const CheckLogo = styled.img`
-      max-height: 30px;`;
+      max-height: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;`
+      ;
 
+    const CheckSet = styled.div`
+      float: left;
+      width: 150px;
+      height: 40px;`;
+    
+    const CheckboxLabel = styled.label`
+    margin-left: auto;
+    margin-right: auto;
+    display: block;`;
 
+    const CheckboxInput = styled.input`
+    margin-left: auto;
+    margin-right: auto;
+    display: block;`;
+
+    const CheckFieldbox = styled.fieldset`
+    border: solid 1px;
+    margin-bottom: 1em;
+    border-radius: 3px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    `;
+
+    const BigDiv = styled.div`
+      width: 5000px;
+    `;
     const onCheckboxChange = (e) => {
       //console.log(e.target.value);
       const i = selectionLabels.netSet.indexOf(e.target.value);
@@ -168,10 +184,14 @@ class App extends Component {
         return false;
       }).length;
       //console.log(checkedOff)
-      return (<div key={i} >
-        <input type="checkbox" id={n.value} name="showNets" value={n.value} checked={checkedOff > 0} onChange={onCheckboxChange} />
-        <label htmlFor={n.value} ><CheckLogo src={"../img/" + n.value + ".png"} /></label>
-      </div>);
+      return (<CheckSet key={i} >
+        <div>
+          <label htmlFor={n.value} ><CheckLogo src={"../img/" + n.value + ".png"} /></label>
+        </div>
+        <div>
+          <CheckboxInput type="checkbox" id={n.value} name="showNets" value={n.value} checked={checkedOff > 0} onChange={onCheckboxChange} />
+        </div>
+      </CheckSet>);
 
     })
 
@@ -181,9 +201,9 @@ class App extends Component {
 
         <InstructionP>Toggle the view between Delivery & Duration:</InstructionP>
 
-        <fieldset>
+        <CheckFieldbox>
           {checkBoxes}
-        </fieldset>
+        </CheckFieldbox>
 
         <ToggleSwitch option1={{ "label": "Delivery", "value": "aa" }}
           option2={{ "label": "Duration", "value": "mins" }}
@@ -191,9 +211,9 @@ class App extends Component {
           selectedOption={selectionLabels.ratingDurationToggle}
         />
 
-
-        {podSet}
-
+        <BigDiv>
+          {podSet}
+        </BigDiv>
         <ClearFloatHack />
         <Footer />
       </MainDiv>

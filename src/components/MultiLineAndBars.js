@@ -22,26 +22,36 @@ export default class MultiLineAndBars extends React.Component {
 
         const width = 400,
             height = 300,
-            MARGIN = 60;
+            MARGIN = {
+                "left": 45,
+                "right": 20,
+                "top": 15,
+                "bottom": 20
+            }
+                ;
 
         const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
         const GraphBox = styled.div`
                 width: ${width + "px"};
                 height: ${height + "px"};
-                
+                margin-left: auto;
+                margin-right: auto;
+                font-family: 'aileron';
               `;
 
         const SVG = styled.svg`
             width: ${width + "px"};
             height: ${height + "px"};
-            font-family: 'aileron';
+           
               `;
 
         const LegendSVG = styled.svg`
-            width: 120px;
+            width: ${width-(MARGIN.left+MARGIN.right) + "px"};
             height: 50px;
             border: solid 1p #AEB6BF;
+            position: relative;
+            left: ${MARGIN.left+"px"};
          `;
 
 
@@ -87,10 +97,8 @@ export default class MultiLineAndBars extends React.Component {
 
         });
 
-        console.log("max is ", maxVal)
-
-        const x = d3.scaleLinear().domain([0, months.length - 1]).range([MARGIN, width - MARGIN])
-        const y = d3.scaleLinear().domain([0, maxVal]).range([height - MARGIN, MARGIN]);
+        const x = d3.scaleLinear().domain([0, months.length - 1]).range([MARGIN.left, width - (MARGIN.left + MARGIN.right)])
+        const y = d3.scaleLinear().domain([0, maxVal]).range([height - (MARGIN.top + MARGIN.bottom), MARGIN.bottom]);
 
 
         const CirclePoint = styled.circle`
@@ -111,6 +119,10 @@ export default class MultiLineAndBars extends React.Component {
         const HideAxis = styled.g`
             stroke: none;`
 
+        const AxisG = styled.g`
+            font-family: 'aileron';`;
+
+            
         function onPrimeDotClick(ob) {
             console.log(ob)
             interactionCallback(ob)
@@ -135,11 +147,11 @@ export default class MultiLineAndBars extends React.Component {
                 .scale(y)
                 .tickSize(tickSize);
         
-        const barW = (width - MARGIN) / 12;
+        const barW = (width - (MARGIN.left+MARGIN.right)) / 12;
 
-        renderAxis.push(<g transform={"translate(0," + (height - MARGIN) + ")"} ref={node => d3.select(node).call(xAxis)} />)
-        renderAxis.push(<g transform={"translate(" + (MARGIN-barW/2) + ",0)"} ref={node => d3.select(node).call(yAxis)} />)
-        renderAxis.push(<FillGap d={"M"+(MARGIN-barW/2) +" " + (0.5+height - MARGIN) + " H "+MARGIN  } />)
+        renderAxis.push(<g transform={"translate(0," + (height - (MARGIN.top+MARGIN.bottom)) + ")"} ref={node => d3.select(node).call(xAxis)} />)
+        renderAxis.push(<g  transform={"translate(" + (MARGIN.left-barW/2) + ",0)"} ref={node => d3.select(node).call(yAxis)} />)
+        renderAxis.push(<FillGap d={"M"+(MARGIN.left-barW/2) +" " + (0.5+height - (MARGIN.top+MARGIN.bottom)) + " H "+MARGIN.left  } />)
 
         var line = d3.line()
             .x(function (d, i) {
@@ -177,9 +189,26 @@ export default class MultiLineAndBars extends React.Component {
             stroke: none;`
 
         const PremiereLabel = styled.text`
-            font-size: 0.8em;
-            stroke: rgb(51,51,255);
+            font-size: 0.7em;
+            stroke: none;
+            fill: #fff;
             text-anchor: middle;`;
+
+        const PremiereCircle = styled.circle`
+            stroke: none;
+            fill: rgb(51,51,255);
+            `;
+        
+        const RepeatLabel = styled.text`
+            font-size: 0.7em;
+            stroke: none;
+            fill: #fff;
+            text-anchor: middle;`;
+
+        const RepeatCircle = styled.circle`
+            stroke: none;
+            fill: #000;
+            `;
 
 
 
@@ -205,9 +234,9 @@ export default class MultiLineAndBars extends React.Component {
                 monthlyShowData = renderData[showGroup][m].filter((s) => { if (s.name === selectedElement.name) return s });
                 if (monthlyShowData.length) {
                     barH = y(monthlyShowData[0].aa);
-                    console.log(m, monthlyShowData[0], barH)
-                    showBars.push(<ShowBar x={x(i)} y={barH} width={barW} height={(height - MARGIN) - barH} />)
-                    showBars.push(<BarText x={x(i) + (barW / 2)} y={barH - 5} >{monthlyShowData[0].aa} </BarText>)
+                    //console.log(m, monthlyShowData[0], barH)
+                    showBars.push(<ShowBar x={x(i)} y={barH} width={barW} height={(height - (MARGIN.top+MARGIN.bottom)) - barH} />)
+                    showBars.push(<BarText x={x(i) + (barW / 2)} y={barH-6} >{monthlyShowData[0].aa} </BarText>)
 
                     //<CirclePoint r={3} cx={x(i)} cy={y(renderData.prime[m])} key={i} onClick={e => { onPrimeDotClick({ "timePeriod": m }) }} />
                 }
@@ -217,31 +246,50 @@ export default class MultiLineAndBars extends React.Component {
         } else {
             if (selectedElement.timePeriod !== "FullYear") {
                 // a month has been selected
-                textLabels.push(<PremiereLabel x={x(months.indexOf(selectedElement.timePeriod))} y={y(renderData.premieres[selectedElement.timePeriod].aa)-5} >{renderData.premieres[selectedElement.timePeriod].aa}</PremiereLabel>)
+                textLabels.push(<PremiereCircle cx={x(months.indexOf(selectedElement.timePeriod))} cy={y(renderData.premieres[selectedElement.timePeriod].aa)} r={12} />)
+                textLabels.push(<PremiereLabel x={x(months.indexOf(selectedElement.timePeriod))} y={y(renderData.premieres[selectedElement.timePeriod].aa)+3} >{renderData.premieres[selectedElement.timePeriod].aa}</PremiereLabel>)
 
+                textLabels.push(<RepeatCircle cx={x(months.indexOf(selectedElement.timePeriod))} cy={y(renderData.repeats[selectedElement.timePeriod].aa)} r={12} />)
+                textLabels.push(<RepeatLabel x={x(months.indexOf(selectedElement.timePeriod))} y={y(renderData.repeats[selectedElement.timePeriod].aa)+3} >{renderData.repeats[selectedElement.timePeriod].aa}</RepeatLabel>)
+                
             }
         }
 
+        const labelW = 10,
+              lineW = 45;
+        let legendLineData = [],
+            legendLabelData = [],
+            leftStart;
 
+        for(var i = 0; i<3; i++){
+            leftStart = Math.round(((width-(MARGIN.left+MARGIN.right))/3)*i);
+            legendLineData.push("M"+leftStart+" 9 H "+(leftStart+lineW));
+            legendLabelData.push(leftStart+lineW+(labelW))
+            //legendLineData.push(legendLineData[legendLineData.length-1]+labelW)
+        }
+
+        //console.log(legendLineData)
+        //console.log(legendLabelData)
 
         return (
             <GraphBox>
                 <SVG>
-                    {textLabels}
+                {renderAxis}
                     <g transform={"translate(" + (-barW / 2) + ",0)"} >
                         {showBars}
                     </g>
                     {lines}
                     {circles}
-                    {renderAxis}
+                    {textLabels}
+                    
                 </SVG>
                 <LegendSVG>
-                    <PrimeLine d={"M0 10 H 55"} />
-                    <text stroke={"none"} fill={"#000"} x={60} y={13} fontSize={11} >Prime</text>
-                    <PremiereLine d={"M0 25 H 55"} strokeDasharray={"5,5"} />
-                    <text stroke={"none"} fill={"#000"} x={60} y={29} fontSize={11} >Premieres</text>
-                    <RepeatLine d={"M0 40 H 55"} strokeDasharray={"5,5"} />
-                    <text stroke={"none"} fill={"#000"} x={60} y={44} fontSize={11} >Repeats</text>
+                    <PrimeLine d={legendLineData[0]} />
+                    <text stroke={"none"} fill={"#000"} x={legendLabelData[0]} y={13} fontSize={11} >Prime</text>
+                    <PremiereLine d={legendLineData[1]} strokeDasharray={"5,5"} />
+                    <text stroke={"none"} fill={"#000"} x={legendLabelData[1]} y={13} fontSize={11} >Premieres</text>
+                    <RepeatLine d={legendLineData[2]} strokeDasharray={"5,5"} />
+                    <text stroke={"none"} fill={"#000"} x={legendLabelData[2]} y={13} fontSize={11} >Repeats</text>
                 </LegendSVG>
             </GraphBox>);
     }

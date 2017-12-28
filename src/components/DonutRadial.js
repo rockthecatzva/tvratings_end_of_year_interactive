@@ -19,7 +19,6 @@ export default class DonutRadial extends Component {
         const Donut = styled.div`
                 width: ${width + "px"};
                 height: ${height + "px"};
-                float: left;
               `;
 
         const SVG = styled.svg`
