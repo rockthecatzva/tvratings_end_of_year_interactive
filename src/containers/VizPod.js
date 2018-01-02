@@ -9,7 +9,9 @@ export default class VizPod extends Component {
 
     showFullYear(e) {
         e.preventDefault();
-        this.props.interactionCallback({ ...this.props.selectedElement, "timePeriod": "FullYear" })
+        const showInfo = this.props.renderData[this.props.selectedElement.premiereStatus==="premiere"?"series-prems":"series-repeats"]["FullYear"].filter((s)=>{if (s.name===this.props.selectedElement.name) return true;})
+        console.log(this.props.selectedElement, showInfo[0])
+        this.props.interactionCallback({ ...showInfo[0], "premiereStatus": this.props.selectedElement.premiereStatus, "timePeriod": "FullYear" })
     }
 
     deselectShow(e) {

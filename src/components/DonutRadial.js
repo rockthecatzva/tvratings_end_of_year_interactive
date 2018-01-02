@@ -61,7 +61,7 @@ export default class DonutRadial extends Component {
             innerArc = d3Arc()
                 .innerRadius(primaryDonutRadiusInner)
                 .outerRadius(primaryDonutRadiusOuter),
-            seriesArcRadiusInner = 141,
+            seriesArcRadiusInner = innerCircleRadius+1,
             seriesArc = d3Arc()
                 .innerRadius(seriesArcRadiusInner);
 
@@ -92,6 +92,10 @@ export default class DonutRadial extends Component {
         const premList = renderData["series-prems"].sort((a, b) => {
             if (a[ratingDurationToggle] < b[ratingDurationToggle]) return 1;
             if (a[ratingDurationToggle] > b[ratingDurationToggle]) return -1;
+            //the two are equal so attempt to sort by name
+            if(a.name<b.name) return 1;
+            if(a.name>b.name) return -1;
+            
             return 0;
         }).filter(show => { return show.mins >= durationMinimum })
         
@@ -99,6 +103,10 @@ export default class DonutRadial extends Component {
         const repeatList = renderData["series-repeats"].sort((a, b) => {
             if (a[ratingDurationToggle] < b[ratingDurationToggle]) return 1;
             if (a[ratingDurationToggle] > b[ratingDurationToggle]) return -1;
+            //the two are equal so attempt to sort by name
+            if(a.name<b.name) return 1;
+            if(a.name>b.name) return -1;
+
             return 0;
         }).filter(show => { return show.mins >= durationMinimum })
 
@@ -119,27 +127,27 @@ export default class DonutRadial extends Component {
 
 
 
-        premList.forEach(function (show) {
+        premList.forEach(function (show,i) {
             rad = hScale(show[ratingDurationToggle])
             endAngle += (premPieSize) * premArcWidth;
             if(selectedElement.premiereStatus==="premiere" && selectedElement.name===show.name){
-                arcSet.push(<ShowArcSelected transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { interactionCallback({...show, "premiereStatus":"premiere"}) }} />)
+                arcSet.push(<ShowArcSelected transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => {console.log(i,show); interactionCallback({...show, "premiereStatus":"premiere"}) }} />)
             }
             else{
-                arcSet.push(<ShowArcPrems transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { interactionCallback({...show, "premiereStatus":"premiere"}) }} />)
+                arcSet.push(<ShowArcPrems transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => {console.log(i,show); interactionCallback({...show, "premiereStatus":"premiere"}) }} />)
             }
             
             startAngle += (premPieSize) * premArcWidth;
         }, this);
 
-        repeatList.forEach(function (show) {
+        repeatList.forEach(function (show,i) {
             rad = hScale(show[ratingDurationToggle])
             endAngle += (repeatPieSize) * repeatArcWidth;
             if(selectedElement.premiereStatus==="repeat" && selectedElement.name===show.name){
-                arcSet.push(<ShowArcSelected transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { interactionCallback({...show, "premiereStatus":"repeat"}) }} />)
+                arcSet.push(<ShowArcSelected transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => {console.log(i,show); interactionCallback({...show, "premiereStatus":"repeat"}) }} />)
             }
             else{
-                arcSet.push(<ShowArcRepeats transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { interactionCallback({...show, "premiereStatus":"repeat"}) }} />)
+                arcSet.push(<ShowArcRepeats transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => {console.log(i,show); interactionCallback({...show, "premiereStatus":"repeat"}) }} />)
             }
             
             startAngle += (repeatPieSize) * repeatArcWidth;
