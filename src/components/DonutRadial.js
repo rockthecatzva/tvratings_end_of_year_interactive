@@ -100,7 +100,7 @@ export default class DonutRadial extends Component {
             
 
         let centroid = innerArc.centroid({ startAngle: 0, endAngle: premPieSize });//need to reduce redundancy
-        renderLabels.push(<text transform={"translate(" + width / 2 + "," + ((height / 2) - 5) + ")"} fontSize={10} textAnchor={"middle"} stroke={"none"} fill={"#fff"} x={centroid[0]} y={centroid[1]}     >{precentPrems + "%"}</text>)
+        renderLabels.push(<text transform={"translate(" + width / 2 + "," + ((height / 2) - 5) + ")"} fontSize={17} textAnchor={"middle"} stroke={"none"} fill={"#fff"} x={centroid[0]} y={centroid[1]}     >{precentPrems + "%"}</text>)
         renderLabels.push(<text transform={"translate(" + width / 2 + "," + ((height / 2) + 5) + ")"} fontSize={10} textAnchor={"middle"} stroke={"none"} fill={"#fff"} x={centroid[0]} y={centroid[1]}     >Premieres</text>)
 
         const repeatPieSize = (Math.PI * 2) * (renderData.repeats.mins / totalDuration);
@@ -113,7 +113,7 @@ export default class DonutRadial extends Component {
 
         
         centroid = innerArc.centroid({ startAngle: premPieSize, endAngle: repeatPieSize + premPieSize });//need to reduce redundancy
-        renderLabels.push(<text transform={"translate(" + width / 2 + "," + ((height / 2) - 5) + ")"} fontSize={10} textAnchor={"middle"} stroke={"none"} fill={"#000"} x={centroid[0]} y={centroid[1]}     >{percentRepeats + "%"}</text>)
+        renderLabels.push(<text transform={"translate(" + width / 2 + "," + ((height / 2) - 5) + ")"} fontSize={17} textAnchor={"middle"} stroke={"none"} fill={"#000"} x={centroid[0]} y={centroid[1]}     >{percentRepeats + "%"}</text>)
         renderLabels.push(<text transform={"translate(" + width / 2 + "," + ((height / 2) + 5) + ")"} fontSize={10} textAnchor={"middle"} stroke={"none"} fill={"#000"} x={centroid[0]} y={centroid[1]}     >Repeats</text>)
 
 
@@ -216,7 +216,10 @@ export default class DonutRadial extends Component {
         stroke: none;`;
 
         const TextShowname = styled.text`
-                font-size: 0.9em`,
+                font-size: 1.0em;
+                font-weight: bold;
+                fill: #fff;`,
+
             TextInfo = styled.text`
                 fill: #7D7D7D;
                 stroke: none;
@@ -231,8 +234,22 @@ export default class DonutRadial extends Component {
             else{
                 messageBox.push(<PointerPathRepeats transform={"translate(" + ((width / 2)) + "," + ((height / 2)) + ") scale(2.8) rotate(" + centerRotate + ")"} d="m 0.01088232,-52.041908 -6.48797702,4.81056 h 3.741891 v 17.49351 A 29.666917,29.666917 0 0 0 -29.656042,-0.22387832 29.666917,29.666917 0 0 0 0.01088232,29.443042 29.666917,29.666917 0 0 0 29.677804,-0.22387832 29.666917,29.666917 0 0 0 2.7569663,-29.753348 v -17.478 h 3.741891 z" />)
             }
+            console.log(selectedElement.name, selectedElement.name.length);
+            if(selectedElement.name.length>17){
+                console.log(selectedElement.name.indexOf(" ", selectedElement.name.length*0.33))
+                const brk = selectedElement.name.indexOf(" ", selectedElement.name.length*0.33);
+                const str1 = selectedElement.name.substr(0, brk).trim();
+                const str2 = selectedElement.name.substr(brk, selectedElement.name.length-brk).trim();
+                console.log(str1)
+                console.log(str2)
+                
+                messageBox.push(<TextShowname x={width / 2} y={((height / 2)-15)} textAnchor={"middle"} >&times;{str1}</TextShowname>)
+                messageBox.push(<TextShowname x={width / 2} y={(height / 2)} textAnchor={"middle"} >{str2}</TextShowname>)
+            }else{
+                messageBox.push(<TextShowname x={width / 2} y={(height / 2)} textAnchor={"middle"} >{selectedElement.name}</TextShowname>)
+            }
+
             
-            messageBox.push(<TextShowname x={width / 2} y={(height / 2)} textAnchor={"middle"} >{selectedElement.name}</TextShowname>)
             messageBox.push(<TextInfo x={width / 2} y={(height / 2) + 17} textAnchor={"middle"} >{selectedElement.aa + "k avg"}</TextInfo>)
             messageBox.push(<TextInfo x={width / 2} y={(height / 2) + 34} textAnchor={"middle"} >{Math.round(selectedElement.mins / 60) + " " + selectedElement.premiereStatus + " hrs"}</TextInfo>)
         }

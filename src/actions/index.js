@@ -145,7 +145,7 @@ export function fetchPodData(datagroup, url) {
     return fetch(url)
       .then(response => response.json())
       .then(json => {
-        console.log(json)
+        //console.log(json)
         const data = json;// csvtojson(json).map(d=>apisettings.processor(d));
         return dispatch(receiveData(datagroup, data))})
   }

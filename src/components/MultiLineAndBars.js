@@ -18,10 +18,10 @@ export default class MultiLineAndBars extends React.Component {
     render() {
         const { renderData, interactionCallback, selectedElement } = this.props;
 
-        const width = 400,
-            height = 300,
+        const width = 550,
+            height = 400,
             MARGIN = {
-                "left": 45,
+                "left": 60,
                 "right": 20,
                 "top": 15,
                 "bottom": 20
@@ -33,9 +33,8 @@ export default class MultiLineAndBars extends React.Component {
         const GraphBox = styled.div`
                 width: ${width + "px"};
                 height: ${height + "px"};
-                margin-left: auto;
-                margin-right: auto;
                 font-family: 'aileron';
+                padding-top: 4em;
               `;
 
         const SVG = styled.svg`

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Main = styled.div`
-    text-align: left;
+    text-align: center;
     `;
 
 const Header = () => (

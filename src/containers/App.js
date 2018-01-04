@@ -80,51 +80,75 @@ class App extends Component {
     let allShowsSet = [],
       showRatingRange = [];
 
-
-    selectionLabels.netSet.forEach((net) => {
-      //console.log(net)
-      if (appData.hasOwnProperty(net)) {
-        for (var show of appData[net]["series-prems"].FullYear) {
-          allShowsSet.push(show);
-        }
-        for (show of appData[net]["series-repeats"].FullYear) {
-          allShowsSet.push(show);
-        }
-      }
-    })
-
-
-    if (allShowsSet.length) {
-      //this should probably be in the store - only needs to be calculated when RECIEVE_DATA and RATING_DELIVERY_TOGGLE (and time period change???)
-      showRatingRange = [
-        allShowsSet.reduce((accumulator, curr) => {
-          if (curr[selectionLabels.ratingDurationToggle] < accumulator[selectionLabels.ratingDurationToggle]) {
-            return curr;
+    /*
+        selectionLabels.netSet.forEach((net) => {
+          //console.log(net)
+          if (appData.hasOwnProperty(net)) {
+            for (var show of appData[net]["series-prems"].FullYear) {
+              allShowsSet.push(show);
+            }
+            for (show of appData[net]["series-repeats"].FullYear) {
+              allShowsSet.push(show);
+            }
           }
-          return accumulator;
-        })[selectionLabels.ratingDurationToggle],
-        allShowsSet.reduce((accumulator, curr) => {
-          if (curr[selectionLabels.ratingDurationToggle] > accumulator[selectionLabels.ratingDurationToggle]) {
-            return curr
-          }
-          return accumulator;
-        })[selectionLabels.ratingDurationToggle]];
-    }
+        })*/
 
+    /*
+        if (allShowsSet.length) {
+          //this should probably be in the store - only needs to be calculated when RECIEVE_DATA and RATING_DELIVERY_TOGGLE (and time period change???)
+          showRatingRange = [
+            allShowsSet.reduce((accumulator, curr) => {
+              if (curr[selectionLabels.ratingDurationToggle] < accumulator[selectionLabels.ratingDurationToggle]) {
+                return curr;
+              }
+              return accumulator;
+            })[selectionLabels.ratingDurationToggle],
+            allShowsSet.reduce((accumulator, curr) => {
+              if (curr[selectionLabels.ratingDurationToggle] > accumulator[selectionLabels.ratingDurationToggle]) {
+                return curr
+              }
+              return accumulator;
+            })[selectionLabels.ratingDurationToggle]];
+        }*/
 
+    const LineDiv = styled.div`
+    display: inline-block;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      border-bottom: solid 1px #000;`;
 
 
     const podSet = selectionLabels.netSet.map((n, i) => {
       if (appData.hasOwnProperty(n)) {
-        return (<VizPod renderData={appData[n]}
+        const allShowsSet = [...appData[n]["series-prems"][selectionLabels[n]["timePeriod"]], ...appData[n]["series-repeats"][selectionLabels[n]["timePeriod"]]];
+        showRatingRange = [
+          allShowsSet.reduce((accumulator, curr) => {
+            if (curr[selectionLabels.ratingDurationToggle] < accumulator[selectionLabels.ratingDurationToggle]) {
+              return curr;
+            }
+            return accumulator;
+          })[selectionLabels.ratingDurationToggle],
+          allShowsSet.reduce((accumulator, curr) => {
+            if (curr[selectionLabels.ratingDurationToggle] > accumulator[selectionLabels.ratingDurationToggle]) {
+              return curr
+            }
+            return accumulator;
+          })[selectionLabels.ratingDurationToggle]];
+
+        const html = (<VizPod renderData={appData[n]}
           interactionCallback={m => { this.handleMessageUpdate(n, m) }}
           selectedElement={selectionLabels[n]}
           ratingDurationToggle={selectionLabels.ratingDurationToggle}
           network={n}
           ratingRange={showRatingRange}
           key={i} />);
+
+        return html;
       }
     });
+
+
 
     const CheckLogo = styled.img`
       max-height: 30px;
@@ -137,7 +161,7 @@ class App extends Component {
       float: left;
       width: 150px;
       height: 40px;`;
-    
+
     const CheckboxLabel = styled.label`
     margin-left: auto;
     margin-right: auto;
@@ -157,9 +181,6 @@ class App extends Component {
     margin-right: auto;
     `;
 
-    const BigDiv = styled.div`
-      width: 5000px;
-    `;
     const onCheckboxChange = (e) => {
       //console.log(e.target.value);
       const i = selectionLabels.netSet.indexOf(e.target.value);
@@ -200,12 +221,7 @@ class App extends Component {
     return (
       <MainDiv >
         <Header />
-
-        <InstructionP>Toggle the view between Delivery & Duration:</InstructionP>
-
-        <CheckFieldbox>
-          {checkBoxes}
-        </CheckFieldbox>
+        
 
         <ToggleSwitch option1={{ "label": "Delivery", "value": "aa" }}
           option2={{ "label": "Duration", "value": "mins" }}
@@ -213,9 +229,9 @@ class App extends Component {
           selectedOption={selectionLabels.ratingDurationToggle}
         />
 
-        <BigDiv>
-          {podSet}
-        </BigDiv>
+
+        {podSet}
+
         <ClearFloatHack />
         <Footer />
       </MainDiv>

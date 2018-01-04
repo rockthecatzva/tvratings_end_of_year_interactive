@@ -9,7 +9,7 @@ export default class VizPod extends Component {
 
     showFullYear(e) {
         e.preventDefault();
-        const showInfo = this.props.renderData[this.props.selectedElement.premiereStatus==="premiere"?"series-prems":"series-repeats"]["FullYear"].filter((s)=>{if (s.name===this.props.selectedElement.name) return true;})
+        const showInfo = this.props.renderData[this.props.selectedElement.premiereStatus === "premiere" ? "series-prems" : "series-repeats"]["FullYear"].filter((s) => { if (s.name === this.props.selectedElement.name) return true; })
         console.log(this.props.selectedElement, showInfo[0])
         this.props.interactionCallback({ ...showInfo[0], "premiereStatus": this.props.selectedElement.premiereStatus, "timePeriod": "FullYear" })
     }
@@ -28,38 +28,42 @@ export default class VizPod extends Component {
         let showInfo = [],
             showIndicator = "";
 
-        if(this.props.selectedElement.hasOwnProperty("premiereStatus")){
+        if (this.props.selectedElement.hasOwnProperty("premiereStatus")) {
             //need to update the series-info to only show data for the current month
-            if(this.props.selectedElement.premiereStatus==="premiere"){
+            if (this.props.selectedElement.premiereStatus === "premiere") {
                 showIndicator = "series-prems";
             }
-            else{
+            else {
                 showIndicator = "series-repeats";
             }
-            showInfo = this.props.renderData[showIndicator][monthOb.timePeriod].filter((s)=>{if (s.name===this.props.selectedElement.name) return true;})
+            showInfo = this.props.renderData[showIndicator][monthOb.timePeriod].filter((s) => { if (s.name === this.props.selectedElement.name) return true; })
         }
 
-        if(showInfo.length){
-            this.props.interactionCallback({"timePeriod": monthOb.timePeriod, ...showInfo[0], "premiereStatus": this.props.selectedElement.premiereStatus})
+        if (showInfo.length) {
+            this.props.interactionCallback({ "timePeriod": monthOb.timePeriod, ...showInfo[0], "premiereStatus": this.props.selectedElement.premiereStatus })
         }
-        else{
-            this.props.interactionCallback({"timePeriod": monthOb.timePeriod})
+        else {
+            this.props.interactionCallback({ "timePeriod": monthOb.timePeriod })
         }
-        
+
         //this.props.interactionCallback({ ...this.props.selectedElement, ...monthOb })
     }
 
     render() {
         const { renderData, interactionCallback, ratingDurationToggle, network, selectedElement, ratingRange } = this.props;
 
-        const width = 450,
-            height = 1050;
+        const width = 1050,
+            height = 600;
 
         const PodDiv = styled.div`
                 width: ${width + "px"};
                 height: ${height + "px"};
-                float: left;
                 padding: 15px;
+                border-top: solid 1px #AEB6BF;
+                margin-top: 2em;
+                margin-left: auto;
+                margin-right: auto;
+                clear: both;
               `;
 
         const NetworkLabel = styled.p`
@@ -130,21 +134,21 @@ export default class VizPod extends Component {
         const NetLogo = styled.img`
             max-width: 200px;
             max-height: 75px;
-            margin-left: auto;
-            margin-right: auto;
-            display: block;`;
+            
+       `;
 
         const LogoContainer = styled.div`
             height: 100px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            clear: both;
         `;
 
         const LineContainer = styled.div`
-            position: relative;
-            top: -70px;
-            text-align: center;`;
+        float: left;
+        padding-left: 3em;`;
+
+        const DonutContainer = styled.div`
+        float: left;
+            `
 
         const Bubbleify = styled.span`
             padding: 4px;
@@ -174,37 +178,36 @@ export default class VizPod extends Component {
             font-size: 0.8em;
             color: red;`
 
-        const shortIndicator = (selectedElement.premiereStatus==="premiere") ? " (P)":" (R)";
-        
+        const shortIndicator = (selectedElement.premiereStatus === "premiere") ? " (P)" : " (R)";
+
         return (
             <PodDiv>
                 <LogoContainer>
                     <NetLogo src={"../img/" + network + ".png"} />
                 </LogoContainer>
 
-                <DonutLabel>
-                    <Bubbleify>{labelLookup[selectedElement.timePeriod]}</Bubbleify>
-
-                    {selectedElement.timePeriod !== "FullYear" &&
-                        <Button onClick={(e) => { this.showFullYear(e) }}>Show Full Year</Button>
-                    }
-                </DonutLabel>
-
-
-                <DonutRadial renderData={selectedData} interactionCallback={(ob) => this.donutClickHandler(ob)} selectedElement={selectedElement} ratingDurationToggle={ratingDurationToggle} ratingRange={ratingRange} />
-
                 <LineContainer>
                     <div><Bubbleify>Monthly Trends</Bubbleify></div>
                     {selectedElement.hasOwnProperty("name") &&
-                        <div><BubbleifyGrey> <Clickable onClick={(e) => { this.deselectShow(e) }} >	&#9447;</Clickable>{selectedElement.name+shortIndicator}</BubbleifyGrey></div>
+                        <div><BubbleifyGrey> <Clickable onClick={(e) => { this.deselectShow(e) }} >	&#9447;</Clickable>{selectedElement.name + shortIndicator}</BubbleifyGrey></div>
                     }
-
-                    {selectedElement.timePeriod !== "FullYear" &&
-                        <div><FilterAlert> <Clickable onClick={(e) => { this.showFullYear(e) }} >	&#9447;</Clickable>{selectedElement.timePeriod.toUpperCase()} filter applied above</FilterAlert></div>
-                    }
-
                     <MultiLineAndBars renderData={renderData} interactionCallback={(ob) => { this.linegraphClickHandler(ob) }} selectedElement={selectedElement} />
                 </LineContainer>
+
+                <DonutContainer>
+
+                    <DonutLabel>
+                        <Bubbleify>{labelLookup[selectedElement.timePeriod]}</Bubbleify>
+
+                        {selectedElement.timePeriod !== "FullYear" &&
+                            <Button onClick={(e) => { this.showFullYear(e) }}>Show Full Year</Button>
+                        }
+                    </DonutLabel>
+
+
+                    <DonutRadial renderData={selectedData} interactionCallback={(ob) => this.donutClickHandler(ob)} selectedElement={selectedElement} ratingDurationToggle={ratingDurationToggle} ratingRange={ratingRange} />
+                </DonutContainer>
+
             </PodDiv>);
     }
 }
