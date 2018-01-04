@@ -23,6 +23,7 @@ class App extends Component {
     this.handleMessageUpdate = this.handleMessageUpdate.bind(this);
     this.netOptions = [
       { "label": "DISC", "value": "disc" },
+      { "label": "HIST", "value": "hist" },
       { "label": "TLC", "value": "tlc" },
       { "label": "HGTV", "value": "hgtv" },
       { "label": "VEL", "value": "vel" },
@@ -50,6 +51,7 @@ class App extends Component {
     this.props.dispatch(fetchPodData("tlc", "/data/pod-tlc2016.json"))
     this.props.dispatch(fetchPodData("hgtv", "/data/pod-hgtv2016.json"))
     this.props.dispatch(fetchPodData("vel", "/data/pod-vel2016.json"))
+    this.props.dispatch(fetchPodData("hist", "/data/pod-hist2016.json"))
 
   }
 

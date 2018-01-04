@@ -76,8 +76,24 @@ export default class MultiLineAndBars extends React.Component {
                         maxVal = renderData["series-prems"][m].aa
                     }
                 }
+
+                if (selectedElement.premiereStatus === "repeat") {
+                    renderData["series-repeats"][m].forEach((s) => {
+                        if (s.name === selectedElement.name) {
+                            if (s.aa > maxVal) {
+                                maxVal = s.aa;
+                            }
+                        }
+                    })
+                        
+                    if (renderData["series-repeats"][m].aa > maxVal) {
+                        maxVal = renderData["series-repeats"][m].aa
+                    }
+                }
+
             }
 
+            //check all monthly-premiere levels (full year will be lower!)
             if (renderData.premieres[m].aa > maxVal) {
                 maxVal = renderData.premieres[m].aa
             }
