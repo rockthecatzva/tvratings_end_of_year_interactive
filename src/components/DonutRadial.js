@@ -12,7 +12,7 @@ export default class DonutRadial extends Component {
         this.props.interactionCallback({ "name": show.name, "aa": show.aa, "mins":show.mins, "premiereStatus": premStatus }) }
 
     render() {
-        const { renderData, ratingDurationToggle, selectedElement, ratingRange } = this.props;
+        const { renderData, selectedElement, ratingRange } = this.props;
         //console.log(renderData)
 
         const width = 450,
@@ -121,6 +121,7 @@ export default class DonutRadial extends Component {
 
 
         const durationMinimum = 0;
+        const ratingDurationToggle = selectedElement.ratingDurationToggle;
         let centerRotate = 0;
 
         const premList = renderData["series-prems"].sort((a, b) => {
@@ -313,6 +314,5 @@ DonutRadial.propTypes = {
     renderData: PropTypes.object.isRequired,
     interactionCallback: PropTypes.func.isRequired,
     selectedElement: PropTypes.object.isRequired,
-    ratingRange: PropTypes.array.isRequired,
-    ratingDurationToggle: PropTypes.string.isRequired
+    ratingRange: PropTypes.array.isRequired
 }

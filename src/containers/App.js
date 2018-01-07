@@ -223,13 +223,7 @@ class App extends Component {
     return (
       <MainDiv >
         <Header />
-        
-
-        <ToggleSwitch option1={{ "label": "Delivery", "value": "aa" }}
-          option2={{ "label": "Duration", "value": "mins" }}
-          interactionCallback={m => { this.handleMessageUpdate("ratingDurationToggle", m) }}
-          selectedOption={selectionLabels.ratingDurationToggle}
-        />
+      
 
 
         {podSet}

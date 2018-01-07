@@ -8,40 +8,48 @@ import ToggleSwitch from '../components/ToggleSwitch'
 
 export default class VizPod extends Component {
 
-    toggleYear(val){
+    deleteShowProps(s) {
+        let t = { ...s };
+        delete t.name;
+        delete t.aa;
+        delete t.mins;
+        delete t.premiereStatus;
+        return t;
+    }
+
+    toggleRatingDuration(val){
+        this.props.interactionCallback({ ...this.props.selectedElement, "ratingDurationToggle": val })
+    }
+
+    toggleYear(val) {
         const showInfo = this.props.renderData[val][this.props.selectedElement.premiereStatus === "premiere" ? "series-prems" : "series-repeats"][this.props.selectedElement.timePeriod].filter((s) => { if (s.name === this.props.selectedElement.name) return true; })
         console.log(this.props.selectedElement, showInfo[0])
-        if(showInfo.length){
-            this.props.interactionCallback({...this.props.selectedElement, "selectedYear": val, ...showInfo[0]})
+        if (showInfo.length) {
+            this.props.interactionCallback({ ...this.props.selectedElement, "selectedYear": val, ...showInfo[0] })
         }
-        else{
+        else {
             //the show wasnt found in the newly selected year
-            //delete the data
-            let elem = this.props.selectedElement;
-            delete elem.name;
-            delete elem.aa;
-            delete elem.mins;
-            delete elem.premiereStatus;
-            
-            this.props.interactionCallback({...elem, "selectedYear": val})
+            //delete the dat         
+            this.props.interactionCallback({ ...this.deleteShowProps(this.props.selectedElement), "selectedYear": val })
         }
-        
+
     }
 
     showFullYear(e) {
         e.preventDefault();
         const showInfo = this.props.renderData[this.props.selectedElement.selectedYear][this.props.selectedElement.premiereStatus === "premiere" ? "series-prems" : "series-repeats"]["FullYear"].filter((s) => { if (s.name === this.props.selectedElement.name) return true; })
         console.log(this.props.selectedElement, showInfo[0])
-        this.props.interactionCallback({ ...showInfo[0], "premiereStatus": this.props.selectedElement.premiereStatus, "timePeriod": "FullYear", "selectedYear": this.props.selectedElement.selectedYear})
+        this.props.interactionCallback({ ...this.props.selectedElement, ...showInfo[0], "timePeriod": "FullYear" })
     }
 
     deselectShow(e) {
         e.preventDefault();
-        this.props.interactionCallback({ "timePeriod": this.props.selectedElement.timePeriod, "selectedYear": this.props.selectedElement.selectedYear })
+        this.props.interactionCallback({ ...this.deleteShowProps(this.props.selectedElement) })
     }
 
     donutClickHandler(dataOb) {
-        this.props.interactionCallback({ ...dataOb, "timePeriod": this.props.selectedElement.timePeriod, "selectedYear": this.props.selectedElement.selectedYear })
+        console.log(dataOb)
+        this.props.interactionCallback({ ...this.props.selectedElement, ...dataOb })
     }
 
     linegraphClickHandler(monthOb) {
@@ -61,17 +69,17 @@ export default class VizPod extends Component {
         }
 
         if (showInfo.length) {
-            this.props.interactionCallback({ "timePeriod": monthOb.timePeriod, "selectedYear": this.props.selectedElement.selectedYear, ...showInfo[0], "premiereStatus": this.props.selectedElement.premiereStatus })
+            this.props.interactionCallback({ ...this.props.selectedElement, "timePeriod": monthOb.timePeriod, ...showInfo[0] })
         }
         else {
-            this.props.interactionCallback({ "timePeriod": monthOb.timePeriod, "selectedYear": this.props.selectedElement.selectedYear })
+            this.props.interactionCallback({ ...this.deleteShowProps(this.props.selectedElement), "timePeriod": monthOb.timePeriod })
         }
 
         //this.props.interactionCallback({ ...this.props.selectedElement, ...monthOb })
     }
 
     render() {
-        const { renderData, interactionCallback, ratingDurationToggle, network, selectedElement } = this.props;
+        const { renderData, interactionCallback, network, selectedElement } = this.props;
 
         const width = 1050,
             height = 600;
@@ -125,14 +133,16 @@ export default class VizPod extends Component {
             "series-repeats": renderData[selectedYear]["series-repeats"][filterPeriod]
         };
 
-        const years =["2016", "2017"];
+        const years = ["2016", "2017"];
         let allShowsSet = [];
 
-        years.forEach((yr)=>{
+        years.forEach((yr) => {
             allShowsSet = allShowsSet.concat(...renderData[yr]["series-prems"][selectedElement.timePeriod]);
             allShowsSet = allShowsSet.concat(...renderData[yr]["series-repeats"][selectedElement.timePeriod]);
         })
 
+        const ratingDurationToggle = selectedElement.ratingDurationToggle;
+        
         const ratingRange =
             [allShowsSet.reduce((accumulator, curr) => {
                 if (curr[ratingDurationToggle] < accumulator[ratingDurationToggle]) {
@@ -220,7 +230,7 @@ export default class VizPod extends Component {
 
         const shortIndicator = (selectedElement.premiereStatus === "premiere") ? " (P)" : " (R)";
 
-        const yearOptions = [{"value": "2016", "label": "2016"}, {"value": "2017", "label": "2017"}];
+        const yearOptions = [{ "value": "2016", "label": "2016" }, { "value": "2017", "label": "2017" }];
 
         return (
             <PodDiv>
@@ -228,7 +238,12 @@ export default class VizPod extends Component {
                     <NetLogo src={"../img/" + network + ".png"} />
                 </LogoContainer>
 
-                <ToggleSwitch option1={yearOptions[0]} option2={yearOptions[1]} selectedOption={selectedElement.selectedYear} interactionCallback={val=>{this.toggleYear(val)}} />
+                <ToggleSwitch option1={yearOptions[0]} option2={yearOptions[1]} selectedOption={selectedElement.selectedYear} interactionCallback={val => { this.toggleYear(val) }} />
+                <ToggleSwitch option1={{ "label": "Delivery", "value": "aa" }}
+                    option2={{ "label": "Duration", "value": "mins" }}
+                    interactionCallback={val => { this.toggleRatingDuration(val) }}
+                    selectedOption={selectedElement.ratingDurationToggle}
+                />
 
                 <LineContainer>
                     <div><Bubbleify>Monthly Trends</Bubbleify></div>
@@ -260,6 +275,5 @@ VizPod.propTypes = {
     renderData: PropTypes.object.isRequired,
     interactionCallback: PropTypes.func.isRequired,
     selectedElement: PropTypes.object.isRequired,
-    network: PropTypes.string.isRequired,
-    ratingDurationToggle: PropTypes.string.isRequired
+    network: PropTypes.string.isRequired
 }
