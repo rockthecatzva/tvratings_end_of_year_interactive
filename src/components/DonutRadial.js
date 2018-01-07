@@ -8,9 +8,11 @@ import {
 import { arc as d3Arc } from 'd3-shape'
 
 export default class DonutRadial extends Component {
+    callBack(show, premStatus){ 
+        this.props.interactionCallback({ "name": show.name, "aa": show.aa, "mins":show.mins, "premiereStatus": premStatus }) }
 
     render() {
-        const { renderData, ratingDurationToggle, selectedElement, ratingRange, interactionCallback } = this.props;
+        const { renderData, ratingDurationToggle, selectedElement, ratingRange } = this.props;
         //console.log(renderData)
 
         const width = 450,
@@ -172,14 +174,14 @@ export default class DonutRadial extends Component {
             if (selectedElement.premiereStatus === "premiere") {
                 if (selectedElement.name === show.name){
                     centerRotate = show.rotate;
-                    arcSet.push(<ShowArcSelected transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { interactionCallback({ ...show, "premiereStatus": "premiere" }) }} />)
+                    arcSet.push(<ShowArcSelected transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { this.callBack(show, "premiere")}} />)
                 }
                 else{
-                    arcSet.push(<ShowArcPremsMuted transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { interactionCallback({ ...show, "premiereStatus": "premiere" }) }} />)
+                    arcSet.push(<ShowArcPremsMuted transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { this.callBack(show, "premiere" ) }} />)
                 }
             }
             else {
-                arcSet.push(<ShowArcPrems transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { interactionCallback({ ...show, "premiereStatus": "premiere" }) }} />)
+                arcSet.push(<ShowArcPrems transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { this.callBack(show, "premiere" ) }} />)
             }
 
             startAngle += (premPieSize) * premArcWidth;
@@ -192,15 +194,15 @@ export default class DonutRadial extends Component {
             {
                 if(selectedElement.name === show.name) {
                     centerRotate = show.rotate;
-                    arcSet.push(<ShowArcSelected transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { interactionCallback({ ...show, "premiereStatus": "repeat" }) }} />)
+                    arcSet.push(<ShowArcSelected transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { this.callBack(show, "repeat" ) }} />)
                 }
                 else{
-                    arcSet.push(<ShowArcRepeatsMuted transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { interactionCallback({ ...show, "premiereStatus": "repeat" }) }} />)
+                    arcSet.push(<ShowArcRepeatsMuted transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { this.callBack(show, "repeat" ) }} />)
                 }
                 
             }
             else {
-                arcSet.push(<ShowArcRepeats transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { interactionCallback({ ...show, "premiereStatus": "repeat" }) }} />)
+                arcSet.push(<ShowArcRepeats transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { this.callBack(show, "repeat" ) }} />)
             }
 
             startAngle += (repeatPieSize) * repeatArcWidth;
@@ -234,14 +236,13 @@ export default class DonutRadial extends Component {
             else{
                 messageBox.push(<PointerPathRepeats transform={"translate(" + ((width / 2)) + "," + ((height / 2)) + ") scale(2.8) rotate(" + centerRotate + ")"} d="m 0.01088232,-52.041908 -6.48797702,4.81056 h 3.741891 v 17.49351 A 29.666917,29.666917 0 0 0 -29.656042,-0.22387832 29.666917,29.666917 0 0 0 0.01088232,29.443042 29.666917,29.666917 0 0 0 29.677804,-0.22387832 29.666917,29.666917 0 0 0 2.7569663,-29.753348 v -17.478 h 3.741891 z" />)
             }
-            console.log(selectedElement.name, selectedElement.name.length);
+            
             if(selectedElement.name.length>17){
                 console.log(selectedElement.name.indexOf(" ", selectedElement.name.length*0.33))
                 const brk = selectedElement.name.indexOf(" ", selectedElement.name.length*0.33);
                 const str1 = selectedElement.name.substr(0, brk).trim();
                 const str2 = selectedElement.name.substr(brk, selectedElement.name.length-brk).trim();
-                console.log(str1)
-                console.log(str2)
+                
                 
                 messageBox.push(<TextShowname x={width / 2} y={((height / 2)-15)} textAnchor={"middle"} >&times;{str1}</TextShowname>)
                 messageBox.push(<TextShowname x={width / 2} y={(height / 2)} textAnchor={"middle"} >{str2}</TextShowname>)

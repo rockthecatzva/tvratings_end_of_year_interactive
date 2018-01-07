@@ -4,23 +4,44 @@ import styled from 'styled-components'
 
 import MultiLineAndBars from '../components/MultiLineAndBars'
 import DonutRadial from '../components/DonutRadial'
+import ToggleSwitch from '../components/ToggleSwitch'
 
 export default class VizPod extends Component {
 
+    toggleYear(val){
+        const showInfo = this.props.renderData[val][this.props.selectedElement.premiereStatus === "premiere" ? "series-prems" : "series-repeats"][this.props.selectedElement.timePeriod].filter((s) => { if (s.name === this.props.selectedElement.name) return true; })
+        console.log(this.props.selectedElement, showInfo[0])
+        if(showInfo.length){
+            this.props.interactionCallback({...this.props.selectedElement, "selectedYear": val, ...showInfo[0]})
+        }
+        else{
+            //the show wasnt found in the newly selected year
+            //delete the data
+            let elem = this.props.selectedElement;
+            delete elem.name;
+            delete elem.aa;
+            delete elem.mins;
+            delete elem.premiereStatus;
+            
+            this.props.interactionCallback({...elem, "selectedYear": val})
+        }
+        
+    }
+
     showFullYear(e) {
         e.preventDefault();
-        const showInfo = this.props.renderData[this.props.selectedElement.premiereStatus === "premiere" ? "series-prems" : "series-repeats"]["FullYear"].filter((s) => { if (s.name === this.props.selectedElement.name) return true; })
+        const showInfo = this.props.renderData[this.props.selectedElement.selectedYear][this.props.selectedElement.premiereStatus === "premiere" ? "series-prems" : "series-repeats"]["FullYear"].filter((s) => { if (s.name === this.props.selectedElement.name) return true; })
         console.log(this.props.selectedElement, showInfo[0])
-        this.props.interactionCallback({ ...showInfo[0], "premiereStatus": this.props.selectedElement.premiereStatus, "timePeriod": "FullYear" })
+        this.props.interactionCallback({ ...showInfo[0], "premiereStatus": this.props.selectedElement.premiereStatus, "timePeriod": "FullYear", "selectedYear": this.props.selectedElement.selectedYear})
     }
 
     deselectShow(e) {
         e.preventDefault();
-        this.props.interactionCallback({ "timePeriod": this.props.selectedElement.timePeriod })
+        this.props.interactionCallback({ "timePeriod": this.props.selectedElement.timePeriod, "selectedYear": this.props.selectedElement.selectedYear })
     }
 
     donutClickHandler(dataOb) {
-        this.props.interactionCallback({ ...dataOb, "timePeriod": this.props.selectedElement.timePeriod })
+        this.props.interactionCallback({ ...dataOb, "timePeriod": this.props.selectedElement.timePeriod, "selectedYear": this.props.selectedElement.selectedYear })
     }
 
     linegraphClickHandler(monthOb) {
@@ -36,21 +57,21 @@ export default class VizPod extends Component {
             else {
                 showIndicator = "series-repeats";
             }
-            showInfo = this.props.renderData[showIndicator][monthOb.timePeriod].filter((s) => { if (s.name === this.props.selectedElement.name) return true; })
+            showInfo = this.props.renderData[this.props.selectedElement.selectedYear][showIndicator][monthOb.timePeriod].filter((s) => { if (s.name === this.props.selectedElement.name) return true; })
         }
 
         if (showInfo.length) {
-            this.props.interactionCallback({ "timePeriod": monthOb.timePeriod, ...showInfo[0], "premiereStatus": this.props.selectedElement.premiereStatus })
+            this.props.interactionCallback({ "timePeriod": monthOb.timePeriod, "selectedYear": this.props.selectedElement.selectedYear, ...showInfo[0], "premiereStatus": this.props.selectedElement.premiereStatus })
         }
         else {
-            this.props.interactionCallback({ "timePeriod": monthOb.timePeriod })
+            this.props.interactionCallback({ "timePeriod": monthOb.timePeriod, "selectedYear": this.props.selectedElement.selectedYear })
         }
 
         //this.props.interactionCallback({ ...this.props.selectedElement, ...monthOb })
     }
 
     render() {
-        const { renderData, interactionCallback, ratingDurationToggle, network, selectedElement, ratingRange } = this.props;
+        const { renderData, interactionCallback, ratingDurationToggle, network, selectedElement } = this.props;
 
         const width = 1050,
             height = 600;
@@ -93,21 +114,41 @@ export default class VizPod extends Component {
               
             `;
 
-        let filterPeriod = selectedElement.timePeriod;
+        const filterPeriod = selectedElement.timePeriod,
+            selectedYear = selectedElement.selectedYear;
+
         let selectedData = {
-            "prime": renderData.prime[filterPeriod],
-            "premieres": renderData.premieres[filterPeriod],
-            "repeats": renderData.repeats[filterPeriod],
-            "series-prems": renderData["series-prems"][filterPeriod],
-            "series-repeats": renderData["series-repeats"][filterPeriod]
+            "prime": renderData[selectedYear].prime[filterPeriod],
+            "premieres": renderData[selectedYear].premieres[filterPeriod],
+            "repeats": renderData[selectedYear].repeats[filterPeriod],
+            "series-prems": renderData[selectedYear]["series-prems"][filterPeriod],
+            "series-repeats": renderData[selectedYear]["series-repeats"][filterPeriod]
         };
 
-        if (selectedElement.hasOwnProperty("month")) {
+        const years =["2016", "2017"];
+        let allShowsSet = [];
 
-        }
+        years.forEach((yr)=>{
+            allShowsSet = allShowsSet.concat(...renderData[yr]["series-prems"][selectedElement.timePeriod]);
+            allShowsSet = allShowsSet.concat(...renderData[yr]["series-repeats"][selectedElement.timePeriod]);
+        })
+
+        const ratingRange =
+            [allShowsSet.reduce((accumulator, curr) => {
+                if (curr[ratingDurationToggle] < accumulator[ratingDurationToggle]) {
+                    return curr;
+                }
+                return accumulator;
+            })[ratingDurationToggle],
+            allShowsSet.reduce((accumulator, curr) => {
+                if (curr[ratingDurationToggle] > accumulator[ratingDurationToggle]) {
+                    return curr
+                }
+                return accumulator;
+            })[ratingDurationToggle]];
 
         const labelLookup = {
-            "FullYear": "Full Year 2017",
+            "FullYear": "Full Year",
             "Jan": "January",
             "Feb": "February",
             "Mar": "March",
@@ -137,9 +178,8 @@ export default class VizPod extends Component {
             
        `;
 
-        const LogoContainer = styled.div`
-            height: 100px;
-            clear: both;
+        const LogoContainer = styled.span`
+        position: absolute;
         `;
 
         const LineContainer = styled.div`
@@ -180,18 +220,22 @@ export default class VizPod extends Component {
 
         const shortIndicator = (selectedElement.premiereStatus === "premiere") ? " (P)" : " (R)";
 
+        const yearOptions = [{"value": "2016", "label": "2016"}, {"value": "2017", "label": "2017"}];
+
         return (
             <PodDiv>
                 <LogoContainer>
                     <NetLogo src={"../img/" + network + ".png"} />
                 </LogoContainer>
 
+                <ToggleSwitch option1={yearOptions[0]} option2={yearOptions[1]} selectedOption={selectedElement.selectedYear} interactionCallback={val=>{this.toggleYear(val)}} />
+
                 <LineContainer>
                     <div><Bubbleify>Monthly Trends</Bubbleify></div>
                     {selectedElement.hasOwnProperty("name") &&
                         <div><BubbleifyGrey> <Clickable onClick={(e) => { this.deselectShow(e) }} >	&#9447;</Clickable>{selectedElement.name + shortIndicator}</BubbleifyGrey></div>
                     }
-                    <MultiLineAndBars renderData={renderData} interactionCallback={(ob) => { this.linegraphClickHandler(ob) }} selectedElement={selectedElement} />
+                    <MultiLineAndBars renderData={renderData[selectedYear]} interactionCallback={(ob) => { this.linegraphClickHandler(ob) }} selectedElement={selectedElement} />
                 </LineContainer>
 
                 <DonutContainer>
@@ -216,7 +260,6 @@ VizPod.propTypes = {
     renderData: PropTypes.object.isRequired,
     interactionCallback: PropTypes.func.isRequired,
     selectedElement: PropTypes.object.isRequired,
-    ratingRange: PropTypes.array.isRequired,
     network: PropTypes.string.isRequired,
     ratingDurationToggle: PropTypes.string.isRequired
 }

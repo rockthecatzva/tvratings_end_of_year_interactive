@@ -74,7 +74,7 @@ function postsBySubreddit(state = {}, action) {
 function selectionLabels(state = {"ratingDurationToggle": "aa", "netSet": []}, action) {
   switch (action.type) {
     case RECEIVE_DATA:
-      return { ...state, ...{[action.group]: {"timePeriod": "FullYear"}} };
+      return { ...state, ...{[action.group]: {"timePeriod": "FullYear", "selectedYear": 2017}} };
     case VIZ_CLICK:
       return { ...state, ...{ [action.messageGroup]: action.show} };
     case UPDATE_NETSET:

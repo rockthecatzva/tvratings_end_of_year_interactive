@@ -17,7 +17,7 @@ export default class ToggleSwitch extends React.Component {
             margin-right: auto;`
 
         const optionClick = (e) => {
-            console.log(e.target.value);
+            console.log(e.target.value, typeof(e.target.value));
             e.stopPropagation();
             interactionCallback(e.target.value)
         }

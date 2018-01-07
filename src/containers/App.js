@@ -47,11 +47,13 @@ class App extends Component {
 
 
   componentDidMount() {
-    this.props.dispatch(fetchPodData("disc", "/data/pod-disc2016.json"))
-    this.props.dispatch(fetchPodData("tlc", "/data/pod-tlc2016.json"))
-    this.props.dispatch(fetchPodData("hgtv", "/data/pod-hgtv2016.json"))
-    this.props.dispatch(fetchPodData("vel", "/data/pod-vel2016.json"))
-    this.props.dispatch(fetchPodData("hist", "/data/pod-hist2016.json"))
+    //this.props.dispatch(fetchPodData("disc", "/data/pod-disc2016.json"))
+    //this.props.dispatch(fetchPodData("tlc", "/data/pod-tlc2016.json"))
+    //this.props.dispatch(fetchPodData("hgtv", "/data/pod-hgtv2016.json"))
+    //this.props.dispatch(fetchPodData("vel", "/data/pod-vel2016.json"))
+    this.props.dispatch(fetchPodData("disc", "/data/disc2year.json"))
+    this.props.dispatch(fetchPodData("hist", "/data/hist2year.json"))
+    this.props.dispatch(fetchPodData("tlc", "/data/tlc2year.json"))
 
   }
 
@@ -77,8 +79,8 @@ class App extends Component {
       margin-bottom: 4px;
       font-size: 0.8em;`
 
-    let allShowsSet = [],
-      showRatingRange = [];
+    let allShowsSet = [];
+      //showRatingRange = [];
 
     /*
         selectionLabels.netSet.forEach((net) => {
@@ -121,8 +123,9 @@ class App extends Component {
 
     const podSet = selectionLabels.netSet.map((n, i) => {
       if (appData.hasOwnProperty(n)) {
-        const allShowsSet = [...appData[n]["series-prems"][selectionLabels[n]["timePeriod"]], ...appData[n]["series-repeats"][selectionLabels[n]["timePeriod"]]];
-        showRatingRange = [
+
+        //const allShowsSet = [...appData[n]["series-prems"][selectionLabels[n]["timePeriod"]], ...appData[n]["series-repeats"][selectionLabels[n]["timePeriod"]]];
+       /* showRatingRange = [
           allShowsSet.reduce((accumulator, curr) => {
             if (curr[selectionLabels.ratingDurationToggle] < accumulator[selectionLabels.ratingDurationToggle]) {
               return curr;
@@ -134,14 +137,13 @@ class App extends Component {
               return curr
             }
             return accumulator;
-          })[selectionLabels.ratingDurationToggle]];
+          })[selectionLabels.ratingDurationToggle]];*/
 
         const html = (<VizPod renderData={appData[n]}
           interactionCallback={m => { this.handleMessageUpdate(n, m) }}
           selectedElement={selectionLabels[n]}
           ratingDurationToggle={selectionLabels.ratingDurationToggle}
           network={n}
-          ratingRange={showRatingRange}
           key={i} />);
 
         return html;
