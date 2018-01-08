@@ -13,7 +13,8 @@ import {
   VIZ_CLICK,
   CLEAR_SELECTIONS,
   CHANGE_DATALABEL,
-  UPDATE_NETSET
+  UPDATE_NETSET,
+  RECEIVE_STORYDATA
 } from '../actions'
 
 /*
@@ -74,7 +75,7 @@ function postsBySubreddit(state = {}, action) {
 function selectionLabels(state = {"netSet": []}, action) {
   switch (action.type) {
     case RECEIVE_DATA:
-      return { ...state, ...{[action.group]: {"timePeriod": "FullYear", "selectedYear": 2017, "ratingDurationToggle": "aa"}} };
+      return { ...state, ...{[action.group]: {"timePeriod": "FullYear", "selectedYear": "2017", "ratingDurationToggle": "aa", "storyMode": false, "storyPosition": 0}} };
     case VIZ_CLICK:
       return { ...state, ...{ [action.messageGroup]: action.show} };
     case UPDATE_NETSET:
@@ -97,8 +98,16 @@ function appData(state = {}, action) {
   }
 }
 
-
-
+function storyData(state = {}, action) {
+  switch (action.type) {
+    case RECEIVE_STORYDATA:
+      return Object.assign({}, state, {
+        [action.group]: action.data
+      });
+    default:
+      return state;
+  }
+}
 
 
 
@@ -106,7 +115,8 @@ function appData(state = {}, action) {
 
 const censusReducer = combineReducers({
   selectionLabels,
-  appData
+  appData,
+  storyData
 })
 
 export default censusReducer;

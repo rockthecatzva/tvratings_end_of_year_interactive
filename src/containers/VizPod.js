@@ -5,6 +5,8 @@ import styled from 'styled-components'
 import MultiLineAndBars from '../components/MultiLineAndBars'
 import DonutRadial from '../components/DonutRadial'
 import ToggleSwitch from '../components/ToggleSwitch'
+import CheckBox from '../components/CheckBox'
+import StoryBox from '../components/StoryBox'
 
 export default class VizPod extends Component {
 
@@ -17,7 +19,36 @@ export default class VizPod extends Component {
         return t;
     }
 
-    toggleRatingDuration(val){
+    changeSlide(val){
+        const nextStoryData = this.props.storyData[val];
+        let nextStory = {};
+
+     
+        if(!nextStoryData.hasOwnProperty("name")){
+            nextStory = {...this.deleteShowProps(this.props.selectedElement), ...this.props.storyData[val]}
+        }
+        else{
+            //need to look up newly selected show data
+            const showInfo = this.props.renderData[nextStoryData.selectedYear][nextStoryData.premiereStatus === "premiere" ? "series-prems" : "series-repeats"][nextStoryData.timePeriod].filter((s) => { if (s.name === nextStoryData.name) return true; })
+            console.log(showInfo)
+            nextStory = {...this.props.selectedElement, ...nextStoryData, ...showInfo[0] }
+        }
+        console.log("Changing the slide to ", val, nextStory);
+        this.props.interactionCallback({...nextStory, "storyPosition": val })
+    }
+
+    toggleStorymode(val) {
+        console.log(val)
+        if(val){
+            this.props.interactionCallback({ ...this.props.selectedElement, "storyMode": val, ...this.props.storyData[this.props.selectedElement.storyPosition] })
+        }
+        else{
+            this.props.interactionCallback({ ...this.props.selectedElement, "storyMode": val })
+        }
+        
+    }
+
+    toggleRatingDuration(val) {
         this.props.interactionCallback({ ...this.props.selectedElement, "ratingDurationToggle": val })
     }
 
@@ -79,7 +110,7 @@ export default class VizPod extends Component {
     }
 
     render() {
-        const { renderData, interactionCallback, network, selectedElement } = this.props;
+        const { renderData, interactionCallback, network, selectedElement, storyData } = this.props;
 
         const width = 1050,
             height = 600;
@@ -93,6 +124,7 @@ export default class VizPod extends Component {
                 margin-left: auto;
                 margin-right: auto;
                 clear: both;
+                position: relative;
               `;
 
         const NetworkLabel = styled.p`
@@ -142,7 +174,7 @@ export default class VizPod extends Component {
         })
 
         const ratingDurationToggle = selectedElement.ratingDurationToggle;
-        
+
         const ratingRange =
             [allShowsSet.reduce((accumulator, curr) => {
                 if (curr[ratingDurationToggle] < accumulator[ratingDurationToggle]) {
@@ -232,6 +264,15 @@ export default class VizPod extends Component {
 
         const yearOptions = [{ "value": "2016", "label": "2016" }, { "value": "2017", "label": "2017" }];
 
+        let renderStory = {};
+
+        if(storyData.hasOwnProperty("0") && selectedElement.storyMode ){
+            renderStory = {...storyData[selectedElement.storyPosition], "storyPosition": selectedElement.storyPosition, "numSlides": Object.keys(storyData).length };
+            //console.log(renderStory)
+        }
+        
+        
+
         return (
             <PodDiv>
                 <LogoContainer>
@@ -239,11 +280,16 @@ export default class VizPod extends Component {
                 </LogoContainer>
 
                 <ToggleSwitch option1={yearOptions[0]} option2={yearOptions[1]} selectedOption={selectedElement.selectedYear} interactionCallback={val => { this.toggleYear(val) }} />
-                <ToggleSwitch option1={{ "label": "Delivery", "value": "aa" }}
+                <ToggleSwitch option1={{ "label": "Ratings", "value": "aa" }}
                     option2={{ "label": "Duration", "value": "mins" }}
                     interactionCallback={val => { this.toggleRatingDuration(val) }}
                     selectedOption={selectedElement.ratingDurationToggle}
                 />
+
+                {storyData.hasOwnProperty("0") &&
+                    <CheckBox label={"Story mode"} selected={selectedElement.storyMode} interactionCallback={val => { this.toggleStorymode(val) }} />
+                }
+
 
                 <LineContainer>
                     <div><Bubbleify>Monthly Trends</Bubbleify></div>
@@ -256,7 +302,7 @@ export default class VizPod extends Component {
                 <DonutContainer>
 
                     <DonutLabel>
-                        <Bubbleify>{labelLookup[selectedElement.timePeriod]}</Bubbleify>
+                        <Bubbleify>{labelLookup[selectedElement.timePeriod]+" "+selectedElement.selectedYear}</Bubbleify>
 
                         {selectedElement.timePeriod !== "FullYear" &&
                             <Button onClick={(e) => { this.showFullYear(e) }}>Show Full Year</Button>
@@ -267,6 +313,10 @@ export default class VizPod extends Component {
                     <DonutRadial renderData={selectedData} interactionCallback={(ob) => this.donutClickHandler(ob)} selectedElement={selectedElement} ratingDurationToggle={ratingDurationToggle} ratingRange={ratingRange} />
                 </DonutContainer>
 
+                {renderStory.hasOwnProperty("message") && 
+                        <StoryBox {...renderStory} endStory={() => { this.toggleStorymode(false) }} changeSlide={(val)=>{this.changeSlide(val)}} />
+                }
+
             </PodDiv>);
     }
 }
@@ -275,5 +325,6 @@ VizPod.propTypes = {
     renderData: PropTypes.object.isRequired,
     interactionCallback: PropTypes.func.isRequired,
     selectedElement: PropTypes.object.isRequired,
-    network: PropTypes.string.isRequired
+    network: PropTypes.string.isRequired,
+    storyData: PropTypes.object.isRequired
 }

@@ -6,6 +6,7 @@ export const VIZ_CLICK = 'VIZ_CLICK'
 export const CLEAR_SELECTIONS = 'CLEAR_SELECTIONS'
 export const CHANGE_DATALABEL = 'CHANGE_DATALABEL'
 export const UPDATE_NETSET = 'UPDATE_NETSET'
+export const RECEIVE_STORYDATA = 'RECEIVE_STORYDATA'
 
 
 export const vizClick = (messageGroup, show) => {
@@ -117,7 +118,15 @@ function receiveData(group, data) {
 }
 
 
-
+function receiveStorydata(group, data) {
+  //console.log(data)
+  return {
+    type: RECEIVE_STORYDATA,
+    group,
+    data,
+    //posts: json.data.children.map(child => child.data)
+  }
+}
 
 
 
@@ -128,7 +137,7 @@ function loadingError() {
   }
 }
 
-
+/*
 export function fetchCensusData(datagroup, apisettings) {
   //console.log(datagroup, apisettings)
   return (dispatch) => {
@@ -138,7 +147,7 @@ export function fetchCensusData(datagroup, apisettings) {
         const data =  csvtojson(json).map(d=>apisettings.processor(d));
         return dispatch(receiveData(datagroup, data))})
   }
-}
+}*/
 
 export function fetchPodData(datagroup, url) {
   return (dispatch) => {
@@ -150,6 +159,18 @@ export function fetchPodData(datagroup, url) {
         return dispatch(receiveData(datagroup, data))})
   }
 }
+
+export function fetchStorydata(datagroup, url) {
+  return (dispatch) => {
+    return fetch(url)
+      .then(response => response.json())
+      .then(json => {
+        //console.log(json)
+        const data = json;// csvtojson(json).map(d=>apisettings.processor(d));
+        return dispatch(receiveStorydata(datagroup, data))})
+  }
+}
+
 
 
 /*

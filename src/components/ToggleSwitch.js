@@ -9,12 +9,9 @@ export default class ToggleSwitch extends React.Component {
         const { option1, option2, interactionCallback, selectedOption } = this.props;
 
         const Container = styled.div`
-            border: solid 1px #000;
-            border-radius: 3px;
             width: fit-content;
             padding 3px;
-            margin-left: auto;
-            margin-right: auto;`
+            margin-left: auto;`
 
         const optionClick = (e) => {
             console.log(e.target.value, typeof(e.target.value));
@@ -29,6 +26,7 @@ export default class ToggleSwitch extends React.Component {
         else {
             option2.checked = true;
         }
+        console.log(selectedOption, typeof(selectedOption), option1.checked, option2.checked)
 
         return (<Container>
                     <label>

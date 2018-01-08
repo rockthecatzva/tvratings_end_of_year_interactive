@@ -8,7 +8,8 @@ import {
   vizClick,
   clearSelections,
   fetchPodData,
-  updateNetset
+  updateNetset,
+  fetchStorydata
 } from '../actions'
 
 import Header from '../components/Header'
@@ -55,10 +56,11 @@ class App extends Component {
     this.props.dispatch(fetchPodData("hist", "/data/hist2year.json"))
     this.props.dispatch(fetchPodData("tlc", "/data/tlc2year.json"))
 
+    this.props.dispatch(fetchStorydata("disc", "/data/storydata-disc.json"))
   }
 
   render() {
-    const { appData, selectionLabels } = this.props;
+    const { appData, selectionLabels, storyData } = this.props;
 
     //a styled-div with dropdown inside caused
     const ClearFloatHack = styled.div`
@@ -138,11 +140,16 @@ class App extends Component {
             }
             return accumulator;
           })[selectionLabels.ratingDurationToggle]];*/
+        
+        let storyScript = {};
+        if (storyData.hasOwnProperty(n)){
+          storyScript = storyData[n];
+        }
 
         const html = (<VizPod renderData={appData[n]}
           interactionCallback={m => { this.handleMessageUpdate(n, m) }}
           selectedElement={selectionLabels[n]}
-          ratingDurationToggle={selectionLabels.ratingDurationToggle}
+          storyData={storyScript}
           network={n}
           key={i} />);
 
@@ -242,7 +249,8 @@ class App extends Component {
 const mapStateToProps = (state, ownProps) => {
   return {
     appData: state.appData,
-    selectionLabels: state.selectionLabels
+    selectionLabels: state.selectionLabels,
+    storyData: state.storyData
   }
 }
 
