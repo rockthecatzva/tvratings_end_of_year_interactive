@@ -11,8 +11,7 @@ export default class ToggleSwitch extends React.Component {
         const Container = styled.div`
             width: fit-content;
             padding 3px;
-            margin-left: auto;
-            margin-right: auto;`,
+            margin-left: auto;`,
 
             OutterSwitch = styled.div`
                 width: 34px;
@@ -21,10 +20,6 @@ export default class ToggleSwitch extends React.Component {
                 border-radius: 34px;
                 position: relative;
                 cursor: pointer;
-                display: inline-block;
-                top: 5px;
-                margin-left: 5px;
-                margin-right: 5px;            
               `,
 
             InnerSwitchLeft = styled.div`
@@ -44,15 +39,13 @@ export default class ToggleSwitch extends React.Component {
               position: absolute;
               right: 3px;
               top: 2px;
-            `,
-            SelectedLabel = styled.span`
-                font-weight: bold;
-                color: #000;`,
-            DeselectedLabel = styled.span`
-                cursor: pointer;
-                font-weight: normal;
-                color: #ccc;`
+            `;
 
+        const optionClick = (e) => {
+            //console.log(e.target.value, typeof(e.target.value));
+            e.stopPropagation();
+            interactionCallback(e.target.value)
+        }
 
         const toggleClick = () => {
             if (option1.checked) {
@@ -64,28 +57,32 @@ export default class ToggleSwitch extends React.Component {
         }
 
 
-        let toggle, label1, label2;
+        let toggle = null;
 
         if (option1.value === selectedOption) {
             option1.checked = true;
-            toggle = (<InnerSwitchLeft />);
-            label1 = <SelectedLabel>{option1.label}</SelectedLabel>
-            label2 = <DeselectedLabel onClick={() => { toggleClick() }}>{option2.label}</DeselectedLabel>
+            toggle = (<OutterSwitch onClick={() => { toggleClick() }}  >
+                <InnerSwitchLeft />
+            </OutterSwitch>);
         }
         else {
             option2.checked = true;
-            toggle = (<InnerSwitchRight />);
-            label1 = <DeselectedLabel onClick={() => { toggleClick() }}>{option1.label}</DeselectedLabel>
-            label2 = <SelectedLabel>{option2.label}</SelectedLabel>
+            toggle = (<OutterSwitch onClick={() => { toggleClick() }}  >
+                <InnerSwitchRight />
+            </OutterSwitch>);
         }
 
         return (<Container>
-
-            {label1}
-            <OutterSwitch onClick={() => { toggleClick() }}  >
-                {toggle}
-            </OutterSwitch>
-            {label2}
+            
+            
+            <label>
+                <input type={"radio"} value={option1.value} checked={option1.checked} onChange={e => { optionClick(e); }} />
+                {option1.label}
+            </label>
+            <label>
+                <input type={"radio"} value={option2.value} checked={option2.checked} onChange={e => { optionClick(e); }} />
+                {option2.label}
+            </label>
         </Container>);
     }
 }

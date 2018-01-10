@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import MultiLineAndBars from '../components/MultiLineAndBars'
 import DonutRadial from '../components/DonutRadial'
 import ToggleSwitch from '../components/ToggleSwitch'
+//import RadioButtonBinary from '../components/RadioButtonBinary'
 import CheckBox from '../components/CheckBox'
 import StoryBox from '../components/StoryBox'
 
@@ -19,33 +20,33 @@ export default class VizPod extends Component {
         return t;
     }
 
-    changeSlide(val){
+    changeSlide(val) {
         const nextStoryData = this.props.storyData[val];
         let nextStory = {};
 
-     
-        if(!nextStoryData.hasOwnProperty("name")){
-            nextStory = {...this.deleteShowProps(this.props.selectedElement), ...this.props.storyData[val]}
+
+        if (!nextStoryData.hasOwnProperty("name")) {
+            nextStory = { ...this.deleteShowProps(this.props.selectedElement), ...this.props.storyData[val] }
         }
-        else{
+        else {
             //need to look up newly selected show data
             const showInfo = this.props.renderData[nextStoryData.selectedYear][nextStoryData.premiereStatus === "premiere" ? "series-prems" : "series-repeats"][nextStoryData.timePeriod].filter((s) => { if (s.name === nextStoryData.name) return true; })
             console.log(showInfo)
-            nextStory = {...this.props.selectedElement, ...nextStoryData, ...showInfo[0] }
+            nextStory = { ...this.props.selectedElement, ...nextStoryData, ...showInfo[0] }
         }
         console.log("Changing the slide to ", val, nextStory);
-        this.props.interactionCallback({...nextStory, "storyPosition": val })
+        this.props.interactionCallback({ ...nextStory, "storyPosition": val })
     }
 
     toggleStorymode(val) {
         console.log(val)
-        if(val){
+        if (val) {
             this.props.interactionCallback({ ...this.props.selectedElement, "storyMode": val, ...this.props.storyData[this.props.selectedElement.storyPosition] })
         }
-        else{
+        else {
             this.props.interactionCallback({ ...this.props.selectedElement, "storyMode": val })
         }
-        
+
     }
 
     toggleRatingDuration(val) {
@@ -220,24 +221,33 @@ export default class VizPod extends Component {
             
        `;
 
-        const LogoContainer = styled.span`
-        position: absolute;
+        const TopContainer = styled.div`
+        position: relative;
+        height: fit-content;
         `;
+
+        const ButtonGroup = styled.div`
+        font-size: 0.8em;
+        position: absolute;
+        right: 0px;
+        top: 0px;`
 
         const LineContainer = styled.div`
         float: left;
+        text-align: center;
         padding-left: 3em;`;
 
         const DonutContainer = styled.div`
+        text-align: center;
         float: left;
             `
 
         const Bubbleify = styled.span`
             padding: 4px;
-            border: solid 1px #000;
             background-color: #000;
             color: #fff;
             border-radius: 3px;
+            margin: 2px;
             font-weight: bold;
             text-align: center;`;
 
@@ -266,33 +276,32 @@ export default class VizPod extends Component {
 
         let renderStory = {};
 
-        if(storyData.hasOwnProperty("0") && selectedElement.storyMode ){
-            renderStory = {...storyData[selectedElement.storyPosition], "storyPosition": selectedElement.storyPosition, "numSlides": Object.keys(storyData).length };
-            //console.log(renderStory)
+        if (storyData.hasOwnProperty("0") && selectedElement.storyMode) {
+            renderStory = { ...storyData[selectedElement.storyPosition], "storyPosition": selectedElement.storyPosition, "numSlides": Object.keys(storyData).length };
         }
-        
-        
+
+
 
         return (
             <PodDiv>
-                <LogoContainer>
+                <TopContainer>
                     <NetLogo src={"../img/" + network + ".png"} />
-                </LogoContainer>
 
-                <ToggleSwitch option1={yearOptions[0]} option2={yearOptions[1]} selectedOption={selectedElement.selectedYear} interactionCallback={val => { this.toggleYear(val) }} />
-                <ToggleSwitch option1={{ "label": "Ratings", "value": "aa" }}
-                    option2={{ "label": "Duration", "value": "mins" }}
-                    interactionCallback={val => { this.toggleRatingDuration(val) }}
-                    selectedOption={selectedElement.ratingDurationToggle}
-                />
-
-                {storyData.hasOwnProperty("0") &&
-                    <CheckBox label={"Story mode"} selected={selectedElement.storyMode} interactionCallback={val => { this.toggleStorymode(val) }} />
-                }
-
+                    <ButtonGroup>
+                        <ToggleSwitch option1={yearOptions[0]} option2={yearOptions[1]} selectedOption={selectedElement.selectedYear} interactionCallback={val => { this.toggleYear(val) }} />
+                        <ToggleSwitch option1={{ "label": "Duration", "value": "mins" }}
+                            option2={{ "label": "Ratings", "value": "aa" }}
+                            interactionCallback={val => { this.toggleRatingDuration(val) }}
+                            selectedOption={selectedElement.ratingDurationToggle}
+                        />
+                        {storyData.hasOwnProperty("0") &&
+                            <CheckBox label={"Story mode"} selected={selectedElement.storyMode} interactionCallback={val => { this.toggleStorymode(val) }} />
+                        }
+                    </ButtonGroup>
+                </TopContainer>
 
                 <LineContainer>
-                    <div><Bubbleify>Monthly Trends</Bubbleify></div>
+                    <Bubbleify>Monthly Trends</Bubbleify>
                     {selectedElement.hasOwnProperty("name") &&
                         <div><BubbleifyGrey> <Clickable onClick={(e) => { this.deselectShow(e) }} >	&#9447;</Clickable>{selectedElement.name + shortIndicator}</BubbleifyGrey></div>
                     }
@@ -300,21 +309,18 @@ export default class VizPod extends Component {
                 </LineContainer>
 
                 <DonutContainer>
-
-                    <DonutLabel>
-                        <Bubbleify>{labelLookup[selectedElement.timePeriod]+" "+selectedElement.selectedYear}</Bubbleify>
+                    
+                        <Bubbleify>{labelLookup[selectedElement.timePeriod]}</Bubbleify><Bubbleify>{selectedElement.selectedYear}</Bubbleify>
 
                         {selectedElement.timePeriod !== "FullYear" &&
                             <Button onClick={(e) => { this.showFullYear(e) }}>Show Full Year</Button>
                         }
-                    </DonutLabel>
-
-
+                    
                     <DonutRadial renderData={selectedData} interactionCallback={(ob) => this.donutClickHandler(ob)} selectedElement={selectedElement} ratingDurationToggle={ratingDurationToggle} ratingRange={ratingRange} />
                 </DonutContainer>
 
-                {renderStory.hasOwnProperty("message") && 
-                        <StoryBox {...renderStory} endStory={() => { this.toggleStorymode(false) }} changeSlide={(val)=>{this.changeSlide(val)}} />
+                {renderStory.hasOwnProperty("message") &&
+                    <StoryBox {...renderStory} endStory={() => { this.toggleStorymode(false) }} changeSlide={(val) => { this.changeSlide(val) }} />
                 }
 
             </PodDiv>);

@@ -24,10 +24,14 @@ class App extends Component {
     this.handleMessageUpdate = this.handleMessageUpdate.bind(this);
     this.netOptions = [
       { "label": "DISC", "value": "disc" },
-      { "label": "HIST", "value": "hist" },
       { "label": "TLC", "value": "tlc" },
-      { "label": "HGTV", "value": "hgtv" },
+      { "label": "ID", "value": "id" },
+      { "label": "APL", "value": "apl" },
       { "label": "VEL", "value": "vel" },
+      { "label": "HGTV", "value": "hgtv" },
+      { "label": "HIST", "value": "hist" },
+      { "label": "A&E", "value": "ae" },
+      { "label": "NGC", "value": "ngc" },
     ];
 
     this.props.dispatch(updateNetset(this.netOptions.map(n => n.value)))
@@ -48,14 +52,16 @@ class App extends Component {
 
 
   componentDidMount() {
-    //this.props.dispatch(fetchPodData("disc", "/data/pod-disc2016.json"))
-    //this.props.dispatch(fetchPodData("tlc", "/data/pod-tlc2016.json"))
-    //this.props.dispatch(fetchPodData("hgtv", "/data/pod-hgtv2016.json"))
-    //this.props.dispatch(fetchPodData("vel", "/data/pod-vel2016.json"))
     this.props.dispatch(fetchPodData("disc", "/data/disc2year.json"))
     this.props.dispatch(fetchPodData("hist", "/data/hist2year.json"))
+    this.props.dispatch(fetchPodData("id", "/data/id2year.json"))
+    this.props.dispatch(fetchPodData("vel", "/data/vel2year.json"))
     this.props.dispatch(fetchPodData("tlc", "/data/tlc2year.json"))
-
+    this.props.dispatch(fetchPodData("hgtv", "/data/hgtv2year.json"))
+    this.props.dispatch(fetchPodData("apl", "/data/apl2year.json"))
+    this.props.dispatch(fetchPodData("ae", "/data/ae2year.json"))
+    this.props.dispatch(fetchPodData("ngc", "/data/ngc2year.json"))
+    
     this.props.dispatch(fetchStorydata("disc", "/data/storydata-disc.json"))
   }
 
@@ -82,39 +88,7 @@ class App extends Component {
       font-size: 0.8em;`
 
     let allShowsSet = [];
-      //showRatingRange = [];
-
-    /*
-        selectionLabels.netSet.forEach((net) => {
-          //console.log(net)
-          if (appData.hasOwnProperty(net)) {
-            for (var show of appData[net]["series-prems"].FullYear) {
-              allShowsSet.push(show);
-            }
-            for (show of appData[net]["series-repeats"].FullYear) {
-              allShowsSet.push(show);
-            }
-          }
-        })*/
-
-    /*
-        if (allShowsSet.length) {
-          //this should probably be in the store - only needs to be calculated when RECIEVE_DATA and RATING_DELIVERY_TOGGLE (and time period change???)
-          showRatingRange = [
-            allShowsSet.reduce((accumulator, curr) => {
-              if (curr[selectionLabels.ratingDurationToggle] < accumulator[selectionLabels.ratingDurationToggle]) {
-                return curr;
-              }
-              return accumulator;
-            })[selectionLabels.ratingDurationToggle],
-            allShowsSet.reduce((accumulator, curr) => {
-              if (curr[selectionLabels.ratingDurationToggle] > accumulator[selectionLabels.ratingDurationToggle]) {
-                return curr
-              }
-              return accumulator;
-            })[selectionLabels.ratingDurationToggle]];
-        }*/
-
+    
     const LineDiv = styled.div`
     display: inline-block;
       width: 90%;
@@ -126,21 +100,6 @@ class App extends Component {
     const podSet = selectionLabels.netSet.map((n, i) => {
       if (appData.hasOwnProperty(n)) {
 
-        //const allShowsSet = [...appData[n]["series-prems"][selectionLabels[n]["timePeriod"]], ...appData[n]["series-repeats"][selectionLabels[n]["timePeriod"]]];
-       /* showRatingRange = [
-          allShowsSet.reduce((accumulator, curr) => {
-            if (curr[selectionLabels.ratingDurationToggle] < accumulator[selectionLabels.ratingDurationToggle]) {
-              return curr;
-            }
-            return accumulator;
-          })[selectionLabels.ratingDurationToggle],
-          allShowsSet.reduce((accumulator, curr) => {
-            if (curr[selectionLabels.ratingDurationToggle] > accumulator[selectionLabels.ratingDurationToggle]) {
-              return curr
-            }
-            return accumulator;
-          })[selectionLabels.ratingDurationToggle]];*/
-        
         let storyScript = {};
         if (storyData.hasOwnProperty(n)){
           storyScript = storyData[n];

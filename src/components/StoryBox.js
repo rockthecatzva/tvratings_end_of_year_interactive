@@ -14,11 +14,12 @@ export default class StoryBox extends React.Component {
             height: fit-content;
             top: ${y};
             left: ${x};
-            padding: 10px;
+            padding: 5px;
             margin: 6px;
             color: #fff;
             border-radius: 3px;
-            background-color: #d69df9;
+            background-color: #000;
+            font-size: 0.8em;
             `,
             ButtonSpan = styled.span`
               cursor: pointer;
@@ -39,12 +40,14 @@ export default class StoryBox extends React.Component {
             margin-right: auto;
             height: 0px;
             padding: 3px;
-            border-top: solid 1px #fff;`
+            border-top: solid 1px #fff;`,
 
-        console.log(storyPosition, numSlides)
+            CloseContainer = styled.div`
+                height: 1em;`
 
         return (<Container>
-            <CloseSpan onClick={endStory} >&times;</CloseSpan>
+
+            <CloseContainer><CloseSpan onClick={endStory} >&times;</CloseSpan></CloseContainer>
             {message}
     
             <HorizontalLine />

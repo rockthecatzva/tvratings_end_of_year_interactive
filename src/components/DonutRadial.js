@@ -215,7 +215,7 @@ export default class DonutRadial extends Component {
         stroke: none;`;
 
         const PointerPathRepeats = styled.path`
-        fill:  #AEB6BF;
+        fill:  #8c8c8c;
         stroke: none;`;
 
         const TextShowname = styled.text`
@@ -224,9 +224,12 @@ export default class DonutRadial extends Component {
                 fill: #fff;`,
 
             TextInfo = styled.text`
-                fill: #7D7D7D;
+                fill: #fff;
                 stroke: none;
-                font-size: 0.8em`
+                font-size: 0.8em`,
+            CloseX = styled.span`
+                font-size: 1.2em;
+                cursor: pointer;`
 
         let messageBox = [];//<text x={width / 2} y={height / 2} textAnchor={"middle"} >{"temp"}</text>
         if (selectedElement.hasOwnProperty("name")) {
@@ -239,24 +242,24 @@ export default class DonutRadial extends Component {
             }
             
             if(selectedElement.name.length>17){
-                console.log(selectedElement.name.indexOf(" ", selectedElement.name.length*0.33))
+                //console.log(selectedElement.name.indexOf(" ", selectedElement.name.length*0.33))
                 const brk = selectedElement.name.indexOf(" ", selectedElement.name.length*0.33);
                 const str1 = selectedElement.name.substr(0, brk).trim();
                 const str2 = selectedElement.name.substr(brk, selectedElement.name.length-brk).trim();
                 
                 
-                messageBox.push(<TextShowname x={width / 2} y={((height / 2)-15)} textAnchor={"middle"} >&times;{str1}</TextShowname>)
+                messageBox.push(<TextShowname x={width / 2} y={((height / 2)-15)} textAnchor={"middle"} ><CloseX onClick={()=>{console.log("closing show")}} >&times;</CloseX>{str1}</TextShowname>)
                 messageBox.push(<TextShowname x={width / 2} y={(height / 2)} textAnchor={"middle"} >{str2}</TextShowname>)
             }else{
                 messageBox.push(<TextShowname x={width / 2} y={(height / 2)} textAnchor={"middle"} >{selectedElement.name}</TextShowname>)
             }
 
             
-            messageBox.push(<TextInfo x={width / 2} y={(height / 2) + 17} textAnchor={"middle"} >{selectedElement.aa + "k avg"}</TextInfo>)
+            messageBox.push(<TextInfo x={width / 2} y={(height / 2) + 17} textAnchor={"middle"} >{selectedElement.aa + " avg"}</TextInfo>)
             messageBox.push(<TextInfo x={width / 2} y={(height / 2) + 34} textAnchor={"middle"} >{Math.round(selectedElement.mins / 60) + " " + selectedElement.premiereStatus + " hrs"}</TextInfo>)
         }
         else {
-            messageBox.push(<text x={width / 2} y={height / 2} textAnchor={"middle"} >{selectedElement.timePeriod + " Prime: " + renderData.prime + "k"}</text>)
+            messageBox.push(<text x={width / 2} y={height / 2} textAnchor={"middle"} >{selectedElement.timePeriod + " Prime: " + renderData.prime}</text>)
             if (selectedElement.timePeriod != "FullYear") {
                 messageBox.push()
             }
