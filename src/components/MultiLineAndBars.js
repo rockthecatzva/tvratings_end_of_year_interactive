@@ -10,14 +10,14 @@ import {
     axisBottom as d3AxisBottom,
     axisLeft as d3AxisLeft,
 } from 'd3-axis';
-import {line as d3Line } from 'd3-shape'
-import {select as d3Select} from 'd3-selection';
+import { line as d3Line } from 'd3-shape'
+import { select as d3Select } from 'd3-selection';
 
 
 export default class MultiLineAndBars extends React.Component {
 
-    deselectShow(){
-        this.props.interactionCallback({ "name": null }) 
+    deselectShow() {
+        this.props.interactionCallback({ "name": null })
     }
 
 
@@ -31,33 +31,28 @@ export default class MultiLineAndBars extends React.Component {
                 "right": 20,
                 "top": 15,
                 "bottom": 20
-            }
-            ;
+            };
 
         const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
         const GraphBox = styled.div`
+                position: relative;
                 width: ${width + "px"};
                 height: ${height + "px"};
                 font-family: 'aileron';
-                padding-top: 1em;
-              `;
+                padding-top: 1em;`;
 
         const SVG = styled.svg`
             width: ${width + "px"};
-            height: ${height + "px"};
-           
-              `;
+            height: ${height + "px"};`;
 
-        const LegendSVG = styled.svg`
-            width: ${width - (MARGIN.left + MARGIN.right) + "px"};
-            height: 50px;
-            border: solid 1p #AEB6BF;
-            position: relative;
-            display: inline;
-            left: ${MARGIN.left + "px"};
-         `;
-
+        const LegendBox = styled.div`
+            height: 1em;
+            width: 100%;`,
+            LegendSpan = styled.span`
+            padding-left: 2px;
+            padding-right: 4px;
+            background-color: #aeb6bf;`;
 
         let maxVal = 0,
             circles = [],
@@ -68,7 +63,6 @@ export default class MultiLineAndBars extends React.Component {
 
         months.forEach(m => {
             //if a show is selected - then include show-level AA in maxVal
-            //this will only look at show premiers - not repeats - what if highly rated repeats??
             if (selectedElement.hasOwnProperty("name")) {
                 if (selectedElement.premiereStatus === "premiere") {
                     renderData["series-prems"][m].forEach((s) => {
@@ -111,14 +105,12 @@ export default class MultiLineAndBars extends React.Component {
         const CirclePoint = styled.circle`
             stroke: #000;
             fill: #fff;
-            stroke-width: 3;
-            `;
+            stroke-width: 3;`;
 
         const CirclePointSelected = styled.circle`
             stroke: #f00;
             fill: #fff;
-            stroke-width: 4;
-            `;
+            stroke-width: 4;`;
 
         const FillGap = styled.path`
             stroke: #000;`;
@@ -163,38 +155,39 @@ export default class MultiLineAndBars extends React.Component {
         const PrimeLine = styled.path`
             fill: none;
             stroke: rgb(0,0,0);
-            stroke-width: 2;
-            `;
+            stroke-width: 2;`;
 
         const PremiereLine = styled.path`
             fill: none;
             stroke: rgb(51,51,255);
-            stroke-width: 2;
-            `;
+            stroke-width: 2;`;
 
         const RepeatLine = styled.path`
             fill: none;
             stroke: #000;
-            stroke-width: 2;
-            `;
+            stroke-width: 2;`;
 
         const BarText = styled.text`
             font-size: 0.6em;
             text-anchor: middle;`;
         const ShowBar = styled.rect`
             fill: #aeb6bf;
-            stroke: none;`
+            stroke: none;`,
+            BarSpan = styled.span`
+            background-color: #aeb6bf;
+            width: 2em;
+            height: 1em;
+            `
+
 
         const PremiereCircle = styled.circle`
             stroke: none;
-            fill: rgb(51,51,255);
-            `;
+            fill: rgb(51,51,255);`;
 
         const RepeatCircle = styled.circle`
             stroke: none;
-            fill: #000;
-            `,
-            CloseX = styled.tspan`
+            fill: #000;`,
+            CloseX = styled.span`
             font-size: 1.2em;
             cursor: pointer;`
 
@@ -235,8 +228,9 @@ export default class MultiLineAndBars extends React.Component {
                 textLabels.push(<text stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.repeats[months[11]].aa)} fontSize={11} >Repeats</text>)
             }
 
-            legendComponents.push(<ShowBar x={0} y={20} width={45} height={20} />)
-            legendComponents.push(<text stroke={"none"} fill={"#000"} x={55} y={25} fontSize={11} ><CloseX onClick={()=>{this.deselectShow()}} >&times;</CloseX>{selectedElement.name}</text>);
+            //legendComponents.push(<ShowBar x={0} y={20} width={45} height={20} />)
+            //legendComponents.push(<text stroke={"none"} fill={"#000"} x={55} y={25} fontSize={11} ><CloseX onClick={() => { this.deselectShow() }} >&times;</CloseX>{selectedElement.name}</text>);
+            legendComponents = <div><LegendSpan><CloseX onClick={() => { this.deselectShow() }} >&times;</CloseX><BarSpan /><span>{selectedElement.name}</span></LegendSpan></div>;
 
             let monthlyShowData = [],
                 barH = 0;
@@ -247,11 +241,11 @@ export default class MultiLineAndBars extends React.Component {
                     barH = y(monthlyShowData[0].aa);
                     showBars.push(<ShowBar x={x(i)} y={barH} width={barW} height={(height - (MARGIN.top + MARGIN.bottom)) - barH} />)
                     showBars.push(<BarText x={x(i) + (barW / 2)} y={barH - 6} >{monthlyShowData[0].aa.toFixed(2)} </BarText>)
-                    const hours = Math.round(monthlyShowData[0].mins/60),
-                          hrLabel = (hours>1) ? "Hrs":"Hr"
+                    const hours = Math.round(monthlyShowData[0].mins / 60),
+                        hrLabel = (hours > 1) ? "Hrs" : "Hr"
 
-                    showBars.push(<BarText x={x(i) + (barW / 2)} y={height-MARGIN.bottom-30} >{hours} </BarText>)
-                    showBars.push(<BarText x={x(i) + (barW / 2)} y={height-MARGIN.bottom-20} >{hrLabel}</BarText>)
+                    showBars.push(<BarText x={x(i) + (barW / 2)} y={height - MARGIN.bottom - 30} >{hours} </BarText>)
+                    showBars.push(<BarText x={x(i) + (barW / 2)} y={height - MARGIN.bottom - 20} >{hrLabel}</BarText>)
                 }
             })
         } else {
@@ -285,9 +279,9 @@ export default class MultiLineAndBars extends React.Component {
 
         return (
             <GraphBox>
-                <LegendSVG>
+                <LegendBox>
                     {legendComponents}
-                </LegendSVG>
+                </LegendBox>
                 <SVG>
 
                     <g transform={"translate(" + (-barW / 2) + ",0)"} >

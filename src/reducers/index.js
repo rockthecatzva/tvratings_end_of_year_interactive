@@ -10,7 +10,7 @@ import {
 function selectionLabels(state = {"netSet": [], "tutorialMode": true}, action) {
   switch (action.type) {
     case RECEIVE_DATA:
-      return { ...state, ...{[action.group]: {"timePeriod": "FullYear", "selectedYear": "2017", "ratingDurationToggle": "aa", "storyMode": false, "storyPosition": 0}} };
+      return { ...state, ...{[action.group]: {"timePeriod": "FullYear", "selectedYear": "2017", "ratingDurationToggle": "aa", "storyMode": true, "storyPosition": 0}} };
     case VIZ_CLICK:
       return { ...state, ...{ [action.messageGroup]: action.show} };
     case UPDATE_NETSET:

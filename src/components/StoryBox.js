@@ -68,9 +68,9 @@ export default class StoryBox extends React.Component {
 StoryBox.propTypes = {
     endStory: PropTypes.func.isRequired,
     changeSlide: PropTypes.func.isRequired,
-    x: PropTypes.number.isRequired,
-    y: PropTypes.number.isRequired,
-    w: PropTypes.number.isRequired,
+    x: PropTypes.string.isRequired,
+    y: PropTypes.string.isRequired,
+    w: PropTypes.string.isRequired,
     message: PropTypes.string.isRequired,
     storyPosition: PropTypes.number.isRequired,
     numSlides: PropTypes.number.isRequired
