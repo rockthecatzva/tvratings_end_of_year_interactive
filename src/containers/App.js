@@ -1,6 +1,5 @@
 import { connect } from 'react-redux'
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { injectGlobal } from 'styled-components'
 
@@ -14,7 +13,6 @@ import {
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import ToggleSwitch from '../components/ToggleSwitch'
 import VizPod from '../containers/VizPod'
 
 class App extends Component {
@@ -61,7 +59,7 @@ class App extends Component {
     this.props.dispatch(fetchPodData("apl", "/data/apl2year.json"))
     this.props.dispatch(fetchPodData("ae", "/data/ae2year.json"))
     this.props.dispatch(fetchPodData("ngc", "/data/ngc2year.json"))
-    
+
     this.props.dispatch(fetchStorydata("disc", "/data/storydata-disc.json"))
   }
 
@@ -83,117 +81,67 @@ class App extends Component {
       font-family: aileron;
       `;
 
-    const InstructionP = styled.p`
-      margin-bottom: 4px;
-      font-size: 0.8em;`
 
-    let allShowsSet = [];
-    
-    const LineDiv = styled.div`
-    display: inline-block;
-      width: 90%;
-      margin-left: auto;
-      margin-right: auto;
-      border-bottom: solid 1px #000;`;
+    const podSet = selectionLabels.netSet.filter(n => appData.hasOwnProperty(n)).map((n, i) => {
 
 
-    const podSet = selectionLabels.netSet.map((n, i) => {
-      if (appData.hasOwnProperty(n)) {
-
-        let storyScript = {};
-        if (storyData.hasOwnProperty(n)){
-          storyScript = storyData[n];
-        }
-
-        const html = (<VizPod renderData={appData[n]}
-          interactionCallback={m => { this.handleMessageUpdate(n, m) }}
-          selectedElement={selectionLabels[n]}
-          storyData={storyScript}
-          network={n}
-          key={i} />);
-
-        return html;
+      let storyScript = {};
+      if (storyData.hasOwnProperty(n)) {
+        storyScript = storyData[n];
       }
+
+      const html = (<VizPod renderData={appData[n]}
+        interactionCallback={m => { this.handleMessageUpdate(n, m) }}
+        selectedElement={selectionLabels[n]}
+        storyData={storyScript}
+        network={n}
+        key={i} />);
+
+      return html;
+
+
+
+
     });
 
+    let tutorialPod = null;
+
+    const TutorialDiv = styled.div`
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 4px;
+      top:0px;
+      background-color: #ddd;`,
+      RelativeDiv = styled.div`
+      position: relative;`;
 
 
-    const CheckLogo = styled.img`
-      max-height: 30px;
-      margin-left: auto;
-      margin-right: auto;
-      display: block;`
-      ;
 
-    const CheckSet = styled.div`
-      float: left;
-      width: 150px;
-      height: 40px;`;
 
-    const CheckboxLabel = styled.label`
-    margin-left: auto;
-    margin-right: auto;
-    display: block;`;
+    if (appData) {
+      if (appData.hasOwnProperty("disc")) {
+        tutorialPod = (<TutorialDiv>
+          <VizPod renderData={appData["disc"]}
+            interactionCallback={m => { this.handleMessageUpdate("disc", m) }}
+            selectedElement={selectionLabels["disc"]}
+            storyData={{}}
+            network={"disc"} />
 
-    const CheckboxInput = styled.input`
-    margin-left: auto;
-    margin-right: auto;
-    display: block;`;
-
-    const CheckFieldbox = styled.fieldset`
-    border: solid 1px;
-    margin-bottom: 1em;
-    border-radius: 3px;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    `;
-
-    const onCheckboxChange = (e) => {
-      //console.log(e.target.value);
-      const i = selectionLabels.netSet.indexOf(e.target.value);
-      let newSet = [];
-
-      if (i > -1) {
-        newSet = selectionLabels.netSet.filter(n => {
-          if (n !== e.target.value) return n;
-          return;
-        })
+        </TutorialDiv>);
       }
-      else {
-        newSet = [...selectionLabels.netSet, e.target.value];
-      }
-
-      console.log(newSet);
-      this.props.dispatch(updateNetset(newSet));
-
     }
 
-    const checkBoxes = this.netOptions.map((n, i) => {
-      const checkedOff = selectionLabels.netSet.filter(sn => {
-        if (sn === n.value) return true;
-        return false;
-      }).length;
-      //console.log(checkedOff)
-      return (<CheckSet key={i} >
-        <div>
-          <label htmlFor={n.value} ><CheckLogo src={"../img/" + n.value + ".png"} /></label>
-        </div>
-        <div>
-          <CheckboxInput type="checkbox" id={n.value} name="showNets" value={n.value} checked={checkedOff > 0} onChange={onCheckboxChange} />
-        </div>
-      </CheckSet>);
-
-    })
 
     return (
       <MainDiv >
         <Header />
-      
+        <RelativeDiv>
+          {podSet}
 
 
-        {podSet}
 
+        </RelativeDiv>
         <ClearFloatHack />
         <Footer />
       </MainDiv>
