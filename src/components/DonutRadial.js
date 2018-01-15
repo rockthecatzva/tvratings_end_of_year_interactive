@@ -99,8 +99,8 @@ export default class DonutRadial extends Component {
             
 
         let centroid = innerArc.centroid({ startAngle: 0, endAngle: premPieSize });//need to reduce redundancy
-        renderLabels.push(<text transform={"translate(" + width / 2 + "," + ((height / 2) - 5) + ")"} fontSize={17} textAnchor={"middle"} stroke={"none"} fill={"#fff"} x={centroid[0]} y={centroid[1]}     >{precentPrems + "%"}</text>)
-        renderLabels.push(<text transform={"translate(" + width / 2 + "," + ((height / 2) + 5) + ")"} fontSize={10} textAnchor={"middle"} stroke={"none"} fill={"#fff"} x={centroid[0]} y={centroid[1]}     >Premieres</text>)
+        renderLabels.push(<text key={renderLabels.length} transform={"translate(" + width / 2 + "," + ((height / 2) - 5) + ")"} fontSize={17} textAnchor={"middle"} stroke={"none"} fill={"#fff"} x={centroid[0]} y={centroid[1]}     >{precentPrems + "%"}</text>)
+        renderLabels.push(<text key={renderLabels.length} transform={"translate(" + width / 2 + "," + ((height / 2) + 5) + ")"} fontSize={10} textAnchor={"middle"} stroke={"none"} fill={"#fff"} x={centroid[0]} y={centroid[1]}     >Premieres</text>)
 
         const repeatPieSize = (Math.PI * 2) * (renderData.repeats.mins / totalDuration);
         if(selectedElement.premiereStatus==="repeat"){
@@ -112,8 +112,8 @@ export default class DonutRadial extends Component {
 
         
         centroid = innerArc.centroid({ startAngle: premPieSize, endAngle: repeatPieSize + premPieSize });//need to reduce redundancy
-        renderLabels.push(<text transform={"translate(" + width / 2 + "," + ((height / 2) - 5) + ")"} fontSize={17} textAnchor={"middle"} stroke={"none"} fill={"#000"} x={centroid[0]} y={centroid[1]}     >{percentRepeats + "%"}</text>)
-        renderLabels.push(<text transform={"translate(" + width / 2 + "," + ((height / 2) + 5) + ")"} fontSize={10} textAnchor={"middle"} stroke={"none"} fill={"#000"} x={centroid[0]} y={centroid[1]}     >Repeats</text>)
+        renderLabels.push(<text key={renderLabels.length} transform={"translate(" + width / 2 + "," + ((height / 2) - 5) + ")"} fontSize={17} textAnchor={"middle"} stroke={"none"} fill={"#000"} x={centroid[0]} y={centroid[1]}     >{percentRepeats + "%"}</text>)
+        renderLabels.push(<text key={renderLabels.length} transform={"translate(" + width / 2 + "," + ((height / 2) + 5) + ")"} fontSize={10} textAnchor={"middle"} stroke={"none"} fill={"#000"} x={centroid[0]} y={centroid[1]}     >Repeats</text>)
 
 
 
@@ -172,14 +172,14 @@ export default class DonutRadial extends Component {
             if (selectedElement.premiereStatus === "premiere") {
                 if (selectedElement.name === show.name){
                     centerRotate = show.rotate;
-                    arcSet.push(<ShowArcSelected transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { this.callBack(show, "premiere")}} />)
+                    arcSet.push(<ShowArcSelected key={arcSet.length} transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { this.callBack(show, "premiere")}} />)
                 }
                 else{
-                    arcSet.push(<ShowArcPremsMuted transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { this.callBack(show, "premiere" ) }} />)
+                    arcSet.push(<ShowArcPremsMuted key={arcSet.length} transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { this.callBack(show, "premiere" ) }} />)
                 }
             }
             else {
-                arcSet.push(<ShowArcPrems transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { this.callBack(show, "premiere" ) }} />)
+                arcSet.push(<ShowArcPrems key={arcSet.length} transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { this.callBack(show, "premiere" ) }} />)
             }
 
             startAngle += (premPieSize) * premArcWidth;
@@ -192,15 +192,15 @@ export default class DonutRadial extends Component {
             {
                 if(selectedElement.name === show.name) {
                     centerRotate = show.rotate;
-                    arcSet.push(<ShowArcSelected transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { this.callBack(show, "repeat" ) }} />)
+                    arcSet.push(<ShowArcSelected key={arcSet.length} transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { this.callBack(show, "repeat" ) }} />)
                 }
                 else{
-                    arcSet.push(<ShowArcRepeatsMuted transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { this.callBack(show, "repeat" ) }} />)
+                    arcSet.push(<ShowArcRepeatsMuted key={arcSet.length} transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { this.callBack(show, "repeat" ) }} />)
                 }
                 
             }
             else {
-                arcSet.push(<ShowArcRepeats transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { this.callBack(show, "repeat" ) }} />)
+                arcSet.push(<ShowArcRepeats key={arcSet.length} transform={"translate(" + width / 2 + "," + height / 2 + ")"} d={seriesArc({ startAngle: startAngle, endAngle: endAngle, outerRadius: rad })} onClick={() => { this.callBack(show, "repeat" ) }} />)
             }
 
             startAngle += (repeatPieSize) * repeatArcWidth;
@@ -232,10 +232,10 @@ export default class DonutRadial extends Component {
         if (selectedElement.hasOwnProperty("name")) {
             //console.log("rotate    ", centerRotate)
             if(selectedElement.premiereStatus==="premiere"){
-                messageBox.push(<PointerPathPrems transform={"translate(" + ((width / 2)) + "," + ((height / 2)) + ") scale(2.8) rotate(" + centerRotate + ")"} d="m 0.01088232,-52.041908 -6.48797702,4.81056 h 3.741891 v 17.49351 A 29.666917,29.666917 0 0 0 -29.656042,-0.22387832 29.666917,29.666917 0 0 0 0.01088232,29.443042 29.666917,29.666917 0 0 0 29.677804,-0.22387832 29.666917,29.666917 0 0 0 2.7569663,-29.753348 v -17.478 h 3.741891 z" />)
+                messageBox.push(<PointerPathPrems key={messageBox.length} transform={"translate(" + ((width / 2)) + "," + ((height / 2)) + ") scale(2.8) rotate(" + centerRotate + ")"} d="m 0.01088232,-52.041908 -6.48797702,4.81056 h 3.741891 v 17.49351 A 29.666917,29.666917 0 0 0 -29.656042,-0.22387832 29.666917,29.666917 0 0 0 0.01088232,29.443042 29.666917,29.666917 0 0 0 29.677804,-0.22387832 29.666917,29.666917 0 0 0 2.7569663,-29.753348 v -17.478 h 3.741891 z" />)
             }
             else{
-                messageBox.push(<PointerPathRepeats transform={"translate(" + ((width / 2)) + "," + ((height / 2)) + ") scale(2.8) rotate(" + centerRotate + ")"} d="m 0.01088232,-52.041908 -6.48797702,4.81056 h 3.741891 v 17.49351 A 29.666917,29.666917 0 0 0 -29.656042,-0.22387832 29.666917,29.666917 0 0 0 0.01088232,29.443042 29.666917,29.666917 0 0 0 29.677804,-0.22387832 29.666917,29.666917 0 0 0 2.7569663,-29.753348 v -17.478 h 3.741891 z" />)
+                messageBox.push(<PointerPathRepeats key={messageBox.length} transform={"translate(" + ((width / 2)) + "," + ((height / 2)) + ") scale(2.8) rotate(" + centerRotate + ")"} d="m 0.01088232,-52.041908 -6.48797702,4.81056 h 3.741891 v 17.49351 A 29.666917,29.666917 0 0 0 -29.656042,-0.22387832 29.666917,29.666917 0 0 0 0.01088232,29.443042 29.666917,29.666917 0 0 0 29.677804,-0.22387832 29.666917,29.666917 0 0 0 2.7569663,-29.753348 v -17.478 h 3.741891 z" />)
             }
             
             if(selectedElement.name.length>17){
@@ -245,18 +245,18 @@ export default class DonutRadial extends Component {
                 const str2 = selectedElement.name.substr(brk, selectedElement.name.length-brk).trim();
                 
                 
-                messageBox.push(<TextShowname x={width / 2} y={((height / 2)-15)} textAnchor={"middle"} ><CloseX onClick={()=>{this.deselectShow()}} >&times;</CloseX>{str1}</TextShowname>)
-                messageBox.push(<TextShowname x={width / 2} y={(height / 2)} textAnchor={"middle"} >{str2}</TextShowname>)
+                messageBox.push(<TextShowname key={messageBox.length} x={width / 2} y={((height / 2)-15)} textAnchor={"middle"} ><CloseX onClick={()=>{this.deselectShow()}} >&times;</CloseX>{str1}</TextShowname>)
+                messageBox.push(<TextShowname key={messageBox.length} x={width / 2} y={(height / 2)} textAnchor={"middle"} >{str2}</TextShowname>)
             }else{
-                messageBox.push(<TextShowname x={width / 2} y={(height / 2)} textAnchor={"middle"} ><CloseX onClick={()=>{this.deselectShow()}} >&times;</CloseX>{selectedElement.name}</TextShowname>)
+                messageBox.push(<TextShowname key={messageBox.length} x={width / 2} y={(height / 2)} textAnchor={"middle"} ><CloseX onClick={()=>{this.deselectShow()}} >&times;</CloseX>{selectedElement.name}</TextShowname>)
             }
 
             
-            messageBox.push(<TextInfo x={width / 2} y={(height / 2) + 17} textAnchor={"middle"} >{selectedElement.aa.toFixed(2) + " avg"}</TextInfo>)
-            messageBox.push(<TextInfo x={width / 2} y={(height / 2) + 34} textAnchor={"middle"} >{Math.round(selectedElement.mins / 60) + " " + selectedElement.premiereStatus + " hrs"}</TextInfo>)
+            messageBox.push(<TextInfo key={messageBox.length} x={width / 2} y={(height / 2) + 17} textAnchor={"middle"} >{selectedElement.aa.toFixed(2) + " avg"}</TextInfo>)
+            messageBox.push(<TextInfo key={messageBox.length} x={width / 2} y={(height / 2) + 34} textAnchor={"middle"} >{Math.round(selectedElement.mins / 60) + " " + selectedElement.premiereStatus + " hrs"}</TextInfo>)
         }
         else {
-            messageBox.push(<text x={width / 2} y={height / 2} textAnchor={"middle"} >{selectedElement.timePeriod + " Prime: " + renderData.prime.toFixed(2)}</text>)
+            messageBox.push(<text key={messageBox.length} x={width / 2} y={height / 2} textAnchor={"middle"} >{selectedElement.timePeriod + " Prime: " + renderData.prime.toFixed(2)}</text>)
             if (selectedElement.timePeriod !== "FullYear") {
                 messageBox.push()
             }
@@ -273,9 +273,9 @@ export default class DonutRadial extends Component {
         
         if (ratingDurationToggle === "aa") {
             primeAvgCircle = <PrimeCircle transform={"translate(" + width / 2 + "," + height / 2 + ")"} r={hScale(renderData.prime)} strokeDasharray={"5,5"} />
-            renderLabels.push(<circle transform={"translate(" + width / 2 + "," + height / 2 + ")"} r={4} stroke={"none"} fill={"#000"} cx={0} cy={-hScale(renderData.prime)} />)
-            renderLabels.push(<line transform={"translate(" + width / 2 + "," + height / 2 + ")"} stroke={"#000"} strokeDasharray={"5,5"} x1={-140} y1={-hScale(renderData.prime)} x2={0} y2={-hScale(renderData.prime)} />)
-            renderLabels.push(<text transform={"translate(" + width / 2 + "," + ((height / 2) + 5) + ")"} stroke={"none"} fill={"#000"} x={-220} y={-hScale(renderData.prime) + 4} fontSize={11} >{"Prime avg: " + renderData.prime + "k"}</text>)
+            renderLabels.push(<circle key={renderLabels.length} transform={"translate(" + width / 2 + "," + height / 2 + ")"} r={4} stroke={"none"} fill={"#000"} cx={0} cy={-hScale(renderData.prime)} />)
+            renderLabels.push(<line key={renderLabels.length} transform={"translate(" + width / 2 + "," + height / 2 + ")"} stroke={"#000"} strokeDasharray={"5,5"} x1={-140} y1={-hScale(renderData.prime)} x2={0} y2={-hScale(renderData.prime)} />)
+            renderLabels.push(<text key={renderLabels.length} transform={"translate(" + width / 2 + "," + ((height / 2) + 5) + ")"} stroke={"none"} fill={"#000"} x={-220} y={-hScale(renderData.prime) + 4} fontSize={11} >{"Prime avg: " + renderData.prime + "k"}</text>)
 
             //premiereAvgCircle = <PremiereCircle transform={"translate(" + width / 2 + "," + height / 2 + ")"} r={hScale(renderData.premieres.aa)} strokeDasharray={"5,5"} />
             //renderLabels.push(<circle transform={"translate(" + width / 2 + "," + height / 2 + ")"} r={4} stroke={"none"} fill={"#000"} cx={0} cy={-hScale(renderData.premieres.aa)} />)

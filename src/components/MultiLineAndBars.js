@@ -140,9 +140,9 @@ export default class MultiLineAndBars extends React.Component {
 
         const barW = (width - (MARGIN.left + MARGIN.right)) / 12;
 
-        renderAxis.push(<g transform={"translate(0," + (height - (MARGIN.top + MARGIN.bottom)) + ")"} ref={node => d3Select(node).call(xAxis)} />)
-        renderAxis.push(<g transform={"translate(" + (MARGIN.left - barW / 2) + ",0)"} ref={node => d3Select(node).call(yAxis)} />)
-        renderAxis.push(<FillGap d={"M" + (MARGIN.left - barW / 2) + " " + (0.5 + height - (MARGIN.top + MARGIN.bottom)) + " H " + MARGIN.left} />)
+        renderAxis.push(<g key={renderAxis.length} transform={"translate(0," + (height - (MARGIN.top + MARGIN.bottom)) + ")"} ref={node => d3Select(node).call(xAxis)} />)
+        renderAxis.push(<g key={renderAxis.length} transform={"translate(" + (MARGIN.left - barW / 2) + ",0)"} ref={node => d3Select(node).call(yAxis)} />)
+        renderAxis.push(<FillGap key={renderAxis.length} d={"M" + (MARGIN.left - barW / 2) + " " + (0.5 + height - (MARGIN.top + MARGIN.bottom)) + " H " + MARGIN.left} />)
 
         var line = d3Line()
             .x(function (d, i) {
@@ -204,9 +204,9 @@ export default class MultiLineAndBars extends React.Component {
                legendComponents.push(<PrimeLine d={legendLineData[0]} />);
                legendComponents.push(<text stroke={"none"} fill={"#000"} x={legendLabelData[0]} y={13} fontSize={11} >Prime</text>);
                */
-        lines.push(<PrimeLine d={line(months.map(m => { return renderData.prime[m] }))} />);
-        const premLine = (<PremiereLine d={line(months.map(m => { return renderData.premieres[m].aa }))} strokeDasharray={"5,5"} />),
-            repeatLine = (<RepeatLine d={line(months.map(m => { return renderData.repeats[m].aa }))} strokeDasharray={"5,5"} />);
+        lines.push(<PrimeLine d={line(months.map(m => { return renderData.prime[m] }))} key={line.length} />);
+        const premLine = (<PremiereLine d={line(months.map(m => { return renderData.premieres[m].aa }))} strokeDasharray={"5,5"} key={line.length+1} />),
+            repeatLine = (<RepeatLine d={line(months.map(m => { return renderData.repeats[m].aa }))} strokeDasharray={"5,5"} key={line.length+2} />);
 
         if (selectedElement.hasOwnProperty("name")) {
             //a show has been selected?
@@ -257,17 +257,17 @@ export default class MultiLineAndBars extends React.Component {
             //legendComponents.push(<text stroke={"none"} fill={"#000"} x={legendLabelData[2]} y={13} fontSize={11} >Repeats</text>);
 
 
-            textLabels.push(<text stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.prime[months[11]])} fontSize={11} >Prime</text>)
-            textLabels.push(<text stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.premieres[months[11]].aa)} fontSize={11} >Premieres</text>)
-            textLabels.push(<text stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.repeats[months[11]].aa)} fontSize={11} >Repeats</text>)
+            textLabels.push(<text key={textLabels.length} stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.prime[months[11]])} fontSize={11} >Prime</text>)
+            textLabels.push(<text key={textLabels.length} troke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.premieres[months[11]].aa)} fontSize={11} >Premieres</text>)
+            textLabels.push(<text key={textLabels.length} stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.repeats[months[11]].aa)} fontSize={11} >Repeats</text>)
 
 
             if (selectedElement.timePeriod !== "FullYear") {
                 // a month has been selected
-                textLabels.push(<PremiereCircle cx={x(months.indexOf(selectedElement.timePeriod))} cy={y(renderData.premieres[selectedElement.timePeriod].aa)} r={6} />)
+                textLabels.push(<PremiereCircle key={textLabels.length} cx={x(months.indexOf(selectedElement.timePeriod))} cy={y(renderData.premieres[selectedElement.timePeriod].aa)} r={6} />)
                 //textLabels.push(<PremiereLabel x={x(months.indexOf(selectedElement.timePeriod))} y={y(renderData.premieres[selectedElement.timePeriod].aa) + 3} >{renderData.premieres[selectedElement.timePeriod].aa}</PremiereLabel>)
 
-                textLabels.push(<RepeatCircle cx={x(months.indexOf(selectedElement.timePeriod))} cy={y(renderData.repeats[selectedElement.timePeriod].aa)} r={6} />)
+                textLabels.push(<RepeatCircle key={textLabels.length} cx={x(months.indexOf(selectedElement.timePeriod))} cy={y(renderData.repeats[selectedElement.timePeriod].aa)} r={6} />)
                 //textLabels.push(<RepeatLabel x={x(months.indexOf(selectedElement.timePeriod))} y={y(renderData.repeats[selectedElement.timePeriod].aa) + 3} >{renderData.repeats[selectedElement.timePeriod].aa}</RepeatLabel>)
 
             }

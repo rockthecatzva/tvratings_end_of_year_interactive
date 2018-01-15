@@ -9,10 +9,11 @@ export default class ToggleSwitch extends React.Component {
         const { option1, option2, interactionCallback, selectedOption } = this.props;
 
         const Container = styled.div`
+        clear: both;
             width: fit-content;
             padding 3px;
             margin-left: auto;
-            margin-right: auto;`,
+            margin-right: auto;`,   
 
             OutterSwitch = styled.div`
                 width: 34px;
@@ -21,8 +22,7 @@ export default class ToggleSwitch extends React.Component {
                 border-radius: 34px;
                 position: relative;
                 cursor: pointer;
-                display: inline-block;
-                top: 5px;
+                float: left;
                 margin-left: 5px;
                 margin-right: 5px;            
               `,
@@ -51,7 +51,18 @@ export default class ToggleSwitch extends React.Component {
             DeselectedLabel = styled.span`
                 cursor: pointer;
                 font-weight: normal;
-                color: #ccc;`
+                color: #ccc;`,
+            LabelDiv = styled.div`
+            margin-top: 3px;
+            font-size: 0.7em;
+            float: left;
+                width: 8em;`,
+            LeftLabelDiv = styled.div`
+            margin-top: 3px;
+            font-size: 0.7em;
+                text-align: right;
+                float: left;
+                    width: 8em;`
 
 
         const toggleClick = () => {
@@ -81,11 +92,11 @@ export default class ToggleSwitch extends React.Component {
 
         return (<Container>
 
-            {label1}
+            <LeftLabelDiv>{label1}</LeftLabelDiv>
             <OutterSwitch onClick={() => { toggleClick() }}  >
                 {toggle}
             </OutterSwitch>
-            {label2}
+            <LabelDiv>{label2}</LabelDiv>
         </Container>);
     }
 }

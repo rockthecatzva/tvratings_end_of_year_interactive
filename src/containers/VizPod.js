@@ -204,7 +204,7 @@ export default class VizPod extends Component {
 
         const TopContainer = styled.div`
         position: relative;
-        height: fit-content;
+        height: 5em;
         `;
 
         const ButtonGroup = styled.div`
@@ -250,13 +250,13 @@ export default class VizPod extends Component {
 
                     <ButtonGroup>
                         <ToggleSwitch option1={yearOptions[0]} option2={yearOptions[1]} selectedOption={selectedElement.selectedYear} interactionCallback={val => { this.toggleYear(val) }} />
-                        <ToggleSwitch option1={{ "label": "Duration", "value": "mins" }}
-                            option2={{ "label": "Ratings", "value": "aa" }}
+                        <ToggleSwitch option1={{ "label": "DURATION", "value": "mins" }}
+                            option2={{ "label": "RATINGS", "value": "aa" }}
                             interactionCallback={val => { this.toggleRatingDuration(val) }}
                             selectedOption={selectedElement.ratingDurationToggle}
                         />
                         {storyData.hasOwnProperty("0") &&
-                            <ToggleSwitch option1={{ "label": "", "value": false }} option2={{ "label": "Story mode", "value": true }}
+                            <ToggleSwitch option1={{ "label": "", "value": false }} option2={{ "label": "STORY MODE", "value": true }}
                                 selectedOption={selectedElement.storyMode} interactionCallback={val => { this.toggleStorymode(val) }} />
 
                         }
