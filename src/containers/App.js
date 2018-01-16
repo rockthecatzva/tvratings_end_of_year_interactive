@@ -50,17 +50,19 @@ class App extends Component {
 
 
   componentDidMount() {
-    this.props.dispatch(fetchPodData("disc", "/data/disc2year.json"))
-    this.props.dispatch(fetchPodData("hist", "/data/hist2year.json"))
-    this.props.dispatch(fetchPodData("id", "/data/id2year.json"))
-    this.props.dispatch(fetchPodData("vel", "/data/vel2year.json"))
-    this.props.dispatch(fetchPodData("tlc", "/data/tlc2year.json"))
-    this.props.dispatch(fetchPodData("hgtv", "/data/hgtv2year.json"))
-    this.props.dispatch(fetchPodData("apl", "/data/apl2year.json"))
-    this.props.dispatch(fetchPodData("ae", "/data/ae2year.json"))
-    this.props.dispatch(fetchPodData("ngc", "/data/ngc2year.json"))
+    
 
-    this.props.dispatch(fetchStorydata("disc", "/data/storydata-disc.json"))
+    this.props.dispatch(fetchPodData("disc", "data/disc2year.json"))
+    this.props.dispatch(fetchPodData("hist", "data/hist2year.json"))
+    this.props.dispatch(fetchPodData("id", "data/id2year.json"))
+    this.props.dispatch(fetchPodData("vel", "data/vel2year.json"))
+    this.props.dispatch(fetchPodData("tlc", "data/tlc2year.json"))
+    this.props.dispatch(fetchPodData("hgtv", "data/hgtv2year.json"))
+    this.props.dispatch(fetchPodData("apl", "data/apl2year.json"))
+    this.props.dispatch(fetchPodData("ae", "data/ae2year.json"))
+    this.props.dispatch(fetchPodData("ngc", "data/ngc2year.json"))
+
+    this.props.dispatch(fetchStorydata("disc", "data/storydata-disc.json"))
   }
 
   render() {
@@ -74,7 +76,7 @@ class App extends Component {
     injectGlobal`
     @font-face {
       font-family: 'aileron';
-      src: url('../fonts/Aileron-Regular.otf');
+      src: url('fonts/Aileron-Regular.otf');
     }`;
 
     const MainDiv = styled.div`

@@ -246,7 +246,7 @@ export default class VizPod extends Component {
         return (
             <PodDiv>
                 <TopContainer>
-                    <NetLogo src={"../img/" + network + ".png"} />
+                    <NetLogo src={"img/" + network + ".png"} />
 
                     <ButtonGroup>
                         <ToggleSwitch option1={yearOptions[0]} option2={yearOptions[1]} selectedOption={selectedElement.selectedYear} interactionCallback={val => { this.toggleYear(val) }} />

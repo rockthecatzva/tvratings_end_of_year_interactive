@@ -10,8 +10,8 @@ export default function configureStore(preloadedState) {
   return createStore(
     censusReducer,
     preloadedState,
-    compose(applyMiddleware(thunkMiddleware), window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__() )
-    
+    //compose(applyMiddleware(thunkMiddleware), window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__() )
+    compose(applyMiddleware(thunkMiddleware))
     
   )
 }
