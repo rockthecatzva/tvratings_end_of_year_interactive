@@ -8,6 +8,7 @@ import ToggleSwitch from '../components/ToggleSwitch'
 //import RadioButtonBinary from '../components/RadioButtonBinary'
 //import CheckBox from '../components/CheckBox'
 import StoryBox from '../components/StoryBox'
+import * as deepEqual from 'deep-equal'
 
 export default class VizPod extends Component {
 
@@ -31,15 +32,15 @@ export default class VizPod extends Component {
         else {
             //need to look up newly selected show data
             const showInfo = this.props.renderData[nextStoryData.selectedYear][nextStoryData.premiereStatus === "premiere" ? "series-prems" : "series-repeats"][nextStoryData.timePeriod].filter((s) => { if (s.name === nextStoryData.name) return true; return false; })
-            console.log(showInfo)
+            //console.log(showInfo)
             nextStory = { ...this.props.selectedElement, ...nextStoryData, ...showInfo[0] }
         }
-        console.log("Changing the slide to ", val, nextStory);
+        //console.log("Changing the slide to ", val, nextStory);
         this.props.interactionCallback({ ...nextStory, "storyPosition": val })
     }
 
     toggleStorymode(val) {
-        console.log(val)
+        //console.log(val)
         if (val) {
             this.props.interactionCallback({ ...this.props.selectedElement, "storyMode": val, ...this.props.storyData[this.props.selectedElement.storyPosition] })
         }
@@ -55,7 +56,7 @@ export default class VizPod extends Component {
 
     toggleYear(val) {
         const showInfo = this.props.renderData[val][this.props.selectedElement.premiereStatus === "premiere" ? "series-prems" : "series-repeats"][this.props.selectedElement.timePeriod].filter((s) => { if (s.name === this.props.selectedElement.name) return true; return false; })
-        console.log(this.props.selectedElement, showInfo[0])
+        //console.log(this.props.selectedElement, showInfo[0])
         if (showInfo.length) {
             this.props.interactionCallback({ ...this.props.selectedElement, "selectedYear": val, ...showInfo[0] })
         }
@@ -77,7 +78,7 @@ export default class VizPod extends Component {
     }
 
     donutClickHandler(dataOb) {
-        console.log(dataOb)
+        //console.log(dataOb)
         if (dataOb.name === null) {
             this.deselectShow();
         }
@@ -88,7 +89,7 @@ export default class VizPod extends Component {
     }
 
     linegraphClickHandler(monthOb) {
-        console.log(monthOb, this.props.selectedElement);
+        //console.log(monthOb, this.props.selectedElement);
         let showInfo = [],
             showIndicator = "";
         if (monthOb.name !== null) {
@@ -114,10 +115,18 @@ export default class VizPod extends Component {
             this.props.interactionCallback({ ...this.deleteShowProps(this.props.selectedElement)})
         }
     }
+    
+    componentDidMount(){
+        console.log("Mounted vizpod ", this.props.network)
+    }
+    shouldComponentUpdate(nextProps){
+        //console.log("CHECKING", nextProps.selectedElement, this.props.selectedElement)
+        return (!deepEqual(nextProps.selectedElement, this.props.selectedElement));
+    }
 
     render() {
         const { renderData, network, selectedElement, storyData } = this.props;
-
+        console.log("Rendering vizpod", network)
         const width = 1050,
             height = 600;
 

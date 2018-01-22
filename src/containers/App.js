@@ -2,12 +2,12 @@ import { connect } from 'react-redux'
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import { injectGlobal } from 'styled-components'
+import './App.css'
 
 import {
   vizClick,
   clearSelections,
   fetchPodData,
-  updateNetset,
   fetchStorydata
 } from '../actions'
 
@@ -19,39 +19,19 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.clearSelections = this.clearSelections.bind(this);
-    this.handleMessageUpdate = this.handleMessageUpdate.bind(this);
-    this.netOptions = [
-      { "label": "DISC", "value": "disc" },
-      { "label": "TLC", "value": "tlc" },
-      { "label": "ID", "value": "id" },
-      { "label": "APL", "value": "apl" },
-      { "label": "VEL", "value": "vel" },
-      { "label": "HGTV", "value": "hgtv" },
-      { "label": "HIST", "value": "hist" },
-      { "label": "A&E", "value": "ae" },
-      { "label": "NGC", "value": "ngc" },
-    ];
-
-    this.props.dispatch(updateNetset(this.netOptions.map(n => n.value)))
+    this.onVizInteraction = this.onVizInteraction.bind(this);
   }
 
 
-
-
-  handleMessageUpdate(msgGroup, dataOb) {
+  onVizInteraction(msgGroup, dataOb) {
     this.props.dispatch(vizClick(msgGroup, dataOb));
   }
-
-
 
   clearSelections() {
     this.props.dispatch(clearSelections());
   }
 
-
   componentDidMount() {
-    
-
     this.props.dispatch(fetchPodData("disc", "data/disc2year.json"))
     this.props.dispatch(fetchPodData("hist", "data/hist2year.json"))
     this.props.dispatch(fetchPodData("id", "data/id2year.json"))
@@ -65,93 +45,93 @@ class App extends Component {
     this.props.dispatch(fetchStorydata("disc", "data/storydata-disc.json"))
   }
 
+
+
+
   render() {
     const { appData, selectionLabels, storyData } = this.props;
 
-    //a styled-div with dropdown inside caused
-    const ClearFloatHack = styled.div`
-      clear: left;
-    `;
-
-    injectGlobal`
-    @font-face {
-      font-family: 'aileron';
-      src: url('fonts/Aileron-Regular.otf');
-    }`;
-
-    const MainDiv = styled.div`
-      font-family: aileron;
-      `;
-
-
-    const podSet = selectionLabels.netSet.filter(n => appData.hasOwnProperty(n)).map((n, i) => {
-
-
-      let storyScript = {};
-      if (storyData.hasOwnProperty(n)) {
-        storyScript = storyData[n];
-      }
-
-      const html = (<VizPod renderData={appData[n]}
-        interactionCallback={m => { this.handleMessageUpdate(n, m) }}
-        selectedElement={selectionLabels[n]}
-        storyData={storyScript}
-        network={n}
-        key={i} />);
-
-      return html;
-
-
-
-
-    });
-
-    let tutorialPod = null;
-
-    const TutorialDiv = styled.div`
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      border-radius: 4px;
-      top:0px;
-      background-color: #ddd;`,
-      RelativeDiv = styled.div`
-      position: relative;`;
-
-
-
-
-    if (appData) {
-      if (appData.hasOwnProperty("disc")) {
-        tutorialPod = (<TutorialDiv>
-          <VizPod renderData={appData["disc"]}
-            interactionCallback={m => { this.handleMessageUpdate("disc", m) }}
-            selectedElement={selectionLabels["disc"]}
-            storyData={{}}
-            network={"disc"} />
-
-        </TutorialDiv>);
-      }
-    }
-
 
     return (
-      <MainDiv >
+      <div className="mainDiv" >
         <Header />
-        <RelativeDiv>
-          {podSet}
 
+        {(appData.hasOwnProperty("disc") && (storyData.hasOwnProperty("disc"))) &&
+          <VizPod renderData={appData["disc"]}
+            interactionCallback={m => { this.onVizInteraction("disc", m) }}
+            selectedElement={selectionLabels["disc"]}
+            storyData={storyData["disc"]}
+            network={"disc"} />
+        }
 
+        {(appData.hasOwnProperty("tlc")) &&
+          <VizPod renderData={appData["tlc"]}
+            interactionCallback={m => { this.onVizInteraction("tlc", m) }}
+            selectedElement={selectionLabels["tlc"]}
+            storyData={{}}
+            network={"tlc"} />
+        }
 
-        </RelativeDiv>
-        <ClearFloatHack />
+        {(appData.hasOwnProperty("id")) &&
+          <VizPod renderData={appData["id"]}
+            interactionCallback={m => { this.onVizInteraction("id", m) }}
+            selectedElement={selectionLabels["id"]}
+            storyData={{}}
+            network={"id"} />
+        }
+
+        {(appData.hasOwnProperty("apl")) &&
+          <VizPod renderData={appData["apl"]}
+            interactionCallback={m => { this.onVizInteraction("apl", m) }}
+            selectedElement={selectionLabels["apl"]}
+            storyData={{}}
+            network={"apl"} />
+        }
+
+        {(appData.hasOwnProperty("vel")) &&
+          <VizPod renderData={appData["vel"]}
+            interactionCallback={m => { this.onVizInteraction("vel", m) }}
+            selectedElement={selectionLabels["vel"]}
+            storyData={{}}
+            network={"vel"} />
+        }
+
+        {(appData.hasOwnProperty("hgtv")) &&
+          <VizPod renderData={appData["hgtv"]}
+            interactionCallback={m => { this.onVizInteraction("hgtv", m) }}
+            selectedElement={selectionLabels["hgtv"]}
+            storyData={{}}
+            network={"hgtv"} />
+        }
+
+        {(appData.hasOwnProperty("hist")) &&
+          <VizPod renderData={appData["hist"]}
+            interactionCallback={m => { this.onVizInteraction("hist", m) }}
+            selectedElement={selectionLabels["hist"]}
+            storyData={{}}
+            network={"hist"} />
+        }
+
+        {(appData.hasOwnProperty("ae")) &&
+          <VizPod renderData={appData["ae"]}
+            interactionCallback={m => { this.onVizInteraction("ae", m) }}
+            selectedElement={selectionLabels["ae"]}
+            storyData={{}}
+            network={"ae"} />
+        }
+
+        {(appData.hasOwnProperty("ngc")) &&
+          <VizPod renderData={appData["ngc"]}
+            interactionCallback={m => { this.onVizInteraction("ngc", m) }}
+            selectedElement={selectionLabels["ngc"]}
+            storyData={{}}
+            network={"ngc"} />
+        }
+
         <Footer />
-      </MainDiv>
+      </div>
     );
-
   }
-
-
 }
 
 
@@ -162,7 +142,6 @@ const mapStateToProps = (state, ownProps) => {
     storyData: state.storyData
   }
 }
-
 
 export default App = connect(
   mapStateToProps

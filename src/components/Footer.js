@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components'
 
 const FootP = styled.p`
+    clear: both;
     font-size: 0.7em;`
 
 const Footer = () => (

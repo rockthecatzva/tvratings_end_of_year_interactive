@@ -39,7 +39,7 @@ export default class MultiLineAndBars extends React.Component {
                 position: relative;
                 width: ${width + "px"};
                 height: ${height + "px"};
-                font-family: 'aileron';
+                
                 padding-top: 1em;`;
 
         const SVG = styled.svg`
@@ -216,16 +216,16 @@ export default class MultiLineAndBars extends React.Component {
                 lines.push(premLine);
                 //legendComponents.push(<PremiereLine d={legendLineData[1]} strokeDasharray={"5,5"} />);
                 //legendComponents.push(<text stroke={"none"} fill={"#000"} x={legendLabelData[1]} y={13} fontSize={11} >All Prime Premieres</text>);
-                textLabels.push(<text stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.prime[months[11]])} fontSize={11} >Prime</text>)
-                textLabels.push(<text stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.premieres[months[11]].aa)} fontSize={11} >Premieres</text>)
+                textLabels.push(<text key={textLabels.length} stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.prime[months[11]])} fontSize={11} >Prime</text>)
+                textLabels.push(<text key={textLabels.length} stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.premieres[months[11]].aa)} fontSize={11} >Premieres</text>)
             }
             else {
                 showGroup = "series-repeats";
                 lines.push(repeatLine);
                 //legendComponents.push(<RepeatLine d={legendLineData[2]} strokeDasharray={"5,5"} />);
                 //legendComponents.push(<text stroke={"none"} fill={"#000"} x={legendLabelData[2]} y={13} fontSize={11} >All Prime Repeats</text>);
-                textLabels.push(<text stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.prime[months[11]])} fontSize={11} >Prime</text>)
-                textLabels.push(<text stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.repeats[months[11]].aa)} fontSize={11} >Repeats</text>)
+                textLabels.push(<text key={textLabels.length} stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.prime[months[11]])} fontSize={11} >Prime</text>)
+                textLabels.push(<text key={textLabels.length} stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.repeats[months[11]].aa)} fontSize={11} >Repeats</text>)
             }
 
             //legendComponents.push(<ShowBar x={0} y={20} width={45} height={20} />)
@@ -239,13 +239,13 @@ export default class MultiLineAndBars extends React.Component {
                 monthlyShowData = renderData[showGroup][m].filter((s) => { return s.name === selectedElement.name });
                 if (monthlyShowData.length) {
                     barH = y(monthlyShowData[0].aa);
-                    showBars.push(<ShowBar x={x(i)} y={barH} width={barW} height={(height - (MARGIN.top + MARGIN.bottom)) - barH} />)
-                    showBars.push(<BarText x={x(i) + (barW / 2)} y={barH - 6} >{monthlyShowData[0].aa.toFixed(2)} </BarText>)
+                    showBars.push(<ShowBar key={showBars.length} x={x(i)} y={barH} width={barW} height={(height - (MARGIN.top + MARGIN.bottom)) - barH} />)
+                    showBars.push(<BarText key={showBars.length} x={x(i) + (barW / 2)} y={barH - 6} >{monthlyShowData[0].aa.toFixed(2)} </BarText>)
                     const hours = Math.round(monthlyShowData[0].mins / 60),
                         hrLabel = (hours > 1) ? "Hrs" : "Hr"
 
-                    showBars.push(<BarText x={x(i) + (barW / 2)} y={height - MARGIN.bottom - 30} >{hours} </BarText>)
-                    showBars.push(<BarText x={x(i) + (barW / 2)} y={height - MARGIN.bottom - 20} >{hrLabel}</BarText>)
+                    showBars.push(<BarText key={showBars.length} x={x(i) + (barW / 2)} y={height - MARGIN.bottom - 30} >{hours} </BarText>)
+                    showBars.push(<BarText key={showBars.length} x={x(i) + (barW / 2)} y={height - MARGIN.bottom - 20} >{hrLabel}</BarText>)
                 }
             })
         } else {
