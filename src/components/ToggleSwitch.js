@@ -1,20 +1,24 @@
 import React from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types';
-
+import * as deepEqual from 'deep-equal'
+import './ToggleSwitch.css'
 
 export default class ToggleSwitch extends React.Component {
 
+    shouldComponentUpdate(nextProps) {
+        return (!deepEqual(nextProps.selectedOption, this.props.selectedOption))
+    }
+
+    componentDidMount() {
+        console.log("Toggle mounted")
+    }
     render() {
         const { option1, option2, interactionCallback, selectedOption } = this.props;
 
-        const Container = styled.div`
-        clear: both;
-            width: fit-content;
-            padding 3px;
-            margin-left: auto;
-            margin-right: auto;`,   
+        console.log("Toggle rendering")
 
+        const 
             OutterSwitch = styled.div`
                 width: 34px;
                 height: 18px;
@@ -90,14 +94,14 @@ export default class ToggleSwitch extends React.Component {
             label2 = <SelectedLabel>{option2.label}</SelectedLabel>
         }
 
-        return (<Container>
-
-            <LeftLabelDiv>{label1}</LeftLabelDiv>
-            <OutterSwitch onClick={() => { toggleClick() }}  >
-                {toggle}
-            </OutterSwitch>
-            <LabelDiv>{label2}</LabelDiv>
-        </Container>);
+        return (
+            <div className="toggleContainer">
+                <LeftLabelDiv>{label1}</LeftLabelDiv>
+                <OutterSwitch onClick={() => { toggleClick() }}  >
+                    {toggle}
+                </OutterSwitch>
+                <LabelDiv>{label2}</LabelDiv>
+            </div>);
     }
 }
 

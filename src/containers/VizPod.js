@@ -1,12 +1,10 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types';
-import styled from 'styled-components'
+import './VizPod.css'
 
 import MultiLineAndBars from '../components/MultiLineAndBars'
 import DonutRadial from '../components/DonutRadial'
 import ToggleSwitch from '../components/ToggleSwitch'
-//import RadioButtonBinary from '../components/RadioButtonBinary'
-//import CheckBox from '../components/CheckBox'
 import StoryBox from '../components/StoryBox'
 import * as deepEqual from 'deep-equal'
 
@@ -32,15 +30,13 @@ export default class VizPod extends Component {
         else {
             //need to look up newly selected show data
             const showInfo = this.props.renderData[nextStoryData.selectedYear][nextStoryData.premiereStatus === "premiere" ? "series-prems" : "series-repeats"][nextStoryData.timePeriod].filter((s) => { if (s.name === nextStoryData.name) return true; return false; })
-            //console.log(showInfo)
             nextStory = { ...this.props.selectedElement, ...nextStoryData, ...showInfo[0] }
         }
-        //console.log("Changing the slide to ", val, nextStory);
+
         this.props.interactionCallback({ ...nextStory, "storyPosition": val })
     }
 
     toggleStorymode(val) {
-        //console.log(val)
         if (val) {
             this.props.interactionCallback({ ...this.props.selectedElement, "storyMode": val, ...this.props.storyData[this.props.selectedElement.storyPosition] })
         }
@@ -56,20 +52,20 @@ export default class VizPod extends Component {
 
     toggleYear(val) {
         const showInfo = this.props.renderData[val][this.props.selectedElement.premiereStatus === "premiere" ? "series-prems" : "series-repeats"][this.props.selectedElement.timePeriod].filter((s) => { if (s.name === this.props.selectedElement.name) return true; return false; })
-        //console.log(this.props.selectedElement, showInfo[0])
+
         if (showInfo.length) {
             this.props.interactionCallback({ ...this.props.selectedElement, "selectedYear": val, ...showInfo[0] })
         }
         else {
             //the show wasnt found in the newly selected year
-            //delete the dat         
+            //delete the data
             this.props.interactionCallback({ ...this.deleteShowProps(this.props.selectedElement), "selectedYear": val })
         }
 
     }
 
     showFullYear() {
-        const showInfo = this.props.renderData[this.props.selectedElement.selectedYear][this.props.selectedElement.premiereStatus === "premiere" ? "series-prems" : "series-repeats"]["FullYear"].filter((s) => { if (s.name === this.props.selectedElement.name) return true; return false;})
+        const showInfo = this.props.renderData[this.props.selectedElement.selectedYear][this.props.selectedElement.premiereStatus === "premiere" ? "series-prems" : "series-repeats"]["FullYear"].filter((s) => { if (s.name === this.props.selectedElement.name) return true; return false; })
         this.props.interactionCallback({ ...this.props.selectedElement, ...showInfo[0], "timePeriod": "FullYear" })
     }
 
@@ -78,7 +74,6 @@ export default class VizPod extends Component {
     }
 
     donutClickHandler(dataOb) {
-        //console.log(dataOb)
         if (dataOb.name === null) {
             this.deselectShow();
         }
@@ -89,7 +84,6 @@ export default class VizPod extends Component {
     }
 
     linegraphClickHandler(monthOb) {
-        //console.log(monthOb, this.props.selectedElement);
         let showInfo = [],
             showIndicator = "";
         if (monthOb.name !== null) {
@@ -112,47 +106,21 @@ export default class VizPod extends Component {
             }
         }
         else {
-            this.props.interactionCallback({ ...this.deleteShowProps(this.props.selectedElement)})
+            this.props.interactionCallback({ ...this.deleteShowProps(this.props.selectedElement) })
         }
     }
-    
-    componentDidMount(){
+
+    componentDidMount() {
         console.log("Mounted vizpod ", this.props.network)
     }
-    shouldComponentUpdate(nextProps){
-        //console.log("CHECKING", nextProps.selectedElement, this.props.selectedElement)
+    shouldComponentUpdate(nextProps) {
         return (!deepEqual(nextProps.selectedElement, this.props.selectedElement));
     }
 
     render() {
         const { renderData, network, selectedElement, storyData } = this.props;
-        console.log("Rendering vizpod", network)
-        const width = 1050,
-            height = 600;
+        //console.log("Rendering vizpod", network)
 
-        const PodDiv = styled.div`
-                width: ${width + "px"};
-                height: ${height + "px"};
-                padding: 15px;
-                border-top: solid 1px #AEB6BF;
-                margin-top: 2em;
-                margin-left: auto;
-                margin-right: auto;
-                clear: both;
-                position: relative;
-              `;
-
-        const Button = styled.span`
-                padding: 3px;
-                font-size: 0.6em;
-                background-color: #fff;
-                border: solid 1px #000;
-                border-radius: 3px;  
-                cursor: pointer;
-                margin-left: 1em;
-                top: -0.3em;
-                position: relative;
-              `;
 
         const filterPeriod = selectedElement.timePeriod,
             selectedYear = selectedElement.selectedYear;
@@ -205,43 +173,6 @@ export default class VizPod extends Component {
             "Dec": "December"
         }
 
-        const NetLogo = styled.img`
-            max-width: 200px;
-            max-height: 75px;
-            
-       `;
-
-        const TopContainer = styled.div`
-        position: relative;
-        height: 5em;
-        `;
-
-        const ButtonGroup = styled.div`
-        font-size: 0.8em;
-        position: absolute;
-        right: 0px;
-        top: 0px;`
-
-        const LineContainer = styled.div`
-        float: left;
-        text-align: center;
-        padding-left: 3em;`;
-
-        const DonutContainer = styled.div`
-        text-align: center;
-        float: left;
-            `
-
-        const Bubbleify = styled.span`
-            padding: 4px;
-            background-color: #000;
-            color: #fff;
-            border-radius: 3px;
-            margin: 2px;
-            font-weight: bold;
-            text-align: center;`;
-
-
         const yearOptions = [{ "value": "2016", "label": "2016" }, { "value": "2017", "label": "2017" }];
 
         let renderStory = {};
@@ -253,46 +184,36 @@ export default class VizPod extends Component {
 
 
         return (
-            <PodDiv>
-                <TopContainer>
-                    <NetLogo src={"img/" + network + ".png"} />
-
-                    <ButtonGroup>
+            <div className="vizpodContainer">
+                <div className="topContainer">
+                    <img className="logoImage" src={"img/" + network + ".png"} />
+                    <div className="buttonsContainer">
                         <ToggleSwitch option1={yearOptions[0]} option2={yearOptions[1]} selectedOption={selectedElement.selectedYear} interactionCallback={val => { this.toggleYear(val) }} />
-                        <ToggleSwitch option1={{ "label": "DURATION", "value": "mins" }}
-                            option2={{ "label": "RATINGS", "value": "aa" }}
-                            interactionCallback={val => { this.toggleRatingDuration(val) }}
-                            selectedOption={selectedElement.ratingDurationToggle}
-                        />
+                        <ToggleSwitch option1={{ "label": "DURATION", "value": "mins" }} option2={{ "label": "RATINGS", "value": "aa" }} interactionCallback={val => { this.toggleRatingDuration(val) }} selectedOption={selectedElement.ratingDurationToggle} />
                         {storyData.hasOwnProperty("0") &&
-                            <ToggleSwitch option1={{ "label": "", "value": false }} option2={{ "label": "STORY MODE", "value": true }}
-                                selectedOption={selectedElement.storyMode} interactionCallback={val => { this.toggleStorymode(val) }} />
-
+                            <ToggleSwitch option1={{ "label": "", "value": false }} option2={{ "label": "STORY MODE", "value": true }} selectedOption={selectedElement.storyMode} interactionCallback={val => { this.toggleStorymode(val) }} />
                         }
-                    </ButtonGroup>
-                </TopContainer>
+                    </div>
+                </div>
 
-                <LineContainer>
-                    <Bubbleify>Monthly Trends</Bubbleify>
+                <div className="floatLeft">
+                    <span className="bubbleSpan">Monthly Trends</span>
                     <MultiLineAndBars renderData={renderData[selectedYear]} interactionCallback={(ob) => { this.linegraphClickHandler(ob) }} selectedElement={selectedElement} />
-                </LineContainer>
+                </div>
 
-                <DonutContainer>
-
-                    <Bubbleify>{labelLookup[selectedElement.timePeriod]}</Bubbleify><Bubbleify>{selectedElement.selectedYear}</Bubbleify>
-
+                <div className="floatLeft">
+                    <span className="bubbleSpan">{labelLookup[selectedElement.timePeriod]}</span><span className="bubbleSpan">{selectedElement.selectedYear}</span>
                     {selectedElement.timePeriod !== "FullYear" &&
-                        <Button onClick={(e) => { this.showFullYear(e) }}>Show Full Year</Button>
+                        <span className="buttonSpan" onClick={(e) => { this.showFullYear(e) }}>Show Full Year</span>
                     }
-
                     <DonutRadial renderData={selectedData} interactionCallback={(ob) => this.donutClickHandler(ob)} selectedElement={selectedElement} ratingDurationToggle={ratingDurationToggle} ratingRange={ratingRange} />
-                </DonutContainer>
+                </div>
 
                 {renderStory.hasOwnProperty("message") &&
                     <StoryBox {...renderStory} endStory={() => { this.toggleStorymode(false) }} changeSlide={(val) => { this.changeSlide(val) }} />
                 }
 
-            </PodDiv>);
+            </div>);
     }
 }
 

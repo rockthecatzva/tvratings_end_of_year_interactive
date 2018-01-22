@@ -20,6 +20,9 @@ export default class MultiLineAndBars extends React.Component {
         this.props.interactionCallback({ "name": null })
     }
 
+    componentDidMount(){
+        console.log("Linegraph mounted")
+    }
 
     render() {
         const { renderData, interactionCallback, selectedElement } = this.props;

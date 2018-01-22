@@ -14,6 +14,10 @@ export default class DonutRadial extends Component {
     deselectShow(){
         this.props.interactionCallback({ "name": null }) 
     }
+    
+    componentDidMount(){
+        console.log("Donut mounted")
+    }
 
     render() {
         const { renderData, selectedElement, ratingRange } = this.props;

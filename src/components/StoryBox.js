@@ -20,6 +20,7 @@ export default class StoryBox extends React.Component {
             border-radius: 3px;
             background-color: #000;
             font-size: 0.8em;
+            text-align: left;
             `,
             ButtonSpan = styled.span`
               cursor: pointer;

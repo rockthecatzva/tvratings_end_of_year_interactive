@@ -1,7 +1,5 @@
 import { connect } from 'react-redux'
 import React, { Component } from 'react'
-import styled from 'styled-components'
-import { injectGlobal } from 'styled-components'
 import './App.css'
 
 import {
