@@ -20,7 +20,7 @@ export default class MultiLineAndBars extends React.Component {
         this.props.interactionCallback({ "name": null })
     }
 
-    componentDidMount(){
+    componentDidMount() {
         console.log("Linegraph mounted")
     }
 
@@ -42,7 +42,6 @@ export default class MultiLineAndBars extends React.Component {
                 position: relative;
                 width: ${width + "px"};
                 height: ${height + "px"};
-                
                 padding-top: 1em;`;
 
         const SVG = styled.svg`
@@ -52,10 +51,65 @@ export default class MultiLineAndBars extends React.Component {
         const LegendBox = styled.div`
             height: 1em;
             width: 100%;`,
+
             LegendSpan = styled.span`
             padding-left: 2px;
             padding-right: 4px;
             background-color: #aeb6bf;`;
+
+        const CirclePoint = styled.circle`
+        cursor: pointer;
+            stroke: #000;
+            fill: #fff;
+            stroke-width: 3;`;
+
+        const CirclePointSelected = styled.circle`
+            stroke: #f00;
+            fill: #fff;
+            stroke-width: 4;`;
+
+        const FillGap = styled.path`
+            stroke: #000;`;
+            
+        const PrimeLine = styled.path`
+            fill: none;
+            stroke: rgb(0,0,0);
+            stroke-width: 2;`;
+
+        const PremiereLine = styled.path`
+            fill: none;
+            stroke: #3498db;
+            stroke-width: 2;`;
+
+        const RepeatLine = styled.path`
+            fill: none;
+            stroke: #000;
+            stroke-width: 2;`;
+
+        const BarText = styled.text`
+            font-size: 0.6em;
+            text-anchor: middle;`;
+
+        const ShowBar = styled.rect`
+            fill: #aeb6bf;
+            stroke: none;`,
+
+            BarSpan = styled.span`
+            background-color: #aeb6bf;
+            width: 2em;
+            height: 1em;`;
+
+        const PremiereCircle = styled.circle`
+            stroke: none;
+            fill: #3498db;`;
+
+        const RepeatCircle = styled.circle`
+            stroke: none;
+            fill: #000;`,
+
+            CloseX = styled.span`
+            font-size: 1.2em;
+            cursor: pointer;`
 
         let maxVal = 0,
             circles = [],
@@ -93,7 +147,6 @@ export default class MultiLineAndBars extends React.Component {
                         maxVal = renderData["series-repeats"][m].aa
                     }
                 }
-
             }
 
             //check all monthly-premiere levels (full year will be lower!)
@@ -105,30 +158,12 @@ export default class MultiLineAndBars extends React.Component {
         const x = d3ScaleLinear().domain([0, months.length - 1]).range([MARGIN.left, width - (MARGIN.left + MARGIN.right)])
         const y = d3ScaleLinear().domain([0, maxVal]).range([height - (MARGIN.top + MARGIN.bottom), MARGIN.bottom]);
 
-        const CirclePoint = styled.circle`
-            stroke: #000;
-            fill: #fff;
-            stroke-width: 3;`;
-
-        const CirclePointSelected = styled.circle`
-            stroke: #f00;
-            fill: #fff;
-            stroke-width: 4;`;
-
-        const FillGap = styled.path`
-            stroke: #000;`;
-
-
-        function onPrimeDotClick(ob) {
-            interactionCallback(ob)
-        }
-
         months.forEach((m, i) => {
             if (m === selectedElement.timePeriod) {
-                circles.push(<CirclePointSelected r={4} cx={x(i)} cy={y(renderData.prime[m])} key={i} onClick={e => { onPrimeDotClick({ "timePeriod": m }) }} />)
+                circles.push(<CirclePointSelected r={4} cx={x(i)} cy={y(renderData.prime[m])} key={i} onClick={e => { interactionCallback({ "timePeriod": m }) }} />)
             }
             else {
-                circles.push(<CirclePoint r={3} cx={x(i)} cy={y(renderData.prime[m])} key={i} onClick={e => { onPrimeDotClick({ "timePeriod": m }) }} />)
+                circles.push(<CirclePoint r={3} cx={x(i)} cy={y(renderData.prime[m])} key={i} onClick={e => { interactionCallback({ "timePeriod": m }) }} />)
             }
         })
 
@@ -155,61 +190,11 @@ export default class MultiLineAndBars extends React.Component {
                 return y(d)
             });
 
-        const PrimeLine = styled.path`
-            fill: none;
-            stroke: rgb(0,0,0);
-            stroke-width: 2;`;
-
-        const PremiereLine = styled.path`
-            fill: none;
-            stroke: #3498db;
-            stroke-width: 2;`;
-
-        const RepeatLine = styled.path`
-            fill: none;
-            stroke: #000;
-            stroke-width: 2;`;
-
-        const BarText = styled.text`
-            font-size: 0.6em;
-            text-anchor: middle;`;
-        const ShowBar = styled.rect`
-            fill: #aeb6bf;
-            stroke: none;`,
-            BarSpan = styled.span`
-            background-color: #aeb6bf;
-            width: 2em;
-            height: 1em;
-            `
-
-
-        const PremiereCircle = styled.circle`
-            stroke: none;
-            fill: #3498db;`;
-
-        const RepeatCircle = styled.circle`
-            stroke: none;
-            fill: #000;`,
-            CloseX = styled.span`
-            font-size: 1.2em;
-            cursor: pointer;`
-
-        //Legend Calculations
         let legendComponents = [];
-        /*
-               for (var i = 0; i < 3; i++) {
-                   leftStart = Math.round(((width - (MARGIN.left + MARGIN.right)) / 3) * i);
-                   legendLineData.push("M" + leftStart + " 9 H " + (leftStart + lineW));
-                   legendLabelData.push(leftStart + lineW + (labelW))
-                   //legendLineData.push(legendLineData[legendLineData.length-1]+labelW)
-               }
-       
-               legendComponents.push(<PrimeLine d={legendLineData[0]} />);
-               legendComponents.push(<text stroke={"none"} fill={"#000"} x={legendLabelData[0]} y={13} fontSize={11} >Prime</text>);
-               */
+
         lines.push(<PrimeLine d={line(months.map(m => { return renderData.prime[m] }))} key={line.length} />);
-        const premLine = (<PremiereLine d={line(months.map(m => { return renderData.premieres[m].aa }))} strokeDasharray={"5,5"} key={line.length+1} />),
-            repeatLine = (<RepeatLine d={line(months.map(m => { return renderData.repeats[m].aa }))} strokeDasharray={"5,5"} key={line.length+2} />);
+        const premLine = (<PremiereLine d={line(months.map(m => { return renderData.premieres[m].aa }))} strokeDasharray={"5,5"} key={line.length + 1} />),
+            repeatLine = (<RepeatLine d={line(months.map(m => { return renderData.repeats[m].aa }))} strokeDasharray={"5,5"} key={line.length + 2} />);
 
         if (selectedElement.hasOwnProperty("name")) {
             //a show has been selected?
@@ -217,22 +202,16 @@ export default class MultiLineAndBars extends React.Component {
             if (selectedElement.premiereStatus === "premiere") {
                 showGroup = "series-prems";
                 lines.push(premLine);
-                //legendComponents.push(<PremiereLine d={legendLineData[1]} strokeDasharray={"5,5"} />);
-                //legendComponents.push(<text stroke={"none"} fill={"#000"} x={legendLabelData[1]} y={13} fontSize={11} >All Prime Premieres</text>);
                 textLabels.push(<text key={textLabels.length} stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.prime[months[11]])} fontSize={11} >Prime</text>)
                 textLabels.push(<text key={textLabels.length} stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.premieres[months[11]].aa)} fontSize={11} >Premieres</text>)
             }
             else {
                 showGroup = "series-repeats";
                 lines.push(repeatLine);
-                //legendComponents.push(<RepeatLine d={legendLineData[2]} strokeDasharray={"5,5"} />);
-                //legendComponents.push(<text stroke={"none"} fill={"#000"} x={legendLabelData[2]} y={13} fontSize={11} >All Prime Repeats</text>);
                 textLabels.push(<text key={textLabels.length} stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.prime[months[11]])} fontSize={11} >Prime</text>)
                 textLabels.push(<text key={textLabels.length} stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.repeats[months[11]].aa)} fontSize={11} >Repeats</text>)
             }
 
-            //legendComponents.push(<ShowBar x={0} y={20} width={45} height={20} />)
-            //legendComponents.push(<text stroke={"none"} fill={"#000"} x={55} y={25} fontSize={11} ><CloseX onClick={() => { this.deselectShow() }} >&times;</CloseX>{selectedElement.name}</text>);
             legendComponents = <div><LegendSpan><CloseX onClick={() => { this.deselectShow() }} >&times;</CloseX><BarSpan /><span>{selectedElement.name}</span></LegendSpan></div>;
 
             let monthlyShowData = [],
@@ -254,29 +233,16 @@ export default class MultiLineAndBars extends React.Component {
         } else {
             lines.push(premLine);
             lines.push(repeatLine);
-            //legendComponents.push(<PremiereLine d={legendLineData[1]} strokeDasharray={"5,5"} />);
-            //legendComponents.push(<text stroke={"none"} fill={"#000"} x={legendLabelData[1]} y={13} fontSize={11} >Premieres</text>);
-            //legendComponents.push(<RepeatLine d={legendLineData[2]} strokeDasharray={"5,5"} />);
-            //legendComponents.push(<text stroke={"none"} fill={"#000"} x={legendLabelData[2]} y={13} fontSize={11} >Repeats</text>);
-
-
-            textLabels.push(<text key={textLabels.length} stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.prime[months[11]])} fontSize={11} >Prime</text>)
-            textLabels.push(<text key={textLabels.length} troke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.premieres[months[11]].aa)} fontSize={11} >Premieres</text>)
-            textLabels.push(<text key={textLabels.length} stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.repeats[months[11]].aa)} fontSize={11} >Repeats</text>)
-
+            textLabels.push(<text key={textLabels.length} stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.prime[months[11]])} fontSize={11} >Prime</text>);
+            textLabels.push(<text key={textLabels.length} troke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.premieres[months[11]].aa)} fontSize={11} >Premieres</text>);
+            textLabels.push(<text key={textLabels.length} stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.repeats[months[11]].aa)} fontSize={11} >Repeats</text>);
 
             if (selectedElement.timePeriod !== "FullYear") {
                 // a month has been selected
-                textLabels.push(<PremiereCircle key={textLabels.length} cx={x(months.indexOf(selectedElement.timePeriod))} cy={y(renderData.premieres[selectedElement.timePeriod].aa)} r={6} />)
-                //textLabels.push(<PremiereLabel x={x(months.indexOf(selectedElement.timePeriod))} y={y(renderData.premieres[selectedElement.timePeriod].aa) + 3} >{renderData.premieres[selectedElement.timePeriod].aa}</PremiereLabel>)
-
-                textLabels.push(<RepeatCircle key={textLabels.length} cx={x(months.indexOf(selectedElement.timePeriod))} cy={y(renderData.repeats[selectedElement.timePeriod].aa)} r={6} />)
-                //textLabels.push(<RepeatLabel x={x(months.indexOf(selectedElement.timePeriod))} y={y(renderData.repeats[selectedElement.timePeriod].aa) + 3} >{renderData.repeats[selectedElement.timePeriod].aa}</RepeatLabel>)
-
+                textLabels.push(<PremiereCircle key={textLabels.length} cx={x(months.indexOf(selectedElement.timePeriod))} cy={y(renderData.premieres[selectedElement.timePeriod].aa)} r={6} />);
+                textLabels.push(<RepeatCircle key={textLabels.length} cx={x(months.indexOf(selectedElement.timePeriod))} cy={y(renderData.repeats[selectedElement.timePeriod].aa)} r={6} />);
             }
         }
-
-
 
 
 
@@ -286,7 +252,6 @@ export default class MultiLineAndBars extends React.Component {
                     {legendComponents}
                 </LegendBox>
                 <SVG>
-
                     <g transform={"translate(" + (-barW / 2) + ",0)"} >
                         {showBars}
                     </g>

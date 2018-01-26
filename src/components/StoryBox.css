@@ -9,6 +9,40 @@
     text-align: left;
 }
 
+.buttonSpan{
+  cursor: pointer;
+  border: none;
+  font-size: 0.8em;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin: 4px;
+  border-radius: 3px;
+  color: #000;
+}
+
+.closeSpan{
+  cursor: pointer;
+  position: absolute;
+  right: 1em;
+}
+
+.horizontalLine{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 0px;
+  padding: 3px;
+  border-top: solid 1px #fff;
+}
+
+.closeContainer{
+  height: 1em;
+}
+
+
+
+
+/* ARROW FORMATTING */
 .arrowContainer:after{
     content: "";
     display: block;
@@ -21,16 +55,12 @@
     bottom: -10px;
     }
 
-
-
 .arrow-bottom-left:after, .arrow-bottom-right:after, .arrow-top-left:after, .arrow-top-right::after, .arrow-left-top::after, 
 .arrow-left-bottom::after,  .arrow-right-top::after, .arrow-right-bottom:after {
   border-width: 5px;
   margin: 0;
 }
 
-
-  
 /* Bottom Arrows */      
 .arrow-bottom-left:after,
 .arrow-bottom-right:after{

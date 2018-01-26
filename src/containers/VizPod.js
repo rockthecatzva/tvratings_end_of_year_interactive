@@ -191,7 +191,7 @@ export default class VizPod extends Component {
                         <ToggleSwitch option1={yearOptions[0]} option2={yearOptions[1]} selectedOption={selectedElement.selectedYear} interactionCallback={val => { this.toggleYear(val) }} />
                         <ToggleSwitch option1={{ "label": "DURATION", "value": "mins" }} option2={{ "label": "RATINGS", "value": "aa" }} interactionCallback={val => { this.toggleRatingDuration(val) }} selectedOption={selectedElement.ratingDurationToggle} />
                         {storyData.hasOwnProperty("0") &&
-                            <ToggleSwitch option1={{ "label": "", "value": false }} option2={{ "label": "STORY MODE", "value": true }} selectedOption={selectedElement.storyMode} interactionCallback={val => { this.toggleStorymode(val) }} />
+                            <ToggleSwitch option1={{ "label": "", "value": "false" }} option2={{ "label": "STORY MODE", "value": "true" }} selectedOption={selectedElement.storyMode===true?"true":"false"} interactionCallback={val => { this.toggleStorymode(val==="true"?true: false) }} />
                         }
                     </div>
                 </div>

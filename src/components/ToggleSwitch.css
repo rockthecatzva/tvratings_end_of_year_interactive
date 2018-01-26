@@ -4,3 +4,56 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.outerSwitch{
+    width: 34px;
+    height: 18px;
+    background-color: #ccc;
+    border-radius: 34px;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;            
+}
+
+
+
+.switch{
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    border-radius: 100%;
+    position: absolute;
+    top: 2px;
+}
+
+.innerSwitchLeft{
+    left: 3px;
+}
+
+.innerSwitchRight {
+    right: 3px;
+}
+
+.selectedLabel{
+    font-weight: bold;
+    color: #000;
+}
+
+.deselectedLabel{
+    cursor: pointer;
+    font-weight: normal;
+    color: #ccc;
+}
+
+.label{
+    margin-top: 3px;
+    font-size: 0.7em;
+    float: left;
+    width: 8em;
+}
+
+.leftLabel{
+    text-align: right;
+}
