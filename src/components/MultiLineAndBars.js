@@ -162,7 +162,7 @@ export default class MultiLineAndBars extends React.Component {
 
         const PremiereLine = styled.path`
             fill: none;
-            stroke: rgb(51,51,255);
+            stroke: #3498db;
             stroke-width: 2;`;
 
         const RepeatLine = styled.path`
@@ -185,7 +185,7 @@ export default class MultiLineAndBars extends React.Component {
 
         const PremiereCircle = styled.circle`
             stroke: none;
-            fill: rgb(51,51,255);`;
+            fill: #3498db;`;
 
         const RepeatCircle = styled.circle`
             stroke: none;

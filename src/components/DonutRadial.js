@@ -28,22 +28,18 @@ export default class DonutRadial extends Component {
 
         const Donut = styled.div`
                 width: ${width + "px"};
-                height: ${height + "px"};
-              `;
+                height: ${height + "px"};`;
 
         const SVG = styled.svg`
             width: ${(width + 50) + "px"};
-            height: ${(height + 50) + "px"};
-              `;
-
-
+            height: ${(height + 50) + "px"};`;
 
         const InnerPremieres = styled.path`
-            fill: rgb(51,51,255);
+            fill: #3498db;
             stroke: rgb(255,255,255);`;
 
         const InnerPremieresMuted = styled.path`
-            fill: rgb(168,168,255);
+            fill: #a7d3f1;
             stroke: rgb(255,255,255);`;
 
         const InnerRepeats = styled.path`
@@ -55,25 +51,23 @@ export default class DonutRadial extends Component {
             stroke: rgb(255,255,255);`;
 
         const ShowArcPrems = styled.path`
-            fill: rgb(51,51,255);
+            fill: #3498db;
             stroke: #fff;`;
 
         const ShowArcPremsMuted = styled.path`
-            fill: rgb(168,168,255);
+            fill: #a7d3f1;
             stroke: #fff;`;
 
         const ShowArcRepeats = styled.path`
             fill: #AEB6BF;
             stroke: #fff;`;
 
-            
         const ShowArcRepeatsMuted = styled.path`
             fill: #dadada;
             stroke: #fff;`;
 
-
         const ShowArcSelected = styled.path`
-            fill: #f00;
+            fill: #e74c3c;
             stroke: #fff;`
 
         const innerCircleRadius = 140,
@@ -137,8 +131,6 @@ export default class DonutRadial extends Component {
             const rotate = (((((i / arr.length) + (0.5 / arr.length)) * premPieSize) / (premPieSize + repeatPieSize))) * 360;
             return { ...s, rotate }
         })
-
-        //console.log(premList)
 
         const repeatList = renderData["series-repeats"].sort((a, b) => {
             if (a[ratingDurationToggle] < b[ratingDurationToggle]) return 1;
@@ -212,7 +204,7 @@ export default class DonutRadial extends Component {
 
 
         const PointerPathPrems = styled.path`
-        fill: #33f;;
+        fill: #3498db;
         stroke: none;`;
 
         const PointerPathRepeats = styled.path`

@@ -1,26 +1,41 @@
 import React from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types';
-
+import './StoryBox.css'
 
 export default class StoryBox extends React.Component {
 
     render() {
-        const { endStory, changeSlide, x, y, w, message, storyPosition, numSlides } = this.props;
+        const { endStory, changeSlide, x, y, w, message, storyPosition, numSlides, arrowType } = this.props;
+
+        const dynamicStyle = {
+            position: "absolute",
+            width: w,
+            left: x,
+            top: y,
+        }
 
         const Container = styled.div`
             position: absolute;
-            width: ${w};
+            
             height: fit-content;
-            top: ${y};
-            left: ${x};
-            padding: 5px;
-            margin: 6px;
-            color: #fff;
-            border-radius: 3px;
-            background-color: #000;
-            font-size: 0.8em;
-            text-align: left;
+            
+           
+
+            &:after {
+                ${"right: 100%;"}
+                top: 50%;
+                border: solid transparent;
+                content: " ";
+                height: 0;
+                width: 0;
+                position: absolute;
+                pointer-events: none;
+                border-right-color: #000;
+                border-width: 20px;
+                margin-top: -20px;
+            }
+
             `,
             ButtonSpan = styled.span`
               cursor: pointer;
@@ -46,7 +61,10 @@ export default class StoryBox extends React.Component {
             CloseContainer = styled.div`
                 height: 1em;`
 
-        return (<Container>
+
+        
+
+        return (<div style={dynamicStyle} className={"storyContainer "+arrowType} >
 
             <CloseContainer><CloseSpan onClick={endStory} >&times;</CloseSpan></CloseContainer>
             {message}
@@ -62,7 +80,7 @@ export default class StoryBox extends React.Component {
             {(storyPosition >= numSlides - 1) &&
                 <ButtonSpan onClick={endStory}>Close</ButtonSpan>
             }
-        </Container>);
+        </div>);
     }
 }
 
@@ -74,7 +92,8 @@ StoryBox.propTypes = {
     w: PropTypes.string.isRequired,
     message: PropTypes.string.isRequired,
     storyPosition: PropTypes.number.isRequired,
-    numSlides: PropTypes.number.isRequired
+    numSlides: PropTypes.number.isRequired,
+    arrowType: PropTypes.string.isRequired
 }
 
 
