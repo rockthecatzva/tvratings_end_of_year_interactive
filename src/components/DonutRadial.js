@@ -91,7 +91,7 @@ export default class DonutRadial extends Component {
                     stroke: none;
                     font-size: 0.8em`,
             CloseX = styled.tspan`
-                    font-size: 1.2em;
+                    font-size: 0.7em;
                     cursor: pointer;`;
 
         const PrimeCircle = styled.circle`
@@ -241,10 +241,10 @@ export default class DonutRadial extends Component {
                 const str1 = selectedElement.name.substr(0, brk).trim();
                 const str2 = selectedElement.name.substr(brk, selectedElement.name.length - brk).trim();
 
-                messageBox.push(<TextShowname key={messageBox.length} x={width / 2} y={((height / 2) - 15)} textAnchor={"middle"} ><CloseX onClick={() => { this.deselectShow() }} >&times;</CloseX>{str1}</TextShowname>)
+                messageBox.push(<TextShowname key={messageBox.length} x={width / 2} y={((height / 2) - 15)} textAnchor={"middle"} ><CloseX onClick={() => { this.deselectShow() }} >&#10060;</CloseX>{str1}</TextShowname>)
                 messageBox.push(<TextShowname key={messageBox.length} x={width / 2} y={(height / 2)} textAnchor={"middle"} >{str2}</TextShowname>)
             } else {
-                messageBox.push(<TextShowname key={messageBox.length} x={width / 2} y={(height / 2)} textAnchor={"middle"} ><CloseX onClick={() => { this.deselectShow() }} >&times;</CloseX>{selectedElement.name}</TextShowname>)
+                messageBox.push(<TextShowname key={messageBox.length} x={width / 2} y={(height / 2)} textAnchor={"middle"} ><CloseX onClick={() => { this.deselectShow() }} >&#10060;</CloseX>{selectedElement.name}</TextShowname>)
             }
 
             messageBox.push(<TextInfo key={messageBox.length} x={width / 2} y={(height / 2) + 17} textAnchor={"middle"} >{selectedElement.aa.toFixed(2) + " avg"}</TextInfo>)

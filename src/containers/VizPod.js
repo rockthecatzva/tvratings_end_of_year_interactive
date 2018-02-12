@@ -119,8 +119,6 @@ export default class VizPod extends Component {
 
     render() {
         const { renderData, network, selectedElement, storyData } = this.props;
-        //console.log("Rendering vizpod", network)
-
 
         const filterPeriod = selectedElement.timePeriod,
             selectedYear = selectedElement.selectedYear;
@@ -191,7 +189,7 @@ export default class VizPod extends Component {
                         <ToggleSwitch option1={yearOptions[0]} option2={yearOptions[1]} selectedOption={selectedElement.selectedYear} interactionCallback={val => { this.toggleYear(val) }} />
                         <ToggleSwitch option1={{ "label": "DURATION", "value": "mins" }} option2={{ "label": "RATINGS", "value": "aa" }} interactionCallback={val => { this.toggleRatingDuration(val) }} selectedOption={selectedElement.ratingDurationToggle} />
                         {storyData.hasOwnProperty("0") &&
-                            <ToggleSwitch option1={{ "label": "", "value": "false" }} option2={{ "label": "STORY MODE", "value": "true" }} selectedOption={selectedElement.storyMode===true?"true":"false"} interactionCallback={val => { this.toggleStorymode(val==="true"?true: false) }} />
+                            <ToggleSwitch option1={{ "label": "", "value": "false" }} option2={{ "label": "STORY MODE", "value": "true" }} selectedOption={selectedElement.storyMode === true ? "true" : "false"} interactionCallback={val => { this.toggleStorymode(val === "true" ? true : false) }} />
                         }
                     </div>
                 </div>
@@ -204,7 +202,7 @@ export default class VizPod extends Component {
                 <div className="floatLeft">
                     <span className="bubbleSpan">{labelLookup[selectedElement.timePeriod]}</span><span className="bubbleSpan">{selectedElement.selectedYear}</span>
                     {selectedElement.timePeriod !== "FullYear" &&
-                        <span className="buttonSpan" onClick={(e) => { this.showFullYear(e) }}>Show Full Year</span>
+                        <span className="buttonSpanFullYear" onClick={(e) => { this.showFullYear(e) }}>Show Full Year</span>
                     }
                     <DonutRadial renderData={selectedData} interactionCallback={(ob) => this.donutClickHandler(ob)} selectedElement={selectedElement} ratingDurationToggle={ratingDurationToggle} ratingRange={ratingRange} />
                 </div>

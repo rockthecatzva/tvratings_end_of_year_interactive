@@ -108,7 +108,7 @@ export default class MultiLineAndBars extends React.Component {
             fill: #000;`,
 
             CloseX = styled.span`
-            font-size: 1.2em;
+            font-size: 0.7em;
             cursor: pointer;`
 
         let maxVal = 0,
@@ -212,7 +212,7 @@ export default class MultiLineAndBars extends React.Component {
                 textLabels.push(<text key={textLabels.length} stroke={"none"} fill={"#000"} x={x(11) + 6} y={y(renderData.repeats[months[11]].aa)} fontSize={11} >Repeats</text>)
             }
 
-            legendComponents = <div><LegendSpan><CloseX onClick={() => { this.deselectShow() }} >&times;</CloseX><BarSpan /><span>{selectedElement.name}</span></LegendSpan></div>;
+            legendComponents = <div><LegendSpan><CloseX onClick={() => { this.deselectShow() }} >&#10060;</CloseX><BarSpan /><span>{selectedElement.name}</span></LegendSpan></div>;
 
             let monthlyShowData = [],
                 barH = 0;
