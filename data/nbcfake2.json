@@ -1,0 +1,3974 @@
+{
+    "2016": {
+        "prime": {
+            "Jan": 0.76,
+            "Feb": 1.2,
+            "Mar": 0.69,
+            "Apr": 0.67,
+            "May": 0.91,
+            "Jun": 0.73,
+            "Jul": 0.77,
+            "Aug": 0.6,
+            "Sep": 0.51,
+            "Oct": 0.57,
+            "Nov": 0.45,
+            "Dec": 0.59,
+            "FullYear": 0.79
+        },
+        "premieres": {
+            "Jan": {
+                "aa": 0.93,
+                "mins": 2802
+            },
+            "Feb": {
+                "aa": 1.26,
+                "mins": 1731
+            },
+            "Mar": {
+                "aa": 1.12,
+                "mins": 1626
+            },
+            "Apr": {
+                "aa": 1.21,
+                "mins": 1268
+            },
+            "May": {
+                "aa": 1.02,
+                "mins": 2108
+            },
+            "Jun": {
+                "aa": 0.98,
+                "mins": 2034
+            },
+            "Jul": {
+                "aa": 0.89,
+                "mins": 2218
+            },
+            "Aug": {
+                "aa": 1.03,
+                "mins": 1847
+            },
+            "Sep": {
+                "aa": 0.78,
+                "mins": 1536
+            },
+            "Oct": {
+                "aa": 0.78,
+                "mins": 1308
+            },
+            "Nov": {
+                "aa": 0.72,
+                "mins": 1362
+            },
+            "Dec": {
+                "aa": 1.11,
+                "mins": 2034
+            },
+            "FullYear": {
+                "aa": 0.89,
+                "mins": 21874
+            }
+        },
+        "repeats": {
+            "Jan": {
+                "aa": 0.6,
+                "mins": 3498
+            },
+            "Feb": {
+                "aa": 1.14,
+                "mins": 3309
+            },
+            "Mar": {
+                "aa": 0.26,
+                "mins": 3414
+            },
+            "Apr": {
+                "aa": 0.12,
+                "mins": 3772
+            },
+            "May": {
+                "aa": 0.8,
+                "mins": 4192
+            },
+            "Jun": {
+                "aa": 0.48,
+                "mins": 3006
+            },
+            "Jul": {
+                "aa": 0.65,
+                "mins": 4082
+            },
+            "Aug": {
+                "aa": 0.18,
+                "mins": 3193
+            },
+            "Sep": {
+                "aa": 0.24,
+                "mins": 3504
+            },
+            "Oct": {
+                "aa": 0.35,
+                "mins": 4992
+            },
+            "Nov": {
+                "aa": 0.18,
+                "mins": 3678
+            },
+            "Dec": {
+                "aa": 0.07,
+                "mins": 3006
+            },
+            "FullYear": {
+                "aa": 0.68,
+                "mins": 43646
+            }
+        },
+        "series-prems": {
+            "Jan": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 1.27,
+                    "mins": 240
+                },
+                {
+                    "name": "THE FORSAKEN",
+                    "aa": 0.62,
+                    "mins": 243
+                },
+                {
+                    "name": "VISION WITH SINS",
+                    "aa": 1.13,
+                    "mins": 303
+                },
+                {
+                    "name": "IMMORTALITY",
+                    "aa": 2.06,
+                    "mins": 312
+                },
+                {
+                    "name": "ASSASSINS OF THE WORLD",
+                    "aa": 1.02,
+                    "mins": 240
+                },
+                {
+                    "name": "PAINTING THE SUN",
+                    "aa": 1.54,
+                    "mins": 63
+                },
+                {
+                    "name": "WRONG ABOUT",
+                    "aa": 0.6,
+                    "mins": 252
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 1.44,
+                    "mins": 159
+                },
+                {
+                    "name": "HORSES AND LIONS",
+                    "aa": 0.62,
+                    "mins": 189
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.75,
+                    "mins": 634
+                },
+                {
+                    "name": "GIRLS AND REBELS",
+                    "aa": 0.37,
+                    "mins": 244
+                }
+            ],
+            "Feb": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 1.22,
+                    "mins": 240
+                },
+                {
+                    "name": "THE FORSAKEN",
+                    "aa": 0.72,
+                    "mins": 243
+                },
+                {
+                    "name": "VISION WITH SINS",
+                    "aa": 1.13,
+                    "mins": 189
+                },
+                {
+                    "name": "WITHOUT HONOR",
+                    "aa": 0.89,
+                    "mins": 184
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.96,
+                    "mins": 120
+                },
+                {
+                    "name": "IMMORTALITY",
+                    "aa": 2.4,
+                    "mins": 64
+                },
+                {
+                    "name": "ASSASSINS OF THE WORLD",
+                    "aa": 0.56,
+                    "mins": 63
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 0.87,
+                    "mins": 126
+                },
+                {
+                    "name": "THE FRONTLINE",
+                    "aa": 0.47,
+                    "mins": 126
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 1.42,
+                    "mins": 128
+                },
+                {
+                    "name": "OFFICERS AND ALIENS",
+                    "aa": 1.29,
+                    "mins": 180
+                },
+                {
+                    "name": "HEIR OF WIND",
+                    "aa": 2.24,
+                    "mins": 122
+                }
+            ],
+            "Mar": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 1.22,
+                    "mins": 63
+                },
+                {
+                    "name": "THE FORSAKEN",
+                    "aa": 0.47,
+                    "mins": 252
+                },
+                {
+                    "name": "VISION WITH SINS",
+                    "aa": 1.19,
+                    "mins": 63
+                },
+                {
+                    "name": "WITHOUT HONOR",
+                    "aa": 0.67,
+                    "mins": 243
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.97,
+                    "mins": 128
+                },
+                {
+                    "name": "ESCAPING THE OCEAN",
+                    "aa": 0.68,
+                    "mins": 124
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 1.06,
+                    "mins": 240
+                },
+                {
+                    "name": "THE FRONTLINE",
+                    "aa": 0.5,
+                    "mins": 60
+                },
+                {
+                    "name": "OFFICERS AND ALIENS",
+                    "aa": 1.25,
+                    "mins": 249
+                },
+                {
+                    "name": "HEIR OF WIND",
+                    "aa": 2.22,
+                    "mins": 244
+                }
+            ],
+            "Apr": [
+                {
+                    "name": "SAGE OF GOLD",
+                    "aa": 1.19,
+                    "mins": 60
+                },
+                {
+                    "name": "DEFENDERS WITH SILVER",
+                    "aa": 0.9,
+                    "mins": 60
+                },
+                {
+                    "name": "THE FORSAKEN",
+                    "aa": 0.48,
+                    "mins": 63
+                },
+                {
+                    "name": "WITHOUT HONOR",
+                    "aa": 0.84,
+                    "mins": 120
+                },
+                {
+                    "name": "ESCAPING THE OCEAN",
+                    "aa": 0.64,
+                    "mins": 62
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 1.17,
+                    "mins": 249
+                },
+                {
+                    "name": "MICE OF THE WEST",
+                    "aa": 0.58,
+                    "mins": 90
+                },
+                {
+                    "name": "BANDITS OF THE DAY",
+                    "aa": 0.74,
+                    "mins": 96
+                },
+                {
+                    "name": "OFFICERS AND ALIENS",
+                    "aa": 1.26,
+                    "mins": 252
+                },
+                {
+                    "name": "HEIR OF WIND",
+                    "aa": 2.37,
+                    "mins": 244
+                }
+            ],
+            "May": [
+                {
+                    "name": "SAGE OF GOLD",
+                    "aa": 1.38,
+                    "mins": 315
+                },
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.98,
+                    "mins": 252
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.78,
+                    "mins": 252
+                },
+                {
+                    "name": "ALIENS OF THE SOUTH",
+                    "aa": 0.4,
+                    "mins": 180
+                },
+                {
+                    "name": "MICE OF THE WEST",
+                    "aa": 0.8,
+                    "mins": 246
+                },
+                {
+                    "name": "FOES AND TURTLES",
+                    "aa": 1.26,
+                    "mins": 180
+                },
+                {
+                    "name": "TEMPTATIONS",
+                    "aa": 1.03,
+                    "mins": 60
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.92,
+                    "mins": 120
+                },
+                {
+                    "name": "BANDITS OF THE DAY",
+                    "aa": 0.9,
+                    "mins": 32
+                },
+                {
+                    "name": "MY HUSBAND",
+                    "aa": 0.68,
+                    "mins": 6
+                },
+                {
+                    "name": "OFFICERS AND ALIENS",
+                    "aa": 1.22,
+                    "mins": 126
+                },
+                {
+                    "name": "FAITH WITHOUT DUTY",
+                    "aa": 0.82,
+                    "mins": 375
+                }
+            ],
+            "Jun": [
+                {
+                    "name": "SAGE OF GOLD",
+                    "aa": 1.14,
+                    "mins": 189
+                },
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 1.15,
+                    "mins": 189
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.89,
+                    "mins": 189
+                },
+                {
+                    "name": "THE CHAMPIONS",
+                    "aa": 0.72,
+                    "mins": 369
+                },
+                {
+                    "name": "FOES AND TURTLES",
+                    "aa": 1.16,
+                    "mins": 180
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.96,
+                    "mins": 90
+                },
+                {
+                    "name": "THE PLAGUE",
+                    "aa": 1.2,
+                    "mins": 536
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.4,
+                    "mins": 186
+                },
+                {
+                    "name": "FAITH WITHOUT DUTY",
+                    "aa": 0.72,
+                    "mins": 189
+                }
+            ],
+            "Jul": [
+                {
+                    "name": "SAGE OF GOLD",
+                    "aa": 1.2,
+                    "mins": 249
+                },
+                {
+                    "name": "DEFENDERS WITH SILVER",
+                    "aa": 0.78,
+                    "mins": 63
+                },
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.97,
+                    "mins": 123
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.85,
+                    "mins": 252
+                },
+                {
+                    "name": "THE CHAMPIONS",
+                    "aa": 0.6,
+                    "mins": 123
+                },
+                {
+                    "name": "HERO OF SORROW",
+                    "aa": 0.83,
+                    "mins": 240
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.93,
+                    "mins": 252
+                },
+                {
+                    "name": "FOES AND TURTLES",
+                    "aa": 1.16,
+                    "mins": 183
+                },
+                {
+                    "name": "CHALLENGE OF MY FUTURE",
+                    "aa": 0.87,
+                    "mins": 126
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 1.07,
+                    "mins": 92
+                },
+                {
+                    "name": "BANDITS OF THE DAY",
+                    "aa": 0.79,
+                    "mins": 128
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 1.11,
+                    "mins": 370
+                },
+                {
+                    "name": "FAITH WITHOUT DUTY",
+                    "aa": 0.82,
+                    "mins": 63
+                }
+            ],
+            "Aug": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 1.04,
+                    "mins": 186
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 1.03,
+                    "mins": 189
+                },
+                {
+                    "name": "HERO OF SORROW",
+                    "aa": 0.63,
+                    "mins": 180
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.98,
+                    "mins": 189
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 1.13,
+                    "mins": 63
+                },
+                {
+                    "name": "THE ANCESTORS",
+                    "aa": 0.94,
+                    "mins": 240
+                },
+                {
+                    "name": "FOES WITH A GOAL",
+                    "aa": 0.57,
+                    "mins": 60
+                },
+                {
+                    "name": "FOES AND TURTLES",
+                    "aa": 1.07,
+                    "mins": 252
+                },
+                {
+                    "name": "CHALLENGE OF MY FUTURE",
+                    "aa": 0.74,
+                    "mins": 252
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.99,
+                    "mins": 123
+                },
+                {
+                    "name": "BANDITS OF THE DAY",
+                    "aa": 0.97,
+                    "mins": 32
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.58,
+                    "mins": 120
+                }
+            ],
+            "Sep": [
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 1.04,
+                    "mins": 63
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 1.11,
+                    "mins": 252
+                },
+                {
+                    "name": "THE ANCESTORS",
+                    "aa": 0.8,
+                    "mins": 243
+                },
+                {
+                    "name": "FOES WITH A GOAL",
+                    "aa": 0.5,
+                    "mins": 240
+                },
+                {
+                    "name": "FOES AND TURTLES",
+                    "aa": 1.22,
+                    "mins": 189
+                },
+                {
+                    "name": "CHALLENGE OF MY FUTURE",
+                    "aa": 0.83,
+                    "mins": 189
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 1.07,
+                    "mins": 94
+                },
+                {
+                    "name": "BANDITS OF THE DAY",
+                    "aa": 0.66,
+                    "mins": 32
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.8,
+                    "mins": 306
+                }
+            ],
+            "Oct": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 1.06,
+                    "mins": 249
+                },
+                {
+                    "name": "BY THE STARS",
+                    "aa": 0.42,
+                    "mins": 435
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 1.22,
+                    "mins": 315
+                },
+                {
+                    "name": "THE ANCESTORS",
+                    "aa": 0.93,
+                    "mins": 126
+                },
+                {
+                    "name": "SCREAMS IN THE DARK",
+                    "aa": 0.39,
+                    "mins": 120
+                },
+                {
+                    "name": "CHALLENGE OF MY FUTURE",
+                    "aa": 0.85,
+                    "mins": 63
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.96,
+                    "mins": 30
+                }
+            ],
+            "Nov": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 1.05,
+                    "mins": 252
+                },
+                {
+                    "name": "IMMORTALITY",
+                    "aa": 2.15,
+                    "mins": 126
+                },
+                {
+                    "name": "COMPLETION OF FIRE",
+                    "aa": 0.99,
+                    "mins": 60
+                },
+                {
+                    "name": "BY THE STARS",
+                    "aa": 0.5,
+                    "mins": 63
+                },
+                {
+                    "name": "PAINTING THE SUN",
+                    "aa": 0.98,
+                    "mins": 120
+                },
+                {
+                    "name": "FRIEND OF DESIRE",
+                    "aa": 0.53,
+                    "mins": 63
+                },
+                {
+                    "name": "THE BEGINNING",
+                    "aa": 0.37,
+                    "mins": 120
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 1.02,
+                    "mins": 90
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.55,
+                    "mins": 306
+                },
+                {
+                    "name": "SHIELD OF THE GREAT",
+                    "aa": 0.53,
+                    "mins": 183
+                }
+            ],
+            "Dec": [
+                {
+                    "name": "SAGE OF GOLD",
+                    "aa": 1.21,
+                    "mins": 189
+                },
+                {
+                    "name": "DEFENDERS WITH SILVER",
+                    "aa": 0.79,
+                    "mins": 60
+                },
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.89,
+                    "mins": 252
+                },
+                {
+                    "name": "IMMORTALITY",
+                    "aa": 2.2,
+                    "mins": 253
+                },
+                {
+                    "name": "PRIESTS AND GIANTS",
+                    "aa": 1.22,
+                    "mins": 15
+                },
+                {
+                    "name": "PAINTING THE SUN",
+                    "aa": 1.05,
+                    "mins": 237
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.98,
+                    "mins": 90
+                },
+                {
+                    "name": "OFFICERS AND WIVES",
+                    "aa": 0.96,
+                    "mins": 248
+                },
+                {
+                    "name": "SLAVE OF INSANITY",
+                    "aa": 0.68,
+                    "mins": 183
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.51,
+                    "mins": 246
+                },
+                {
+                    "name": "HEIR OF WIND",
+                    "aa": 1.8,
+                    "mins": 247
+                },
+                {
+                    "name": "GIANTS OF ETERNITY",
+                    "aa": 1.35,
+                    "mins": 60
+                }
+            ],
+            "FullYear": [
+                {
+                    "name": "SAGE OF GOLD",
+                    "aa": 1.27,
+                    "mins": 1002
+                },
+                {
+                    "name": "DEFENDERS WITH SILVER",
+                    "aa": 0.65,
+                    "mins": 183
+                },
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 1.06,
+                    "mins": 2046
+                },
+                {
+                    "name": "THE FORSAKEN",
+                    "aa": 0.74,
+                    "mins": 801
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.8,
+                    "mins": 945
+                },
+                {
+                    "name": "VISION WITH SINS",
+                    "aa": 1.02,
+                    "mins": 555
+                },
+                {
+                    "name": "THE CHAMPIONS",
+                    "aa": 0.75,
+                    "mins": 492
+                },
+                {
+                    "name": "HERO OF SORROW",
+                    "aa": 0.74,
+                    "mins": 420
+                },
+                {
+                    "name": "WITHOUT HONOR",
+                    "aa": 0.82,
+                    "mins": 547
+                },
+                {
+                    "name": "ALIENS OF THE SOUTH",
+                    "aa": 0.5,
+                    "mins": 180
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 1.12,
+                    "mins": 689
+                },
+                {
+                    "name": "ESCAPING THE OCEAN",
+                    "aa": 0.75,
+                    "mins": 186
+                },
+                {
+                    "name": "IMMORTALITY",
+                    "aa": 2.29,
+                    "mins": 755
+                },
+                {
+                    "name": "ASSASSINS OF THE WORLD",
+                    "aa": 0.83,
+                    "mins": 303
+                },
+                {
+                    "name": "PRIESTS AND GIANTS",
+                    "aa": 1.45,
+                    "mins": 15
+                },
+                {
+                    "name": "COMPLETION OF FIRE",
+                    "aa": 0.94,
+                    "mins": 60
+                },
+                {
+                    "name": "BY THE STARS",
+                    "aa": 0.46,
+                    "mins": 498
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 1.05,
+                    "mins": 1245
+                },
+                {
+                    "name": "PAINTING THE SUN",
+                    "aa": 1.34,
+                    "mins": 420
+                },
+                {
+                    "name": "FRIEND OF DESIRE",
+                    "aa": 0.75,
+                    "mins": 63
+                },
+                {
+                    "name": "THE ANCESTORS",
+                    "aa": 0.81,
+                    "mins": 609
+                },
+                {
+                    "name": "MICE OF THE WEST",
+                    "aa": 0.63,
+                    "mins": 336
+                },
+                {
+                    "name": "THE BEGINNING",
+                    "aa": 0.34,
+                    "mins": 120
+                },
+                {
+                    "name": "WRONG ABOUT",
+                    "aa": 0.75,
+                    "mins": 252
+                },
+                {
+                    "name": "SCREAMS IN THE DARK",
+                    "aa": 0.52,
+                    "mins": 120
+                },
+                {
+                    "name": "THE FRONTLINE",
+                    "aa": 0.29,
+                    "mins": 186
+                },
+                {
+                    "name": "FOES WITH A GOAL",
+                    "aa": 0.46,
+                    "mins": 300
+                },
+                {
+                    "name": "FOES AND TURTLES",
+                    "aa": 1.32,
+                    "mins": 984
+                },
+                {
+                    "name": "TEMPTATIONS",
+                    "aa": 0.88,
+                    "mins": 60
+                },
+                {
+                    "name": "CHALLENGE OF MY FUTURE",
+                    "aa": 0.79,
+                    "mins": 630
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 1.02,
+                    "mins": 1016
+                },
+                {
+                    "name": "BANDITS OF THE DAY",
+                    "aa": 0.79,
+                    "mins": 320
+                },
+                {
+                    "name": "OFFICERS AND WIVES",
+                    "aa": 0.83,
+                    "mins": 248
+                },
+                {
+                    "name": "THE PLAGUE",
+                    "aa": 1.37,
+                    "mins": 536
+                },
+                {
+                    "name": "MY HUSBAND",
+                    "aa": 0.77,
+                    "mins": 6
+                },
+                {
+                    "name": "SLAVE OF INSANITY",
+                    "aa": 0.66,
+                    "mins": 183
+                },
+                {
+                    "name": "HORSES AND LIONS",
+                    "aa": 0.47,
+                    "mins": 189
+                },
+                {
+                    "name": "OFFICERS AND ALIENS",
+                    "aa": 1.17,
+                    "mins": 807
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.78,
+                    "mins": 2168
+                },
+                {
+                    "name": "FAITH WITHOUT DUTY",
+                    "aa": 0.99,
+                    "mins": 627
+                },
+                {
+                    "name": "HEIR OF WIND",
+                    "aa": 2.05,
+                    "mins": 857
+                },
+                {
+                    "name": "GIANTS OF ETERNITY",
+                    "aa": 1.23,
+                    "mins": 60
+                },
+                {
+                    "name": "GIRLS AND REBELS",
+                    "aa": 0.36,
+                    "mins": 244
+                },
+                {
+                    "name": "SHIELD OF THE GREAT",
+                    "aa": 0.3,
+                    "mins": 183
+                }
+            ]
+        },
+        "series-repeats": {
+            "Jan": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.75,
+                    "mins": 1205
+                },
+                {
+                    "name": "ESCAPE THE LEADERS",
+                    "aa": 1.06,
+                    "mins": 4
+                },
+                {
+                    "name": "THE FORSAKEN",
+                    "aa": 0.76,
+                    "mins": 60
+                },
+                {
+                    "name": "CHASE OF SORROW",
+                    "aa": 0.47,
+                    "mins": 300
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.5,
+                    "mins": 57
+                },
+                {
+                    "name": "IMMORTALITY",
+                    "aa": 0.57,
+                    "mins": 60
+                },
+                {
+                    "name": "OF THE GODS",
+                    "aa": 0.7,
+                    "mins": 300
+                },
+                {
+                    "name": "WRONG ABOUT",
+                    "aa": 0.44,
+                    "mins": 63
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.64,
+                    "mins": 476
+                },
+                {
+                    "name": "QUEEN WITH VIGOR",
+                    "aa": 0.86,
+                    "mins": 12
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.51,
+                    "mins": 1045
+                },
+                {
+                    "name": "KICKING THE ANGELS",
+                    "aa": 0.56,
+                    "mins": 241
+                }
+            ],
+            "Feb": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.6,
+                    "mins": 423
+                },
+                {
+                    "name": "CHASE OF SORROW",
+                    "aa": 0.47,
+                    "mins": 180
+                },
+                {
+                    "name": "WITHOUT HONOR",
+                    "aa": 0.76,
+                    "mins": 122
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.44,
+                    "mins": 486
+                },
+                {
+                    "name": "IMMORTALITY",
+                    "aa": 0.51,
+                    "mins": 183
+                },
+                {
+                    "name": "OF THE GODS",
+                    "aa": 0.94,
+                    "mins": 120
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 0.39,
+                    "mins": 303
+                },
+                {
+                    "name": "CULMINATION OF THE NIGHT",
+                    "aa": 0.39,
+                    "mins": 91
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.43,
+                    "mins": 634
+                },
+                {
+                    "name": "QUEEN WITH VIGOR",
+                    "aa": 0.75,
+                    "mins": 3
+                },
+                {
+                    "name": "OFFICERS AND ALIENS",
+                    "aa": 0.6,
+                    "mins": 363
+                },
+                {
+                    "name": "RISE WITHOUT TIME",
+                    "aa": 0.47,
+                    "mins": 120
+                },
+                {
+                    "name": "HEIR OF WIND",
+                    "aa": 0.59,
+                    "mins": 363
+                }
+            ],
+            "Mar": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.6,
+                    "mins": 1395
+                },
+                {
+                    "name": "ESCAPE THE LEADERS",
+                    "aa": 0.98,
+                    "mins": 6
+                },
+                {
+                    "name": "CHASE OF SORROW",
+                    "aa": 0.49,
+                    "mins": 60
+                },
+                {
+                    "name": "WELCOME TO THE COUNTRY",
+                    "aa": 0.47,
+                    "mins": 241
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.69,
+                    "mins": 330
+                },
+                {
+                    "name": "ESCAPING THE OCEAN",
+                    "aa": 0.44,
+                    "mins": 90
+                },
+                {
+                    "name": "CULMINATION OF THE NIGHT",
+                    "aa": 0.23,
+                    "mins": 90
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.47,
+                    "mins": 687
+                },
+                {
+                    "name": "QUEEN WITH VIGOR",
+                    "aa": 0.96,
+                    "mins": 6
+                },
+                {
+                    "name": "OFFICERS AND ALIENS",
+                    "aa": 0.71,
+                    "mins": 60
+                },
+                {
+                    "name": "RISE WITHOUT TIME",
+                    "aa": 0.63,
+                    "mins": 240
+                },
+                {
+                    "name": "HEIR OF WIND",
+                    "aa": 0.4,
+                    "mins": 300
+                }
+            ],
+            "Apr": [
+                {
+                    "name": "DEFENDERS WITH SILVER",
+                    "aa": 0.59,
+                    "mins": 60
+                },
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.6,
+                    "mins": 1510
+                },
+                {
+                    "name": "ESCAPE THE LEADERS",
+                    "aa": 0.9,
+                    "mins": 5
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.66,
+                    "mins": 509
+                },
+                {
+                    "name": "WITHOUT SHAME",
+                    "aa": 0.81,
+                    "mins": 5
+                },
+                {
+                    "name": "ESCAPING THE OCEAN",
+                    "aa": 0.48,
+                    "mins": 90
+                },
+                {
+                    "name": "MICE OF THE WEST",
+                    "aa": 0.73,
+                    "mins": 30
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.47,
+                    "mins": 968
+                },
+                {
+                    "name": "QUEEN WITH VIGOR",
+                    "aa": 0.82,
+                    "mins": 9
+                },
+                {
+                    "name": "BANDITS OF THE DAY",
+                    "aa": 0.58,
+                    "mins": 91
+                },
+                {
+                    "name": "LOVE OF FIRE",
+                    "aa": 0.46,
+                    "mins": 240
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.56,
+                    "mins": 241
+                },
+                {
+                    "name": "HEIR OF WIND",
+                    "aa": 0.5,
+                    "mins": 120
+                }
+            ],
+            "May": [
+                {
+                    "name": "ENEMY WITH MONEY",
+                    "aa": 0.58,
+                    "mins": 300
+                },
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.67,
+                    "mins": 2840
+                },
+                {
+                    "name": "ESCAPE THE LEADERS",
+                    "aa": 0.75,
+                    "mins": 7
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.54,
+                    "mins": 480
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.47,
+                    "mins": 180
+                },
+                {
+                    "name": "HUMANS AND CHILDREN",
+                    "aa": 0.41,
+                    "mins": 180
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.56,
+                    "mins": 147
+                },
+                {
+                    "name": "MY HUSBAND",
+                    "aa": 0.46,
+                    "mins": 9
+                },
+                {
+                    "name": "LOVE OF FIRE",
+                    "aa": 0.52,
+                    "mins": 120
+                }
+            ],
+            "Jun": [
+                {
+                    "name": "ENEMY WITH MONEY",
+                    "aa": 0.56,
+                    "mins": 180
+                },
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.61,
+                    "mins": 1275
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.44,
+                    "mins": 300
+                },
+                {
+                    "name": "THE CHAMPIONS",
+                    "aa": 0.53,
+                    "mins": 243
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.44,
+                    "mins": 298
+                },
+                {
+                    "name": "HUMANS AND CHILDREN",
+                    "aa": 0.52,
+                    "mins": 60
+                },
+                {
+                    "name": "WITHOUT SHAME",
+                    "aa": 0.49,
+                    "mins": 2
+                },
+                {
+                    "name": "FOES AND TURTLES",
+                    "aa": 0.51,
+                    "mins": 63
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.75,
+                    "mins": 90
+                },
+                {
+                    "name": "WOLVES AND ROBOTS",
+                    "aa": 0.64,
+                    "mins": 120
+                },
+                {
+                    "name": "THE PLAGUE",
+                    "aa": 0.55,
+                    "mins": 420
+                }
+            ],
+            "Jul": [
+                {
+                    "name": "SAGE OF GOLD",
+                    "aa": 0.27,
+                    "mins": 60
+                },
+                {
+                    "name": "ENEMY WITH MONEY",
+                    "aa": 0.55,
+                    "mins": 180
+                },
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.69,
+                    "mins": 2304
+                },
+                {
+                    "name": "ESCAPE THE LEADERS",
+                    "aa": 1.06,
+                    "mins": 3
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.53,
+                    "mins": 663
+                },
+                {
+                    "name": "THE CHAMPIONS",
+                    "aa": 0.38,
+                    "mins": 60
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.49,
+                    "mins": 358
+                },
+                {
+                    "name": "WITHOUT SHAME",
+                    "aa": 0.7,
+                    "mins": 2
+                },
+                {
+                    "name": "FOES AND TURTLES",
+                    "aa": 0.56,
+                    "mins": 120
+                },
+                {
+                    "name": "CHALLENGE OF MY FUTURE",
+                    "aa": 0.4,
+                    "mins": 60
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.76,
+                    "mins": 92
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.48,
+                    "mins": 303
+                }
+            ],
+            "Aug": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.6,
+                    "mins": 2118
+                },
+                {
+                    "name": "ESCAPE THE LEADERS",
+                    "aa": 0.94,
+                    "mins": 6
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.48,
+                    "mins": 543
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.58,
+                    "mins": 240
+                },
+                {
+                    "name": "FOES AND TURTLES",
+                    "aa": 0.56,
+                    "mins": 240
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.71,
+                    "mins": 91
+                }
+            ],
+            "Sep": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.73,
+                    "mins": 1929
+                },
+                {
+                    "name": "ESCAPE THE LEADERS",
+                    "aa": 0.86,
+                    "mins": 9
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.7,
+                    "mins": 546
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.68,
+                    "mins": 118
+                },
+                {
+                    "name": "HUMANS AND CHILDREN",
+                    "aa": 0.73,
+                    "mins": 62
+                },
+                {
+                    "name": "WOLVES WITH GOLD",
+                    "aa": 0.43,
+                    "mins": 60
+                },
+                {
+                    "name": "THE LOST ONES",
+                    "aa": 0.47,
+                    "mins": 60
+                },
+                {
+                    "name": "FOES AND TURTLES",
+                    "aa": 0.57,
+                    "mins": 180
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.64,
+                    "mins": 183
+                },
+                {
+                    "name": "QUEEN WITH VIGOR",
+                    "aa": 0.89,
+                    "mins": 3
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.81,
+                    "mins": 572
+                }
+            ],
+            "Oct": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.59,
+                    "mins": 2181
+                },
+                {
+                    "name": "ANGER OF HEAVEN",
+                    "aa": 0.56,
+                    "mins": 120
+                },
+                {
+                    "name": "ESCAPE THE LEADERS",
+                    "aa": 0.78,
+                    "mins": 3
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.42,
+                    "mins": 360
+                },
+                {
+                    "name": "KNIGHT OF THE GODS",
+                    "aa": 0.61,
+                    "mins": 123
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.44,
+                    "mins": 505
+                },
+                {
+                    "name": "HUMANS AND CHILDREN",
+                    "aa": 0.54,
+                    "mins": 286
+                },
+                {
+                    "name": "BY THE STARS",
+                    "aa": 0.27,
+                    "mins": 120
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 0.57,
+                    "mins": 60
+                },
+                {
+                    "name": "WOLVES WITH GOLD",
+                    "aa": 0.5,
+                    "mins": 305
+                },
+                {
+                    "name": "THE LOST ONES",
+                    "aa": 0.62,
+                    "mins": 120
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.66,
+                    "mins": 575
+                },
+                {
+                    "name": "SPIES OF THE PRISON",
+                    "aa": 0.62,
+                    "mins": 62
+                },
+                {
+                    "name": "QUEEN WITH VIGOR",
+                    "aa": 0.75,
+                    "mins": 12
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.45,
+                    "mins": 303
+                }
+            ],
+            "Nov": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.56,
+                    "mins": 1099
+                },
+                {
+                    "name": "ANGER OF HEAVEN",
+                    "aa": 0.49,
+                    "mins": 360
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.49,
+                    "mins": 183
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.44,
+                    "mins": 298
+                },
+                {
+                    "name": "HUMANS AND CHILDREN",
+                    "aa": 0.71,
+                    "mins": 130
+                },
+                {
+                    "name": "IMMORTALITY",
+                    "aa": 0.52,
+                    "mins": 183
+                },
+                {
+                    "name": "OF THE GODS",
+                    "aa": 0.7,
+                    "mins": 60
+                },
+                {
+                    "name": "PHANTOM OF GLORY",
+                    "aa": 0.53,
+                    "mins": 120
+                },
+                {
+                    "name": "THE GREAT",
+                    "aa": 0.3,
+                    "mins": 243
+                },
+                {
+                    "name": "PAINTING THE SUN",
+                    "aa": 0.61,
+                    "mins": 60
+                },
+                {
+                    "name": "FRIEND OF DESIRE",
+                    "aa": 0.38,
+                    "mins": 63
+                },
+                {
+                    "name": "CYBORG WITH STRENGTH",
+                    "aa": 0.6,
+                    "mins": 180
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.4,
+                    "mins": 366
+                },
+                {
+                    "name": "SPIES OF THE PRISON",
+                    "aa": 0.53,
+                    "mins": 91
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.6,
+                    "mins": 363
+                }
+            ],
+            "Dec": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.44,
+                    "mins": 972
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.45,
+                    "mins": 792
+                },
+                {
+                    "name": "IMMORTALITY",
+                    "aa": 0.51,
+                    "mins": 292
+                },
+                {
+                    "name": "OF THE GODS",
+                    "aa": 0.84,
+                    "mins": 240
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.61,
+                    "mins": 276
+                },
+                {
+                    "name": "SPIES OF THE PRISON",
+                    "aa": 0.52,
+                    "mins": 122
+                },
+                {
+                    "name": "TASTE OF TIME",
+                    "aa": 0.4,
+                    "mins": 60
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.57,
+                    "mins": 120
+                },
+                {
+                    "name": "HEIR OF WIND",
+                    "aa": 0.59,
+                    "mins": 180
+                },
+                {
+                    "name": "ESCAPING THE RIVER",
+                    "aa": 0.46,
+                    "mins": 60
+                }
+            ],
+            "FullYear": [
+                {
+                    "name": "SAGE OF GOLD",
+                    "aa": 0.28,
+                    "mins": 60
+                },
+                {
+                    "name": "ENEMY WITH MONEY",
+                    "aa": 0.45,
+                    "mins": 660
+                },
+                {
+                    "name": "DEFENDERS WITH SILVER",
+                    "aa": 0.45,
+                    "mins": 60
+                },
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.63,
+                    "mins": 19251
+                },
+                {
+                    "name": "ANGER OF HEAVEN",
+                    "aa": 0.71,
+                    "mins": 480
+                },
+                {
+                    "name": "ESCAPE THE LEADERS",
+                    "aa": 0.98,
+                    "mins": 43
+                },
+                {
+                    "name": "THE FORSAKEN",
+                    "aa": 0.51,
+                    "mins": 60
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.42,
+                    "mins": 3867
+                },
+                {
+                    "name": "CHASE OF SORROW",
+                    "aa": 0.63,
+                    "mins": 540
+                },
+                {
+                    "name": "THE CHAMPIONS",
+                    "aa": 0.4,
+                    "mins": 303
+                },
+                {
+                    "name": "WELCOME TO THE COUNTRY",
+                    "aa": 0.44,
+                    "mins": 241
+                },
+                {
+                    "name": "KNIGHT OF THE GODS",
+                    "aa": 0.36,
+                    "mins": 123
+                },
+                {
+                    "name": "WITHOUT HONOR",
+                    "aa": 0.71,
+                    "mins": 122
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.38,
+                    "mins": 3379
+                },
+                {
+                    "name": "HUMANS AND CHILDREN",
+                    "aa": 0.52,
+                    "mins": 718
+                },
+                {
+                    "name": "WITHOUT SHAME",
+                    "aa": 0.65,
+                    "mins": 9
+                },
+                {
+                    "name": "ESCAPING THE OCEAN",
+                    "aa": 0.53,
+                    "mins": 180
+                },
+                {
+                    "name": "IMMORTALITY",
+                    "aa": 0.36,
+                    "mins": 718
+                },
+                {
+                    "name": "OF THE GODS",
+                    "aa": 0.73,
+                    "mins": 720
+                },
+                {
+                    "name": "BY THE STARS",
+                    "aa": 0.5,
+                    "mins": 120
+                },
+                {
+                    "name": "PHANTOM OF GLORY",
+                    "aa": 0.42,
+                    "mins": 120
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 0.44,
+                    "mins": 363
+                },
+                {
+                    "name": "WOLVES WITH GOLD",
+                    "aa": 0.52,
+                    "mins": 365
+                },
+                {
+                    "name": "THE GREAT",
+                    "aa": 0.56,
+                    "mins": 243
+                },
+                {
+                    "name": "PAINTING THE SUN",
+                    "aa": 0.49,
+                    "mins": 60
+                },
+                {
+                    "name": "FRIEND OF DESIRE",
+                    "aa": 0.49,
+                    "mins": 63
+                },
+                {
+                    "name": "THE LOST ONES",
+                    "aa": 0.43,
+                    "mins": 180
+                },
+                {
+                    "name": "MICE OF THE WEST",
+                    "aa": 0.58,
+                    "mins": 30
+                },
+                {
+                    "name": "CULMINATION OF THE NIGHT",
+                    "aa": 0.29,
+                    "mins": 181
+                },
+                {
+                    "name": "WRONG ABOUT",
+                    "aa": 0.39,
+                    "mins": 63
+                },
+                {
+                    "name": "CYBORG WITH STRENGTH",
+                    "aa": 0.52,
+                    "mins": 180
+                },
+                {
+                    "name": "FOES AND TURTLES",
+                    "aa": 0.59,
+                    "mins": 603
+                },
+                {
+                    "name": "CHALLENGE OF MY FUTURE",
+                    "aa": 0.48,
+                    "mins": 60
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.62,
+                    "mins": 4585
+                },
+                {
+                    "name": "SPIES OF THE PRISON",
+                    "aa": 0.44,
+                    "mins": 275
+                },
+                {
+                    "name": "TASTE OF TIME",
+                    "aa": 0.36,
+                    "mins": 60
+                },
+                {
+                    "name": "QUEEN WITH VIGOR",
+                    "aa": 0.81,
+                    "mins": 45
+                },
+                {
+                    "name": "BANDITS OF THE DAY",
+                    "aa": 0.56,
+                    "mins": 91
+                },
+                {
+                    "name": "WOLVES AND ROBOTS",
+                    "aa": 0.83,
+                    "mins": 120
+                },
+                {
+                    "name": "THE PLAGUE",
+                    "aa": 0.63,
+                    "mins": 420
+                },
+                {
+                    "name": "MY HUSBAND",
+                    "aa": 0.69,
+                    "mins": 9
+                },
+                {
+                    "name": "OFFICERS AND ALIENS",
+                    "aa": 0.71,
+                    "mins": 423
+                },
+                {
+                    "name": "LOVE OF FIRE",
+                    "aa": 0.58,
+                    "mins": 360
+                },
+                {
+                    "name": "RISE WITHOUT TIME",
+                    "aa": 0.5,
+                    "mins": 360
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.61,
+                    "mins": 2947
+                },
+                {
+                    "name": "KICKING THE ANGELS",
+                    "aa": 0.46,
+                    "mins": 241
+                },
+                {
+                    "name": "HEIR OF WIND",
+                    "aa": 0.46,
+                    "mins": 963
+                },
+                {
+                    "name": "ESCAPING THE RIVER",
+                    "aa": 0.42,
+                    "mins": 60
+                }
+            ]
+        }
+    },
+    "2017": {
+        "prime": {
+            "Jan": 1.23,
+            "Feb": 1.12,
+            "Mar": 0.82,
+            "Apr": 0.88,
+            "May": 0.67,
+            "Jun": 0.78,
+            "Jul": 0.75,
+            "Aug": 0.62,
+            "Sep": 0.56,
+            "Oct": 0.61,
+            "Nov": 0.86,
+            "Dec": 0.91,
+            "FullYear": 1.07
+        },
+        "premieres": {
+            "Jan": {
+                "aa": 1.4,
+                "mins": 2651
+            },
+            "Feb": {
+                "aa": 1.47,
+                "mins": 2061
+            },
+            "Mar": {
+                "aa": 1.12,
+                "mins": 1065
+            },
+            "Apr": {
+                "aa": 0.96,
+                "mins": 2304
+            },
+            "May": {
+                "aa": 0.74,
+                "mins": 1814
+            },
+            "Jun": {
+                "aa": 0.8,
+                "mins": 2001
+            },
+            "Jul": {
+                "aa": 1.1,
+                "mins": 2010
+            },
+            "Aug": {
+                "aa": 0.73,
+                "mins": 2339
+            },
+            "Sep": {
+                "aa": 0.68,
+                "mins": 1782
+            },
+            "Oct": {
+                "aa": 0.77,
+                "mins": 1280
+            },
+            "Nov": {
+                "aa": 1.03,
+                "mins": 1617
+            },
+            "Dec": {
+                "aa": 1.24,
+                "mins": 1852
+            },
+            "FullYear": {
+                "aa": 1.07,
+                "mins": 22776
+            }
+        },
+        "repeats": {
+            "Jan": {
+                "aa": 1.07,
+                "mins": 3649
+            },
+            "Feb": {
+                "aa": 0.76,
+                "mins": 2979
+            },
+            "Mar": {
+                "aa": 0.52,
+                "mins": 3975
+            },
+            "Apr": {
+                "aa": 0.81,
+                "mins": 3996
+            },
+            "May": {
+                "aa": 0.59,
+                "mins": 3226
+            },
+            "Jun": {
+                "aa": 0.77,
+                "mins": 3039
+            },
+            "Jul": {
+                "aa": 0.4,
+                "mins": 4290
+            },
+            "Aug": {
+                "aa": 0.52,
+                "mins": 2701
+            },
+            "Sep": {
+                "aa": 0.44,
+                "mins": 3258
+            },
+            "Oct": {
+                "aa": 0.46,
+                "mins": 5020
+            },
+            "Nov": {
+                "aa": 0.69,
+                "mins": 3423
+            },
+            "Dec": {
+                "aa": 0.59,
+                "mins": 4448
+            },
+            "FullYear": {
+                "aa": 1.07,
+                "mins": 44004
+            }
+        },
+        "series-prems": {
+            "Jan": [
+                {
+                    "name": "SAGE OF GOLD",
+                    "aa": 1.3,
+                    "mins": 309
+                },
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 1.21,
+                    "mins": 246
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.93,
+                    "mins": 63
+                },
+                {
+                    "name": "IMMORTALITY",
+                    "aa": 2.49,
+                    "mins": 309
+                },
+                {
+                    "name": "PRIESTS AND GIANTS",
+                    "aa": 1.22,
+                    "mins": 38
+                },
+                {
+                    "name": "DEFEAT WITHOUT HONOR",
+                    "aa": 0.8,
+                    "mins": 60
+                },
+                {
+                    "name": "BY THE STARS",
+                    "aa": 0.36,
+                    "mins": 120
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 1.3,
+                    "mins": 180
+                },
+                {
+                    "name": "PAINTING THE SUN",
+                    "aa": 1.3,
+                    "mins": 120
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 1.19,
+                    "mins": 270
+                },
+                {
+                    "name": "SLAVE OF INSANITY",
+                    "aa": 0.81,
+                    "mins": 300
+                },
+                {
+                    "name": "CATS WITHOUT FLAWS",
+                    "aa": 1.57,
+                    "mins": 121
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.49,
+                    "mins": 246
+                },
+                {
+                    "name": "HEIR OF WIND",
+                    "aa": 2.1,
+                    "mins": 305
+                }
+            ],
+            "Feb": [
+                {
+                    "name": "SAGE OF GOLD",
+                    "aa": 1.38,
+                    "mins": 126
+                },
+                {
+                    "name": "DEFENDERS WITH SILVER",
+                    "aa": 0.96,
+                    "mins": 60
+                },
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 1.17,
+                    "mins": 63
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.91,
+                    "mins": 220
+                },
+                {
+                    "name": "IMMORTALITY",
+                    "aa": 2.52,
+                    "mins": 312
+                },
+                {
+                    "name": "PRIESTS AND GIANTS",
+                    "aa": 1.14,
+                    "mins": 15
+                },
+                {
+                    "name": "DEFEAT WITHOUT HONOR",
+                    "aa": 0.76,
+                    "mins": 242
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 1.39,
+                    "mins": 180
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 1.07,
+                    "mins": 90
+                },
+                {
+                    "name": "CATS WITHOUT FLAWS",
+                    "aa": 1.58,
+                    "mins": 244
+                },
+                {
+                    "name": "OFFICERS AND ALIENS",
+                    "aa": 1.35,
+                    "mins": 186
+                },
+                {
+                    "name": "RAT OF THE END",
+                    "aa": 1.08,
+                    "mins": 60
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.93,
+                    "mins": 240
+                },
+                {
+                    "name": "HEIR OF WIND",
+                    "aa": 2.45,
+                    "mins": 61
+                }
+            ],
+            "Mar": [
+                {
+                    "name": "SERPENT OF FORTUNE",
+                    "aa": 0.94,
+                    "mins": 123
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.95,
+                    "mins": 31
+                },
+                {
+                    "name": "COMPLETION OF FIRE",
+                    "aa": 1.28,
+                    "mins": 63
+                },
+                {
+                    "name": "DEFEAT WITHOUT HONOR",
+                    "aa": 0.62,
+                    "mins": 187
+                },
+                {
+                    "name": "DISRUPTION WITH WINGS",
+                    "aa": 0.58,
+                    "mins": 180
+                },
+                {
+                    "name": "CATS WITHOUT FLAWS",
+                    "aa": 1.68,
+                    "mins": 122
+                },
+                {
+                    "name": "OFFICERS AND ALIENS",
+                    "aa": 1.43,
+                    "mins": 252
+                },
+                {
+                    "name": "PILOT OF TWILIGHT",
+                    "aa": 1.33,
+                    "mins": 9
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.87,
+                    "mins": 123
+                }
+            ],
+            "Apr": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.89,
+                    "mins": 190
+                },
+                {
+                    "name": "SERPENT OF FORTUNE",
+                    "aa": 0.74,
+                    "mins": 315
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.73,
+                    "mins": 63
+                },
+                {
+                    "name": "SNAKES AND FOES",
+                    "aa": 0.29,
+                    "mins": 183
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.94,
+                    "mins": 188
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 1.41,
+                    "mins": 250
+                },
+                {
+                    "name": "WOMEN AND SWINDLERS",
+                    "aa": 0.8,
+                    "mins": 60
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.96,
+                    "mins": 180
+                },
+                {
+                    "name": "DOOM OF HOPE",
+                    "aa": 0.73,
+                    "mins": 182
+                },
+                {
+                    "name": "OFFICERS AND ALIENS",
+                    "aa": 1.1,
+                    "mins": 315
+                },
+                {
+                    "name": "PILOT OF TWILIGHT",
+                    "aa": 1,
+                    "mins": 46
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.73,
+                    "mins": 370
+                }
+            ],
+            "May": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.92,
+                    "mins": 189
+                },
+                {
+                    "name": "SERPENT OF FORTUNE",
+                    "aa": 0.74,
+                    "mins": 189
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 1.05,
+                    "mins": 252
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.88,
+                    "mins": 62
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 1.18,
+                    "mins": 252
+                },
+                {
+                    "name": "DISRUPTION WITH WINGS",
+                    "aa": 0.28,
+                    "mins": 183
+                },
+                {
+                    "name": "WOMEN AND SWINDLERS",
+                    "aa": 0.62,
+                    "mins": 60
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.91,
+                    "mins": 180
+                },
+                {
+                    "name": "ARMIES OF RAINBOWS",
+                    "aa": 0.26,
+                    "mins": 60
+                },
+                {
+                    "name": "OFFICERS AND ALIENS",
+                    "aa": 1.16,
+                    "mins": 156
+                },
+                {
+                    "name": "PILOT OF TWILIGHT",
+                    "aa": 1.29,
+                    "mins": 9
+                },
+                {
+                    "name": "RAT OF THE END",
+                    "aa": 1.39,
+                    "mins": 123
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.53,
+                    "mins": 123
+                }
+            ],
+            "Jun": [
+                {
+                    "name": "SAGE OF GOLD",
+                    "aa": 1.21,
+                    "mins": 120
+                },
+                {
+                    "name": "DEFENDERS WITH SILVER",
+                    "aa": 0.89,
+                    "mins": 60
+                },
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 1,
+                    "mins": 126
+                },
+                {
+                    "name": "SERPENT OF FORTUNE",
+                    "aa": 0.76,
+                    "mins": 186
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 1,
+                    "mins": 189
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 1.23,
+                    "mins": 126
+                },
+                {
+                    "name": "FOES AND TURTLES",
+                    "aa": 0.97,
+                    "mins": 189
+                },
+                {
+                    "name": "TEMPTATIONS",
+                    "aa": 0.8,
+                    "mins": 60
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.99,
+                    "mins": 120
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.72,
+                    "mins": 869
+                }
+            ],
+            "Jul": [
+                {
+                    "name": "SAGE OF GOLD",
+                    "aa": 1.32,
+                    "mins": 300
+                },
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 1.05,
+                    "mins": 189
+                },
+                {
+                    "name": "ADMIRING THE SWAMP",
+                    "aa": 0.74,
+                    "mins": 13
+                },
+                {
+                    "name": "SERPENT OF FORTUNE",
+                    "aa": 0.72,
+                    "mins": 189
+                },
+                {
+                    "name": "INVADERS WITH SINS",
+                    "aa": 1,
+                    "mins": 180
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.89,
+                    "mins": 252
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 1.14,
+                    "mins": 189
+                },
+                {
+                    "name": "BANDITS AND ARMIES",
+                    "aa": 0.48,
+                    "mins": 22
+                },
+                {
+                    "name": "FOES AND TURTLES",
+                    "aa": 0.95,
+                    "mins": 315
+                },
+                {
+                    "name": "LUCK OF THE STARS",
+                    "aa": 0.6,
+                    "mins": 21
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.98,
+                    "mins": 240
+                },
+                {
+                    "name": "BUTCHERS AND HEROES",
+                    "aa": 0.56,
+                    "mins": 16
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 2.16,
+                    "mins": 123
+                }
+            ],
+            "Aug": [
+                {
+                    "name": "SAGE OF GOLD",
+                    "aa": 1.12,
+                    "mins": 183
+                },
+                {
+                    "name": "DEFENDERS WITH SILVER",
+                    "aa": 0.71,
+                    "mins": 60
+                },
+                {
+                    "name": "SERPENT OF FORTUNE",
+                    "aa": 0.63,
+                    "mins": 253
+                },
+                {
+                    "name": "INVADERS WITH SINS",
+                    "aa": 0.88,
+                    "mins": 243
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.81,
+                    "mins": 126
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.72,
+                    "mins": 63
+                },
+                {
+                    "name": "LIMIT WITHOUT DUTY",
+                    "aa": 0.41,
+                    "mins": 5
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 1.08,
+                    "mins": 189
+                },
+                {
+                    "name": "BANDITS AND ARMIES",
+                    "aa": 0.66,
+                    "mins": 14
+                },
+                {
+                    "name": "THE ANCESTORS",
+                    "aa": 0.78,
+                    "mins": 60
+                },
+                {
+                    "name": "FOES AND TURTLES",
+                    "aa": 1.06,
+                    "mins": 189
+                },
+                {
+                    "name": "LUCK OF THE STARS",
+                    "aa": 0.53,
+                    "mins": 22
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 1.02,
+                    "mins": 183
+                },
+                {
+                    "name": "BUTCHERS AND HEROES",
+                    "aa": 0.5,
+                    "mins": 11
+                },
+                {
+                    "name": "DOOM OF HOPE",
+                    "aa": 0.32,
+                    "mins": 63
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.76,
+                    "mins": 735
+                }
+            ],
+            "Sep": [
+                {
+                    "name": "SERPENT OF FORTUNE",
+                    "aa": 0.81,
+                    "mins": 186
+                },
+                {
+                    "name": "INVADERS WITH SINS",
+                    "aa": 0.92,
+                    "mins": 60
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 1.11,
+                    "mins": 126
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 1.28,
+                    "mins": 126
+                },
+                {
+                    "name": "BANDITS AND ARMIES",
+                    "aa": 0.41,
+                    "mins": 7
+                },
+                {
+                    "name": "THE ANCESTORS",
+                    "aa": 0.91,
+                    "mins": 180
+                },
+                {
+                    "name": "WOMEN AND SWINDLERS",
+                    "aa": 0.48,
+                    "mins": 183
+                },
+                {
+                    "name": "FOES AND TURTLES",
+                    "aa": 0.91,
+                    "mins": 312
+                },
+                {
+                    "name": "LUCK OF THE STARS",
+                    "aa": 0.77,
+                    "mins": 29
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.83,
+                    "mins": 60
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.44,
+                    "mins": 734
+                }
+            ],
+            "Oct": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.9,
+                    "mins": 126
+                },
+                {
+                    "name": "ADMIRING THE SWAMP",
+                    "aa": 0.68,
+                    "mins": 20
+                },
+                {
+                    "name": "SERPENT OF FORTUNE",
+                    "aa": 0.66,
+                    "mins": 252
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.88,
+                    "mins": 240
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 1.22,
+                    "mins": 252
+                },
+                {
+                    "name": "BANDITS AND ARMIES",
+                    "aa": 0.72,
+                    "mins": 33
+                },
+                {
+                    "name": "THE ANCESTORS",
+                    "aa": 0.61,
+                    "mins": 252
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.78,
+                    "mins": 120
+                },
+                {
+                    "name": "BUTCHERS AND HEROES",
+                    "aa": 0.55,
+                    "mins": 16
+                }
+            ],
+            "Nov": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.8,
+                    "mins": 252
+                },
+                {
+                    "name": "ADMIRING THE SWAMP",
+                    "aa": 0.61,
+                    "mins": 19
+                },
+                {
+                    "name": "SERPENT OF FORTUNE",
+                    "aa": 0.72,
+                    "mins": 189
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.72,
+                    "mins": 60
+                },
+                {
+                    "name": "IMMORTALITY",
+                    "aa": 2.18,
+                    "mins": 249
+                },
+                {
+                    "name": "PRIESTS AND GIANTS",
+                    "aa": 0.92,
+                    "mins": 25
+                },
+                {
+                    "name": "COMPLETION OF FIRE",
+                    "aa": 1.17,
+                    "mins": 120
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 1.33,
+                    "mins": 63
+                },
+                {
+                    "name": "BY THE TOWN",
+                    "aa": 1.12,
+                    "mins": 122
+                },
+                {
+                    "name": "THE ANCESTORS",
+                    "aa": 0.71,
+                    "mins": 126
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.7,
+                    "mins": 240
+                },
+                {
+                    "name": "BUTCHERS AND HEROES",
+                    "aa": 0.44,
+                    "mins": 6
+                },
+                {
+                    "name": "SHIELD OF THE GREAT",
+                    "aa": 0.25,
+                    "mins": 183
+                }
+            ],
+            "Dec": [
+                {
+                    "name": "SERPENT OF FORTUNE",
+                    "aa": 0.64,
+                    "mins": 252
+                },
+                {
+                    "name": "IMMORTALITY",
+                    "aa": 2.31,
+                    "mins": 252
+                },
+                {
+                    "name": "PRIESTS AND GIANTS",
+                    "aa": 0.98,
+                    "mins": 43
+                },
+                {
+                    "name": "BY THE TOWN",
+                    "aa": 1.16,
+                    "mins": 180
+                },
+                {
+                    "name": "FRIEND OF DESIRE",
+                    "aa": 0.77,
+                    "mins": 60
+                },
+                {
+                    "name": "ANCESTRY OF DUSK",
+                    "aa": 1.16,
+                    "mins": 247
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.43,
+                    "mins": 429
+                },
+                {
+                    "name": "HEIR OF WIND",
+                    "aa": 1.66,
+                    "mins": 367
+                },
+                {
+                    "name": "GIANTS OF ETERNITY",
+                    "aa": 1.28,
+                    "mins": 60
+                }
+            ],
+            "FullYear": [
+                {
+                    "name": "SAGE OF GOLD",
+                    "aa": 1.29,
+                    "mins": 1038
+                },
+                {
+                    "name": "DEFENDERS WITH SILVER",
+                    "aa": 1.08,
+                    "mins": 180
+                },
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.89,
+                    "mins": 1381
+                },
+                {
+                    "name": "ADMIRING THE SWAMP",
+                    "aa": 0.78,
+                    "mins": 52
+                },
+                {
+                    "name": "SERPENT OF FORTUNE",
+                    "aa": 0.65,
+                    "mins": 2134
+                },
+                {
+                    "name": "INVADERS WITH SINS",
+                    "aa": 1.05,
+                    "mins": 483
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.8,
+                    "mins": 1008
+                },
+                {
+                    "name": "SNAKES AND FOES",
+                    "aa": 0.56,
+                    "mins": 183
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.89,
+                    "mins": 927
+                },
+                {
+                    "name": "LIMIT WITHOUT DUTY",
+                    "aa": 0.56,
+                    "mins": 5
+                },
+                {
+                    "name": "IMMORTALITY",
+                    "aa": 2.44,
+                    "mins": 1122
+                },
+                {
+                    "name": "PRIESTS AND GIANTS",
+                    "aa": 0.92,
+                    "mins": 121
+                },
+                {
+                    "name": "COMPLETION OF FIRE",
+                    "aa": 1.15,
+                    "mins": 183
+                },
+                {
+                    "name": "DEFEAT WITHOUT HONOR",
+                    "aa": 0.59,
+                    "mins": 489
+                },
+                {
+                    "name": "BY THE STARS",
+                    "aa": 0.42,
+                    "mins": 120
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 1.3,
+                    "mins": 1807
+                },
+                {
+                    "name": "BANDITS AND ARMIES",
+                    "aa": 0.77,
+                    "mins": 76
+                },
+                {
+                    "name": "DISRUPTION WITH WINGS",
+                    "aa": 0.41,
+                    "mins": 363
+                },
+                {
+                    "name": "BY THE TOWN",
+                    "aa": 1.02,
+                    "mins": 302
+                },
+                {
+                    "name": "PAINTING THE SUN",
+                    "aa": 1.42,
+                    "mins": 120
+                },
+                {
+                    "name": "FRIEND OF DESIRE",
+                    "aa": 0.72,
+                    "mins": 60
+                },
+                {
+                    "name": "THE ANCESTORS",
+                    "aa": 0.72,
+                    "mins": 618
+                },
+                {
+                    "name": "WOMEN AND SWINDLERS",
+                    "aa": 0.62,
+                    "mins": 303
+                },
+                {
+                    "name": "ANCESTRY OF DUSK",
+                    "aa": 1.05,
+                    "mins": 247
+                },
+                {
+                    "name": "FOES AND TURTLES",
+                    "aa": 1.18,
+                    "mins": 1005
+                },
+                {
+                    "name": "LUCK OF THE STARS",
+                    "aa": 0.76,
+                    "mins": 72
+                },
+                {
+                    "name": "TEMPTATIONS",
+                    "aa": 0.65,
+                    "mins": 60
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.85,
+                    "mins": 1683
+                },
+                {
+                    "name": "BUTCHERS AND HEROES",
+                    "aa": 0.65,
+                    "mins": 49
+                },
+                {
+                    "name": "ARMIES OF RAINBOWS",
+                    "aa": 0.49,
+                    "mins": 60
+                },
+                {
+                    "name": "DOOM OF HOPE",
+                    "aa": 0.66,
+                    "mins": 245
+                },
+                {
+                    "name": "SLAVE OF INSANITY",
+                    "aa": 0.81,
+                    "mins": 300
+                },
+                {
+                    "name": "CATS WITHOUT FLAWS",
+                    "aa": 1.69,
+                    "mins": 487
+                },
+                {
+                    "name": "OFFICERS AND ALIENS",
+                    "aa": 1.37,
+                    "mins": 909
+                },
+                {
+                    "name": "PILOT OF TWILIGHT",
+                    "aa": 1.03,
+                    "mins": 64
+                },
+                {
+                    "name": "RAT OF THE END",
+                    "aa": 1.08,
+                    "mins": 183
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.55,
+                    "mins": 3992
+                },
+                {
+                    "name": "HEIR OF WIND",
+                    "aa": 1.9,
+                    "mins": 733
+                },
+                {
+                    "name": "GIANTS OF ETERNITY",
+                    "aa": 1.34,
+                    "mins": 60
+                },
+                {
+                    "name": "SHIELD OF THE GREAT",
+                    "aa": 0.27,
+                    "mins": 183
+                }
+            ]
+        },
+        "series-repeats": {
+            "Jan": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.56,
+                    "mins": 1269
+                },
+                {
+                    "name": "ANGER OF HEAVEN",
+                    "aa": 0.67,
+                    "mins": 63
+                },
+                {
+                    "name": "ESCAPE THE LEADERS",
+                    "aa": 0.66,
+                    "mins": 6
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.34,
+                    "mins": 329
+                },
+                {
+                    "name": "HUMANS AND CHILDREN",
+                    "aa": 0.48,
+                    "mins": 93
+                },
+                {
+                    "name": "IMMORTALITY",
+                    "aa": 0.58,
+                    "mins": 446
+                },
+                {
+                    "name": "COMPANION OF WATER",
+                    "aa": 0.78,
+                    "mins": 300
+                },
+                {
+                    "name": "WOLVES WITH GOLD",
+                    "aa": 0.63,
+                    "mins": 122
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.41,
+                    "mins": 180
+                },
+                {
+                    "name": "SPIES OF THE PRISON",
+                    "aa": 0.6,
+                    "mins": 30
+                },
+                {
+                    "name": "WOLVES AND ROBOTS",
+                    "aa": 0.49,
+                    "mins": 183
+                },
+                {
+                    "name": "CATS WITHOUT FLAWS",
+                    "aa": 0.58,
+                    "mins": 61
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.33,
+                    "mins": 60
+                },
+                {
+                    "name": "CERTAINTY OF THE CURSE",
+                    "aa": 0.61,
+                    "mins": 183
+                },
+                {
+                    "name": "HEIR OF WIND",
+                    "aa": 0.4,
+                    "mins": 360
+                }
+            ],
+            "Feb": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.42,
+                    "mins": 1210
+                },
+                {
+                    "name": "ANGER OF HEAVEN",
+                    "aa": 0.64,
+                    "mins": 126
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.44,
+                    "mins": 208
+                },
+                {
+                    "name": "HUMANS AND CHILDREN",
+                    "aa": 0.55,
+                    "mins": 62
+                },
+                {
+                    "name": "IMMORTALITY",
+                    "aa": 0.55,
+                    "mins": 113
+                },
+                {
+                    "name": "COMPANION OF WATER",
+                    "aa": 0.83,
+                    "mins": 240
+                },
+                {
+                    "name": "DEFEAT WITHOUT HONOR",
+                    "aa": 0.5,
+                    "mins": 60
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.58,
+                    "mins": 30
+                },
+                {
+                    "name": "SPIES OF THE PRISON",
+                    "aa": 0.47,
+                    "mins": 60
+                },
+                {
+                    "name": "WOLVES AND ROBOTS",
+                    "aa": 0.61,
+                    "mins": 303
+                },
+                {
+                    "name": "THE PLAGUE",
+                    "aa": 0.49,
+                    "mins": 486
+                },
+                {
+                    "name": "OFFICERS AND ALIENS",
+                    "aa": 0.55,
+                    "mins": 63
+                },
+                {
+                    "name": "LOVE OF FIRE",
+                    "aa": 0.58,
+                    "mins": 60
+                },
+                {
+                    "name": "RAT OF THE END",
+                    "aa": 0.6,
+                    "mins": 60
+                },
+                {
+                    "name": "HEIR OF WIND",
+                    "aa": 0.54,
+                    "mins": 60
+                }
+            ],
+            "Mar": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.54,
+                    "mins": 1638
+                },
+                {
+                    "name": "ANGER OF HEAVEN",
+                    "aa": 0.73,
+                    "mins": 312
+                },
+                {
+                    "name": "ESCAPE THE LEADERS",
+                    "aa": 0.64,
+                    "mins": 3
+                },
+                {
+                    "name": "SERPENT OF FORTUNE",
+                    "aa": 0.49,
+                    "mins": 120
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.64,
+                    "mins": 295
+                },
+                {
+                    "name": "HUMANS AND CHILDREN",
+                    "aa": 0.44,
+                    "mins": 275
+                },
+                {
+                    "name": "COMPANION OF WATER",
+                    "aa": 0.79,
+                    "mins": 120
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 0.5,
+                    "mins": 120
+                },
+                {
+                    "name": "WOLVES WITH GOLD",
+                    "aa": 0.76,
+                    "mins": 191
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.68,
+                    "mins": 90
+                },
+                {
+                    "name": "SPIES OF THE PRISON",
+                    "aa": 0.59,
+                    "mins": 150
+                },
+                {
+                    "name": "WOLVES AND ROBOTS",
+                    "aa": 0.88,
+                    "mins": 183
+                },
+                {
+                    "name": "LOVE OF FIRE",
+                    "aa": 0.85,
+                    "mins": 291
+                },
+                {
+                    "name": "CERTAINTY OF THE CURSE",
+                    "aa": 0.71,
+                    "mins": 303
+                }
+            ],
+            "Apr": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.49,
+                    "mins": 1083
+                },
+                {
+                    "name": "ANGER OF HEAVEN",
+                    "aa": 0.64,
+                    "mins": 126
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.51,
+                    "mins": 60
+                },
+                {
+                    "name": "ROBOTS AND HUMANS",
+                    "aa": 0.48,
+                    "mins": 303
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.56,
+                    "mins": 451
+                },
+                {
+                    "name": "HUMANS AND CHILDREN",
+                    "aa": 0.48,
+                    "mins": 94
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 0.47,
+                    "mins": 178
+                },
+                {
+                    "name": "WOLVES WITH GOLD",
+                    "aa": 0.86,
+                    "mins": 732
+                },
+                {
+                    "name": "WOMEN AND SWINDLERS",
+                    "aa": 0.53,
+                    "mins": 60
+                },
+                {
+                    "name": "SPIES OF THE PRISON",
+                    "aa": 0.62,
+                    "mins": 120
+                },
+                {
+                    "name": "WOLVES AND ROBOTS",
+                    "aa": 0.63,
+                    "mins": 183
+                },
+                {
+                    "name": "LOVE OF FIRE",
+                    "aa": 0.6,
+                    "mins": 351
+                },
+                {
+                    "name": "RAT OF THE END",
+                    "aa": 0.59,
+                    "mins": 52
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.67,
+                    "mins": 60
+                },
+                {
+                    "name": "CERTAINTY OF THE CURSE",
+                    "aa": 0.67,
+                    "mins": 306
+                }
+            ],
+            "May": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.56,
+                    "mins": 846
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.67,
+                    "mins": 480
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.36,
+                    "mins": 242
+                },
+                {
+                    "name": "HUMANS AND CHILDREN",
+                    "aa": 0.5,
+                    "mins": 62
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 0.83,
+                    "mins": 239
+                },
+                {
+                    "name": "WOLVES WITH GOLD",
+                    "aa": 0.67,
+                    "mins": 793
+                },
+                {
+                    "name": "OFFICERS AND ALIENS",
+                    "aa": 0.55,
+                    "mins": 90
+                },
+                {
+                    "name": "LOVE OF FIRE",
+                    "aa": 0.63,
+                    "mins": 180
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.29,
+                    "mins": 60
+                },
+                {
+                    "name": "CERTAINTY OF THE CURSE",
+                    "aa": 0.64,
+                    "mins": 486
+                }
+            ],
+            "Jun": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.6,
+                    "mins": 847
+                },
+                {
+                    "name": "ANGER OF HEAVEN",
+                    "aa": 0.67,
+                    "mins": 429
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.42,
+                    "mins": 360
+                },
+                {
+                    "name": "ROBOTS AND HUMANS",
+                    "aa": 0.66,
+                    "mins": 243
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 0.74,
+                    "mins": 120
+                },
+                {
+                    "name": "WOLVES WITH GOLD",
+                    "aa": 0.64,
+                    "mins": 242
+                },
+                {
+                    "name": "VULTURES AND BANDITS",
+                    "aa": 0.42,
+                    "mins": 363
+                },
+                {
+                    "name": "WOLVES AND ROBOTS",
+                    "aa": 0.55,
+                    "mins": 183
+                },
+                {
+                    "name": "OFFICERS AND ALIENS",
+                    "aa": 0.36,
+                    "mins": 60
+                },
+                {
+                    "name": "RAT OF THE END",
+                    "aa": 0.5,
+                    "mins": 123
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.57,
+                    "mins": 240
+                }
+            ],
+            "Jul": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.69,
+                    "mins": 1431
+                },
+                {
+                    "name": "ANGER OF HEAVEN",
+                    "aa": 0.72,
+                    "mins": 855
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.52,
+                    "mins": 414
+                },
+                {
+                    "name": "ROBOTS AND HUMANS",
+                    "aa": 0.62,
+                    "mins": 243
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 0.45,
+                    "mins": 180
+                },
+                {
+                    "name": "WOLVES WITH GOLD",
+                    "aa": 0.52,
+                    "mins": 785
+                },
+                {
+                    "name": "VULTURES AND BANDITS",
+                    "aa": 0.44,
+                    "mins": 300
+                },
+                {
+                    "name": "SPIES OF THE PRISON",
+                    "aa": 0.65,
+                    "mins": 235
+                },
+                {
+                    "name": "CERTAINTY OF THE CURSE",
+                    "aa": 0.58,
+                    "mins": 121
+                },
+                {
+                    "name": "BREATH OF THE NORTH",
+                    "aa": 0.69,
+                    "mins": 36
+                }
+            ],
+            "Aug": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.58,
+                    "mins": 660
+                },
+                {
+                    "name": "ANGER OF HEAVEN",
+                    "aa": 0.37,
+                    "mins": 308
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.62,
+                    "mins": 178
+                },
+                {
+                    "name": "ROBOTS AND HUMANS",
+                    "aa": 0.48,
+                    "mins": 183
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.6,
+                    "mins": 60
+                },
+                {
+                    "name": "HUMANS AND CHILDREN",
+                    "aa": 0.53,
+                    "mins": 122
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 0.76,
+                    "mins": 179
+                },
+                {
+                    "name": "WOLVES WITH GOLD",
+                    "aa": 0.51,
+                    "mins": 420
+                },
+                {
+                    "name": "SAVIOR OF THE LOST",
+                    "aa": 0.44,
+                    "mins": 90
+                },
+                {
+                    "name": "VULTURES AND BANDITS",
+                    "aa": 0.49,
+                    "mins": 180
+                },
+                {
+                    "name": "SPIES OF THE PRISON",
+                    "aa": 0.77,
+                    "mins": 60
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.42,
+                    "mins": 303
+                },
+                {
+                    "name": "CERTAINTY OF THE CURSE",
+                    "aa": 0.59,
+                    "mins": 122
+                },
+                {
+                    "name": "BREATH OF THE NORTH",
+                    "aa": 0.59,
+                    "mins": 12
+                }
+            ],
+            "Sep": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.41,
+                    "mins": 1271
+                },
+                {
+                    "name": "ANGER OF HEAVEN",
+                    "aa": 0.69,
+                    "mins": 126
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.53,
+                    "mins": 120
+                },
+                {
+                    "name": "ROBOTS AND HUMANS",
+                    "aa": 0.54,
+                    "mins": 486
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 0.64,
+                    "mins": 60
+                },
+                {
+                    "name": "WOLVES WITH GOLD",
+                    "aa": 0.65,
+                    "mins": 305
+                },
+                {
+                    "name": "VULTURES AND BANDITS",
+                    "aa": 0.65,
+                    "mins": 240
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.46,
+                    "mins": 331
+                },
+                {
+                    "name": "SPIES OF THE PRISON",
+                    "aa": 0.41,
+                    "mins": 30
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.39,
+                    "mins": 596
+                }
+            ],
+            "Oct": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.53,
+                    "mins": 1506
+                },
+                {
+                    "name": "ANGER OF HEAVEN",
+                    "aa": 0.58,
+                    "mins": 738
+                },
+                {
+                    "name": "ROBOTS AND HUMANS",
+                    "aa": 0.65,
+                    "mins": 1458
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 0.7,
+                    "mins": 366
+                },
+                {
+                    "name": "WOLVES WITH GOLD",
+                    "aa": 0.68,
+                    "mins": 770
+                },
+                {
+                    "name": "THE LOST ONES",
+                    "aa": 0.58,
+                    "mins": 243
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.62,
+                    "mins": 90
+                },
+                {
+                    "name": "SPIES OF THE PRISON",
+                    "aa": 0.43,
+                    "mins": 265
+                },
+                {
+                    "name": "WOLVES AND ROBOTS",
+                    "aa": 0.46,
+                    "mins": 120
+                }
+            ],
+            "Nov": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.68,
+                    "mins": 952
+                },
+                {
+                    "name": "ANGER OF HEAVEN",
+                    "aa": 0.65,
+                    "mins": 183
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.4,
+                    "mins": 183
+                },
+                {
+                    "name": "ROBOTS AND HUMANS",
+                    "aa": 0.58,
+                    "mins": 426
+                },
+                {
+                    "name": "COMPANION OF WATER",
+                    "aa": 0.69,
+                    "mins": 598
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 0.65,
+                    "mins": 183
+                },
+                {
+                    "name": "WOLVES WITH GOLD",
+                    "aa": 0.57,
+                    "mins": 662
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.56,
+                    "mins": 183
+                },
+                {
+                    "name": "SPIES OF THE PRISON",
+                    "aa": 0.55,
+                    "mins": 243
+                },
+                {
+                    "name": "CERTAINTY OF THE CURSE",
+                    "aa": 0.46,
+                    "mins": 243
+                }
+            ],
+            "Dec": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.69,
+                    "mins": 946
+                },
+                {
+                    "name": "ANGER OF HEAVEN",
+                    "aa": 0.65,
+                    "mins": 309
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.48,
+                    "mins": 549
+                },
+                {
+                    "name": "ROBOTS AND HUMANS",
+                    "aa": 0.6,
+                    "mins": 730
+                },
+                {
+                    "name": "IMMORTALITY",
+                    "aa": 0.55,
+                    "mins": 52
+                },
+                {
+                    "name": "COMPANION OF WATER",
+                    "aa": 0.81,
+                    "mins": 240
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 0.44,
+                    "mins": 183
+                },
+                {
+                    "name": "WOLVES WITH GOLD",
+                    "aa": 0.56,
+                    "mins": 549
+                },
+                {
+                    "name": "PRAISED BY",
+                    "aa": 0.5,
+                    "mins": 243
+                },
+                {
+                    "name": "ANCESTRY OF DUSK",
+                    "aa": 0.24,
+                    "mins": 61
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.52,
+                    "mins": 213
+                },
+                {
+                    "name": "SPIES OF THE PRISON",
+                    "aa": 0.41,
+                    "mins": 30
+                },
+                {
+                    "name": "TASTE OF TIME",
+                    "aa": 0.48,
+                    "mins": 60
+                },
+                {
+                    "name": "WOLVES AND ROBOTS",
+                    "aa": 0.3,
+                    "mins": 336
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.48,
+                    "mins": 60
+                },
+                {
+                    "name": "HEIR OF WIND",
+                    "aa": 0.53,
+                    "mins": 240
+                }
+            ],
+            "FullYear": [
+                {
+                    "name": "INVADERS AND HEIRS",
+                    "aa": 0.47,
+                    "mins": 13659
+                },
+                {
+                    "name": "ANGER OF HEAVEN",
+                    "aa": 0.63,
+                    "mins": 3575
+                },
+                {
+                    "name": "ESCAPE THE LEADERS",
+                    "aa": 0.65,
+                    "mins": 9
+                },
+                {
+                    "name": "SERPENT OF FORTUNE",
+                    "aa": 0.7,
+                    "mins": 120
+                },
+                {
+                    "name": "DOGS OF JOY",
+                    "aa": 0.51,
+                    "mins": 2344
+                },
+                {
+                    "name": "ROBOTS AND HUMANS",
+                    "aa": 0.71,
+                    "mins": 4072
+                },
+                {
+                    "name": "SPIES AND MEN",
+                    "aa": 0.48,
+                    "mins": 1585
+                },
+                {
+                    "name": "HUMANS AND CHILDREN",
+                    "aa": 0.64,
+                    "mins": 708
+                },
+                {
+                    "name": "IMMORTALITY",
+                    "aa": 0.56,
+                    "mins": 611
+                },
+                {
+                    "name": "COMPANION OF WATER",
+                    "aa": 0.63,
+                    "mins": 1498
+                },
+                {
+                    "name": "DEFEAT WITHOUT HONOR",
+                    "aa": 0.45,
+                    "mins": 60
+                },
+                {
+                    "name": "COMPANION OF UTOPIA",
+                    "aa": 0.65,
+                    "mins": 1808
+                },
+                {
+                    "name": "WOLVES WITH GOLD",
+                    "aa": 0.7,
+                    "mins": 5571
+                },
+                {
+                    "name": "PRAISED BY",
+                    "aa": 0.37,
+                    "mins": 243
+                },
+                {
+                    "name": "THE LOST ONES",
+                    "aa": 0.54,
+                    "mins": 243
+                },
+                {
+                    "name": "WOMEN AND SWINDLERS",
+                    "aa": 0.54,
+                    "mins": 60
+                },
+                {
+                    "name": "ANCESTRY OF DUSK",
+                    "aa": 0.46,
+                    "mins": 61
+                },
+                {
+                    "name": "SAVIOR OF THE LOST",
+                    "aa": 0.53,
+                    "mins": 90
+                },
+                {
+                    "name": "VULTURES AND BANDITS",
+                    "aa": 0.63,
+                    "mins": 1083
+                },
+                {
+                    "name": "RAVEN OF DAWN",
+                    "aa": 0.54,
+                    "mins": 1117
+                },
+                {
+                    "name": "SPIES OF THE PRISON",
+                    "aa": 0.57,
+                    "mins": 1223
+                },
+                {
+                    "name": "TASTE OF TIME",
+                    "aa": 0.59,
+                    "mins": 60
+                },
+                {
+                    "name": "WOLVES AND ROBOTS",
+                    "aa": 0.44,
+                    "mins": 1491
+                },
+                {
+                    "name": "THE PLAGUE",
+                    "aa": 0.43,
+                    "mins": 486
+                },
+                {
+                    "name": "CATS WITHOUT FLAWS",
+                    "aa": 0.45,
+                    "mins": 61
+                },
+                {
+                    "name": "OFFICERS AND ALIENS",
+                    "aa": 0.57,
+                    "mins": 213
+                },
+                {
+                    "name": "LOVE OF FIRE",
+                    "aa": 0.52,
+                    "mins": 882
+                },
+                {
+                    "name": "RAT OF THE END",
+                    "aa": 0.58,
+                    "mins": 235
+                },
+                {
+                    "name": "ENEMIES OF TWILIGHT",
+                    "aa": 0.48,
+                    "mins": 1379
+                },
+                {
+                    "name": "CERTAINTY OF THE CURSE",
+                    "aa": 0.49,
+                    "mins": 1764
+                },
+                {
+                    "name": "BREATH OF THE NORTH",
+                    "aa": 0.43,
+                    "mins": 48
+                },
+                {
+                    "name": "HEIR OF WIND",
+                    "aa": 0.53,
+                    "mins": 660
+                }
+            ]
+        }
+    }
+}
