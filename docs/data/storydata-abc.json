@@ -1,0 +1,98 @@
+{
+    "0": {
+        "timePeriod": "FullYear",
+        "selectedYear": "2017",
+        "ratingDurationToggle": "aa",
+        "x": "33%",
+        "y": "33%",
+        "w": "33%",
+        "message": "Story mode will walk you through several important observations about a network's performance in the past year. Click the 'Next' or 'Prev' buttons to move through each of the slides/observations. Feel free to interact with either graphic during the story. You can exit story mode at anytime by clicking the 'X' above."
+    },
+    "1": {
+        "timePeriod": "FullYear",
+        "selectedYear": "2017",
+        "name": "THE MURDER",
+        "premiereStatus": "premiere",
+        "ratingDurationToggle": "aa",
+        "x": "85%",
+        "y": "10%",
+        "w": "200px",
+        "message": "THE MURDER was the highest rated series in 2017 with a 0.75 rating across 7 premiere hours."
+    },
+    "2": {
+        "timePeriod": "FullYear",
+        "selectedYear": "2017",
+        "name": "WITCH",
+        "premiereStatus": "premiere",
+        "ratingDurationToggle": "aa",
+        "x": "85%",
+        "y": "10%",
+        "w": "200px",
+        "message": "WITCH was #2, though represented less than 1 hour of programming."
+    },
+    "3": {
+        "timePeriod": "FullYear",
+        "name": "MODERN OF PERFECT ",
+        "premiereStatus": "premiere",
+        "selectedYear": "2016",
+        "ratingDurationToggle": "aa",
+        "x": "85%",
+        "y": "10%",
+        "w": "200px",
+        "message": "Last year (2016), MODERN OF PERFECT was the #1 series at a 0.73 rating for the 1 hour special."
+    },
+    
+    "4": {
+        "timePeriod": "FullYear",
+        "selectedYear": "2017",
+        "name": "MODERN OF PERFECT ",
+        "premiereStatus": "premiere",
+        "ratingDurationToggle": "aa",
+        "x": "85%",
+        "y": "10%",
+        "w": "200px",
+        "message": "In 2017, MODERN OF PERFECT was much lower rated (0.36 rating), though again only featured minimal premiere hours."
+    },
+    "5": {
+        "timePeriod": "FullYear",
+        "selectedYear": "2017",
+        "ratingDurationToggle": "aa",
+        "x": "33%",
+        "y": "30%",
+        "w": "33%",
+        "message": "Repeat hours are very important to the overall Prime story for the year, reprsenting 78% of the total Prime hours. Lets change our pie chart to duration-based to see which shows contributed the most number of hours."
+    },
+    "6": {
+        "timePeriod": "FullYear",
+        "selectedYear": "2017",
+        "ratingDurationToggle": "mins",
+        "x": "33%",
+        "y": "30%",
+        "w": "33%",
+        "message": "The pie chart is now reflecting duration, with the largest spikes representing the shows with the most number of Prime hours."
+    },
+    "7": {
+        "timePeriod": "FullYear",
+        "selectedYear": "2017",
+        "name": "RIDER OF BAD",
+        "premiereStatus": "repeat",
+        "ratingDurationToggle": "mins",
+        "x": "88%",
+        "y": "30%",
+        "w": "150px;",
+        "message": "RIDER OF BAD repeats were the biggest contributors to Prime in terms of number of hours, with a total of 111 hours in 2017."
+    },
+    "8": {
+        "timePeriod": "FullYear",
+        "selectedYear": "2017",
+        "name": "A PATCH",
+        "premiereStatus": "repeat",
+        "ratingDurationToggle": "mins",
+        "x": "88%",
+        "y": "33%",
+        "w": "150px;",
+        "message": "A PATCH was the 2nd most widely utilized series for Prime repeats, with 85 repeat hours."
+    }
+
+    
+}

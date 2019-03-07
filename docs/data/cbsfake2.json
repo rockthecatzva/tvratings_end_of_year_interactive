@@ -1,0 +1,3744 @@
+{
+    "2016": {
+        "prime": {
+            "Jan": 0.82,
+            "Feb": 0.7,
+            "Mar": 0.69,
+            "Apr": 0.52,
+            "May": 0.55,
+            "Jun": 0.53,
+            "Jul": 0.69,
+            "Aug": 0.65,
+            "Sep": 0.7,
+            "Oct": 0.42,
+            "Nov": 0.52,
+            "Dec": 0.74,
+            "FullYear": 0.73
+        },
+        "premieres": {
+            "Jan": {
+                "aa": 0.96,
+                "mins": 3030
+            },
+            "Feb": {
+                "aa": 1.17,
+                "mins": 2280
+            },
+            "Mar": {
+                "aa": 0.96,
+                "mins": 2280
+            },
+            "Apr": {
+                "aa": 0.81,
+                "mins": 2070
+            },
+            "May": {
+                "aa": 0.65,
+                "mins": 2160
+            },
+            "Jun": {
+                "aa": 0.82,
+                "mins": 1860
+            },
+            "Jul": {
+                "aa": 0.84,
+                "mins": 3060
+            },
+            "Aug": {
+                "aa": 0.66,
+                "mins": 2250
+            },
+            "Sep": {
+                "aa": 0.88,
+                "mins": 2580
+            },
+            "Oct": {
+                "aa": 0.59,
+                "mins": 2820
+            },
+            "Nov": {
+                "aa": 0.67,
+                "mins": 2160
+            },
+            "Dec": {
+                "aa": 0.98,
+                "mins": 1980
+            },
+            "FullYear": {
+                "aa": 0.89,
+                "mins": 28530
+            }
+        },
+        "repeats": {
+            "Jan": {
+                "aa": 0.67,
+                "mins": 3270
+            },
+            "Feb": {
+                "aa": 0.23,
+                "mins": 2760
+            },
+            "Mar": {
+                "aa": 0.42,
+                "mins": 2760
+            },
+            "Apr": {
+                "aa": 0.24,
+                "mins": 2970
+            },
+            "May": {
+                "aa": 0.45,
+                "mins": 4140
+            },
+            "Jun": {
+                "aa": 0.24,
+                "mins": 3180
+            },
+            "Jul": {
+                "aa": 0.53,
+                "mins": 3240
+            },
+            "Aug": {
+                "aa": 0.64,
+                "mins": 2790
+            },
+            "Sep": {
+                "aa": 0.51,
+                "mins": 2460
+            },
+            "Oct": {
+                "aa": 0.26,
+                "mins": 3480
+            },
+            "Nov": {
+                "aa": 0.37,
+                "mins": 2880
+            },
+            "Dec": {
+                "aa": 0.5,
+                "mins": 3060
+            },
+            "FullYear": {
+                "aa": 0.57,
+                "mins": 36990
+            }
+        },
+        "series-prems": {
+            "Jan": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.81,
+                    "mins": 300
+                },
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.79,
+                    "mins": 300
+                },
+                {
+                    "name": "NOTHING OF THORNS",
+                    "aa": 1.14,
+                    "mins": 120
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 1.79,
+                    "mins": 300
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 1.44,
+                    "mins": 120
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 1.05,
+                    "mins": 540
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.88,
+                    "mins": 510
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.83,
+                    "mins": 240
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.75,
+                    "mins": 300
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.84,
+                    "mins": 180
+                },
+                {
+                    "name": "WILLOW OF YEARS",
+                    "aa": 0.89,
+                    "mins": 60
+                },
+                {
+                    "name": "TALE IN THE VISIONS",
+                    "aa": 1.01,
+                    "mins": 60
+                }
+            ],
+            "Feb": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.78,
+                    "mins": 120
+                },
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.93,
+                    "mins": 120
+                },
+                {
+                    "name": "NOTHING OF THORNS",
+                    "aa": 1.02,
+                    "mins": 240
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 2.19,
+                    "mins": 240
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 1.5,
+                    "mins": 120
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.85,
+                    "mins": 480
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 1.03,
+                    "mins": 360
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.97,
+                    "mins": 240
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.85,
+                    "mins": 120
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.94,
+                    "mins": 240
+                }
+            ],
+            "Mar": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.93,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.99,
+                    "mins": 240
+                },
+                {
+                    "name": "NOTHING OF THORNS",
+                    "aa": 1.05,
+                    "mins": 120
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 1.86,
+                    "mins": 240
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 1.46,
+                    "mins": 120
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.98,
+                    "mins": 240
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.86,
+                    "mins": 330
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.72,
+                    "mins": 60
+                },
+                {
+                    "name": "THE SPLINTERED SAVIOR",
+                    "aa": 1.04,
+                    "mins": 150
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.96,
+                    "mins": 240
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 1.24,
+                    "mins": 180
+                },
+                {
+                    "name": "THE ROUGH TIME",
+                    "aa": 0.82,
+                    "mins": 120
+                }
+            ],
+            "Apr": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 1.09,
+                    "mins": 120
+                },
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.9,
+                    "mins": 120
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 2.28,
+                    "mins": 60
+                },
+                {
+                    "name": "THE LUSCIOUS RING",
+                    "aa": 0.91,
+                    "mins": 240
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.89,
+                    "mins": 210
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.78,
+                    "mins": 180
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.67,
+                    "mins": 240
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.8,
+                    "mins": 120
+                },
+                {
+                    "name": "FUTURE IN THE LORDS",
+                    "aa": 0.92,
+                    "mins": 120
+                },
+                {
+                    "name": "CRACKED TOUCH",
+                    "aa": 0.52,
+                    "mins": 240
+                },
+                {
+                    "name": "THE FLAME'S SPARK",
+                    "aa": 0.71,
+                    "mins": 180
+                },
+                {
+                    "name": "THE ROUGH TIME",
+                    "aa": 0.91,
+                    "mins": 240
+                }
+            ],
+            "May": [
+                {
+                    "name": "THE LUSCIOUS RING",
+                    "aa": 0.71,
+                    "mins": 300
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.76,
+                    "mins": 390
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.77,
+                    "mins": 330
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.69,
+                    "mins": 240
+                },
+                {
+                    "name": "FUTURE IN THE LORDS",
+                    "aa": 0.86,
+                    "mins": 300
+                },
+                {
+                    "name": "CRACKED TOUCH",
+                    "aa": 0.54,
+                    "mins": 120
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.89,
+                    "mins": 180
+                },
+                {
+                    "name": "DANGEROUS OBSESSION",
+                    "aa": 0.63,
+                    "mins": 300
+                }
+            ],
+            "Jun": [
+                {
+                    "name": "DYING TEACHER",
+                    "aa": 1.11,
+                    "mins": 240
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 1.37,
+                    "mins": 90
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 1.01,
+                    "mins": 420
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.71,
+                    "mins": 390
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.61,
+                    "mins": 240
+                },
+                {
+                    "name": "FUTURE IN THE LORDS",
+                    "aa": 0.77,
+                    "mins": 240
+                },
+                {
+                    "name": "DANGEROUS OBSESSION",
+                    "aa": 0.89,
+                    "mins": 240
+                }
+            ],
+            "Jul": [
+                {
+                    "name": "THE ROUGH YEAR",
+                    "aa": 0.61,
+                    "mins": 180
+                },
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.7,
+                    "mins": 240
+                },
+                {
+                    "name": "MISTY IN THE WAY",
+                    "aa": 0.63,
+                    "mins": 300
+                },
+                {
+                    "name": "DYING TEACHER",
+                    "aa": 1.37,
+                    "mins": 120
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 1.49,
+                    "mins": 150
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.98,
+                    "mins": 390
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.86,
+                    "mins": 390
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.83,
+                    "mins": 240
+                },
+                {
+                    "name": "WINDOW OF LUCK",
+                    "aa": 0.72,
+                    "mins": 150
+                },
+                {
+                    "name": "THE CRYING'S THORNS",
+                    "aa": 0.74,
+                    "mins": 240
+                },
+                {
+                    "name": "FLAME OF THE FLOWERS",
+                    "aa": 0.73,
+                    "mins": 240
+                },
+                {
+                    "name": "THE HEART'S TOWER",
+                    "aa": 0.9,
+                    "mins": 180
+                },
+                {
+                    "name": "DANGEROUS OBSESSION",
+                    "aa": 0.71,
+                    "mins": 240
+                }
+            ],
+            "Aug": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.87,
+                    "mins": 240
+                },
+                {
+                    "name": "MISTY IN THE WAY",
+                    "aa": 0.68,
+                    "mins": 240
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 1.98,
+                    "mins": 30
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.8,
+                    "mins": 360
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.85,
+                    "mins": 360
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.69,
+                    "mins": 180
+                },
+                {
+                    "name": "THE CRYING'S THORNS",
+                    "aa": 0.5,
+                    "mins": 180
+                },
+                {
+                    "name": "FLAME OF THE FLOWERS",
+                    "aa": 0.56,
+                    "mins": 180
+                },
+                {
+                    "name": "THE HEART'S TOWER",
+                    "aa": 0.91,
+                    "mins": 240
+                },
+                {
+                    "name": "THE ROUGH TIME",
+                    "aa": 0.69,
+                    "mins": 240
+                }
+            ],
+            "Sep": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.67,
+                    "mins": 240
+                },
+                {
+                    "name": "MISTY IN THE WAY",
+                    "aa": 0.55,
+                    "mins": 180
+                },
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.9,
+                    "mins": 180
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 1.48,
+                    "mins": 120
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.94,
+                    "mins": 540
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.91,
+                    "mins": 540
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.67,
+                    "mins": 120
+                },
+                {
+                    "name": "THE CRYING'S THORNS",
+                    "aa": 0.65,
+                    "mins": 60
+                },
+                {
+                    "name": "FLAME OF THE FLOWERS",
+                    "aa": 0.55,
+                    "mins": 60
+                },
+                {
+                    "name": "THE HEART'S TOWER",
+                    "aa": 0.82,
+                    "mins": 240
+                },
+                {
+                    "name": "THE ROUGH TIME",
+                    "aa": 0.87,
+                    "mins": 240
+                },
+                {
+                    "name": "HEALER OF WOMEN",
+                    "aa": 0.71,
+                    "mins": 60
+                }
+            ],
+            "Oct": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.82,
+                    "mins": 60
+                },
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.82,
+                    "mins": 240
+                },
+                {
+                    "name": "SILK OF DRAGON",
+                    "aa": 0.55,
+                    "mins": 240
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.73,
+                    "mins": 660
+                },
+                {
+                    "name": "THE LONELY MAN",
+                    "aa": 0.89,
+                    "mins": 30
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.62,
+                    "mins": 810
+                },
+                {
+                    "name": "WINDOW OF LUCK",
+                    "aa": 0.55,
+                    "mins": 150
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.43,
+                    "mins": 60
+                },
+                {
+                    "name": "THE FLAME'S SPARK",
+                    "aa": 0.53,
+                    "mins": 180
+                },
+                {
+                    "name": "THE HEART'S TOWER",
+                    "aa": 0.88,
+                    "mins": 120
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.93,
+                    "mins": 180
+                },
+                {
+                    "name": "SEVENTH BIRCH",
+                    "aa": 0.68,
+                    "mins": 60
+                },
+                {
+                    "name": "THE ROUGH TIME",
+                    "aa": 0.45,
+                    "mins": 30
+                }
+            ],
+            "Nov": [
+                {
+                    "name": "WIND OF SOULS",
+                    "aa": 0.86,
+                    "mins": 60
+                },
+                {
+                    "name": "SILK OF DRAGON",
+                    "aa": 0.72,
+                    "mins": 240
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.7,
+                    "mins": 540
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.62,
+                    "mins": 540
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.73,
+                    "mins": 180
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.57,
+                    "mins": 240
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.65,
+                    "mins": 180
+                },
+                {
+                    "name": "HEALER OF WOMEN",
+                    "aa": 0.56,
+                    "mins": 180
+                }
+            ],
+            "Dec": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.45,
+                    "mins": 60
+                },
+                {
+                    "name": "WIND OF SOULS",
+                    "aa": 0.82,
+                    "mins": 180
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 1.98,
+                    "mins": 180
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 1.18,
+                    "mins": 120
+                },
+                {
+                    "name": "SILK OF DRAGON",
+                    "aa": 0.82,
+                    "mins": 180
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.84,
+                    "mins": 390
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.72,
+                    "mins": 360
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.61,
+                    "mins": 180
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.5,
+                    "mins": 180
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.74,
+                    "mins": 60
+                },
+                {
+                    "name": "THE DESTINY'S MEMORY",
+                    "aa": 0.73,
+                    "mins": 30
+                },
+                {
+                    "name": "HEALER OF WOMEN",
+                    "aa": 0.49,
+                    "mins": 60
+                }
+            ],
+            "FullYear": [
+                {
+                    "name": "THE ROUGH YEAR",
+                    "aa": 0.6,
+                    "mins": 180
+                },
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.97,
+                    "mins": 1620
+                },
+                {
+                    "name": "MISTY IN THE WAY",
+                    "aa": 0.71,
+                    "mins": 720
+                },
+                {
+                    "name": "DYING TEACHER",
+                    "aa": 1.06,
+                    "mins": 360
+                },
+                {
+                    "name": "WIND OF SOULS",
+                    "aa": 0.83,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.74,
+                    "mins": 1200
+                },
+                {
+                    "name": "NOTHING OF THORNS",
+                    "aa": 0.96,
+                    "mins": 480
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 2.03,
+                    "mins": 1020
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 1.42,
+                    "mins": 870
+                },
+                {
+                    "name": "THE LUSCIOUS RING",
+                    "aa": 0.84,
+                    "mins": 540
+                },
+                {
+                    "name": "SILK OF DRAGON",
+                    "aa": 0.81,
+                    "mins": 660
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.7,
+                    "mins": 5160
+                },
+                {
+                    "name": "THE LONELY MAN",
+                    "aa": 0.73,
+                    "mins": 30
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.9,
+                    "mins": 5100
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.91,
+                    "mins": 2160
+                },
+                {
+                    "name": "THE SPLINTERED SAVIOR",
+                    "aa": 0.91,
+                    "mins": 150
+                },
+                {
+                    "name": "WINDOW OF LUCK",
+                    "aa": 0.82,
+                    "mins": 300
+                },
+                {
+                    "name": "THE CRYING'S THORNS",
+                    "aa": 0.67,
+                    "mins": 480
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.64,
+                    "mins": 1260
+                },
+                {
+                    "name": "FUTURE IN THE LORDS",
+                    "aa": 0.75,
+                    "mins": 660
+                },
+                {
+                    "name": "CRACKED TOUCH",
+                    "aa": 0.62,
+                    "mins": 360
+                },
+                {
+                    "name": "THE FLAME'S SPARK",
+                    "aa": 0.72,
+                    "mins": 360
+                },
+                {
+                    "name": "FLAME OF THE FLOWERS",
+                    "aa": 0.62,
+                    "mins": 480
+                },
+                {
+                    "name": "THE HEART'S TOWER",
+                    "aa": 0.92,
+                    "mins": 780
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 1.03,
+                    "mins": 1200
+                },
+                {
+                    "name": "SEVENTH BIRCH",
+                    "aa": 0.4,
+                    "mins": 60
+                },
+                {
+                    "name": "WILLOW OF YEARS",
+                    "aa": 0.86,
+                    "mins": 60
+                },
+                {
+                    "name": "THE DESTINY'S MEMORY",
+                    "aa": 0.74,
+                    "mins": 30
+                },
+                {
+                    "name": "TALE IN THE VISIONS",
+                    "aa": 1.02,
+                    "mins": 60
+                },
+                {
+                    "name": "DANGEROUS OBSESSION",
+                    "aa": 0.63,
+                    "mins": 780
+                },
+                {
+                    "name": "THE ROUGH TIME",
+                    "aa": 0.65,
+                    "mins": 870
+                },
+                {
+                    "name": "HEALER OF WOMEN",
+                    "aa": 0.67,
+                    "mins": 300
+                }
+            ]
+        },
+        "series-repeats": {
+            "Jan": [
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.57,
+                    "mins": 180
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.98,
+                    "mins": 360
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.84,
+                    "mins": 360
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.78,
+                    "mins": 240
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.76,
+                    "mins": 270
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.8,
+                    "mins": 60
+                },
+                {
+                    "name": "WORLD OF MALE",
+                    "aa": 0.79,
+                    "mins": 840
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.73,
+                    "mins": 960
+                }
+            ],
+            "Feb": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.54,
+                    "mins": 120
+                },
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.57,
+                    "mins": 120
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.99,
+                    "mins": 240
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.77,
+                    "mins": 360
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.77,
+                    "mins": 360
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.89,
+                    "mins": 240
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.52,
+                    "mins": 120
+                },
+                {
+                    "name": "WORLD OF MALE",
+                    "aa": 0.69,
+                    "mins": 480
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.67,
+                    "mins": 720
+                }
+            ],
+            "Mar": [
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.89,
+                    "mins": 240
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.95,
+                    "mins": 360
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.69,
+                    "mins": 270
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.64,
+                    "mins": 210
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.88,
+                    "mins": 180
+                },
+                {
+                    "name": "WORLD OF MALE",
+                    "aa": 0.59,
+                    "mins": 480
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.73,
+                    "mins": 900
+                },
+                {
+                    "name": "DANGEROUS OBSESSION",
+                    "aa": 0.7,
+                    "mins": 120
+                }
+            ],
+            "Apr": [
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.91,
+                    "mins": 120
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.96,
+                    "mins": 420
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.65,
+                    "mins": 300
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.7,
+                    "mins": 150
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.79,
+                    "mins": 90
+                },
+                {
+                    "name": "THE EDGE OF THE STAR",
+                    "aa": 0.65,
+                    "mins": 90
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.79,
+                    "mins": 120
+                },
+                {
+                    "name": "WORLD OF MALE",
+                    "aa": 0.72,
+                    "mins": 480
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.75,
+                    "mins": 1200
+                }
+            ],
+            "May": [
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.78,
+                    "mins": 300
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.78,
+                    "mins": 600
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.69,
+                    "mins": 600
+                },
+                {
+                    "name": "PETALS IN THE COURAGE",
+                    "aa": 0.8,
+                    "mins": 120
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.7,
+                    "mins": 180
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.78,
+                    "mins": 120
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.75,
+                    "mins": 60
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.73,
+                    "mins": 300
+                },
+                {
+                    "name": "WORLD OF MALE",
+                    "aa": 0.44,
+                    "mins": 480
+                },
+                {
+                    "name": "THE FLAME'S SPARK",
+                    "aa": 0.6,
+                    "mins": 120
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.59,
+                    "mins": 1080
+                },
+                {
+                    "name": "DANGEROUS OBSESSION",
+                    "aa": 0.6,
+                    "mins": 180
+                }
+            ],
+            "Jun": [
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.86,
+                    "mins": 240
+                },
+                {
+                    "name": "FLAMES IN THE SLAVES",
+                    "aa": 0.47,
+                    "mins": 180
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.83,
+                    "mins": 480
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.8,
+                    "mins": 360
+                },
+                {
+                    "name": "WANTON DREAM",
+                    "aa": 0.69,
+                    "mins": 30
+                },
+                {
+                    "name": "THE LUSCIOUS RING",
+                    "aa": 0.46,
+                    "mins": 120
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.78,
+                    "mins": 180
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.67,
+                    "mins": 210
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.65,
+                    "mins": 240
+                },
+                {
+                    "name": "THE FLAME'S SPARK",
+                    "aa": 0.68,
+                    "mins": 120
+                },
+                {
+                    "name": "SILK IN THE PAST",
+                    "aa": 0.49,
+                    "mins": 60
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.69,
+                    "mins": 720
+                },
+                {
+                    "name": "DANGEROUS OBSESSION",
+                    "aa": 0.72,
+                    "mins": 240
+                }
+            ],
+            "Jul": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.62,
+                    "mins": 60
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.79,
+                    "mins": 600
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.98,
+                    "mins": 450
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.75,
+                    "mins": 210
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.88,
+                    "mins": 360
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.64,
+                    "mins": 60
+                },
+                {
+                    "name": "THE CRYING'S THORNS",
+                    "aa": 0.6,
+                    "mins": 60
+                },
+                {
+                    "name": "FLAME OF THE FLOWERS",
+                    "aa": 0.51,
+                    "mins": 60
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.8,
+                    "mins": 360
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.59,
+                    "mins": 420
+                },
+                {
+                    "name": "DANGEROUS OBSESSION",
+                    "aa": 0.75,
+                    "mins": 360
+                },
+                {
+                    "name": "THE BOLD FLOWERS",
+                    "aa": 0.61,
+                    "mins": 240
+                }
+            ],
+            "Aug": [
+                {
+                    "name": "MISTY IN THE WAY",
+                    "aa": 0.66,
+                    "mins": 240
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.84,
+                    "mins": 480
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.82,
+                    "mins": 420
+                },
+                {
+                    "name": "THE EDGE'S SECRET",
+                    "aa": 0.45,
+                    "mins": 30
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.74,
+                    "mins": 240
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.78,
+                    "mins": 240
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.71,
+                    "mins": 60
+                },
+                {
+                    "name": "WINDOW OF LUCK",
+                    "aa": 0.41,
+                    "mins": 120
+                },
+                {
+                    "name": "THE CRYING'S THORNS",
+                    "aa": 0.77,
+                    "mins": 60
+                },
+                {
+                    "name": "FLAME OF THE FLOWERS",
+                    "aa": 0.7,
+                    "mins": 60
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.58,
+                    "mins": 480
+                },
+                {
+                    "name": "DANGEROUS OBSESSION",
+                    "aa": 0.57,
+                    "mins": 240
+                },
+                {
+                    "name": "STRIPPED DANGER",
+                    "aa": 0.47,
+                    "mins": 120
+                }
+            ],
+            "Sep": [
+                {
+                    "name": "MISTY IN THE WAY",
+                    "aa": 0.6,
+                    "mins": 540
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.94,
+                    "mins": 480
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.78,
+                    "mins": 360
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.89,
+                    "mins": 60
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.88,
+                    "mins": 60
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.79,
+                    "mins": 120
+                },
+                {
+                    "name": "THE CRYING'S THORNS",
+                    "aa": 0.75,
+                    "mins": 180
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.57,
+                    "mins": 480
+                },
+                {
+                    "name": "DANGEROUS OBSESSION",
+                    "aa": 0.43,
+                    "mins": 180
+                }
+            ],
+            "Oct": [
+                {
+                    "name": "MISTY IN THE WAY",
+                    "aa": 0.41,
+                    "mins": 300
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.73,
+                    "mins": 600
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.76,
+                    "mins": 600
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.49,
+                    "mins": 30
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.49,
+                    "mins": 300
+                },
+                {
+                    "name": "THE CRYING'S THORNS",
+                    "aa": 0.52,
+                    "mins": 300
+                },
+                {
+                    "name": "WORLD OF MALE",
+                    "aa": 0.54,
+                    "mins": 120
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.45,
+                    "mins": 360
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.5,
+                    "mins": 780
+                },
+                {
+                    "name": "THE ROUGH TIME",
+                    "aa": 0.62,
+                    "mins": 90
+                }
+            ],
+            "Nov": [
+                {
+                    "name": "WIND OF SOULS",
+                    "aa": 0.68,
+                    "mins": 60
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.64,
+                    "mins": 480
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.66,
+                    "mins": 480
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.44,
+                    "mins": 60
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.71,
+                    "mins": 60
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.55,
+                    "mins": 300
+                },
+                {
+                    "name": "THE CRYING'S THORNS",
+                    "aa": 0.63,
+                    "mins": 60
+                },
+                {
+                    "name": "WORLD OF MALE",
+                    "aa": 0.51,
+                    "mins": 240
+                },
+                {
+                    "name": "FLAME OF THE FLOWERS",
+                    "aa": 0.67,
+                    "mins": 180
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.59,
+                    "mins": 660
+                },
+                {
+                    "name": "HEALER OF WOMEN",
+                    "aa": 0.56,
+                    "mins": 60
+                },
+                {
+                    "name": "THE BOLD FLOWERS",
+                    "aa": 0.66,
+                    "mins": 240
+                }
+            ],
+            "Dec": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.48,
+                    "mins": 60
+                },
+                {
+                    "name": "WIND OF SOULS",
+                    "aa": 0.73,
+                    "mins": 360
+                },
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.61,
+                    "mins": 60
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.72,
+                    "mins": 540
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.65,
+                    "mins": 360
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.62,
+                    "mins": 180
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.68,
+                    "mins": 180
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.52,
+                    "mins": 240
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.69,
+                    "mins": 60
+                },
+                {
+                    "name": "WORLD OF MALE",
+                    "aa": 0.4,
+                    "mins": 360
+                },
+                {
+                    "name": "FLAME OF THE FLOWERS",
+                    "aa": 0.76,
+                    "mins": 120
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.64,
+                    "mins": 240
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.72,
+                    "mins": 240
+                },
+                {
+                    "name": "HEALER OF WOMEN",
+                    "aa": 0.49,
+                    "mins": 60
+                }
+            ],
+            "FullYear": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.51,
+                    "mins": 240
+                },
+                {
+                    "name": "MISTY IN THE WAY",
+                    "aa": 0.69,
+                    "mins": 1080
+                },
+                {
+                    "name": "WIND OF SOULS",
+                    "aa": 0.81,
+                    "mins": 420
+                },
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.64,
+                    "mins": 1020
+                },
+                {
+                    "name": "FLAMES IN THE SLAVES",
+                    "aa": 0.64,
+                    "mins": 180
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.7,
+                    "mins": 5520
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.85,
+                    "mins": 5010
+                },
+                {
+                    "name": "WANTON DREAM",
+                    "aa": 0.65,
+                    "mins": 30
+                },
+                {
+                    "name": "THE LUSCIOUS RING",
+                    "aa": 0.6,
+                    "mins": 120
+                },
+                {
+                    "name": "THE EDGE'S SECRET",
+                    "aa": 0.42,
+                    "mins": 30
+                },
+                {
+                    "name": "PETALS IN THE COURAGE",
+                    "aa": 0.63,
+                    "mins": 120
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.89,
+                    "mins": 2160
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.88,
+                    "mins": 2040
+                },
+                {
+                    "name": "THE EDGE OF THE STAR",
+                    "aa": 0.71,
+                    "mins": 90
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.56,
+                    "mins": 1380
+                },
+                {
+                    "name": "WINDOW OF LUCK",
+                    "aa": 0.5,
+                    "mins": 120
+                },
+                {
+                    "name": "THE CRYING'S THORNS",
+                    "aa": 0.77,
+                    "mins": 660
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.73,
+                    "mins": 840
+                },
+                {
+                    "name": "WORLD OF MALE",
+                    "aa": 0.46,
+                    "mins": 3480
+                },
+                {
+                    "name": "THE FLAME'S SPARK",
+                    "aa": 0.67,
+                    "mins": 240
+                },
+                {
+                    "name": "FLAME OF THE FLOWERS",
+                    "aa": 0.67,
+                    "mins": 420
+                },
+                {
+                    "name": "SILK IN THE PAST",
+                    "aa": 0.49,
+                    "mins": 60
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.61,
+                    "mins": 960
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.55,
+                    "mins": 8640
+                },
+                {
+                    "name": "DANGEROUS OBSESSION",
+                    "aa": 0.63,
+                    "mins": 1320
+                },
+                {
+                    "name": "THE ROUGH TIME",
+                    "aa": 0.59,
+                    "mins": 90
+                },
+                {
+                    "name": "HEALER OF WOMEN",
+                    "aa": 0.56,
+                    "mins": 120
+                },
+                {
+                    "name": "STRIPPED DANGER",
+                    "aa": 0.39,
+                    "mins": 120
+                },
+                {
+                    "name": "THE BOLD FLOWERS",
+                    "aa": 0.48,
+                    "mins": 480
+                }
+            ]
+        }
+    },
+    "2017": {
+        "prime": {
+            "Jan": 0.79,
+            "Feb": 1.1,
+            "Mar": 0.55,
+            "Apr": 0.63,
+            "May": 0.7,
+            "Jun": 0.44,
+            "Jul": 0.43,
+            "Aug": 0.5,
+            "Sep": 0.4,
+            "Oct": 0.36,
+            "Nov": 0.42,
+            "Dec": 0.4,
+            "FullYear": 0.66
+        },
+        "premieres": {
+            "Jan": {
+                "aa": 0.99,
+                "mins": 3450
+            },
+            "Feb": {
+                "aa": 1.13,
+                "mins": 2280
+            },
+            "Mar": {
+                "aa": 0.95,
+                "mins": 2370
+            },
+            "Apr": {
+                "aa": 0.7,
+                "mins": 2820
+            },
+            "May": {
+                "aa": 0.73,
+                "mins": 2970
+            },
+            "Jun": {
+                "aa": 0.77,
+                "mins": 3150
+            },
+            "Jul": {
+                "aa": 0.83,
+                "mins": 3510
+            },
+            "Aug": {
+                "aa": 0.68,
+                "mins": 3090
+            },
+            "Sep": {
+                "aa": 0.54,
+                "mins": 3180
+            },
+            "Oct": {
+                "aa": 0.56,
+                "mins": 3780
+            },
+            "Nov": {
+                "aa": 0.76,
+                "mins": 2520
+            },
+            "Dec": {
+                "aa": 0.61,
+                "mins": 2640
+            },
+            "FullYear": {
+                "aa": 0.7,
+                "mins": 35760
+            }
+        },
+        "repeats": {
+            "Jan": {
+                "aa": 0.59,
+                "mins": 2850
+            },
+            "Feb": {
+                "aa": 1.06,
+                "mins": 2760
+            },
+            "Mar": {
+                "aa": 0.15,
+                "mins": 2670
+            },
+            "Apr": {
+                "aa": 0.57,
+                "mins": 3480
+            },
+            "May": {
+                "aa": 0.68,
+                "mins": 2070
+            },
+            "Jun": {
+                "aa": 0.12,
+                "mins": 1890
+            },
+            "Jul": {
+                "aa": 0.03,
+                "mins": 2790
+            },
+            "Aug": {
+                "aa": 0.31,
+                "mins": 1950
+            },
+            "Sep": {
+                "aa": 0.25,
+                "mins": 1860
+            },
+            "Oct": {
+                "aa": 0.17,
+                "mins": 2520
+            },
+            "Nov": {
+                "aa": 0.08,
+                "mins": 2520
+            },
+            "Dec": {
+                "aa": 0.2,
+                "mins": 3660
+            },
+            "FullYear": {
+                "aa": 0.63,
+                "mins": 31020
+            }
+        },
+        "series-prems": {
+            "Jan": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.94,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.78,
+                    "mins": 300
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 2.08,
+                    "mins": 240
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 1.28,
+                    "mins": 120
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.88,
+                    "mins": 690
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.82,
+                    "mins": 600
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.6,
+                    "mins": 240
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.74,
+                    "mins": 300
+                },
+                {
+                    "name": "WORLD OF MALE",
+                    "aa": 0.75,
+                    "mins": 240
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.69,
+                    "mins": 120
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 1.04,
+                    "mins": 240
+                },
+                {
+                    "name": "THE BLUE SHADOW",
+                    "aa": 1.68,
+                    "mins": 60
+                },
+                {
+                    "name": "WILLOW OF YEARS",
+                    "aa": 0.66,
+                    "mins": 60
+                }
+            ],
+            "Feb": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.88,
+                    "mins": 120
+                },
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.71,
+                    "mins": 120
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 2.08,
+                    "mins": 180
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 1.27,
+                    "mins": 120
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.88,
+                    "mins": 540
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.96,
+                    "mins": 420
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.78,
+                    "mins": 120
+                },
+                {
+                    "name": "WORLD OF MALE",
+                    "aa": 0.94,
+                    "mins": 240
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.86,
+                    "mins": 120
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.94,
+                    "mins": 240
+                },
+                {
+                    "name": "THE BLUE SHADOW",
+                    "aa": 1.89,
+                    "mins": 60
+                }
+            ],
+            "Mar": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.96,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.92,
+                    "mins": 240
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 1.99,
+                    "mins": 180
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 1.32,
+                    "mins": 120
+                },
+                {
+                    "name": "THE EYES OF THE DOOR",
+                    "aa": 1.32,
+                    "mins": 60
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.85,
+                    "mins": 330
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.97,
+                    "mins": 240
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.79,
+                    "mins": 240
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.8,
+                    "mins": 240
+                },
+                {
+                    "name": "WORLD OF MALE",
+                    "aa": 0.86,
+                    "mins": 120
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.64,
+                    "mins": 120
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 1.03,
+                    "mins": 180
+                },
+                {
+                    "name": "THE BLUE SHADOW",
+                    "aa": 2.16,
+                    "mins": 60
+                }
+            ],
+            "Apr": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.78,
+                    "mins": 60
+                },
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.84,
+                    "mins": 180
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 2.04,
+                    "mins": 60
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 1.15,
+                    "mins": 30
+                },
+                {
+                    "name": "HEAT IN THE SOMETHING",
+                    "aa": 0.84,
+                    "mins": 120
+                },
+                {
+                    "name": "SILK OF DRAGON",
+                    "aa": 1.06,
+                    "mins": 120
+                },
+                {
+                    "name": "THE EYES OF THE DOOR",
+                    "aa": 1.13,
+                    "mins": 300
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.76,
+                    "mins": 360
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.85,
+                    "mins": 210
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.69,
+                    "mins": 240
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 1.04,
+                    "mins": 300
+                },
+                {
+                    "name": "FUTURE IN THE LORDS",
+                    "aa": 0.91,
+                    "mins": 240
+                },
+                {
+                    "name": "STRIPPED SWORD",
+                    "aa": 0.69,
+                    "mins": 180
+                },
+                {
+                    "name": "THE HEART'S TOWER",
+                    "aa": 0.79,
+                    "mins": 120
+                },
+                {
+                    "name": "WILLOW OF YEARS",
+                    "aa": 0.72,
+                    "mins": 60
+                },
+                {
+                    "name": "THE ROUGH TIME",
+                    "aa": 0.59,
+                    "mins": 240
+                }
+            ],
+            "May": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 1,
+                    "mins": 180
+                },
+                {
+                    "name": "MISTY IN THE WAY",
+                    "aa": 0.62,
+                    "mins": 60
+                },
+                {
+                    "name": "HEAT IN THE SOMETHING",
+                    "aa": 0.75,
+                    "mins": 120
+                },
+                {
+                    "name": "THE EYES OF THE DOOR",
+                    "aa": 0.77,
+                    "mins": 240
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.57,
+                    "mins": 540
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.69,
+                    "mins": 330
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 1,
+                    "mins": 180
+                },
+                {
+                    "name": "FUTURE IN THE LORDS",
+                    "aa": 0.77,
+                    "mins": 240
+                },
+                {
+                    "name": "STRIPPED SWORD",
+                    "aa": 0.71,
+                    "mins": 360
+                },
+                {
+                    "name": "THE HEART'S TOWER",
+                    "aa": 0.68,
+                    "mins": 240
+                },
+                {
+                    "name": "DANGEROUS OBSESSION",
+                    "aa": 0.67,
+                    "mins": 240
+                },
+                {
+                    "name": "THE ROUGH TIME",
+                    "aa": 0.68,
+                    "mins": 240
+                }
+            ],
+            "Jun": [
+                {
+                    "name": "KISS OF GIRL",
+                    "aa": 0.78,
+                    "mins": 240
+                },
+                {
+                    "name": "MISTY IN THE WAY",
+                    "aa": 0.8,
+                    "mins": 240
+                },
+                {
+                    "name": "DYING TEACHER",
+                    "aa": 1.08,
+                    "mins": 240
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 1.08,
+                    "mins": 60
+                },
+                {
+                    "name": "HEAT IN THE SOMETHING",
+                    "aa": 0.9,
+                    "mins": 60
+                },
+                {
+                    "name": "THE LUSCIOUS RING",
+                    "aa": 0.86,
+                    "mins": 240
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.72,
+                    "mins": 510
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.82,
+                    "mins": 360
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.82,
+                    "mins": 240
+                },
+                {
+                    "name": "FUTURE IN THE LORDS",
+                    "aa": 0.69,
+                    "mins": 240
+                },
+                {
+                    "name": "FLAME OF THE FLOWERS",
+                    "aa": 1.02,
+                    "mins": 240
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.8,
+                    "mins": 90
+                },
+                {
+                    "name": "DANGEROUS OBSESSION",
+                    "aa": 0.62,
+                    "mins": 150
+                },
+                {
+                    "name": "THE ROUGH TIME",
+                    "aa": 0.63,
+                    "mins": 240
+                }
+            ],
+            "Jul": [
+                {
+                    "name": "KISS OF GIRL",
+                    "aa": 1.07,
+                    "mins": 120
+                },
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.64,
+                    "mins": 240
+                },
+                {
+                    "name": "MISTY IN THE WAY",
+                    "aa": 0.76,
+                    "mins": 300
+                },
+                {
+                    "name": "DYING TEACHER",
+                    "aa": 1.04,
+                    "mins": 120
+                },
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.94,
+                    "mins": 180
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 1.17,
+                    "mins": 90
+                },
+                {
+                    "name": "FIRE OF HUNTER",
+                    "aa": 0.98,
+                    "mins": 60
+                },
+                {
+                    "name": "THE LUSCIOUS RING",
+                    "aa": 0.92,
+                    "mins": 240
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.74,
+                    "mins": 450
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.92,
+                    "mins": 450
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.59,
+                    "mins": 300
+                },
+                {
+                    "name": "THE CRYING'S THORNS",
+                    "aa": 0.76,
+                    "mins": 180
+                },
+                {
+                    "name": "FUTURE IN THE LORDS",
+                    "aa": 0.79,
+                    "mins": 180
+                },
+                {
+                    "name": "FLAME OF THE FLOWERS",
+                    "aa": 1.03,
+                    "mins": 120
+                },
+                {
+                    "name": "THE HEART'S TOWER",
+                    "aa": 0.77,
+                    "mins": 180
+                },
+                {
+                    "name": "THE ROUGH TIME",
+                    "aa": 0.66,
+                    "mins": 60
+                },
+                {
+                    "name": "THE STREAM'S SHORES",
+                    "aa": 0.71,
+                    "mins": 240
+                }
+            ],
+            "Aug": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.72,
+                    "mins": 240
+                },
+                {
+                    "name": "MISTY IN THE WAY",
+                    "aa": 0.74,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.84,
+                    "mins": 240
+                },
+                {
+                    "name": "MAGNIFICENT HUSTLER",
+                    "aa": 0.84,
+                    "mins": 90
+                },
+                {
+                    "name": "FIRE OF HUNTER",
+                    "aa": 0.81,
+                    "mins": 120
+                },
+                {
+                    "name": "THE LUSCIOUS RING",
+                    "aa": 0.86,
+                    "mins": 240
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.87,
+                    "mins": 180
+                },
+                {
+                    "name": "THE LONELY MAN",
+                    "aa": 0.73,
+                    "mins": 150
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.89,
+                    "mins": 360
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.59,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SPLINTERED SAVIOR",
+                    "aa": 0.66,
+                    "mins": 150
+                },
+                {
+                    "name": "THE CRYING'S THORNS",
+                    "aa": 0.91,
+                    "mins": 240
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.78,
+                    "mins": 120
+                },
+                {
+                    "name": "THE HEART'S TOWER",
+                    "aa": 0.71,
+                    "mins": 240
+                },
+                {
+                    "name": "DANGEROUS OBSESSION",
+                    "aa": 0.62,
+                    "mins": 180
+                },
+                {
+                    "name": "THE STREAM'S SHORES",
+                    "aa": 0.78,
+                    "mins": 60
+                }
+            ],
+            "Sep": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.67,
+                    "mins": 300
+                },
+                {
+                    "name": "MISTY IN THE WAY",
+                    "aa": 0.64,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.79,
+                    "mins": 60
+                },
+                {
+                    "name": "MAGNIFICENT HUSTLER",
+                    "aa": 0.7,
+                    "mins": 120
+                },
+                {
+                    "name": "FIRE OF HUNTER",
+                    "aa": 0.69,
+                    "mins": 120
+                },
+                {
+                    "name": "THE LUSCIOUS RING",
+                    "aa": 0.88,
+                    "mins": 60
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.78,
+                    "mins": 660
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.85,
+                    "mins": 660
+                },
+                {
+                    "name": "THE CRYING'S THORNS",
+                    "aa": 0.82,
+                    "mins": 60
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.51,
+                    "mins": 180
+                },
+                {
+                    "name": "FLAME OF THE FLOWERS",
+                    "aa": 0.77,
+                    "mins": 180
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.79,
+                    "mins": 60
+                },
+                {
+                    "name": "THE HEART'S TOWER",
+                    "aa": 0.91,
+                    "mins": 240
+                },
+                {
+                    "name": "DANGEROUS OBSESSION",
+                    "aa": 0.71,
+                    "mins": 240
+                }
+            ],
+            "Oct": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.68,
+                    "mins": 60
+                },
+                {
+                    "name": "FIRE OF HUNTER",
+                    "aa": 0.72,
+                    "mins": 90
+                },
+                {
+                    "name": "HEAT IN THE SOMETHING",
+                    "aa": 0.79,
+                    "mins": 90
+                },
+                {
+                    "name": "SILK OF DRAGON",
+                    "aa": 0.61,
+                    "mins": 300
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.76,
+                    "mins": 810
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.58,
+                    "mins": 750
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.52,
+                    "mins": 300
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.6,
+                    "mins": 300
+                },
+                {
+                    "name": "STRIPPED SWORD",
+                    "aa": 0.67,
+                    "mins": 180
+                },
+                {
+                    "name": "FLAME OF THE FLOWERS",
+                    "aa": 0.73,
+                    "mins": 300
+                },
+                {
+                    "name": "THE HEART'S TOWER",
+                    "aa": 0.69,
+                    "mins": 120
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.62,
+                    "mins": 180
+                },
+                {
+                    "name": "DANGEROUS OBSESSION",
+                    "aa": 0.42,
+                    "mins": 60
+                },
+                {
+                    "name": "HEALER OF WOMEN",
+                    "aa": 0.56,
+                    "mins": 240
+                }
+            ],
+            "Nov": [
+                {
+                    "name": "LONELY HEART",
+                    "aa": 0.46,
+                    "mins": 30
+                },
+                {
+                    "name": "KISS OF GIRL",
+                    "aa": 0.59,
+                    "mins": 240
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 1.74,
+                    "mins": 60
+                },
+                {
+                    "name": "THE MEMORY'S WAY",
+                    "aa": 0.77,
+                    "mins": 90
+                },
+                {
+                    "name": "SILK OF DRAGON",
+                    "aa": 0.78,
+                    "mins": 240
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.57,
+                    "mins": 570
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.68,
+                    "mins": 570
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.72,
+                    "mins": 240
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.49,
+                    "mins": 240
+                },
+                {
+                    "name": "TALES OF LORDS",
+                    "aa": 0.76,
+                    "mins": 60
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.65,
+                    "mins": 180
+                }
+            ],
+            "Dec": [
+                {
+                    "name": "KISS OF GIRL",
+                    "aa": 0.49,
+                    "mins": 120
+                },
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.56,
+                    "mins": 60
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 1.66,
+                    "mins": 240
+                },
+                {
+                    "name": "THE MEMORY'S WAY",
+                    "aa": 0.65,
+                    "mins": 120
+                },
+                {
+                    "name": "SILK OF DRAGON",
+                    "aa": 0.67,
+                    "mins": 240
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.55,
+                    "mins": 330
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.72,
+                    "mins": 600
+                },
+                {
+                    "name": "LOVER IN THE SCHOOL",
+                    "aa": 0.66,
+                    "mins": 150
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.58,
+                    "mins": 180
+                },
+                {
+                    "name": "THE SPLINTERED SAVIOR",
+                    "aa": 0.69,
+                    "mins": 150
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.69,
+                    "mins": 120
+                },
+                {
+                    "name": "TALES OF LORDS",
+                    "aa": 0.8,
+                    "mins": 240
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.85,
+                    "mins": 60
+                },
+                {
+                    "name": "THE ROUGH TIME",
+                    "aa": 0.52,
+                    "mins": 30
+                }
+            ],
+            "FullYear": [
+                {
+                    "name": "LONELY HEART",
+                    "aa": 0.44,
+                    "mins": 30
+                },
+                {
+                    "name": "KISS OF GIRL",
+                    "aa": 0.71,
+                    "mins": 720
+                },
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.81,
+                    "mins": 1740
+                },
+                {
+                    "name": "MISTY IN THE WAY",
+                    "aa": 0.69,
+                    "mins": 1080
+                },
+                {
+                    "name": "DYING TEACHER",
+                    "aa": 1.04,
+                    "mins": 360
+                },
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.96,
+                    "mins": 1320
+                },
+                {
+                    "name": "MAGNIFICENT HUSTLER",
+                    "aa": 0.83,
+                    "mins": 210
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 1.81,
+                    "mins": 960
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 1.08,
+                    "mins": 540
+                },
+                {
+                    "name": "FIRE OF HUNTER",
+                    "aa": 0.87,
+                    "mins": 390
+                },
+                {
+                    "name": "THE MEMORY'S WAY",
+                    "aa": 0.75,
+                    "mins": 210
+                },
+                {
+                    "name": "HEAT IN THE SOMETHING",
+                    "aa": 0.72,
+                    "mins": 390
+                },
+                {
+                    "name": "THE LUSCIOUS RING",
+                    "aa": 1,
+                    "mins": 780
+                },
+                {
+                    "name": "SILK OF DRAGON",
+                    "aa": 0.66,
+                    "mins": 900
+                },
+                {
+                    "name": "THE EYES OF THE DOOR",
+                    "aa": 1.04,
+                    "mins": 600
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.73,
+                    "mins": 5970
+                },
+                {
+                    "name": "THE LONELY MAN",
+                    "aa": 0.76,
+                    "mins": 150
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.67,
+                    "mins": 5550
+                },
+                {
+                    "name": "LOVER IN THE SCHOOL",
+                    "aa": 0.68,
+                    "mins": 150
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.73,
+                    "mins": 2220
+                },
+                {
+                    "name": "THE SPLINTERED SAVIOR",
+                    "aa": 0.6,
+                    "mins": 300
+                },
+                {
+                    "name": "THE CRYING'S THORNS",
+                    "aa": 0.9,
+                    "mins": 480
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.88,
+                    "mins": 1980
+                },
+                {
+                    "name": "FUTURE IN THE LORDS",
+                    "aa": 0.97,
+                    "mins": 900
+                },
+                {
+                    "name": "STRIPPED SWORD",
+                    "aa": 0.75,
+                    "mins": 720
+                },
+                {
+                    "name": "WORLD OF MALE",
+                    "aa": 0.68,
+                    "mins": 600
+                },
+                {
+                    "name": "FLAME OF THE FLOWERS",
+                    "aa": 0.67,
+                    "mins": 840
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.66,
+                    "mins": 630
+                },
+                {
+                    "name": "TALES OF LORDS",
+                    "aa": 1.07,
+                    "mins": 300
+                },
+                {
+                    "name": "THE HEART'S TOWER",
+                    "aa": 0.69,
+                    "mins": 1140
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.83,
+                    "mins": 1080
+                },
+                {
+                    "name": "THE BLUE SHADOW",
+                    "aa": 1.79,
+                    "mins": 180
+                },
+                {
+                    "name": "WILLOW OF YEARS",
+                    "aa": 0.81,
+                    "mins": 60
+                },
+                {
+                    "name": "WILLOW OF YEARS",
+                    "aa": 0.58,
+                    "mins": 60
+                },
+                {
+                    "name": "DANGEROUS OBSESSION",
+                    "aa": 0.72,
+                    "mins": 870
+                },
+                {
+                    "name": "THE ROUGH TIME",
+                    "aa": 0.75,
+                    "mins": 810
+                },
+                {
+                    "name": "HEALER OF WOMEN",
+                    "aa": 0.47,
+                    "mins": 240
+                },
+                {
+                    "name": "THE STREAM'S SHORES",
+                    "aa": 0.81,
+                    "mins": 300
+                }
+            ]
+        },
+        "series-repeats": {
+            "Jan": [
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.76,
+                    "mins": 240
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.86,
+                    "mins": 480
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.67,
+                    "mins": 210
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.59,
+                    "mins": 210
+                },
+                {
+                    "name": "WORLD OF MALE",
+                    "aa": 0.63,
+                    "mins": 120
+                },
+                {
+                    "name": "FLAME OF THE FLOWERS",
+                    "aa": 0.46,
+                    "mins": 180
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.61,
+                    "mins": 480
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.64,
+                    "mins": 840
+                },
+                {
+                    "name": "THE BLUE SHADOW",
+                    "aa": 1.16,
+                    "mins": 60
+                },
+                {
+                    "name": "THE DESTINY'S MEMORY",
+                    "aa": 0.76,
+                    "mins": 30
+                }
+            ],
+            "Feb": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.59,
+                    "mins": 120
+                },
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.44,
+                    "mins": 120
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.81,
+                    "mins": 240
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.82,
+                    "mins": 360
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.78,
+                    "mins": 270
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.72,
+                    "mins": 150
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.79,
+                    "mins": 240
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.56,
+                    "mins": 120
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.76,
+                    "mins": 360
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.87,
+                    "mins": 720
+                },
+                {
+                    "name": "THE BLUE SHADOW",
+                    "aa": 1.02,
+                    "mins": 60
+                }
+            ],
+            "Mar": [
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.83,
+                    "mins": 240
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.68,
+                    "mins": 360
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.6,
+                    "mins": 300
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.84,
+                    "mins": 330
+                },
+                {
+                    "name": "WORLD OF MALE",
+                    "aa": 0.5,
+                    "mins": 300
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.66,
+                    "mins": 360
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.63,
+                    "mins": 780
+                }
+            ],
+            "Apr": [
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.74,
+                    "mins": 420
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.65,
+                    "mins": 420
+                },
+                {
+                    "name": "HEAT IN THE SOMETHING",
+                    "aa": 0.56,
+                    "mins": 30
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.6,
+                    "mins": 240
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.77,
+                    "mins": 390
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.75,
+                    "mins": 60
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.58,
+                    "mins": 720
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.57,
+                    "mins": 840
+                },
+                {
+                    "name": "THE BLUE SHADOW",
+                    "aa": 0.92,
+                    "mins": 120
+                },
+                {
+                    "name": "THE ROUGH TIME",
+                    "aa": 0.52,
+                    "mins": 240
+                }
+            ],
+            "May": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.82,
+                    "mins": 60
+                },
+                {
+                    "name": "MISTY IN THE WAY",
+                    "aa": 0.8,
+                    "mins": 60
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.81,
+                    "mins": 420
+                },
+                {
+                    "name": "HEAT IN THE SOMETHING",
+                    "aa": 0.65,
+                    "mins": 120
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.56,
+                    "mins": 180
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.6,
+                    "mins": 150
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.96,
+                    "mins": 60
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.65,
+                    "mins": 480
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.62,
+                    "mins": 480
+                },
+                {
+                    "name": "THE BLUE SHADOW",
+                    "aa": 0.9,
+                    "mins": 60
+                }
+            ],
+            "Jun": [
+                {
+                    "name": "MISTY IN THE WAY",
+                    "aa": 0.54,
+                    "mins": 240
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.78,
+                    "mins": 360
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.51,
+                    "mins": 180
+                },
+                {
+                    "name": "HEAT IN THE SOMETHING",
+                    "aa": 0.76,
+                    "mins": 60
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.54,
+                    "mins": 90
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.86,
+                    "mins": 120
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.54,
+                    "mins": 390
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.56,
+                    "mins": 240
+                },
+                {
+                    "name": "THE BLUE SHADOW",
+                    "aa": 0.72,
+                    "mins": 120
+                },
+                {
+                    "name": "DANGEROUS OBSESSION",
+                    "aa": 0.52,
+                    "mins": 90
+                }
+            ],
+            "Jul": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.51,
+                    "mins": 360
+                },
+                {
+                    "name": "MISTY IN THE WAY",
+                    "aa": 0.67,
+                    "mins": 240
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.76,
+                    "mins": 600
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.55,
+                    "mins": 450
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.72,
+                    "mins": 180
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.77,
+                    "mins": 180
+                },
+                {
+                    "name": "STRIPPED SWORD",
+                    "aa": 0.56,
+                    "mins": 60
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.69,
+                    "mins": 120
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.51,
+                    "mins": 300
+                },
+                {
+                    "name": "THE ROUGH TIME",
+                    "aa": 0.58,
+                    "mins": 300
+                }
+            ],
+            "Aug": [
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.69,
+                    "mins": 420
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.55,
+                    "mins": 270
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.73,
+                    "mins": 60
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.47,
+                    "mins": 60
+                },
+                {
+                    "name": "STRIPPED SWORD",
+                    "aa": 0.55,
+                    "mins": 240
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.66,
+                    "mins": 360
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.57,
+                    "mins": 240
+                },
+                {
+                    "name": "THE BLUE SHADOW",
+                    "aa": 0.71,
+                    "mins": 60
+                },
+                {
+                    "name": "THE ROUGH TIME",
+                    "aa": 0.72,
+                    "mins": 240
+                }
+            ],
+            "Sep": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.59,
+                    "mins": 60
+                },
+                {
+                    "name": "MISTY IN THE WAY",
+                    "aa": 0.51,
+                    "mins": 180
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.72,
+                    "mins": 420
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.39,
+                    "mins": 210
+                },
+                {
+                    "name": "FIRE OF HUNTER",
+                    "aa": 0.59,
+                    "mins": 30
+                },
+                {
+                    "name": "THE LUSCIOUS RING",
+                    "aa": 0.59,
+                    "mins": 60
+                },
+                {
+                    "name": "STRIPPED SWORD",
+                    "aa": 0.46,
+                    "mins": 60
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.61,
+                    "mins": 300
+                },
+                {
+                    "name": "FLOWER OF THE STARS",
+                    "aa": 0.67,
+                    "mins": 240
+                },
+                {
+                    "name": "THE BLUE SHADOW",
+                    "aa": 0.7,
+                    "mins": 60
+                },
+                {
+                    "name": "THE ROUGH TIME",
+                    "aa": 0.59,
+                    "mins": 240
+                }
+            ],
+            "Oct": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.58,
+                    "mins": 60
+                },
+                {
+                    "name": "MISTY IN THE WAY",
+                    "aa": 0.61,
+                    "mins": 180
+                },
+                {
+                    "name": "WIND OF SOULS",
+                    "aa": 0.59,
+                    "mins": 240
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.59,
+                    "mins": 600
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.39,
+                    "mins": 300
+                },
+                {
+                    "name": "FIRE OF HUNTER",
+                    "aa": 0.54,
+                    "mins": 90
+                },
+                {
+                    "name": "HEAT IN THE SOMETHING",
+                    "aa": 0.52,
+                    "mins": 30
+                },
+                {
+                    "name": "THE EYES OF THE DOOR",
+                    "aa": 0.37,
+                    "mins": 120
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.5,
+                    "mins": 30
+                },
+                {
+                    "name": "WORLD OF MALE",
+                    "aa": 0.39,
+                    "mins": 120
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.46,
+                    "mins": 480
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.5,
+                    "mins": 180
+                },
+                {
+                    "name": "THE ROUGH TIME",
+                    "aa": 0.43,
+                    "mins": 90
+                }
+            ],
+            "Nov": [
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.62,
+                    "mins": 420
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.36,
+                    "mins": 120
+                },
+                {
+                    "name": "THE MEMORY'S WAY",
+                    "aa": 0.59,
+                    "mins": 60
+                },
+                {
+                    "name": "HEAT IN THE SOMETHING",
+                    "aa": 0.56,
+                    "mins": 210
+                },
+                {
+                    "name": "THE LUSCIOUS RING",
+                    "aa": 0.45,
+                    "mins": 240
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.59,
+                    "mins": 30
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.51,
+                    "mins": 30
+                },
+                {
+                    "name": "WORLD OF MALE",
+                    "aa": 0.6,
+                    "mins": 240
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.57,
+                    "mins": 450
+                },
+                {
+                    "name": "TALES OF LORDS",
+                    "aa": 0.68,
+                    "mins": 60
+                },
+                {
+                    "name": "FLOWER OF THE STARS",
+                    "aa": 0.46,
+                    "mins": 120
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.39,
+                    "mins": 540
+                }
+            ],
+            "Dec": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.6,
+                    "mins": 60
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.58,
+                    "mins": 840
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.52,
+                    "mins": 210
+                },
+                {
+                    "name": "THE MEMORY'S WAY",
+                    "aa": 0.59,
+                    "mins": 120
+                },
+                {
+                    "name": "HEAT IN THE SOMETHING",
+                    "aa": 0.55,
+                    "mins": 150
+                },
+                {
+                    "name": "THE LUSCIOUS RING",
+                    "aa": 0.62,
+                    "mins": 360
+                },
+                {
+                    "name": "SILK OF DRAGON",
+                    "aa": 0.47,
+                    "mins": 60
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.62,
+                    "mins": 180
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.85,
+                    "mins": 120
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.54,
+                    "mins": 60
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.54,
+                    "mins": 660
+                },
+                {
+                    "name": "TALES OF LORDS",
+                    "aa": 0.41,
+                    "mins": 540
+                },
+                {
+                    "name": "FLOWER OF THE STARS",
+                    "aa": 0.46,
+                    "mins": 120
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.43,
+                    "mins": 180
+                }
+            ],
+            "FullYear": [
+                {
+                    "name": "THE FAIRY'S SAVIOR",
+                    "aa": 0.71,
+                    "mins": 720
+                },
+                {
+                    "name": "MISTY IN THE WAY",
+                    "aa": 0.49,
+                    "mins": 900
+                },
+                {
+                    "name": "WIND OF SOULS",
+                    "aa": 0.45,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SKY'S VISION",
+                    "aa": 0.67,
+                    "mins": 120
+                },
+                {
+                    "name": "THOUGHTS IN THE TIME",
+                    "aa": 0.84,
+                    "mins": 5220
+                },
+                {
+                    "name": "LIVING FLAME",
+                    "aa": 0.63,
+                    "mins": 3360
+                },
+                {
+                    "name": "FIRE OF HUNTER",
+                    "aa": 0.52,
+                    "mins": 120
+                },
+                {
+                    "name": "THE MEMORY'S WAY",
+                    "aa": 0.51,
+                    "mins": 180
+                },
+                {
+                    "name": "HEAT IN THE SOMETHING",
+                    "aa": 0.64,
+                    "mins": 600
+                },
+                {
+                    "name": "THE LUSCIOUS RING",
+                    "aa": 0.58,
+                    "mins": 660
+                },
+                {
+                    "name": "SILK OF DRAGON",
+                    "aa": 0.41,
+                    "mins": 60
+                },
+                {
+                    "name": "THE EYES OF THE DOOR",
+                    "aa": 0.39,
+                    "mins": 120
+                },
+                {
+                    "name": "DYING RAINBOW",
+                    "aa": 0.78,
+                    "mins": 1770
+                },
+                {
+                    "name": "DRAGON OF LOVER",
+                    "aa": 0.84,
+                    "mins": 1740
+                },
+                {
+                    "name": "EACH MEN",
+                    "aa": 0.73,
+                    "mins": 300
+                },
+                {
+                    "name": "DEATH OF THE SONS",
+                    "aa": 0.71,
+                    "mins": 240
+                },
+                {
+                    "name": "STRIPPED SWORD",
+                    "aa": 0.51,
+                    "mins": 360
+                },
+                {
+                    "name": "WORLD OF MALE",
+                    "aa": 0.68,
+                    "mins": 780
+                },
+                {
+                    "name": "FLAME OF THE FLOWERS",
+                    "aa": 0.45,
+                    "mins": 180
+                },
+                {
+                    "name": "THE FINAL WIZARD",
+                    "aa": 0.57,
+                    "mins": 5160
+                },
+                {
+                    "name": "TALES OF LORDS",
+                    "aa": 0.6,
+                    "mins": 600
+                },
+                {
+                    "name": "FLOWER OF THE STARS",
+                    "aa": 0.56,
+                    "mins": 480
+                },
+                {
+                    "name": "DREAM IN THE HEALER",
+                    "aa": 0.7,
+                    "mins": 5340
+                },
+                {
+                    "name": "THE BLUE SHADOW",
+                    "aa": 0.71,
+                    "mins": 540
+                },
+                {
+                    "name": "THE DESTINY'S MEMORY",
+                    "aa": 0.78,
+                    "mins": 30
+                },
+                {
+                    "name": "DANGEROUS OBSESSION",
+                    "aa": 0.7,
+                    "mins": 90
+                },
+                {
+                    "name": "THE ROUGH TIME",
+                    "aa": 0.49,
+                    "mins": 1110
+                }
+            ]
+        }
+    }
+}

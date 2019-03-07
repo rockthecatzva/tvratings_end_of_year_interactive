@@ -30,17 +30,13 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.props.dispatch(fetchPodData("disc", "data/disc2year.json"))
-    this.props.dispatch(fetchPodData("hist", "data/hist2year.json"))
-    this.props.dispatch(fetchPodData("id", "data/id2year.json"))
-    this.props.dispatch(fetchPodData("vel", "data/vel2year.json"))
-    this.props.dispatch(fetchPodData("tlc", "data/tlc2year.json"))
-    this.props.dispatch(fetchPodData("hgtv", "data/hgtv2year.json"))
-    this.props.dispatch(fetchPodData("apl", "data/apl2year.json"))
-    this.props.dispatch(fetchPodData("ae", "data/ae2year.json"))
-    this.props.dispatch(fetchPodData("ngc", "data/ngc2year.json"))
+    this.props.dispatch(fetchPodData("abc", "data/abcfake2.json"))
+    this.props.dispatch(fetchPodData("cbs", "data/cbsfake2.json"))
+    this.props.dispatch(fetchPodData("fox", "data/foxfake2.json"))
+    this.props.dispatch(fetchPodData("nbc", "data/nbcfake2.json"))
+    this.props.dispatch(fetchPodData("cw", "data/cwfake2.json"))
 
-    this.props.dispatch(fetchStorydata("disc", "data/storydata-disc.json"))
+    this.props.dispatch(fetchStorydata("abc", "data/storydata-abc.json"))
   }
 
 
@@ -54,77 +50,46 @@ class App extends Component {
       <div className="mainDiv" >
         <Header />
 
-        {(appData.hasOwnProperty("disc") && (storyData.hasOwnProperty("disc"))) &&
-          <VizPod renderData={appData["disc"]}
-            interactionCallback={m => { this.onVizInteraction("disc", m) }}
-            selectedElement={selectionLabels["disc"]}
-            storyData={storyData["disc"]}
-            network={"disc"} />
+        {(appData.hasOwnProperty("abc") && (storyData.hasOwnProperty("abc"))) &&
+          <VizPod renderData={appData["abc"]}
+            interactionCallback={m => { this.onVizInteraction("abc", m) }}
+            selectedElement={selectionLabels["abc"]}
+            storyData={storyData["abc"]}
+            network={"abc"} />
         }
 
-        {(appData.hasOwnProperty("tlc")) &&
-          <VizPod renderData={appData["tlc"]}
-            interactionCallback={m => { this.onVizInteraction("tlc", m) }}
-            selectedElement={selectionLabels["tlc"]}
+        {(appData.hasOwnProperty("cbs")) &&
+          <VizPod renderData={appData["cbs"]}
+            interactionCallback={m => { this.onVizInteraction("cbs", m) }}
+            selectedElement={selectionLabels["cbs"]}
             storyData={{}}
-            network={"tlc"} />
+            network={"cbs"} />
         }
 
-        {(appData.hasOwnProperty("id")) &&
-          <VizPod renderData={appData["id"]}
-            interactionCallback={m => { this.onVizInteraction("id", m) }}
-            selectedElement={selectionLabels["id"]}
+        {(appData.hasOwnProperty("fox")) &&
+          <VizPod renderData={appData["fox"]}
+            interactionCallback={m => { this.onVizInteraction("fox", m) }}
+            selectedElement={selectionLabels["fox"]}
             storyData={{}}
-            network={"id"} />
+            network={"fox"} />
         }
 
-        {(appData.hasOwnProperty("apl")) &&
-          <VizPod renderData={appData["apl"]}
-            interactionCallback={m => { this.onVizInteraction("apl", m) }}
-            selectedElement={selectionLabels["apl"]}
+        {(appData.hasOwnProperty("nbc")) &&
+          <VizPod renderData={appData["nbc"]}
+            interactionCallback={m => { this.onVizInteraction("nbc", m) }}
+            selectedElement={selectionLabels["nbc"]}
             storyData={{}}
-            network={"apl"} />
+            network={"nbc"} />
         }
 
-        {(appData.hasOwnProperty("vel")) &&
-          <VizPod renderData={appData["vel"]}
-            interactionCallback={m => { this.onVizInteraction("vel", m) }}
-            selectedElement={selectionLabels["vel"]}
+        {(appData.hasOwnProperty("cw")) &&
+          <VizPod renderData={appData["cw"]}
+            interactionCallback={m => { this.onVizInteraction("cw", m) }}
+            selectedElement={selectionLabels["cw"]}
             storyData={{}}
-            network={"vel"} />
+            network={"cw"} />
         }
 
-        {(appData.hasOwnProperty("hgtv")) &&
-          <VizPod renderData={appData["hgtv"]}
-            interactionCallback={m => { this.onVizInteraction("hgtv", m) }}
-            selectedElement={selectionLabels["hgtv"]}
-            storyData={{}}
-            network={"hgtv"} />
-        }
-
-        {(appData.hasOwnProperty("hist")) &&
-          <VizPod renderData={appData["hist"]}
-            interactionCallback={m => { this.onVizInteraction("hist", m) }}
-            selectedElement={selectionLabels["hist"]}
-            storyData={{}}
-            network={"hist"} />
-        }
-
-        {(appData.hasOwnProperty("ae")) &&
-          <VizPod renderData={appData["ae"]}
-            interactionCallback={m => { this.onVizInteraction("ae", m) }}
-            selectedElement={selectionLabels["ae"]}
-            storyData={{}}
-            network={"ae"} />
-        }
-
-        {(appData.hasOwnProperty("ngc")) &&
-          <VizPod renderData={appData["ngc"]}
-            interactionCallback={m => { this.onVizInteraction("ngc", m) }}
-            selectedElement={selectionLabels["ngc"]}
-            storyData={{}}
-            network={"ngc"} />
-        }
 
         <Footer />
       </div>

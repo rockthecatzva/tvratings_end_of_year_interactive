@@ -1,0 +1,5559 @@
+{
+    "2016": {
+        "prime": {
+            "Jan": 0.48,
+            "Feb": 0.83,
+            "Mar": 0.57,
+            "Apr": 0.34,
+            "May": 0.47,
+            "Jun": 0.38,
+            "Jul": 0.52,
+            "Aug": 0.44,
+            "Sep": 0.47,
+            "Oct": 0.73,
+            "Nov": 0.53,
+            "Dec": 0.86,
+            "FullYear": 0.4
+        },
+        "premieres": {
+            "Jan": {
+                "aa": 0.68,
+                "mins": 3212
+            },
+            "Feb": {
+                "aa": 0.92,
+                "mins": 2340
+            },
+            "Mar": {
+                "aa": 0.87,
+                "mins": 3260
+            },
+            "Apr": {
+                "aa": 0.57,
+                "mins": 3180
+            },
+            "May": {
+                "aa": 0.71,
+                "mins": 3365
+            },
+            "Jun": {
+                "aa": 0.72,
+                "mins": 2916
+            },
+            "Jul": {
+                "aa": 0.65,
+                "mins": 3960
+            },
+            "Aug": {
+                "aa": 0.53,
+                "mins": 2833
+            },
+            "Sep": {
+                "aa": 0.71,
+                "mins": 2608
+            },
+            "Oct": {
+                "aa": 0.84,
+                "mins": 2926
+            },
+            "Nov": {
+                "aa": 0.93,
+                "mins": 3595
+            },
+            "Dec": {
+                "aa": 0.87,
+                "mins": 2370
+            },
+            "FullYear": {
+                "aa": 0.68,
+                "mins": 36565
+            }
+        },
+        "repeats": {
+            "Jan": {
+                "aa": 0.28,
+                "mins": 3088
+            },
+            "Feb": {
+                "aa": 0.73,
+                "mins": 2700
+            },
+            "Mar": {
+                "aa": 0.26,
+                "mins": 1780
+            },
+            "Apr": {
+                "aa": 0.1,
+                "mins": 1860
+            },
+            "May": {
+                "aa": 0.23,
+                "mins": 2935
+            },
+            "Jun": {
+                "aa": 0.04,
+                "mins": 2124
+            },
+            "Jul": {
+                "aa": 0.39,
+                "mins": 2340
+            },
+            "Aug": {
+                "aa": 0.35,
+                "mins": 2207
+            },
+            "Sep": {
+                "aa": 0.23,
+                "mins": 2432
+            },
+            "Oct": {
+                "aa": 0.63,
+                "mins": 3374
+            },
+            "Nov": {
+                "aa": 0.13,
+                "mins": 1445
+            },
+            "Dec": {
+                "aa": 0.85,
+                "mins": 2670
+            },
+            "FullYear": {
+                "aa": 0.12,
+                "mins": 28955
+            }
+        },
+        "series-prems": {
+            "Jan": [
+                {
+                    "name": "THE ACADEMY'S WITCHES",
+                    "aa": 0.65,
+                    "mins": 60
+                },
+                {
+                    "name": "LIGHTS IN THE THORNS",
+                    "aa": 0.45,
+                    "mins": 30
+                },
+                {
+                    "name": "GROWING BODY",
+                    "aa": 0.39,
+                    "mins": 122
+                },
+                {
+                    "name": "TWINS OF THE END",
+                    "aa": 0.32,
+                    "mins": 60
+                },
+                {
+                    "name": "THE FORGOTTEN MISTY",
+                    "aa": 0.71,
+                    "mins": 60
+                },
+                {
+                    "name": "THE PETALS'S GIRL",
+                    "aa": 1.06,
+                    "mins": 302
+                },
+                {
+                    "name": "DANGEROUS FAIRY",
+                    "aa": 1.2,
+                    "mins": 240
+                },
+                {
+                    "name": "NOBODY IN THE MAN",
+                    "aa": 0.83,
+                    "mins": 300
+                },
+                {
+                    "name": "THE VACANT SNAKE",
+                    "aa": 0.51,
+                    "mins": 150
+                },
+                {
+                    "name": "SWORD OF VISIONS",
+                    "aa": 0.71,
+                    "mins": 152
+                },
+                {
+                    "name": "LAUGHING WINTER",
+                    "aa": 0.84,
+                    "mins": 307
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 1.26,
+                    "mins": 242
+                },
+                {
+                    "name": "THE HEART'S SCENT",
+                    "aa": 0.76,
+                    "mins": 60
+                },
+                {
+                    "name": "STREAMS OF THE BLADE",
+                    "aa": 0.79,
+                    "mins": 240
+                },
+                {
+                    "name": "SOARING OF THE WINDOWS",
+                    "aa": 0.58,
+                    "mins": 60
+                },
+                {
+                    "name": "ICE IN THE FLOWER",
+                    "aa": 0.76,
+                    "mins": 302
+                },
+                {
+                    "name": "EMERALD OF THE GIRLFRIEND",
+                    "aa": 0.68,
+                    "mins": 300
+                },
+                {
+                    "name": "THE FINAL VOYAGE",
+                    "aa": 1.01,
+                    "mins": 240
+                }
+            ],
+            "Feb": [
+                {
+                    "name": "DYING HEALER",
+                    "aa": 0.81,
+                    "mins": 62
+                },
+                {
+                    "name": "DANGEROUS FAIRY",
+                    "aa": 1.14,
+                    "mins": 242
+                },
+                {
+                    "name": "NOBODY IN THE MAN",
+                    "aa": 0.71,
+                    "mins": 121
+                },
+                {
+                    "name": "RED WOMAN",
+                    "aa": 0.49,
+                    "mins": 120
+                },
+                {
+                    "name": "THE VACANT SNAKE",
+                    "aa": 0.46,
+                    "mins": 121
+                },
+                {
+                    "name": "SWORD OF VISIONS",
+                    "aa": 0.75,
+                    "mins": 124
+                },
+                {
+                    "name": "LAUGHING WINTER",
+                    "aa": 0.74,
+                    "mins": 153
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 1,
+                    "mins": 240
+                },
+                {
+                    "name": "THE BROKEN WINGS",
+                    "aa": 0.73,
+                    "mins": 60
+                },
+                {
+                    "name": "STREAMS OF THE BLADE",
+                    "aa": 0.66,
+                    "mins": 240
+                },
+                {
+                    "name": "TIME OF SPARK",
+                    "aa": 0.71,
+                    "mins": 242
+                },
+                {
+                    "name": "ICE IN THE FLOWER",
+                    "aa": 0.68,
+                    "mins": 247
+                },
+                {
+                    "name": "EMERALD OF THE GIRLFRIEND",
+                    "aa": 0.54,
+                    "mins": 240
+                },
+                {
+                    "name": "THE FINAL VOYAGE",
+                    "aa": 1,
+                    "mins": 183
+                },
+                {
+                    "name": "TRUTH OF MEN",
+                    "aa": 0.21,
+                    "mins": 60
+                }
+            ],
+            "Mar": [
+                {
+                    "name": "DYING HEALER",
+                    "aa": 0.76,
+                    "mins": 183
+                },
+                {
+                    "name": "THE LIGHTS OF THE FIRE",
+                    "aa": 0.8,
+                    "mins": 175
+                },
+                {
+                    "name": "PETALS IN THE TIME",
+                    "aa": 1.31,
+                    "mins": 126
+                },
+                {
+                    "name": "FINAL ROSES",
+                    "aa": 0.87,
+                    "mins": 25
+                },
+                {
+                    "name": "THE FORGOTTEN MISTY",
+                    "aa": 0.65,
+                    "mins": 120
+                },
+                {
+                    "name": "DANGEROUS FAIRY",
+                    "aa": 0.97,
+                    "mins": 122
+                },
+                {
+                    "name": "THE GREY STAR",
+                    "aa": 0.54,
+                    "mins": 60
+                },
+                {
+                    "name": "LOVER OF GIFT",
+                    "aa": 0.43,
+                    "mins": 60
+                },
+                {
+                    "name": "NOBODY IN THE MAN",
+                    "aa": 1.04,
+                    "mins": 302
+                },
+                {
+                    "name": "THE RAGGED FIRE",
+                    "aa": 0.93,
+                    "mins": 246
+                },
+                {
+                    "name": "THE VACANT SNAKE",
+                    "aa": 0.48,
+                    "mins": 30
+                },
+                {
+                    "name": "SWORD OF VISIONS",
+                    "aa": 0.65,
+                    "mins": 214
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 1,
+                    "mins": 305
+                },
+                {
+                    "name": "THE BROKEN WINGS",
+                    "aa": 0.68,
+                    "mins": 240
+                },
+                {
+                    "name": "STREAMS OF THE BLADE",
+                    "aa": 0.51,
+                    "mins": 240
+                },
+                {
+                    "name": "TIME OF SPARK",
+                    "aa": 0.66,
+                    "mins": 122
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.72,
+                    "mins": 263
+                },
+                {
+                    "name": "EMERALD OF THE GIRLFRIEND",
+                    "aa": 0.62,
+                    "mins": 360
+                },
+                {
+                    "name": "SNOW IN THE SHIPS",
+                    "aa": 0.39,
+                    "mins": 60
+                },
+                {
+                    "name": "THE KISS'S SLAVES",
+                    "aa": 0.7,
+                    "mins": 122
+                }
+            ],
+            "Apr": [
+                {
+                    "name": "THE LIGHTS OF THE FIRE",
+                    "aa": 0.43,
+                    "mins": 220
+                },
+                {
+                    "name": "PETALS IN THE TIME",
+                    "aa": 1.28,
+                    "mins": 248
+                },
+                {
+                    "name": "FINAL ROSES",
+                    "aa": 0.54,
+                    "mins": 34
+                },
+                {
+                    "name": "THE FORGOTTEN MISTY",
+                    "aa": 0.47,
+                    "mins": 60
+                },
+                {
+                    "name": "THE RAGGED FIRE",
+                    "aa": 0.89,
+                    "mins": 244
+                },
+                {
+                    "name": "THE BOY'S VALLEY",
+                    "aa": 0.36,
+                    "mins": 240
+                },
+                {
+                    "name": "DOOR IN THE VALLEY",
+                    "aa": 0.48,
+                    "mins": 120
+                },
+                {
+                    "name": "THE BROKEN WINGS",
+                    "aa": 0.34,
+                    "mins": 360
+                },
+                {
+                    "name": "STREAMS OF THE BLADE",
+                    "aa": 0.46,
+                    "mins": 300
+                },
+                {
+                    "name": "SMOOTH HUNTER",
+                    "aa": 0.76,
+                    "mins": 245
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.58,
+                    "mins": 124
+                },
+                {
+                    "name": "THE STREAMS'S GATE",
+                    "aa": 0.56,
+                    "mins": 49
+                },
+                {
+                    "name": "SERVANTS OF STREAM",
+                    "aa": 0.81,
+                    "mins": 183
+                },
+                {
+                    "name": "MOONS IN THE VISION",
+                    "aa": 0.45,
+                    "mins": 49
+                },
+                {
+                    "name": "DWINDLING CAPTIVE",
+                    "aa": 0.6,
+                    "mins": 122
+                },
+                {
+                    "name": "SHORES OF SNOW",
+                    "aa": 0.83,
+                    "mins": 243
+                },
+                {
+                    "name": "THE KISS'S SLAVES",
+                    "aa": 0.64,
+                    "mins": 248
+                },
+                {
+                    "name": "SHIP IN THE FAIRY",
+                    "aa": 0.37,
+                    "mins": 180
+                }
+            ],
+            "May": [
+                {
+                    "name": "WINGS OF HISTORY",
+                    "aa": 0.64,
+                    "mins": 61
+                },
+                {
+                    "name": "THE LIGHTS OF THE FIRE",
+                    "aa": 0.36,
+                    "mins": 110
+                },
+                {
+                    "name": "PETALS IN THE TIME",
+                    "aa": 1.25,
+                    "mins": 124
+                },
+                {
+                    "name": "FINAL ROSES",
+                    "aa": 0.64,
+                    "mins": 8
+                },
+                {
+                    "name": "THE HUNTER OF THE CLOUD",
+                    "aa": 1.23,
+                    "mins": 183
+                },
+                {
+                    "name": "THE BOY'S VALLEY",
+                    "aa": 0.97,
+                    "mins": 61
+                },
+                {
+                    "name": "THE LOVER'S DREAM",
+                    "aa": 0.39,
+                    "mins": 60
+                },
+                {
+                    "name": "THE FORGOTTEN FLIGHT",
+                    "aa": 0.59,
+                    "mins": 180
+                },
+                {
+                    "name": "HEART OF ELVES",
+                    "aa": 0.64,
+                    "mins": 240
+                },
+                {
+                    "name": "THE PROPHECY'S LUCK",
+                    "aa": 0.65,
+                    "mins": 62
+                },
+                {
+                    "name": "THE GUARDIAN OF THE SLAVE",
+                    "aa": 0.72,
+                    "mins": 62
+                },
+                {
+                    "name": "THE BROKEN WINGS",
+                    "aa": 0.48,
+                    "mins": 300
+                },
+                {
+                    "name": "STREAMS OF THE BLADE",
+                    "aa": 0.45,
+                    "mins": 422
+                },
+                {
+                    "name": "SMOOTH HUNTER",
+                    "aa": 1.01,
+                    "mins": 305
+                },
+                {
+                    "name": "BRIDGES IN THE LIGHT",
+                    "aa": 0.63,
+                    "mins": 183
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.47,
+                    "mins": 124
+                },
+                {
+                    "name": "THE DREAMS'S DREAMER",
+                    "aa": 0.79,
+                    "mins": 63
+                },
+                {
+                    "name": "DEVOTED WINGS",
+                    "aa": 0.83,
+                    "mins": 257
+                },
+                {
+                    "name": "FORGOTTEN STONE",
+                    "aa": 1.21,
+                    "mins": 423
+                },
+                {
+                    "name": "SERVANTS OF STREAM",
+                    "aa": 0.49,
+                    "mins": 183
+                },
+                {
+                    "name": "SHORES OF SNOW",
+                    "aa": 0.9,
+                    "mins": 121
+                }
+            ],
+            "Jun": [
+                {
+                    "name": "DYING HEALER",
+                    "aa": 0.58,
+                    "mins": 240
+                },
+                {
+                    "name": "THE RISING SNOW",
+                    "aa": 0.96,
+                    "mins": 187
+                },
+                {
+                    "name": "THE HUSBAND OF THE WILLOW",
+                    "aa": 0.37,
+                    "mins": 60
+                },
+                {
+                    "name": "THE SORCERER'S DREAM",
+                    "aa": 0.44,
+                    "mins": 62
+                },
+                {
+                    "name": "THE HUNTER OF THE CLOUD",
+                    "aa": 0.75,
+                    "mins": 244
+                },
+                {
+                    "name": "THE LOVER'S DREAM",
+                    "aa": 0.61,
+                    "mins": 240
+                },
+                {
+                    "name": "PERSON OF GUARDIAN",
+                    "aa": 0.55,
+                    "mins": 120
+                },
+                {
+                    "name": "THE FLAME'S RAINBOW",
+                    "aa": 0.47,
+                    "mins": 120
+                },
+                {
+                    "name": "THE SAVIOR'S HISTORY",
+                    "aa": 0.75,
+                    "mins": 185
+                },
+                {
+                    "name": "TOUCH IN THE ROSES",
+                    "aa": 0.97,
+                    "mins": 183
+                },
+                {
+                    "name": "BRIDGES IN THE LIGHT",
+                    "aa": 0.89,
+                    "mins": 61
+                },
+                {
+                    "name": "CAPTURED SECRET",
+                    "aa": 0.65,
+                    "mins": 180
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.73,
+                    "mins": 154
+                },
+                {
+                    "name": "BOY OF BIRTH",
+                    "aa": 0.45,
+                    "mins": 122
+                },
+                {
+                    "name": "DEVOTED WINGS",
+                    "aa": 0.86,
+                    "mins": 249
+                },
+                {
+                    "name": "FORGOTTEN STONE",
+                    "aa": 1.47,
+                    "mins": 303
+                },
+                {
+                    "name": "ANGELS OF MALE",
+                    "aa": 1.24,
+                    "mins": 121
+                },
+                {
+                    "name": "THE MISTS OF THE RING",
+                    "aa": 0.4,
+                    "mins": 61
+                },
+                {
+                    "name": "PREDATOR IN THE MAGIC",
+                    "aa": 0.37,
+                    "mins": 61
+                },
+                {
+                    "name": "BROKEN DREAMS",
+                    "aa": 0.71,
+                    "mins": 60
+                }
+            ],
+            "Jul": [
+                {
+                    "name": "GAME OF SAVIOR",
+                    "aa": 0.26,
+                    "mins": 6
+                },
+                {
+                    "name": "THE SCENT'S FIRE",
+                    "aa": 0.43,
+                    "mins": 60
+                },
+                {
+                    "name": "SWORDS IN THE ELVES",
+                    "aa": 0.33,
+                    "mins": 60
+                },
+                {
+                    "name": "THE RISING SNOW",
+                    "aa": 0.84,
+                    "mins": 305
+                },
+                {
+                    "name": "GUARDIAN OF STORM",
+                    "aa": 0.6,
+                    "mins": 60
+                },
+                {
+                    "name": "THE BROKEN TRUTH",
+                    "aa": 0.52,
+                    "mins": 480
+                },
+                {
+                    "name": "THE HUNTER OF THE CLOUD",
+                    "aa": 1.19,
+                    "mins": 306
+                },
+                {
+                    "name": "THE LOVER'S DREAM",
+                    "aa": 0.65,
+                    "mins": 300
+                },
+                {
+                    "name": "THE WILD TRAINER",
+                    "aa": 0.63,
+                    "mins": 60
+                },
+                {
+                    "name": "THE FLAME'S RAINBOW",
+                    "aa": 0.66,
+                    "mins": 420
+                },
+                {
+                    "name": "THOUGHT OF STORM",
+                    "aa": 0.67,
+                    "mins": 188
+                },
+                {
+                    "name": "THE SAVIOR'S HISTORY",
+                    "aa": 1.08,
+                    "mins": 305
+                },
+                {
+                    "name": "TOUCH IN THE ROSES",
+                    "aa": 0.98,
+                    "mins": 305
+                },
+                {
+                    "name": "THE WET PIRATES",
+                    "aa": 0.33,
+                    "mins": 174
+                },
+                {
+                    "name": "SPARK IN THE LEGEND",
+                    "aa": 0.75,
+                    "mins": 60
+                },
+                {
+                    "name": "SOULS IN THE FIRE",
+                    "aa": 1.22,
+                    "mins": 307
+                },
+                {
+                    "name": "LOST PRINCE",
+                    "aa": 0.56,
+                    "mins": 300
+                },
+                {
+                    "name": "PREDATOR OF FIRE",
+                    "aa": 0.75,
+                    "mins": 120
+                },
+                {
+                    "name": "SERPENT OF SNOW",
+                    "aa": 0.55,
+                    "mins": 300
+                },
+                {
+                    "name": "GREEN PRINCE",
+                    "aa": 0.84,
+                    "mins": 60
+                }
+            ],
+            "Aug": [
+                {
+                    "name": "SOMETHING IN THE FLYING",
+                    "aa": 1.05,
+                    "mins": 60
+                },
+                {
+                    "name": "THE WET BIRCH",
+                    "aa": 0.5,
+                    "mins": 60
+                },
+                {
+                    "name": "SWOLLEN TRAINER",
+                    "aa": 0.79,
+                    "mins": 62
+                },
+                {
+                    "name": "CRACKED BEGINNING",
+                    "aa": 1.11,
+                    "mins": 60
+                },
+                {
+                    "name": "SWORD OF SWORDS",
+                    "aa": 0.54,
+                    "mins": 13
+                },
+                {
+                    "name": "THE BROKEN TRUTH",
+                    "aa": 0.52,
+                    "mins": 605
+                },
+                {
+                    "name": "THE HUNTER OF THE CLOUD",
+                    "aa": 0.79,
+                    "mins": 122
+                },
+                {
+                    "name": "LAUGHING SCENT",
+                    "aa": 0.61,
+                    "mins": 243
+                },
+                {
+                    "name": "THE LOVER'S DREAM",
+                    "aa": 0.64,
+                    "mins": 60
+                },
+                {
+                    "name": "THE FLAME'S RAINBOW",
+                    "aa": 0.4,
+                    "mins": 180
+                },
+                {
+                    "name": "THOUGHT OF STORM",
+                    "aa": 0.82,
+                    "mins": 248
+                },
+                {
+                    "name": "THE SAVIOR'S HISTORY",
+                    "aa": 0.96,
+                    "mins": 184
+                },
+                {
+                    "name": "BROKEN HUSBAND",
+                    "aa": 0.6,
+                    "mins": 60
+                },
+                {
+                    "name": "MEN OF THE RIVER",
+                    "aa": 0.65,
+                    "mins": 62
+                },
+                {
+                    "name": "FLYING OF THE RING",
+                    "aa": 0.57,
+                    "mins": 60
+                },
+                {
+                    "name": "SOULS IN THE FIRE",
+                    "aa": 1.11,
+                    "mins": 305
+                },
+                {
+                    "name": "SERPENT OF SNOW",
+                    "aa": 0.4,
+                    "mins": 60
+                },
+                {
+                    "name": "THE TRAINER'S NIGHT",
+                    "aa": 0.35,
+                    "mins": 60
+                },
+                {
+                    "name": "BRIDGE IN THE MISTY",
+                    "aa": 0.66,
+                    "mins": 62
+                },
+                {
+                    "name": "DWINDLING SILK",
+                    "aa": 0.31,
+                    "mins": 60
+                },
+                {
+                    "name": "WOMEN OF GIRL",
+                    "aa": 0.66,
+                    "mins": 120
+                },
+                {
+                    "name": "THE SPARK'S HUNTER",
+                    "aa": 0.84,
+                    "mins": 122
+                }
+            ],
+            "Sep": [
+                {
+                    "name": "SOMETHING IN THE FLYING",
+                    "aa": 1.19,
+                    "mins": 181
+                },
+                {
+                    "name": "THE STAR OF THE PRINCESS",
+                    "aa": 0.83,
+                    "mins": 9
+                },
+                {
+                    "name": "FINAL LEGACY",
+                    "aa": 0.6,
+                    "mins": 171
+                },
+                {
+                    "name": "THE MAGNIFICENT PRINCESS",
+                    "aa": 0.62,
+                    "mins": 60
+                },
+                {
+                    "name": "THE PLANET'S DYING",
+                    "aa": 1.16,
+                    "mins": 189
+                },
+                {
+                    "name": "WOMAN OF THE ACADEMY",
+                    "aa": 0.71,
+                    "mins": 120
+                },
+                {
+                    "name": "SWOLLEN TRAINER",
+                    "aa": 0.37,
+                    "mins": 186
+                },
+                {
+                    "name": "CRACKED BEGINNING",
+                    "aa": 0.95,
+                    "mins": 240
+                },
+                {
+                    "name": "SWORD OF SWORDS",
+                    "aa": 0.68,
+                    "mins": 20
+                },
+                {
+                    "name": "THE BROKEN TRUTH",
+                    "aa": 0.59,
+                    "mins": 184
+                },
+                {
+                    "name": "LAUGHING SCENT",
+                    "aa": 0.34,
+                    "mins": 247
+                },
+                {
+                    "name": "THOUGHT OF STORM",
+                    "aa": 0.68,
+                    "mins": 122
+                },
+                {
+                    "name": "MEN OF THE RIVER",
+                    "aa": 0.4,
+                    "mins": 62
+                },
+                {
+                    "name": "BRIDGE IN THE MISTY",
+                    "aa": 0.41,
+                    "mins": 250
+                },
+                {
+                    "name": "THE SHADOWY MEN",
+                    "aa": 0.28,
+                    "mins": 420
+                },
+                {
+                    "name": "THE SPARK'S HUNTER",
+                    "aa": 0.71,
+                    "mins": 244
+                }
+            ],
+            "Oct": [
+                {
+                    "name": "SOMETHING IN THE FLYING",
+                    "aa": 1.3,
+                    "mins": 309
+                },
+                {
+                    "name": "THE STAR OF THE PRINCESS",
+                    "aa": 0.68,
+                    "mins": 83
+                },
+                {
+                    "name": "FINAL LEGACY",
+                    "aa": 0.79,
+                    "mins": 180
+                },
+                {
+                    "name": "THE PLANET'S DYING",
+                    "aa": 1.33,
+                    "mins": 360
+                },
+                {
+                    "name": "WOMAN OF THE ACADEMY",
+                    "aa": 0.66,
+                    "mins": 60
+                },
+                {
+                    "name": "CRACKED BEGINNING",
+                    "aa": 1.02,
+                    "mins": 300
+                },
+                {
+                    "name": "SWORD OF SWORDS",
+                    "aa": 0.7,
+                    "mins": 15
+                },
+                {
+                    "name": "CHILD OF THE DREAM",
+                    "aa": 0.64,
+                    "mins": 61
+                },
+                {
+                    "name": "THE WOMAN OF THE FLIGHT",
+                    "aa": 0.69,
+                    "mins": 183
+                },
+                {
+                    "name": "THE MOONS'S SILK",
+                    "aa": 0.93,
+                    "mins": 122
+                },
+                {
+                    "name": "THE LIGHT'S SNAKE",
+                    "aa": 0.37,
+                    "mins": 183
+                },
+                {
+                    "name": "CAPTURED SECRET",
+                    "aa": 0.43,
+                    "mins": 124
+                },
+                {
+                    "name": "THE BROKEN MEN",
+                    "aa": 0.61,
+                    "mins": 310
+                },
+                {
+                    "name": "BRIDGE IN THE MISTY",
+                    "aa": 0.57,
+                    "mins": 244
+                },
+                {
+                    "name": "THE SHADOWY MEN",
+                    "aa": 0.4,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SPARK'S HUNTER",
+                    "aa": 0.66,
+                    "mins": 122
+                },
+                {
+                    "name": "PIRATES OF THE SERVANT",
+                    "aa": 0.48,
+                    "mins": 120
+                }
+            ],
+            "Nov": [
+                {
+                    "name": "SOMETHING IN THE FLYING",
+                    "aa": 1.28,
+                    "mins": 240
+                },
+                {
+                    "name": "THE STAR'S RING",
+                    "aa": 1.3,
+                    "mins": 120
+                },
+                {
+                    "name": "THE STAR OF THE PRINCESS",
+                    "aa": 0.66,
+                    "mins": 47
+                },
+                {
+                    "name": "THE PLANET'S DYING",
+                    "aa": 1.23,
+                    "mins": 61
+                },
+                {
+                    "name": "ONLY FLAMES",
+                    "aa": 1.19,
+                    "mins": 126
+                },
+                {
+                    "name": "CRACKED BEGINNING",
+                    "aa": 1.42,
+                    "mins": 60
+                },
+                {
+                    "name": "ELEMENTAL GUARDIAN",
+                    "aa": 0.88,
+                    "mins": 120
+                },
+                {
+                    "name": "THE WOMAN OF THE FLIGHT",
+                    "aa": 0.41,
+                    "mins": 243
+                },
+                {
+                    "name": "WINGS IN THE DANGER",
+                    "aa": 0.65,
+                    "mins": 243
+                },
+                {
+                    "name": "THE ICE OF THE FLAME",
+                    "aa": 0.92,
+                    "mins": 61
+                },
+                {
+                    "name": "THE MOONS'S SILK",
+                    "aa": 0.85,
+                    "mins": 243
+                },
+                {
+                    "name": "THE LIGHT'S SNAKE",
+                    "aa": 0.22,
+                    "mins": 61
+                },
+                {
+                    "name": "THE HUNTER OF THE CLOUD",
+                    "aa": 1.11,
+                    "mins": 62
+                },
+                {
+                    "name": "THE ROSE OF THE STONE",
+                    "aa": 0.4,
+                    "mins": 181
+                },
+                {
+                    "name": "SERVANTS IN THE FLOWERS",
+                    "aa": 0.69,
+                    "mins": 7
+                },
+                {
+                    "name": "LAUGHING WINTER",
+                    "aa": 0.84,
+                    "mins": 62
+                },
+                {
+                    "name": "BRIDGES IN THE LIGHT",
+                    "aa": 1.03,
+                    "mins": 124
+                },
+                {
+                    "name": "CAPTURED SECRET",
+                    "aa": 0.45,
+                    "mins": 124
+                },
+                {
+                    "name": "WAY OF THE BODY",
+                    "aa": 0.74,
+                    "mins": 61
+                },
+                {
+                    "name": "YEARS OF BRIDGE",
+                    "aa": 0.86,
+                    "mins": 120
+                },
+                {
+                    "name": "WAVES'S SERPENTS",
+                    "aa": 0.51,
+                    "mins": 120
+                },
+                {
+                    "name": "FORGOTTEN STONE",
+                    "aa": 1.6,
+                    "mins": 121
+                },
+                {
+                    "name": "THE BROKEN MEN",
+                    "aa": 0.53,
+                    "mins": 124
+                },
+                {
+                    "name": "BRIDGE IN THE MISTY",
+                    "aa": 0.66,
+                    "mins": 303
+                },
+                {
+                    "name": "THE SHADOWY MEN",
+                    "aa": 0.37,
+                    "mins": 240
+                },
+                {
+                    "name": "OBSESSED DREAMER",
+                    "aa": 0.38,
+                    "mins": 61
+                },
+                {
+                    "name": "SNOW IN THE SHIPS",
+                    "aa": 0.77,
+                    "mins": 60
+                },
+                {
+                    "name": "PIRATES OF THE SERVANT",
+                    "aa": 0.53,
+                    "mins": 240
+                }
+            ],
+            "Dec": [
+                {
+                    "name": "HUNTER IN THE FLOWER",
+                    "aa": 0.59,
+                    "mins": 60
+                },
+                {
+                    "name": "THE WOMAN OF THE FLIGHT",
+                    "aa": 0.42,
+                    "mins": 121
+                },
+                {
+                    "name": "WINGS IN THE DANGER",
+                    "aa": 0.36,
+                    "mins": 120
+                },
+                {
+                    "name": "THE PETALS'S GIRL",
+                    "aa": 0.8,
+                    "mins": 240
+                },
+                {
+                    "name": "THE MOONS'S SILK",
+                    "aa": 0.52,
+                    "mins": 124
+                },
+                {
+                    "name": "THE HUNTER OF THE CLOUD",
+                    "aa": 0.76,
+                    "mins": 244
+                },
+                {
+                    "name": "SERVANTS IN THE FLOWERS",
+                    "aa": 0.46,
+                    "mins": 33
+                },
+                {
+                    "name": "LAUGHING WINTER",
+                    "aa": 0.57,
+                    "mins": 186
+                },
+                {
+                    "name": "BRIDGES IN THE LIGHT",
+                    "aa": 0.96,
+                    "mins": 244
+                },
+                {
+                    "name": "ABYSS IN THE EYE",
+                    "aa": 0.48,
+                    "mins": 60
+                },
+                {
+                    "name": "THE ONLY EDGE",
+                    "aa": 0.45,
+                    "mins": 120
+                },
+                {
+                    "name": "FORGOTTEN STONE",
+                    "aa": 1.52,
+                    "mins": 364
+                },
+                {
+                    "name": "THE RING OF THE TIME",
+                    "aa": 0.39,
+                    "mins": 57
+                },
+                {
+                    "name": "WOMEN IN THE TEARS",
+                    "aa": 0.44,
+                    "mins": 180
+                },
+                {
+                    "name": "SNOW IN THE SHIPS",
+                    "aa": 0.64,
+                    "mins": 180
+                },
+                {
+                    "name": "PIRATES OF THE SERVANT",
+                    "aa": 0.48,
+                    "mins": 60
+                }
+            ],
+            "FullYear": [
+                {
+                    "name": "THE ACADEMY'S WITCHES",
+                    "aa": 0.91,
+                    "mins": 60
+                },
+                {
+                    "name": "SOMETHING IN THE FLYING",
+                    "aa": 1.42,
+                    "mins": 790
+                },
+                {
+                    "name": "THE STAR'S RING",
+                    "aa": 1.14,
+                    "mins": 120
+                },
+                {
+                    "name": "THE STAR OF THE PRINCESS",
+                    "aa": 0.56,
+                    "mins": 139
+                },
+                {
+                    "name": "FINAL LEGACY",
+                    "aa": 0.57,
+                    "mins": 351
+                },
+                {
+                    "name": "THE MAGNIFICENT PRINCESS",
+                    "aa": 0.62,
+                    "mins": 60
+                },
+                {
+                    "name": "THE PLANET'S DYING",
+                    "aa": 1.17,
+                    "mins": 610
+                },
+                {
+                    "name": "WOMAN OF THE ACADEMY",
+                    "aa": 0.48,
+                    "mins": 180
+                },
+                {
+                    "name": "ONLY FLAMES",
+                    "aa": 1.35,
+                    "mins": 126
+                },
+                {
+                    "name": "HUNTER IN THE FLOWER",
+                    "aa": 0.53,
+                    "mins": 60
+                },
+                {
+                    "name": "THE WET BIRCH",
+                    "aa": 0.52,
+                    "mins": 60
+                },
+                {
+                    "name": "GAME OF SAVIOR",
+                    "aa": 0.47,
+                    "mins": 6
+                },
+                {
+                    "name": "THE SCENT'S FIRE",
+                    "aa": 0.36,
+                    "mins": 60
+                },
+                {
+                    "name": "LIGHTS IN THE THORNS",
+                    "aa": 0.39,
+                    "mins": 30
+                },
+                {
+                    "name": "GROWING BODY",
+                    "aa": 0.53,
+                    "mins": 122
+                },
+                {
+                    "name": "SWOLLEN TRAINER",
+                    "aa": 0.64,
+                    "mins": 248
+                },
+                {
+                    "name": "WINGS OF HISTORY",
+                    "aa": 0.72,
+                    "mins": 61
+                },
+                {
+                    "name": "CRACKED BEGINNING",
+                    "aa": 1.14,
+                    "mins": 660
+                },
+                {
+                    "name": "ELEMENTAL GUARDIAN",
+                    "aa": 0.6,
+                    "mins": 120
+                },
+                {
+                    "name": "SWORD OF SWORDS",
+                    "aa": 0.65,
+                    "mins": 48
+                },
+                {
+                    "name": "TWINS OF THE END",
+                    "aa": 0.5,
+                    "mins": 60
+                },
+                {
+                    "name": "DYING HEALER",
+                    "aa": 0.72,
+                    "mins": 485
+                },
+                {
+                    "name": "CHILD OF THE DREAM",
+                    "aa": 0.53,
+                    "mins": 61
+                },
+                {
+                    "name": "SWORDS IN THE ELVES",
+                    "aa": 0.59,
+                    "mins": 60
+                },
+                {
+                    "name": "THE WOMAN OF THE FLIGHT",
+                    "aa": 0.78,
+                    "mins": 547
+                },
+                {
+                    "name": "WINGS IN THE DANGER",
+                    "aa": 0.33,
+                    "mins": 363
+                },
+                {
+                    "name": "THE RISING SNOW",
+                    "aa": 0.96,
+                    "mins": 492
+                },
+                {
+                    "name": "THE HUSBAND OF THE WILLOW",
+                    "aa": 0.59,
+                    "mins": 60
+                },
+                {
+                    "name": "GUARDIAN OF STORM",
+                    "aa": 0.39,
+                    "mins": 60
+                },
+                {
+                    "name": "THE SORCERER'S DREAM",
+                    "aa": 0.55,
+                    "mins": 62
+                },
+                {
+                    "name": "THE LIGHTS OF THE FIRE",
+                    "aa": 0.73,
+                    "mins": 505
+                },
+                {
+                    "name": "PETALS IN THE TIME",
+                    "aa": 1.32,
+                    "mins": 498
+                },
+                {
+                    "name": "FINAL ROSES",
+                    "aa": 0.67,
+                    "mins": 67
+                },
+                {
+                    "name": "THE FORGOTTEN MISTY",
+                    "aa": 0.64,
+                    "mins": 240
+                },
+                {
+                    "name": "THE PETALS'S GIRL",
+                    "aa": 0.74,
+                    "mins": 542
+                },
+                {
+                    "name": "THE ICE OF THE FLAME",
+                    "aa": 0.57,
+                    "mins": 61
+                },
+                {
+                    "name": "THE BROKEN TRUTH",
+                    "aa": 0.51,
+                    "mins": 1269
+                },
+                {
+                    "name": "THE MOONS'S SILK",
+                    "aa": 0.75,
+                    "mins": 489
+                },
+                {
+                    "name": "DANGEROUS FAIRY",
+                    "aa": 1.16,
+                    "mins": 604
+                },
+                {
+                    "name": "THE GREY STAR",
+                    "aa": 0.4,
+                    "mins": 60
+                },
+                {
+                    "name": "LOVER OF GIFT",
+                    "aa": 0.47,
+                    "mins": 60
+                },
+                {
+                    "name": "THE LIGHT'S SNAKE",
+                    "aa": 0.39,
+                    "mins": 244
+                },
+                {
+                    "name": "THE HUNTER OF THE CLOUD",
+                    "aa": 0.9,
+                    "mins": 1161
+                },
+                {
+                    "name": "NOBODY IN THE MAN",
+                    "aa": 0.99,
+                    "mins": 723
+                },
+                {
+                    "name": "RED WOMAN",
+                    "aa": 0.58,
+                    "mins": 120
+                },
+                {
+                    "name": "THE RAGGED FIRE",
+                    "aa": 0.91,
+                    "mins": 490
+                },
+                {
+                    "name": "THE BOY'S VALLEY",
+                    "aa": 0.5,
+                    "mins": 301
+                },
+                {
+                    "name": "THE ROSE OF THE STONE",
+                    "aa": 0.48,
+                    "mins": 181
+                },
+                {
+                    "name": "LAUGHING SCENT",
+                    "aa": 0.56,
+                    "mins": 490
+                },
+                {
+                    "name": "THE VACANT SNAKE",
+                    "aa": 0.69,
+                    "mins": 301
+                },
+                {
+                    "name": "SWORD OF VISIONS",
+                    "aa": 0.74,
+                    "mins": 490
+                },
+                {
+                    "name": "THE LOVER'S DREAM",
+                    "aa": 0.45,
+                    "mins": 660
+                },
+                {
+                    "name": "SERVANTS IN THE FLOWERS",
+                    "aa": 0.59,
+                    "mins": 40
+                },
+                {
+                    "name": "THE FORGOTTEN FLIGHT",
+                    "aa": 0.39,
+                    "mins": 180
+                },
+                {
+                    "name": "HEART OF ELVES",
+                    "aa": 0.64,
+                    "mins": 240
+                },
+                {
+                    "name": "THE PROPHECY'S LUCK",
+                    "aa": 0.92,
+                    "mins": 62
+                },
+                {
+                    "name": "THE GUARDIAN OF THE SLAVE",
+                    "aa": 0.65,
+                    "mins": 62
+                },
+                {
+                    "name": "LAUGHING WINTER",
+                    "aa": 0.55,
+                    "mins": 708
+                },
+                {
+                    "name": "THE WILD TRAINER",
+                    "aa": 0.63,
+                    "mins": 60
+                },
+                {
+                    "name": "PERSON OF GUARDIAN",
+                    "aa": 0.57,
+                    "mins": 120
+                },
+                {
+                    "name": "THE FLAME'S RAINBOW",
+                    "aa": 0.36,
+                    "mins": 720
+                },
+                {
+                    "name": "DOOR IN THE VALLEY",
+                    "aa": 0.7,
+                    "mins": 120
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 1.17,
+                    "mins": 787
+                },
+                {
+                    "name": "THE BROKEN WINGS",
+                    "aa": 0.63,
+                    "mins": 960
+                },
+                {
+                    "name": "THE HEART'S SCENT",
+                    "aa": 0.75,
+                    "mins": 60
+                },
+                {
+                    "name": "STREAMS OF THE BLADE",
+                    "aa": 0.68,
+                    "mins": 1442
+                },
+                {
+                    "name": "SMOOTH HUNTER",
+                    "aa": 0.72,
+                    "mins": 550
+                },
+                {
+                    "name": "THOUGHT OF STORM",
+                    "aa": 0.82,
+                    "mins": 558
+                },
+                {
+                    "name": "THE SAVIOR'S HISTORY",
+                    "aa": 0.97,
+                    "mins": 674
+                },
+                {
+                    "name": "SOARING OF THE WINDOWS",
+                    "aa": 0.61,
+                    "mins": 60
+                },
+                {
+                    "name": "TOUCH IN THE ROSES",
+                    "aa": 0.7,
+                    "mins": 488
+                },
+                {
+                    "name": "THE WET PIRATES",
+                    "aa": 0.56,
+                    "mins": 174
+                },
+                {
+                    "name": "SPARK IN THE LEGEND",
+                    "aa": 0.45,
+                    "mins": 60
+                },
+                {
+                    "name": "BROKEN HUSBAND",
+                    "aa": 0.41,
+                    "mins": 60
+                },
+                {
+                    "name": "BRIDGES IN THE LIGHT",
+                    "aa": 0.8,
+                    "mins": 612
+                },
+                {
+                    "name": "CAPTURED SECRET",
+                    "aa": 0.57,
+                    "mins": 428
+                },
+                {
+                    "name": "WAY OF THE BODY",
+                    "aa": 0.67,
+                    "mins": 61
+                },
+                {
+                    "name": "ABYSS IN THE EYE",
+                    "aa": 0.71,
+                    "mins": 60
+                },
+                {
+                    "name": "THE ONLY EDGE",
+                    "aa": 0.77,
+                    "mins": 120
+                },
+                {
+                    "name": "YEARS OF BRIDGE",
+                    "aa": 0.86,
+                    "mins": 120
+                },
+                {
+                    "name": "WAVES'S SERPENTS",
+                    "aa": 0.38,
+                    "mins": 120
+                },
+                {
+                    "name": "MEN OF THE RIVER",
+                    "aa": 0.64,
+                    "mins": 124
+                },
+                {
+                    "name": "TIME OF SPARK",
+                    "aa": 0.8,
+                    "mins": 364
+                },
+                {
+                    "name": "FLYING OF THE RING",
+                    "aa": 0.45,
+                    "mins": 60
+                },
+                {
+                    "name": "SOULS IN THE FIRE",
+                    "aa": 1.11,
+                    "mins": 612
+                },
+                {
+                    "name": "LOST PRINCE",
+                    "aa": 0.65,
+                    "mins": 300
+                },
+                {
+                    "name": "PREDATOR OF FIRE",
+                    "aa": 0.62,
+                    "mins": 120
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.46,
+                    "mins": 665
+                },
+                {
+                    "name": "ICE IN THE FLOWER",
+                    "aa": 0.73,
+                    "mins": 549
+                },
+                {
+                    "name": "BOY OF BIRTH",
+                    "aa": 0.31,
+                    "mins": 122
+                },
+                {
+                    "name": "THE DREAMS'S DREAMER",
+                    "aa": 0.46,
+                    "mins": 63
+                },
+                {
+                    "name": "EMERALD OF THE GIRLFRIEND",
+                    "aa": 0.64,
+                    "mins": 900
+                },
+                {
+                    "name": "DEVOTED WINGS",
+                    "aa": 0.67,
+                    "mins": 506
+                },
+                {
+                    "name": "FORGOTTEN STONE",
+                    "aa": 1.26,
+                    "mins": 1211
+                },
+                {
+                    "name": "ANGELS OF MALE",
+                    "aa": 1.02,
+                    "mins": 121
+                },
+                {
+                    "name": "THE RING OF THE TIME",
+                    "aa": 0.45,
+                    "mins": 57
+                },
+                {
+                    "name": "WOMEN IN THE TEARS",
+                    "aa": 0.41,
+                    "mins": 180
+                },
+                {
+                    "name": "THE FINAL VOYAGE",
+                    "aa": 0.92,
+                    "mins": 423
+                },
+                {
+                    "name": "SERPENT OF SNOW",
+                    "aa": 0.33,
+                    "mins": 360
+                },
+                {
+                    "name": "THE BROKEN MEN",
+                    "aa": 0.23,
+                    "mins": 434
+                },
+                {
+                    "name": "TRUTH OF MEN",
+                    "aa": 0.2,
+                    "mins": 60
+                },
+                {
+                    "name": "THE STREAMS'S GATE",
+                    "aa": 0.42,
+                    "mins": 49
+                },
+                {
+                    "name": "THE MISTS OF THE RING",
+                    "aa": 0.73,
+                    "mins": 61
+                },
+                {
+                    "name": "PREDATOR IN THE MAGIC",
+                    "aa": 0.73,
+                    "mins": 61
+                },
+                {
+                    "name": "GREEN PRINCE",
+                    "aa": 0.78,
+                    "mins": 60
+                },
+                {
+                    "name": "THE TRAINER'S NIGHT",
+                    "aa": 0.56,
+                    "mins": 60
+                },
+                {
+                    "name": "BRIDGE IN THE MISTY",
+                    "aa": 0.41,
+                    "mins": 859
+                },
+                {
+                    "name": "DWINDLING SILK",
+                    "aa": 0.42,
+                    "mins": 60
+                },
+                {
+                    "name": "THE SHADOWY MEN",
+                    "aa": 0.48,
+                    "mins": 900
+                },
+                {
+                    "name": "WOMEN OF GIRL",
+                    "aa": 0.41,
+                    "mins": 120
+                },
+                {
+                    "name": "THE SPARK'S HUNTER",
+                    "aa": 0.72,
+                    "mins": 488
+                },
+                {
+                    "name": "BROKEN DREAMS",
+                    "aa": 0.56,
+                    "mins": 60
+                },
+                {
+                    "name": "OBSESSED DREAMER",
+                    "aa": 0.26,
+                    "mins": 61
+                },
+                {
+                    "name": "SERVANTS OF STREAM",
+                    "aa": 0.61,
+                    "mins": 366
+                },
+                {
+                    "name": "SNOW IN THE SHIPS",
+                    "aa": 0.55,
+                    "mins": 300
+                },
+                {
+                    "name": "PIRATES OF THE SERVANT",
+                    "aa": 0.6,
+                    "mins": 420
+                },
+                {
+                    "name": "MOONS IN THE VISION",
+                    "aa": 0.3,
+                    "mins": 49
+                },
+                {
+                    "name": "DWINDLING CAPTIVE",
+                    "aa": 0.26,
+                    "mins": 122
+                },
+                {
+                    "name": "SHORES OF SNOW",
+                    "aa": 0.86,
+                    "mins": 364
+                },
+                {
+                    "name": "THE KISS'S SLAVES",
+                    "aa": 0.82,
+                    "mins": 370
+                },
+                {
+                    "name": "SHIP IN THE FAIRY",
+                    "aa": 0.31,
+                    "mins": 180
+                }
+            ]
+        },
+        "series-repeats": {
+            "Jan": [
+                {
+                    "name": "THE DIAMOND MISTS",
+                    "aa": 0.62,
+                    "mins": 540
+                },
+                {
+                    "name": "FIRE OF THE THOUGHT",
+                    "aa": 0.35,
+                    "mins": 240
+                },
+                {
+                    "name": "DANGER IN THE YEARS",
+                    "aa": 0.57,
+                    "mins": 120
+                },
+                {
+                    "name": "THE TWILIGHT'S BOY",
+                    "aa": 0.37,
+                    "mins": 30
+                },
+                {
+                    "name": "LIGHTS IN THE LEGACY",
+                    "aa": 0.55,
+                    "mins": 480
+                },
+                {
+                    "name": "DANGEROUS FAIRY",
+                    "aa": 0.39,
+                    "mins": 240
+                },
+                {
+                    "name": "NOBODY IN THE MAN",
+                    "aa": 0.59,
+                    "mins": 300
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.69,
+                    "mins": 180
+                },
+                {
+                    "name": "THE FALLING SEX",
+                    "aa": 0.29,
+                    "mins": 60
+                },
+                {
+                    "name": "ICE IN THE FLOWER",
+                    "aa": 0.37,
+                    "mins": 300
+                },
+                {
+                    "name": "THE SLAVE'S HUSBAND",
+                    "aa": 0.5,
+                    "mins": 60
+                },
+                {
+                    "name": "PIRATES OF THE SERVANT",
+                    "aa": 0.56,
+                    "mins": 540
+                }
+            ],
+            "Feb": [
+                {
+                    "name": "THE DIAMOND MISTS",
+                    "aa": 0.7,
+                    "mins": 540
+                },
+                {
+                    "name": "FIRE OF THE THOUGHT",
+                    "aa": 0.6,
+                    "mins": 180
+                },
+                {
+                    "name": "LIGHTS IN THE LEGACY",
+                    "aa": 0.54,
+                    "mins": 480
+                },
+                {
+                    "name": "DANGEROUS FAIRY",
+                    "aa": 0.5,
+                    "mins": 240
+                },
+                {
+                    "name": "NOBODY IN THE MAN",
+                    "aa": 0.66,
+                    "mins": 60
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.38,
+                    "mins": 360
+                },
+                {
+                    "name": "CAPTIVE OF EDGE",
+                    "aa": 0.64,
+                    "mins": 180
+                },
+                {
+                    "name": "ICE IN THE FLOWER",
+                    "aa": 0.35,
+                    "mins": 180
+                },
+                {
+                    "name": "PIRATES OF THE SERVANT",
+                    "aa": 0.67,
+                    "mins": 480
+                }
+            ],
+            "Mar": [
+                {
+                    "name": "THE DIAMOND MISTS",
+                    "aa": 0.51,
+                    "mins": 540
+                },
+                {
+                    "name": "FIRE OF THE THOUGHT",
+                    "aa": 0.36,
+                    "mins": 180
+                },
+                {
+                    "name": "LIGHTS IN THE LEGACY",
+                    "aa": 0.59,
+                    "mins": 480
+                },
+                {
+                    "name": "NOBODY IN THE MAN",
+                    "aa": 0.55,
+                    "mins": 60
+                },
+                {
+                    "name": "THE RAGGED FIRE",
+                    "aa": 0.54,
+                    "mins": 61
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.38,
+                    "mins": 215
+                },
+                {
+                    "name": "SNOW IN THE SHIPS",
+                    "aa": 0.52,
+                    "mins": 120
+                },
+                {
+                    "name": "PIRATES OF THE SERVANT",
+                    "aa": 0.62,
+                    "mins": 180
+                }
+            ],
+            "Apr": [
+                {
+                    "name": "THE DIAMOND MISTS",
+                    "aa": 0.44,
+                    "mins": 360
+                },
+                {
+                    "name": "LAUGHING VOYAGE",
+                    "aa": 0.58,
+                    "mins": 60
+                },
+                {
+                    "name": "FLIGHT IN THE NAMES",
+                    "aa": 0.59,
+                    "mins": 60
+                },
+                {
+                    "name": "WAVE OF THE GIRL",
+                    "aa": 0.51,
+                    "mins": 60
+                },
+                {
+                    "name": "NAMES IN THE DREAMER",
+                    "aa": 0.67,
+                    "mins": 60
+                },
+                {
+                    "name": "FIRE OF THE THOUGHT",
+                    "aa": 0.58,
+                    "mins": 180
+                },
+                {
+                    "name": "LIGHTS IN THE LEGACY",
+                    "aa": 0.65,
+                    "mins": 480
+                },
+                {
+                    "name": "THE RAGGED FIRE",
+                    "aa": 0.28,
+                    "mins": 244
+                },
+                {
+                    "name": "THE BOY'S VALLEY",
+                    "aa": 0.58,
+                    "mins": 60
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.62,
+                    "mins": 60
+                },
+                {
+                    "name": "THE HEART'S SCENT",
+                    "aa": 0.87,
+                    "mins": 60
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.56,
+                    "mins": 350
+                },
+                {
+                    "name": "SHORES OF SNOW",
+                    "aa": 0.51,
+                    "mins": 60
+                }
+            ],
+            "May": [
+                {
+                    "name": "NAMES OF DESTINY",
+                    "aa": 0.37,
+                    "mins": 60
+                },
+                {
+                    "name": "FIRE OF THE THOUGHT",
+                    "aa": 0.42,
+                    "mins": 660
+                },
+                {
+                    "name": "DANGER IN THE YEARS",
+                    "aa": 0.41,
+                    "mins": 180
+                },
+                {
+                    "name": "LIGHTS IN THE LEGACY",
+                    "aa": 0.59,
+                    "mins": 600
+                },
+                {
+                    "name": "SILK OF FLAMES",
+                    "aa": 0.56,
+                    "mins": 60
+                },
+                {
+                    "name": "WORLDS OF SILENCE",
+                    "aa": 0.51,
+                    "mins": 60
+                },
+                {
+                    "name": "THE DREAMS'S GIRL",
+                    "aa": 0.48,
+                    "mins": 60
+                },
+                {
+                    "name": "THE HUNTER OF THE CLOUD",
+                    "aa": 0.29,
+                    "mins": 120
+                },
+                {
+                    "name": "THE RAGGED FIRE",
+                    "aa": 0.4,
+                    "mins": 122
+                },
+                {
+                    "name": "THE PROPHECY'S LUCK",
+                    "aa": 0.4,
+                    "mins": 60
+                },
+                {
+                    "name": "SMOOTH HUNTER",
+                    "aa": 0.68,
+                    "mins": 360
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.63,
+                    "mins": 717
+                }
+            ],
+            "Jun": [
+                {
+                    "name": "THE DIAMOND MISTS",
+                    "aa": 0.55,
+                    "mins": 540
+                },
+                {
+                    "name": "BUTTERFLY OF THE DOOR",
+                    "aa": 0.48,
+                    "mins": 60
+                },
+                {
+                    "name": "PAST IN THE LOVER",
+                    "aa": 0.39,
+                    "mins": 60
+                },
+                {
+                    "name": "LAUGHING VOYAGE",
+                    "aa": 0.74,
+                    "mins": 60
+                },
+                {
+                    "name": "FIRE OF THE THOUGHT",
+                    "aa": 0.43,
+                    "mins": 180
+                },
+                {
+                    "name": "ROUGH WITCH",
+                    "aa": 0.3,
+                    "mins": 120
+                },
+                {
+                    "name": "LIGHTS IN THE LEGACY",
+                    "aa": 0.52,
+                    "mins": 240
+                },
+                {
+                    "name": "SILK OF FLAMES",
+                    "aa": 0.28,
+                    "mins": 120
+                },
+                {
+                    "name": "THE WOMAN OF THE FLIGHT",
+                    "aa": 0.43,
+                    "mins": 120
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.57,
+                    "mins": 240
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.38,
+                    "mins": 330
+                },
+                {
+                    "name": "RIVER IN THE LORDS",
+                    "aa": 0.66,
+                    "mins": 60
+                }
+            ],
+            "Jul": [
+                {
+                    "name": "HOT THIEF",
+                    "aa": 0.31,
+                    "mins": 60
+                },
+                {
+                    "name": "THE DIAMOND MISTS",
+                    "aa": 0.41,
+                    "mins": 180
+                },
+                {
+                    "name": "FIRE OF THE THOUGHT",
+                    "aa": 0.51,
+                    "mins": 180
+                },
+                {
+                    "name": "THE TWILIGHT'S BOY",
+                    "aa": 0.39,
+                    "mins": 180
+                },
+                {
+                    "name": "LIGHTS IN THE LEGACY",
+                    "aa": 0.25,
+                    "mins": 120
+                },
+                {
+                    "name": "HUSTLER IN THE SCENT",
+                    "aa": 0.37,
+                    "mins": 60
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.53,
+                    "mins": 540
+                },
+                {
+                    "name": "THOUGHT OF STORM",
+                    "aa": 0.46,
+                    "mins": 480
+                },
+                {
+                    "name": "PIRATES OF THE SERVANT",
+                    "aa": 0.41,
+                    "mins": 180
+                },
+                {
+                    "name": "ICE OF THE RIVER",
+                    "aa": 0.35,
+                    "mins": 425
+                }
+            ],
+            "Aug": [
+                {
+                    "name": "NAMES OF DESTINY",
+                    "aa": 0.51,
+                    "mins": 120
+                },
+                {
+                    "name": "THE BIRTH OF THE SHADOW",
+                    "aa": 0.63,
+                    "mins": 180
+                },
+                {
+                    "name": "YEAR IN THE SPARK",
+                    "aa": 0.63,
+                    "mins": 60
+                },
+                {
+                    "name": "LAUGHING SCENT",
+                    "aa": 0.29,
+                    "mins": 180
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.49,
+                    "mins": 533
+                },
+                {
+                    "name": "THOUGHT OF STORM",
+                    "aa": 0.62,
+                    "mins": 600
+                },
+                {
+                    "name": "GREEN PRINCE",
+                    "aa": 0.25,
+                    "mins": 60
+                },
+                {
+                    "name": "BRIDGE IN THE MISTY",
+                    "aa": 0.38,
+                    "mins": 234
+                },
+                {
+                    "name": "THE SPARK'S HUNTER",
+                    "aa": 0.23,
+                    "mins": 122
+                },
+                {
+                    "name": "ICE OF THE RIVER",
+                    "aa": 0.56,
+                    "mins": 122
+                }
+            ],
+            "Sep": [
+                {
+                    "name": "SOMETHING IN THE FLYING",
+                    "aa": 0.58,
+                    "mins": 124
+                },
+                {
+                    "name": "THE PLANET'S DYING",
+                    "aa": 0.27,
+                    "mins": 60
+                },
+                {
+                    "name": "PROPHECY OF TEACHER",
+                    "aa": 0.21,
+                    "mins": 62
+                },
+                {
+                    "name": "FIRE OF THE THOUGHT",
+                    "aa": 0.43,
+                    "mins": 368
+                },
+                {
+                    "name": "LORDS OF THOUGHTS",
+                    "aa": 0.42,
+                    "mins": 364
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.27,
+                    "mins": 580
+                },
+                {
+                    "name": "THOUGHT OF STORM",
+                    "aa": 0.48,
+                    "mins": 600
+                },
+                {
+                    "name": "GREEN PRINCE",
+                    "aa": 0.36,
+                    "mins": 62
+                },
+                {
+                    "name": "THE SPARK'S HUNTER",
+                    "aa": 0.28,
+                    "mins": 365
+                }
+            ],
+            "Oct": [
+                {
+                    "name": "SOMETHING IN THE FLYING",
+                    "aa": 0.39,
+                    "mins": 240
+                },
+                {
+                    "name": "FINAL LEGACY",
+                    "aa": 0.58,
+                    "mins": 60
+                },
+                {
+                    "name": "THE PLANET'S DYING",
+                    "aa": 0.48,
+                    "mins": 120
+                },
+                {
+                    "name": "THE LIGHTS'S GIRL",
+                    "aa": 0.18,
+                    "mins": 62
+                },
+                {
+                    "name": "FIRE OF THE THOUGHT",
+                    "aa": 0.58,
+                    "mins": 552
+                },
+                {
+                    "name": "LORDS OF THOUGHTS",
+                    "aa": 0.33,
+                    "mins": 180
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.29,
+                    "mins": 707
+                },
+                {
+                    "name": "SMOOTH HUNTER",
+                    "aa": 0.66,
+                    "mins": 181
+                },
+                {
+                    "name": "THOUGHT OF STORM",
+                    "aa": 0.42,
+                    "mins": 484
+                },
+                {
+                    "name": "EMERALD OF THE GIRLFRIEND",
+                    "aa": 0.59,
+                    "mins": 60
+                },
+                {
+                    "name": "SCHOOL IN THE HUSBAND",
+                    "aa": 0.46,
+                    "mins": 30
+                },
+                {
+                    "name": "BRIDGE IN THE MISTY",
+                    "aa": 0.43,
+                    "mins": 62
+                },
+                {
+                    "name": "THE SPARK'S HUNTER",
+                    "aa": 0.27,
+                    "mins": 127
+                },
+                {
+                    "name": "KISSING NAME",
+                    "aa": 0.69,
+                    "mins": 60
+                },
+                {
+                    "name": "THE SILENT STAR",
+                    "aa": 0.48,
+                    "mins": 60
+                },
+                {
+                    "name": "PIRATES OF THE SERVANT",
+                    "aa": 0.66,
+                    "mins": 420
+                }
+            ],
+            "Nov": [
+                {
+                    "name": "SOMETHING IN THE FLYING",
+                    "aa": 0.22,
+                    "mins": 60
+                },
+                {
+                    "name": "ONLY FLAMES",
+                    "aa": 0.63,
+                    "mins": 120
+                },
+                {
+                    "name": "THE WET BIRCH",
+                    "aa": 0.51,
+                    "mins": 61
+                },
+                {
+                    "name": "THE YEAR OF THE TWINS",
+                    "aa": 0.24,
+                    "mins": 60
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.38,
+                    "mins": 449
+                },
+                {
+                    "name": "SMOOTH HUNTER",
+                    "aa": 0.57,
+                    "mins": 37
+                },
+                {
+                    "name": "BRIDGES IN THE LIGHT",
+                    "aa": 0.33,
+                    "mins": 180
+                },
+                {
+                    "name": "THE ONLY EDGE",
+                    "aa": 0.5,
+                    "mins": 60
+                },
+                {
+                    "name": "SERPENT OF THE DEATH",
+                    "aa": 0.72,
+                    "mins": 60
+                },
+                {
+                    "name": "SOARING IN THE SERVANTS",
+                    "aa": 0.45,
+                    "mins": 60
+                },
+                {
+                    "name": "SEVENTH RIVER",
+                    "aa": 0.62,
+                    "mins": 60
+                },
+                {
+                    "name": "GIRL OF VOYAGER",
+                    "aa": 0.63,
+                    "mins": 60
+                },
+                {
+                    "name": "PIRATES OF THE SERVANT",
+                    "aa": 0.52,
+                    "mins": 180
+                }
+            ],
+            "Dec": [
+                {
+                    "name": "LIGHTS IN THE LEGACY",
+                    "aa": 0.36,
+                    "mins": 182
+                },
+                {
+                    "name": "THE BIRTH OF THE SHADOW",
+                    "aa": 0.23,
+                    "mins": 180
+                },
+                {
+                    "name": "THE HUNTER OF THE CLOUD",
+                    "aa": 0.39,
+                    "mins": 180
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.37,
+                    "mins": 781
+                },
+                {
+                    "name": "TEACHER IN THE WAY",
+                    "aa": 0.71,
+                    "mins": 390
+                },
+                {
+                    "name": "BRIDGES IN THE LIGHT",
+                    "aa": 0.3,
+                    "mins": 301
+                },
+                {
+                    "name": "WAY OF THE BODY",
+                    "aa": 0.37,
+                    "mins": 60
+                },
+                {
+                    "name": "THE ONLY EDGE",
+                    "aa": 0.63,
+                    "mins": 120
+                },
+                {
+                    "name": "THE SERVANTS'S ILLUSION",
+                    "aa": 0.37,
+                    "mins": 60
+                },
+                {
+                    "name": "TIME OF WAVES",
+                    "aa": 0.65,
+                    "mins": 60
+                },
+                {
+                    "name": "THE EDGE'S WIFE",
+                    "aa": 0.53,
+                    "mins": 180
+                },
+                {
+                    "name": "SMOOTH SPARK",
+                    "aa": 0.37,
+                    "mins": 60
+                },
+                {
+                    "name": "GIRL OF VOYAGER",
+                    "aa": 0.54,
+                    "mins": 60
+                },
+                {
+                    "name": "PIRATES OF THE SERVANT",
+                    "aa": 0.48,
+                    "mins": 60
+                }
+            ],
+            "FullYear": [
+                {
+                    "name": "HOT THIEF",
+                    "aa": 0.46,
+                    "mins": 60
+                },
+                {
+                    "name": "THE DIAMOND MISTS",
+                    "aa": 0.51,
+                    "mins": 2700
+                },
+                {
+                    "name": "NAMES OF DESTINY",
+                    "aa": 0.31,
+                    "mins": 180
+                },
+                {
+                    "name": "SOMETHING IN THE FLYING",
+                    "aa": 0.49,
+                    "mins": 424
+                },
+                {
+                    "name": "FINAL LEGACY",
+                    "aa": 0.29,
+                    "mins": 60
+                },
+                {
+                    "name": "THE PLANET'S DYING",
+                    "aa": 0.59,
+                    "mins": 180
+                },
+                {
+                    "name": "ONLY FLAMES",
+                    "aa": 0.4,
+                    "mins": 120
+                },
+                {
+                    "name": "THE WET BIRCH",
+                    "aa": 0.34,
+                    "mins": 61
+                },
+                {
+                    "name": "THE YEAR OF THE TWINS",
+                    "aa": 0.3,
+                    "mins": 60
+                },
+                {
+                    "name": "BUTTERFLY OF THE DOOR",
+                    "aa": 0.33,
+                    "mins": 60
+                },
+                {
+                    "name": "PAST IN THE LOVER",
+                    "aa": 0.57,
+                    "mins": 60
+                },
+                {
+                    "name": "LAUGHING VOYAGE",
+                    "aa": 0.72,
+                    "mins": 120
+                },
+                {
+                    "name": "PROPHECY OF TEACHER",
+                    "aa": 0.47,
+                    "mins": 62
+                },
+                {
+                    "name": "FLIGHT IN THE NAMES",
+                    "aa": 0.59,
+                    "mins": 60
+                },
+                {
+                    "name": "WAVE OF THE GIRL",
+                    "aa": 0.42,
+                    "mins": 60
+                },
+                {
+                    "name": "NAMES IN THE DREAMER",
+                    "aa": 0.4,
+                    "mins": 60
+                },
+                {
+                    "name": "THE LIGHTS'S GIRL",
+                    "aa": 0.15,
+                    "mins": 62
+                },
+                {
+                    "name": "FIRE OF THE THOUGHT",
+                    "aa": 0.48,
+                    "mins": 2720
+                },
+                {
+                    "name": "DANGER IN THE YEARS",
+                    "aa": 0.38,
+                    "mins": 300
+                },
+                {
+                    "name": "ROUGH WITCH",
+                    "aa": 0.53,
+                    "mins": 120
+                },
+                {
+                    "name": "THE TWILIGHT'S BOY",
+                    "aa": 0.33,
+                    "mins": 210
+                },
+                {
+                    "name": "LIGHTS IN THE LEGACY",
+                    "aa": 0.59,
+                    "mins": 3062
+                },
+                {
+                    "name": "SILK OF FLAMES",
+                    "aa": 0.41,
+                    "mins": 180
+                },
+                {
+                    "name": "WORLDS OF SILENCE",
+                    "aa": 0.35,
+                    "mins": 60
+                },
+                {
+                    "name": "THE DREAMS'S GIRL",
+                    "aa": 0.6,
+                    "mins": 60
+                },
+                {
+                    "name": "THE WOMAN OF THE FLIGHT",
+                    "aa": 0.36,
+                    "mins": 120
+                },
+                {
+                    "name": "THE BIRTH OF THE SHADOW",
+                    "aa": 0.55,
+                    "mins": 360
+                },
+                {
+                    "name": "LORDS OF THOUGHTS",
+                    "aa": 0.61,
+                    "mins": 544
+                },
+                {
+                    "name": "YEAR IN THE SPARK",
+                    "aa": 0.44,
+                    "mins": 60
+                },
+                {
+                    "name": "DANGEROUS FAIRY",
+                    "aa": 0.42,
+                    "mins": 480
+                },
+                {
+                    "name": "THE HUNTER OF THE CLOUD",
+                    "aa": 0.31,
+                    "mins": 300
+                },
+                {
+                    "name": "NOBODY IN THE MAN",
+                    "aa": 0.69,
+                    "mins": 420
+                },
+                {
+                    "name": "THE RAGGED FIRE",
+                    "aa": 0.43,
+                    "mins": 427
+                },
+                {
+                    "name": "THE BOY'S VALLEY",
+                    "aa": 0.66,
+                    "mins": 60
+                },
+                {
+                    "name": "LAUGHING SCENT",
+                    "aa": 0.37,
+                    "mins": 180
+                },
+                {
+                    "name": "THE PROPHECY'S LUCK",
+                    "aa": 0.57,
+                    "mins": 60
+                },
+                {
+                    "name": "HUSTLER IN THE SCENT",
+                    "aa": 0.53,
+                    "mins": 60
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.31,
+                    "mins": 4430
+                },
+                {
+                    "name": "CAPTIVE OF EDGE",
+                    "aa": 0.4,
+                    "mins": 180
+                },
+                {
+                    "name": "THE HEART'S SCENT",
+                    "aa": 0.79,
+                    "mins": 60
+                },
+                {
+                    "name": "TEACHER IN THE WAY",
+                    "aa": 0.35,
+                    "mins": 390
+                },
+                {
+                    "name": "SMOOTH HUNTER",
+                    "aa": 0.61,
+                    "mins": 578
+                },
+                {
+                    "name": "THOUGHT OF STORM",
+                    "aa": 0.64,
+                    "mins": 2164
+                },
+                {
+                    "name": "BRIDGES IN THE LIGHT",
+                    "aa": 0.49,
+                    "mins": 481
+                },
+                {
+                    "name": "WAY OF THE BODY",
+                    "aa": 0.53,
+                    "mins": 60
+                },
+                {
+                    "name": "THE ONLY EDGE",
+                    "aa": 0.56,
+                    "mins": 180
+                },
+                {
+                    "name": "THE FALLING SEX",
+                    "aa": 0.56,
+                    "mins": 60
+                },
+                {
+                    "name": "THE SERVANTS'S ILLUSION",
+                    "aa": 0.68,
+                    "mins": 60
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.58,
+                    "mins": 1612
+                },
+                {
+                    "name": "ICE IN THE FLOWER",
+                    "aa": 0.41,
+                    "mins": 480
+                },
+                {
+                    "name": "EMERALD OF THE GIRLFRIEND",
+                    "aa": 0.38,
+                    "mins": 60
+                },
+                {
+                    "name": "SCHOOL IN THE HUSBAND",
+                    "aa": 0.2,
+                    "mins": 30
+                },
+                {
+                    "name": "GREEN PRINCE",
+                    "aa": 0.49,
+                    "mins": 122
+                },
+                {
+                    "name": "BRIDGE IN THE MISTY",
+                    "aa": 0.23,
+                    "mins": 296
+                },
+                {
+                    "name": "THE SPARK'S HUNTER",
+                    "aa": 0.37,
+                    "mins": 614
+                },
+                {
+                    "name": "RIVER IN THE LORDS",
+                    "aa": 0.59,
+                    "mins": 60
+                },
+                {
+                    "name": "SNOW IN THE SHIPS",
+                    "aa": 0.4,
+                    "mins": 120
+                },
+                {
+                    "name": "KISSING NAME",
+                    "aa": 0.62,
+                    "mins": 60
+                },
+                {
+                    "name": "THE SILENT STAR",
+                    "aa": 0.45,
+                    "mins": 60
+                },
+                {
+                    "name": "TIME OF WAVES",
+                    "aa": 0.63,
+                    "mins": 60
+                },
+                {
+                    "name": "THE EDGE'S WIFE",
+                    "aa": 0.62,
+                    "mins": 180
+                },
+                {
+                    "name": "SERPENT OF THE DEATH",
+                    "aa": 0.47,
+                    "mins": 60
+                },
+                {
+                    "name": "SOARING IN THE SERVANTS",
+                    "aa": 0.7,
+                    "mins": 60
+                },
+                {
+                    "name": "SEVENTH RIVER",
+                    "aa": 0.57,
+                    "mins": 60
+                },
+                {
+                    "name": "SMOOTH SPARK",
+                    "aa": 0.46,
+                    "mins": 60
+                },
+                {
+                    "name": "GIRL OF VOYAGER",
+                    "aa": 0.47,
+                    "mins": 120
+                },
+                {
+                    "name": "THE SLAVE'S HUSBAND",
+                    "aa": 0.61,
+                    "mins": 60
+                },
+                {
+                    "name": "PIRATES OF THE SERVANT",
+                    "aa": 0.67,
+                    "mins": 2040
+                },
+                {
+                    "name": "SHORES OF SNOW",
+                    "aa": 0.61,
+                    "mins": 60
+                },
+                {
+                    "name": "ICE OF THE RIVER",
+                    "aa": 0.36,
+                    "mins": 547
+                }
+            ]
+        }
+    },
+    "2017": {
+        "prime": {
+            "Jan": 0.58,
+            "Feb": 0.53,
+            "Mar": 0.56,
+            "Apr": 0.55,
+            "May": 0.67,
+            "Jun": 0.71,
+            "Jul": 0.62,
+            "Aug": 0.52,
+            "Sep": 0.61,
+            "Oct": 0.98,
+            "Nov": 0.61,
+            "Dec": 0.51,
+            "FullYear": 0.37
+        },
+        "premieres": {
+            "Jan": {
+                "aa": 0.86,
+                "mins": 3772
+            },
+            "Feb": {
+                "aa": 0.73,
+                "mins": 3605
+            },
+            "Mar": {
+                "aa": 0.65,
+                "mins": 3857
+            },
+            "Apr": {
+                "aa": 0.69,
+                "mins": 4588
+            },
+            "May": {
+                "aa": 0.74,
+                "mins": 3303
+            },
+            "Jun": {
+                "aa": 0.84,
+                "mins": 2694
+            },
+            "Jul": {
+                "aa": 0.67,
+                "mins": 3533
+            },
+            "Aug": {
+                "aa": 0.87,
+                "mins": 1980
+            },
+            "Sep": {
+                "aa": 1,
+                "mins": 2340
+            },
+            "Oct": {
+                "aa": 0.99,
+                "mins": 3383
+            },
+            "Nov": {
+                "aa": 0.97,
+                "mins": 2071
+            },
+            "Dec": {
+                "aa": 0.87,
+                "mins": 2342
+            },
+            "FullYear": {
+                "aa": 0.61,
+                "mins": 37468
+            }
+        },
+        "repeats": {
+            "Jan": {
+                "aa": 0.3,
+                "mins": 2528
+            },
+            "Feb": {
+                "aa": 0.32,
+                "mins": 1435
+            },
+            "Mar": {
+                "aa": 0.47,
+                "mins": 1183
+            },
+            "Apr": {
+                "aa": 0.42,
+                "mins": 1712
+            },
+            "May": {
+                "aa": 0.61,
+                "mins": 1737
+            },
+            "Jun": {
+                "aa": 0.59,
+                "mins": 2346
+            },
+            "Jul": {
+                "aa": 0.58,
+                "mins": 2767
+            },
+            "Aug": {
+                "aa": 0.17,
+                "mins": 3060
+            },
+            "Sep": {
+                "aa": 0.21,
+                "mins": 2700
+            },
+            "Oct": {
+                "aa": 0.97,
+                "mins": 2917
+            },
+            "Nov": {
+                "aa": 0.24,
+                "mins": 2969
+            },
+            "Dec": {
+                "aa": 0.15,
+                "mins": 3958
+            },
+            "FullYear": {
+                "aa": 0.13,
+                "mins": 29312
+            }
+        },
+        "series-prems": {
+            "Jan": [
+                {
+                    "name": "HUNTER IN THE FLOWER",
+                    "aa": 0.31,
+                    "mins": 120
+                },
+                {
+                    "name": "CRACKED BEGINNING",
+                    "aa": 1.18,
+                    "mins": 120
+                },
+                {
+                    "name": "THE PETALS'S GIRL",
+                    "aa": 0.96,
+                    "mins": 120
+                },
+                {
+                    "name": "DREAMER IN THE RINGS",
+                    "aa": 0.76,
+                    "mins": 60
+                },
+                {
+                    "name": "THE HUNTER OF THE CLOUD",
+                    "aa": 1,
+                    "mins": 184
+                },
+                {
+                    "name": "GATE IN THE SLAVES",
+                    "aa": 0.49,
+                    "mins": 186
+                },
+                {
+                    "name": "PERSON OF GUARDIAN",
+                    "aa": 0.59,
+                    "mins": 120
+                },
+                {
+                    "name": "FEMALE OF THE SNOW",
+                    "aa": 0.72,
+                    "mins": 61
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 1.11,
+                    "mins": 480
+                },
+                {
+                    "name": "STREAMS OF THE BLADE",
+                    "aa": 0.53,
+                    "mins": 484
+                },
+                {
+                    "name": "THE SAVIOR'S HISTORY",
+                    "aa": 1.03,
+                    "mins": 63
+                },
+                {
+                    "name": "SERVANTS OF GIRL",
+                    "aa": 0.35,
+                    "mins": 60
+                },
+                {
+                    "name": "BRIDGES IN THE LIGHT",
+                    "aa": 1.24,
+                    "mins": 304
+                },
+                {
+                    "name": "THE ICE'S EYE",
+                    "aa": 0.57,
+                    "mins": 60
+                },
+                {
+                    "name": "SILENT EMERALD",
+                    "aa": 0.84,
+                    "mins": 180
+                },
+                {
+                    "name": "THE ONLY EDGE",
+                    "aa": 0.83,
+                    "mins": 304
+                },
+                {
+                    "name": "THE PAST'S SEARCH",
+                    "aa": 0.52,
+                    "mins": 61
+                },
+                {
+                    "name": "FORGOTTEN STONE",
+                    "aa": 1.64,
+                    "mins": 294
+                },
+                {
+                    "name": "ANGELS OF MALE",
+                    "aa": 1.35,
+                    "mins": 116
+                },
+                {
+                    "name": "EAGER HUNTER",
+                    "aa": 1.15,
+                    "mins": 63
+                },
+                {
+                    "name": "THE SLEEPING HEALER",
+                    "aa": 0.85,
+                    "mins": 63
+                },
+                {
+                    "name": "THE SPARK'S HUNTER",
+                    "aa": 1.1,
+                    "mins": 240
+                },
+                {
+                    "name": "WORLDS OF THE DREAM",
+                    "aa": 0.51,
+                    "mins": 121
+                }
+            ],
+            "Feb": [
+                {
+                    "name": "SCHOOL OF THE DOOR",
+                    "aa": 0.32,
+                    "mins": 61
+                },
+                {
+                    "name": "CRACKED BEGINNING",
+                    "aa": 0.89,
+                    "mins": 300
+                },
+                {
+                    "name": "MISSING STAR",
+                    "aa": 0.62,
+                    "mins": 61
+                },
+                {
+                    "name": "NOBODY IN THE MAN",
+                    "aa": 1.1,
+                    "mins": 122
+                },
+                {
+                    "name": "THE RAGGED FIRE",
+                    "aa": 1.01,
+                    "mins": 177
+                },
+                {
+                    "name": "STREAM OF WAY",
+                    "aa": 0.55,
+                    "mins": 120
+                },
+                {
+                    "name": "GATE IN THE SLAVES",
+                    "aa": 0.66,
+                    "mins": 129
+                },
+                {
+                    "name": "THE FLAME'S RAINBOW",
+                    "aa": 0.36,
+                    "mins": 240
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 1.17,
+                    "mins": 480
+                },
+                {
+                    "name": "STREAMS OF THE BLADE",
+                    "aa": 0.61,
+                    "mins": 488
+                },
+                {
+                    "name": "THE SAVIOR'S HISTORY",
+                    "aa": 1.16,
+                    "mins": 247
+                },
+                {
+                    "name": "SILENT EMERALD",
+                    "aa": 0.42,
+                    "mins": 243
+                },
+                {
+                    "name": "THE ONLY EDGE",
+                    "aa": 0.74,
+                    "mins": 245
+                },
+                {
+                    "name": "UNWILLING PLANET",
+                    "aa": 0.56,
+                    "mins": 183
+                },
+                {
+                    "name": "WILD WORLD",
+                    "aa": 0.45,
+                    "mins": 122
+                },
+                {
+                    "name": "THE SLEEPING HEALER",
+                    "aa": 0.47,
+                    "mins": 247
+                },
+                {
+                    "name": "THE SPARK'S HUNTER",
+                    "aa": 1.1,
+                    "mins": 258
+                }
+            ],
+            "Mar": [
+                {
+                    "name": "CRACKED BEGINNING",
+                    "aa": 1.26,
+                    "mins": 60
+                },
+                {
+                    "name": "SILK OF FLAMES",
+                    "aa": 0.56,
+                    "mins": 179
+                },
+                {
+                    "name": "THE WOMAN OF THE FLIGHT",
+                    "aa": 0.61,
+                    "mins": 120
+                },
+                {
+                    "name": "NOBODY IN THE MAN",
+                    "aa": 0.97,
+                    "mins": 244
+                },
+                {
+                    "name": "THE RAGGED FIRE",
+                    "aa": 1.01,
+                    "mins": 244
+                },
+                {
+                    "name": "THE FLAME'S RAINBOW",
+                    "aa": 0.66,
+                    "mins": 240
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 1.07,
+                    "mins": 481
+                },
+                {
+                    "name": "STREAMS OF THE BLADE",
+                    "aa": 0.7,
+                    "mins": 482
+                },
+                {
+                    "name": "THE SAVIOR'S HISTORY",
+                    "aa": 0.99,
+                    "mins": 249
+                },
+                {
+                    "name": "SILENT EMERALD",
+                    "aa": 0.51,
+                    "mins": 62
+                },
+                {
+                    "name": "THE ONLY EDGE",
+                    "aa": 0.73,
+                    "mins": 60
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.74,
+                    "mins": 260
+                },
+                {
+                    "name": "MISSING DREAMING",
+                    "aa": 0.49,
+                    "mins": 239
+                },
+                {
+                    "name": "SOMEONE IN THE SPIRITS",
+                    "aa": 0.44,
+                    "mins": 186
+                },
+                {
+                    "name": "THE FINAL VOYAGE",
+                    "aa": 0.84,
+                    "mins": 240
+                },
+                {
+                    "name": "SERPENT OF SNOW",
+                    "aa": 0.76,
+                    "mins": 245
+                },
+                {
+                    "name": "THE SLEEPING HEALER",
+                    "aa": 0.57,
+                    "mins": 62
+                },
+                {
+                    "name": "SHORES OF SNOW",
+                    "aa": 0.99,
+                    "mins": 250
+                }
+            ],
+            "Apr": [
+                {
+                    "name": "SILK OF FLAMES",
+                    "aa": 0.65,
+                    "mins": 60
+                },
+                {
+                    "name": "THE WOMAN OF THE FLIGHT",
+                    "aa": 0.67,
+                    "mins": 60
+                },
+                {
+                    "name": "THE LEGEND'S WORDS",
+                    "aa": 0.61,
+                    "mins": 62
+                },
+                {
+                    "name": "FINAL DOOR",
+                    "aa": 0.67,
+                    "mins": 120
+                },
+                {
+                    "name": "NOBODY IN THE MAN",
+                    "aa": 1.02,
+                    "mins": 243
+                },
+                {
+                    "name": "THE RAGGED FIRE",
+                    "aa": 1.12,
+                    "mins": 375
+                },
+                {
+                    "name": "THE FLAME'S RAINBOW",
+                    "aa": 0.47,
+                    "mins": 240
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 1.43,
+                    "mins": 243
+                },
+                {
+                    "name": "STREAMS OF THE BLADE",
+                    "aa": 0.74,
+                    "mins": 600
+                },
+                {
+                    "name": "SMOOTH HUNTER",
+                    "aa": 0.94,
+                    "mins": 370
+                },
+                {
+                    "name": "THE SAVIOR'S HISTORY",
+                    "aa": 0.95,
+                    "mins": 300
+                },
+                {
+                    "name": "SOMEONE OF WOMAN",
+                    "aa": 0.62,
+                    "mins": 245
+                },
+                {
+                    "name": "MEN OF THE RIVER",
+                    "aa": 0.42,
+                    "mins": 124
+                },
+                {
+                    "name": "SOULS IN THE FIRE",
+                    "aa": 0.96,
+                    "mins": 123
+                },
+                {
+                    "name": "THE SILKY DREAMS",
+                    "aa": 0.95,
+                    "mins": 61
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.55,
+                    "mins": 240
+                },
+                {
+                    "name": "THE DREAMS'S DREAMER",
+                    "aa": 0.63,
+                    "mins": 91
+                },
+                {
+                    "name": "SOMEONE IN THE SPIRITS",
+                    "aa": 0.6,
+                    "mins": 124
+                },
+                {
+                    "name": "THE FINAL VOYAGE",
+                    "aa": 1.08,
+                    "mins": 235
+                },
+                {
+                    "name": "SERPENT OF SNOW",
+                    "aa": 0.48,
+                    "mins": 243
+                },
+                {
+                    "name": "HEART OF SERVANTS",
+                    "aa": 1.03,
+                    "mins": 302
+                },
+                {
+                    "name": "SHORES OF SNOW",
+                    "aa": 0.99,
+                    "mins": 246
+                }
+            ],
+            "May": [
+                {
+                    "name": "THE ACADEMY'S WITCHES",
+                    "aa": 0.67,
+                    "mins": 248
+                },
+                {
+                    "name": "THE LIVING PERSON",
+                    "aa": 0.62,
+                    "mins": 61
+                },
+                {
+                    "name": "BEGINNING OF BUTTERFLY",
+                    "aa": 0.37,
+                    "mins": 61
+                },
+                {
+                    "name": "THE HUNTER OF THE CLOUD",
+                    "aa": 1.01,
+                    "mins": 250
+                },
+                {
+                    "name": "THE LOVER'S DREAM",
+                    "aa": 0.73,
+                    "mins": 180
+                },
+                {
+                    "name": "THE VALLEY OF THE NAMES",
+                    "aa": 0.65,
+                    "mins": 120
+                },
+                {
+                    "name": "STREAMS OF THE BLADE",
+                    "aa": 0.48,
+                    "mins": 480
+                },
+                {
+                    "name": "SMOOTH HUNTER",
+                    "aa": 1.02,
+                    "mins": 485
+                },
+                {
+                    "name": "SOMEONE OF WOMAN",
+                    "aa": 0.72,
+                    "mins": 183
+                },
+                {
+                    "name": "SOULS IN THE FIRE",
+                    "aa": 1.12,
+                    "mins": 495
+                },
+                {
+                    "name": "THE SILKY DREAMS",
+                    "aa": 0.63,
+                    "mins": 243
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.51,
+                    "mins": 120
+                },
+                {
+                    "name": "MISSING DREAMING",
+                    "aa": 0.42,
+                    "mins": 120
+                },
+                {
+                    "name": "THE FINAL VOYAGE",
+                    "aa": 0.62,
+                    "mins": 118
+                },
+                {
+                    "name": "SERPENT OF SNOW",
+                    "aa": 0.31,
+                    "mins": 183
+                },
+                {
+                    "name": "THE WOMAN'S EYES",
+                    "aa": 0.7,
+                    "mins": 59
+                }
+            ],
+            "Jun": [
+                {
+                    "name": "THE ACADEMY'S WITCHES",
+                    "aa": 1.07,
+                    "mins": 250
+                },
+                {
+                    "name": "FINAL LEGACY",
+                    "aa": 0.48,
+                    "mins": 602
+                },
+                {
+                    "name": "THE PLANET'S DYING",
+                    "aa": 1.05,
+                    "mins": 122
+                },
+                {
+                    "name": "BLUE EMERALD",
+                    "aa": 0.51,
+                    "mins": 60
+                },
+                {
+                    "name": "THE LIVING PERSON",
+                    "aa": 0.66,
+                    "mins": 61
+                },
+                {
+                    "name": "BEGINNING OF BUTTERFLY",
+                    "aa": 0.57,
+                    "mins": 62
+                },
+                {
+                    "name": "CRACKED BEGINNING",
+                    "aa": 1.32,
+                    "mins": 180
+                },
+                {
+                    "name": "THE HUNTER OF THE CLOUD",
+                    "aa": 1.44,
+                    "mins": 250
+                },
+                {
+                    "name": "THE LOVER'S DREAM",
+                    "aa": 0.53,
+                    "mins": 240
+                },
+                {
+                    "name": "STREAMS OF THE BLADE",
+                    "aa": 0.4,
+                    "mins": 122
+                },
+                {
+                    "name": "SMOOTH HUNTER",
+                    "aa": 0.92,
+                    "mins": 121
+                },
+                {
+                    "name": "SOMEONE OF WOMAN",
+                    "aa": 0.77,
+                    "mins": 62
+                },
+                {
+                    "name": "THE WORLD'S MISTY",
+                    "aa": 0.53,
+                    "mins": 60
+                },
+                {
+                    "name": "SOULS IN THE FIRE",
+                    "aa": 0.86,
+                    "mins": 125
+                },
+                {
+                    "name": "THE SILKY DREAMS",
+                    "aa": 0.59,
+                    "mins": 60
+                },
+                {
+                    "name": "MISSING DREAMING",
+                    "aa": 0.43,
+                    "mins": 425
+                }
+            ],
+            "Jul": [
+                {
+                    "name": "FINAL LEGACY",
+                    "aa": 0.62,
+                    "mins": 120
+                },
+                {
+                    "name": "THE PLANET'S DYING",
+                    "aa": 1.16,
+                    "mins": 618
+                },
+                {
+                    "name": "CRACKED BEGINNING",
+                    "aa": 1.13,
+                    "mins": 360
+                },
+                {
+                    "name": "THE MISSING SECRETS",
+                    "aa": 0.43,
+                    "mins": 313
+                },
+                {
+                    "name": "THE RISING SNOW",
+                    "aa": 0.75,
+                    "mins": 376
+                },
+                {
+                    "name": "HUNTER IN THE STORM",
+                    "aa": 0.54,
+                    "mins": 360
+                },
+                {
+                    "name": "THE PETALS'S GIRL",
+                    "aa": 0.59,
+                    "mins": 186
+                },
+                {
+                    "name": "THE HUNTER OF THE CLOUD",
+                    "aa": 1.36,
+                    "mins": 123
+                },
+                {
+                    "name": "BRIDGES IN THE LIGHT",
+                    "aa": 1.26,
+                    "mins": 190
+                },
+                {
+                    "name": "THE DIAMOND GIFT",
+                    "aa": 0.4,
+                    "mins": 120
+                },
+                {
+                    "name": "THE ICE'S EYE",
+                    "aa": 0.65,
+                    "mins": 120
+                },
+                {
+                    "name": "TIME OF SPARK",
+                    "aa": 0.69,
+                    "mins": 189
+                },
+                {
+                    "name": "MISSING DREAMING",
+                    "aa": 0.28,
+                    "mins": 486
+                },
+                {
+                    "name": "PRINCE OF THE WIFE",
+                    "aa": 0.62,
+                    "mins": 259
+                }
+            ],
+            "Aug": [
+                {
+                    "name": "BRIDE IN THE PREDATOR",
+                    "aa": 1.15,
+                    "mins": 249
+                },
+                {
+                    "name": "THE PLANET'S DYING",
+                    "aa": 1.66,
+                    "mins": 249
+                },
+                {
+                    "name": "SHARP SERVANT",
+                    "aa": 0.51,
+                    "mins": 63
+                },
+                {
+                    "name": "THE MISSING SECRETS",
+                    "aa": 0.36,
+                    "mins": 63
+                },
+                {
+                    "name": "THE RISING SNOW",
+                    "aa": 0.89,
+                    "mins": 128
+                },
+                {
+                    "name": "HUNTER IN THE STORM",
+                    "aa": 0.36,
+                    "mins": 120
+                },
+                {
+                    "name": "BRIDGES IN THE LIGHT",
+                    "aa": 1.01,
+                    "mins": 252
+                },
+                {
+                    "name": "THE ICE'S EYE",
+                    "aa": 0.42,
+                    "mins": 240
+                },
+                {
+                    "name": "MISSING WIND",
+                    "aa": 0.9,
+                    "mins": 186
+                },
+                {
+                    "name": "TIME OF SPARK",
+                    "aa": 0.91,
+                    "mins": 252
+                },
+                {
+                    "name": "PRINCE OF THE WIFE",
+                    "aa": 0.79,
+                    "mins": 258
+                }
+            ],
+            "Sep": [
+                {
+                    "name": "THE ACADEMY'S WITCHES",
+                    "aa": 1.16,
+                    "mins": 63
+                },
+                {
+                    "name": "BRIDE IN THE PREDATOR",
+                    "aa": 1.32,
+                    "mins": 249
+                },
+                {
+                    "name": "THE PLANET'S DYING",
+                    "aa": 1.34,
+                    "mins": 125
+                },
+                {
+                    "name": "BIRCH OF THEFT",
+                    "aa": 1.34,
+                    "mins": 121
+                },
+                {
+                    "name": "EMERALD'S MEN",
+                    "aa": 0.59,
+                    "mins": 186
+                },
+                {
+                    "name": "CRACKED BEGINNING",
+                    "aa": 0.9,
+                    "mins": 120
+                },
+                {
+                    "name": "GIFT OF BRIDGES",
+                    "aa": 0.55,
+                    "mins": 120
+                },
+                {
+                    "name": "THE MOONS'S SILK",
+                    "aa": 0.71,
+                    "mins": 120
+                },
+                {
+                    "name": "DANGEROUS FAIRY",
+                    "aa": 1.22,
+                    "mins": 125
+                },
+                {
+                    "name": "FEMALE OF THE SNOW",
+                    "aa": 0.67,
+                    "mins": 126
+                },
+                {
+                    "name": "TOUCH IN THE ROSES",
+                    "aa": 1,
+                    "mins": 128
+                },
+                {
+                    "name": "LOVELY DYING",
+                    "aa": 0.52,
+                    "mins": 180
+                },
+                {
+                    "name": "BRIDGES IN THE LIGHT",
+                    "aa": 1.1,
+                    "mins": 192
+                },
+                {
+                    "name": "THE ICE'S EYE",
+                    "aa": 0.36,
+                    "mins": 180
+                },
+                {
+                    "name": "CAPTIVE IN THE DREAMER",
+                    "aa": 0.55,
+                    "mins": 180
+                },
+                {
+                    "name": "TIME OF SPARK",
+                    "aa": 0.9,
+                    "mins": 189
+                },
+                {
+                    "name": "PRINCE OF THE WIFE",
+                    "aa": 0.78,
+                    "mins": 130
+                }
+            ],
+            "Oct": [
+                {
+                    "name": "THE ACADEMY'S WITCHES",
+                    "aa": 1.04,
+                    "mins": 311
+                },
+                {
+                    "name": "SOMETHING IN THE FLYING",
+                    "aa": 1.25,
+                    "mins": 257
+                },
+                {
+                    "name": "BRIDE IN THE PREDATOR",
+                    "aa": 1.61,
+                    "mins": 310
+                },
+                {
+                    "name": "ILLUSION IN THE TIME",
+                    "aa": 0.74,
+                    "mins": 58
+                },
+                {
+                    "name": "SWOLLEN TRAINER",
+                    "aa": 0.51,
+                    "mins": 430
+                },
+                {
+                    "name": "CRACKED BEGINNING",
+                    "aa": 0.9,
+                    "mins": 360
+                },
+                {
+                    "name": "GIFT OF BRIDGES",
+                    "aa": 0.6,
+                    "mins": 300
+                },
+                {
+                    "name": "THE MOONS'S SILK",
+                    "aa": 0.58,
+                    "mins": 420
+                },
+                {
+                    "name": "DANGEROUS FAIRY",
+                    "aa": 0.91,
+                    "mins": 311
+                },
+                {
+                    "name": "LOVER OF GIFT",
+                    "aa": 0.65,
+                    "mins": 180
+                },
+                {
+                    "name": "FEMALE OF THE SNOW",
+                    "aa": 0.59,
+                    "mins": 245
+                },
+                {
+                    "name": "TOUCH IN THE ROSES",
+                    "aa": 0.77,
+                    "mins": 316
+                },
+                {
+                    "name": "WAVE OF HUSBAND",
+                    "aa": 0.87,
+                    "mins": 13
+                }
+            ],
+            "Nov": [
+                {
+                    "name": "SOMETHING IN THE FLYING",
+                    "aa": 1.45,
+                    "mins": 503
+                },
+                {
+                    "name": "THE FROZEN GAME",
+                    "aa": 1.26,
+                    "mins": 129
+                },
+                {
+                    "name": "SWOLLEN TRAINER",
+                    "aa": 0.62,
+                    "mins": 248
+                },
+                {
+                    "name": "GREY LOVER",
+                    "aa": 0.68,
+                    "mins": 191
+                },
+                {
+                    "name": "WIZARDS IN THE BEGINNING",
+                    "aa": 0.45,
+                    "mins": 191
+                },
+                {
+                    "name": "DANGEROUS FAIRY",
+                    "aa": 0.81,
+                    "mins": 253
+                },
+                {
+                    "name": "NOBODY IN THE MAN",
+                    "aa": 0.76,
+                    "mins": 190
+                },
+                {
+                    "name": "THE RAGGED FIRE",
+                    "aa": 0.74,
+                    "mins": 188
+                },
+                {
+                    "name": "HOT PREDATOR",
+                    "aa": 0.81,
+                    "mins": 10
+                },
+                {
+                    "name": "TOUCH IN THE ROSES",
+                    "aa": 0.93,
+                    "mins": 64
+                },
+                {
+                    "name": "OBSESSION'S BRIDGES",
+                    "aa": 1.04,
+                    "mins": 197
+                }
+            ],
+            "Dec": [
+                {
+                    "name": "SOMETHING IN THE FLYING",
+                    "aa": 1.75,
+                    "mins": 445
+                },
+                {
+                    "name": "FINAL LEGACY",
+                    "aa": 0.32,
+                    "mins": 843
+                },
+                {
+                    "name": "ONLY FLAMES",
+                    "aa": 1.7,
+                    "mins": 119
+                },
+                {
+                    "name": "SWOLLEN TRAINER",
+                    "aa": 0.57,
+                    "mins": 62
+                },
+                {
+                    "name": "GREY LOVER",
+                    "aa": 0.42,
+                    "mins": 189
+                },
+                {
+                    "name": "WIZARDS IN THE BEGINNING",
+                    "aa": 0.49,
+                    "mins": 187
+                },
+                {
+                    "name": "DWINDLING ASHES",
+                    "aa": 0.61,
+                    "mins": 62
+                },
+                {
+                    "name": "NOBODY IN THE MAN",
+                    "aa": 1,
+                    "mins": 126
+                },
+                {
+                    "name": "THE RAGGED FIRE",
+                    "aa": 0.73,
+                    "mins": 187
+                },
+                {
+                    "name": "GATE IN THE SLAVES",
+                    "aa": 0.54,
+                    "mins": 62
+                },
+                {
+                    "name": "OBSESSION'S BRIDGES",
+                    "aa": 1.04,
+                    "mins": 196
+                },
+                {
+                    "name": "THE NO SOMETHING",
+                    "aa": 0.35,
+                    "mins": 62
+                }
+            ],
+            "FullYear": [
+                {
+                    "name": "THE ACADEMY'S WITCHES",
+                    "aa": 1.11,
+                    "mins": 872
+                },
+                {
+                    "name": "SOMETHING IN THE FLYING",
+                    "aa": 1.46,
+                    "mins": 1205
+                },
+                {
+                    "name": "THE FROZEN GAME",
+                    "aa": 1.45,
+                    "mins": 129
+                },
+                {
+                    "name": "BRIDE IN THE PREDATOR",
+                    "aa": 1.52,
+                    "mins": 808
+                },
+                {
+                    "name": "FINAL LEGACY",
+                    "aa": 0.67,
+                    "mins": 1565
+                },
+                {
+                    "name": "THE PLANET'S DYING",
+                    "aa": 1.13,
+                    "mins": 1114
+                },
+                {
+                    "name": "ILLUSION IN THE TIME",
+                    "aa": 0.69,
+                    "mins": 58
+                },
+                {
+                    "name": "ONLY FLAMES",
+                    "aa": 1.52,
+                    "mins": 119
+                },
+                {
+                    "name": "BIRCH OF THEFT",
+                    "aa": 1.4,
+                    "mins": 121
+                },
+                {
+                    "name": "HUNTER IN THE FLOWER",
+                    "aa": 0.26,
+                    "mins": 120
+                },
+                {
+                    "name": "BLUE EMERALD",
+                    "aa": 0.4,
+                    "mins": 60
+                },
+                {
+                    "name": "THE LIVING PERSON",
+                    "aa": 0.46,
+                    "mins": 122
+                },
+                {
+                    "name": "BEGINNING OF BUTTERFLY",
+                    "aa": 0.57,
+                    "mins": 123
+                },
+                {
+                    "name": "SCHOOL OF THE DOOR",
+                    "aa": 0.64,
+                    "mins": 61
+                },
+                {
+                    "name": "SWOLLEN TRAINER",
+                    "aa": 0.44,
+                    "mins": 740
+                },
+                {
+                    "name": "EMERALD'S MEN",
+                    "aa": 0.4,
+                    "mins": 186
+                },
+                {
+                    "name": "CRACKED BEGINNING",
+                    "aa": 1.01,
+                    "mins": 1500
+                },
+                {
+                    "name": "GIFT OF BRIDGES",
+                    "aa": 0.53,
+                    "mins": 420
+                },
+                {
+                    "name": "SILK OF FLAMES",
+                    "aa": 0.62,
+                    "mins": 239
+                },
+                {
+                    "name": "SHARP SERVANT",
+                    "aa": 0.29,
+                    "mins": 63
+                },
+                {
+                    "name": "THE MISSING SECRETS",
+                    "aa": 0.36,
+                    "mins": 376
+                },
+                {
+                    "name": "THE WOMAN OF THE FLIGHT",
+                    "aa": 0.43,
+                    "mins": 180
+                },
+                {
+                    "name": "GREY LOVER",
+                    "aa": 0.66,
+                    "mins": 380
+                },
+                {
+                    "name": "THE LEGEND'S WORDS",
+                    "aa": 0.4,
+                    "mins": 62
+                },
+                {
+                    "name": "WIZARDS IN THE BEGINNING",
+                    "aa": 0.5,
+                    "mins": 378
+                },
+                {
+                    "name": "FINAL DOOR",
+                    "aa": 0.45,
+                    "mins": 120
+                },
+                {
+                    "name": "THE RISING SNOW",
+                    "aa": 0.66,
+                    "mins": 504
+                },
+                {
+                    "name": "HUNTER IN THE STORM",
+                    "aa": 0.3,
+                    "mins": 480
+                },
+                {
+                    "name": "DWINDLING ASHES",
+                    "aa": 0.6,
+                    "mins": 62
+                },
+                {
+                    "name": "THE PETALS'S GIRL",
+                    "aa": 0.62,
+                    "mins": 306
+                },
+                {
+                    "name": "DREAMER IN THE RINGS",
+                    "aa": 0.77,
+                    "mins": 60
+                },
+                {
+                    "name": "MISSING STAR",
+                    "aa": 0.44,
+                    "mins": 61
+                },
+                {
+                    "name": "THE MOONS'S SILK",
+                    "aa": 0.66,
+                    "mins": 540
+                },
+                {
+                    "name": "DANGEROUS FAIRY",
+                    "aa": 0.83,
+                    "mins": 689
+                },
+                {
+                    "name": "LOVER OF GIFT",
+                    "aa": 0.53,
+                    "mins": 180
+                },
+                {
+                    "name": "THE HUNTER OF THE CLOUD",
+                    "aa": 1.38,
+                    "mins": 807
+                },
+                {
+                    "name": "NOBODY IN THE MAN",
+                    "aa": 1.08,
+                    "mins": 925
+                },
+                {
+                    "name": "THE RAGGED FIRE",
+                    "aa": 1.07,
+                    "mins": 1171
+                },
+                {
+                    "name": "STREAM OF WAY",
+                    "aa": 0.59,
+                    "mins": 120
+                },
+                {
+                    "name": "GATE IN THE SLAVES",
+                    "aa": 0.51,
+                    "mins": 377
+                },
+                {
+                    "name": "THE LOVER'S DREAM",
+                    "aa": 0.76,
+                    "mins": 420
+                },
+                {
+                    "name": "THE VALLEY OF THE NAMES",
+                    "aa": 0.77,
+                    "mins": 120
+                },
+                {
+                    "name": "HOT PREDATOR",
+                    "aa": 1.07,
+                    "mins": 10
+                },
+                {
+                    "name": "PERSON OF GUARDIAN",
+                    "aa": 0.4,
+                    "mins": 120
+                },
+                {
+                    "name": "THE FLAME'S RAINBOW",
+                    "aa": 0.53,
+                    "mins": 720
+                },
+                {
+                    "name": "FEMALE OF THE SNOW",
+                    "aa": 0.75,
+                    "mins": 432
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 1.26,
+                    "mins": 1684
+                },
+                {
+                    "name": "STREAMS OF THE BLADE",
+                    "aa": 0.43,
+                    "mins": 2656
+                },
+                {
+                    "name": "SMOOTH HUNTER",
+                    "aa": 1.03,
+                    "mins": 976
+                },
+                {
+                    "name": "THE SAVIOR'S HISTORY",
+                    "aa": 1.08,
+                    "mins": 859
+                },
+                {
+                    "name": "TOUCH IN THE ROSES",
+                    "aa": 0.61,
+                    "mins": 508
+                },
+                {
+                    "name": "LOVELY DYING",
+                    "aa": 0.27,
+                    "mins": 180
+                },
+                {
+                    "name": "SERVANTS OF GIRL",
+                    "aa": 0.52,
+                    "mins": 60
+                },
+                {
+                    "name": "SOMEONE OF WOMAN",
+                    "aa": 0.42,
+                    "mins": 490
+                },
+                {
+                    "name": "THE WORLD'S MISTY",
+                    "aa": 0.23,
+                    "mins": 60
+                },
+                {
+                    "name": "BRIDGES IN THE LIGHT",
+                    "aa": 0.85,
+                    "mins": 938
+                },
+                {
+                    "name": "THE DIAMOND GIFT",
+                    "aa": 0.44,
+                    "mins": 120
+                },
+                {
+                    "name": "WAVE OF HUSBAND",
+                    "aa": 0.78,
+                    "mins": 13
+                },
+                {
+                    "name": "THE ICE'S EYE",
+                    "aa": 0.62,
+                    "mins": 600
+                },
+                {
+                    "name": "SILENT EMERALD",
+                    "aa": 0.74,
+                    "mins": 485
+                },
+                {
+                    "name": "THE ONLY EDGE",
+                    "aa": 0.75,
+                    "mins": 609
+                },
+                {
+                    "name": "MEN OF THE RIVER",
+                    "aa": 0.24,
+                    "mins": 124
+                },
+                {
+                    "name": "CAPTIVE IN THE DREAMER",
+                    "aa": 0.25,
+                    "mins": 180
+                },
+                {
+                    "name": "MISSING WIND",
+                    "aa": 0.9,
+                    "mins": 186
+                },
+                {
+                    "name": "TIME OF SPARK",
+                    "aa": 0.78,
+                    "mins": 630
+                },
+                {
+                    "name": "THE PAST'S SEARCH",
+                    "aa": 0.42,
+                    "mins": 61
+                },
+                {
+                    "name": "SOULS IN THE FIRE",
+                    "aa": 1.18,
+                    "mins": 743
+                },
+                {
+                    "name": "THE SILKY DREAMS",
+                    "aa": 0.7,
+                    "mins": 364
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.46,
+                    "mins": 620
+                },
+                {
+                    "name": "MISSING DREAMING",
+                    "aa": 0.3,
+                    "mins": 1270
+                },
+                {
+                    "name": "UNWILLING PLANET",
+                    "aa": 0.56,
+                    "mins": 183
+                },
+                {
+                    "name": "THE DREAMS'S DREAMER",
+                    "aa": 0.38,
+                    "mins": 91
+                },
+                {
+                    "name": "SOMEONE IN THE SPIRITS",
+                    "aa": 0.27,
+                    "mins": 310
+                },
+                {
+                    "name": "FORGOTTEN STONE",
+                    "aa": 1.5,
+                    "mins": 294
+                },
+                {
+                    "name": "ANGELS OF MALE",
+                    "aa": 1.44,
+                    "mins": 116
+                },
+                {
+                    "name": "EAGER HUNTER",
+                    "aa": 1.02,
+                    "mins": 63
+                },
+                {
+                    "name": "THE FINAL VOYAGE",
+                    "aa": 0.92,
+                    "mins": 593
+                },
+                {
+                    "name": "SERPENT OF SNOW",
+                    "aa": 0.6,
+                    "mins": 671
+                },
+                {
+                    "name": "THE WOMAN'S EYES",
+                    "aa": 0.79,
+                    "mins": 59
+                },
+                {
+                    "name": "PRINCE OF THE WIFE",
+                    "aa": 0.54,
+                    "mins": 647
+                },
+                {
+                    "name": "WILD WORLD",
+                    "aa": 0.45,
+                    "mins": 122
+                },
+                {
+                    "name": "THE SLEEPING HEALER",
+                    "aa": 0.65,
+                    "mins": 372
+                },
+                {
+                    "name": "HEART OF SERVANTS",
+                    "aa": 0.9,
+                    "mins": 302
+                },
+                {
+                    "name": "THE SPARK'S HUNTER",
+                    "aa": 1.15,
+                    "mins": 498
+                },
+                {
+                    "name": "WORLDS OF THE DREAM",
+                    "aa": 0.6,
+                    "mins": 121
+                },
+                {
+                    "name": "OBSESSION'S BRIDGES",
+                    "aa": 1.02,
+                    "mins": 393
+                },
+                {
+                    "name": "THE NO SOMETHING",
+                    "aa": 0.48,
+                    "mins": 62
+                },
+                {
+                    "name": "SHORES OF SNOW",
+                    "aa": 1.04,
+                    "mins": 496
+                }
+            ]
+        },
+        "series-repeats": {
+            "Jan": [
+                {
+                    "name": "LIGHTS IN THE LEGACY",
+                    "aa": 0.47,
+                    "mins": 246
+                },
+                {
+                    "name": "THE SILENT GAME",
+                    "aa": 0.4,
+                    "mins": 183
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.53,
+                    "mins": 360
+                },
+                {
+                    "name": "TEACHER IN THE WAY",
+                    "aa": 0.53,
+                    "mins": 270
+                },
+                {
+                    "name": "BRIDGES IN THE LIGHT",
+                    "aa": 0.55,
+                    "mins": 300
+                },
+                {
+                    "name": "THE ONLY EDGE",
+                    "aa": 0.35,
+                    "mins": 302
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.44,
+                    "mins": 543
+                },
+                {
+                    "name": "FORGOTTEN STONE",
+                    "aa": 1.16,
+                    "mins": 251
+                },
+                {
+                    "name": "PIRATES OF THE SERVANT",
+                    "aa": 0.45,
+                    "mins": 180
+                }
+            ],
+            "Feb": [
+                {
+                    "name": "LIGHTS IN THE LEGACY",
+                    "aa": 0.6,
+                    "mins": 248
+                },
+                {
+                    "name": "SWORDS IN THE ELVES",
+                    "aa": 0.35,
+                    "mins": 60
+                },
+                {
+                    "name": "THE RAGGED FIRE",
+                    "aa": 0.88,
+                    "mins": 63
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.28,
+                    "mins": 60
+                },
+                {
+                    "name": "BRIDGES IN THE LIGHT",
+                    "aa": 0.31,
+                    "mins": 60
+                },
+                {
+                    "name": "THE ONLY EDGE",
+                    "aa": 0.5,
+                    "mins": 244
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.2,
+                    "mins": 549
+                },
+                {
+                    "name": "FORGOTTEN STONE",
+                    "aa": 0.4,
+                    "mins": 150
+                },
+                {
+                    "name": "GREEN PRINCE",
+                    "aa": 0.68,
+                    "mins": 60
+                }
+            ],
+            "Mar": [
+                {
+                    "name": "LIGHTS IN THE LEGACY",
+                    "aa": 0.37,
+                    "mins": 240
+                },
+                {
+                    "name": "THE ALL DOOR",
+                    "aa": 0.59,
+                    "mins": 241
+                },
+                {
+                    "name": "SILK OF FLAMES",
+                    "aa": 0.41,
+                    "mins": 60
+                },
+                {
+                    "name": "THE FLOWER'S MOONS",
+                    "aa": 0.5,
+                    "mins": 61
+                },
+                {
+                    "name": "THE WOMAN OF THE FLIGHT",
+                    "aa": 0.64,
+                    "mins": 120
+                },
+                {
+                    "name": "FEMALE OF THE SNOW",
+                    "aa": 0.35,
+                    "mins": 61
+                },
+                {
+                    "name": "DOOR IN THE VALLEY",
+                    "aa": 0.17,
+                    "mins": 60
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.55,
+                    "mins": 180
+                },
+                {
+                    "name": "THE SAVIOR'S HISTORY",
+                    "aa": 0.49,
+                    "mins": 180
+                },
+                {
+                    "name": "THE ONLY EDGE",
+                    "aa": 0.4,
+                    "mins": 61
+                }
+            ],
+            "Apr": [
+                {
+                    "name": "LAUGHING VOYAGE",
+                    "aa": 0.43,
+                    "mins": 60
+                },
+                {
+                    "name": "THE FINAL FIRE",
+                    "aa": 0.8,
+                    "mins": 181
+                },
+                {
+                    "name": "THE WOMAN OF THE FLIGHT",
+                    "aa": 0.43,
+                    "mins": 60
+                },
+                {
+                    "name": "DREAMS OF MAGIC",
+                    "aa": 0.29,
+                    "mins": 60
+                },
+                {
+                    "name": "THE RAGGED FIRE",
+                    "aa": 0.45,
+                    "mins": 120
+                },
+                {
+                    "name": "THE BOY'S VALLEY",
+                    "aa": 0.48,
+                    "mins": 60
+                },
+                {
+                    "name": "THE FLAME'S RAINBOW",
+                    "aa": 0.71,
+                    "mins": 128
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.36,
+                    "mins": 301
+                },
+                {
+                    "name": "THOUGHT OF STORM",
+                    "aa": 0.57,
+                    "mins": 540
+                },
+                {
+                    "name": "HUNTER OF THE ANGELS",
+                    "aa": 0.42,
+                    "mins": 60
+                },
+                {
+                    "name": "SPARK IN THE LEGEND",
+                    "aa": 0.37,
+                    "mins": 60
+                },
+                {
+                    "name": "SOMEONE OF WOMAN",
+                    "aa": 0.48,
+                    "mins": 62
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.23,
+                    "mins": 91
+                }
+            ],
+            "May": [
+                {
+                    "name": "THE LUCK OF THE SHIPS",
+                    "aa": 0.58,
+                    "mins": 183
+                },
+                {
+                    "name": "THE HUNTER OF THE CLOUD",
+                    "aa": 0.35,
+                    "mins": 180
+                },
+                {
+                    "name": "THE RAGGED FIRE",
+                    "aa": 0.52,
+                    "mins": 180
+                },
+                {
+                    "name": "THE SACRED HUSTLER",
+                    "aa": 0.69,
+                    "mins": 60
+                },
+                {
+                    "name": "THOUGHTS'S HUSBAND",
+                    "aa": 0.52,
+                    "mins": 60
+                },
+                {
+                    "name": "THE UNWILLING SERVANT",
+                    "aa": 0.53,
+                    "mins": 60
+                },
+                {
+                    "name": "SOMEONE OF WOMAN",
+                    "aa": 0.56,
+                    "mins": 309
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.52,
+                    "mins": 720
+                }
+            ],
+            "Jun": [
+                {
+                    "name": "THE ACADEMY'S WITCHES",
+                    "aa": 0.42,
+                    "mins": 60
+                },
+                {
+                    "name": "FINAL LEGACY",
+                    "aa": 0.52,
+                    "mins": 183
+                },
+                {
+                    "name": "THE FLAME'S BRIDE",
+                    "aa": 0.47,
+                    "mins": 60
+                },
+                {
+                    "name": "BUTTERFLY OF THE DOOR",
+                    "aa": 0.54,
+                    "mins": 60
+                },
+                {
+                    "name": "THE GREY HUNTER",
+                    "aa": 0.5,
+                    "mins": 60
+                },
+                {
+                    "name": "THE HUNTER OF THE CLOUD",
+                    "aa": 0.5,
+                    "mins": 180
+                },
+                {
+                    "name": "THE RAGGED FIRE",
+                    "aa": 0.62,
+                    "mins": 240
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.51,
+                    "mins": 1086
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.54,
+                    "mins": 612
+                }
+            ],
+            "Jul": [
+                {
+                    "name": "BIRTH OF CONSORT",
+                    "aa": 0.64,
+                    "mins": 600
+                },
+                {
+                    "name": "FINAL LEGACY",
+                    "aa": 0.3,
+                    "mins": 120
+                },
+                {
+                    "name": "THE PLANET'S DYING",
+                    "aa": 0.37,
+                    "mins": 600
+                },
+                {
+                    "name": "THE RISING SNOW",
+                    "aa": 0.28,
+                    "mins": 180
+                },
+                {
+                    "name": "THE PETALS'S GIRL",
+                    "aa": 0.64,
+                    "mins": 60
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.4,
+                    "mins": 970
+                },
+                {
+                    "name": "BRIDGES IN THE LIGHT",
+                    "aa": 0.25,
+                    "mins": 180
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.42,
+                    "mins": 427
+                },
+                {
+                    "name": "PIRATES OF THE SERVANT",
+                    "aa": 0.66,
+                    "mins": 180
+                }
+            ],
+            "Aug": [
+                {
+                    "name": "LAUGHING WAVES",
+                    "aa": 0.41,
+                    "mins": 181
+                },
+                {
+                    "name": "BIRTH OF CONSORT",
+                    "aa": 0.53,
+                    "mins": 180
+                },
+                {
+                    "name": "THE RAGGED FIRE",
+                    "aa": 0.55,
+                    "mins": 540
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.28,
+                    "mins": 786
+                },
+                {
+                    "name": "THOUGHT OF STORM",
+                    "aa": 0.49,
+                    "mins": 180
+                },
+                {
+                    "name": "SERVANTS OF GIRL",
+                    "aa": 0.41,
+                    "mins": 60
+                },
+                {
+                    "name": "DREAMS OF THE CHILD",
+                    "aa": 0.62,
+                    "mins": 180
+                },
+                {
+                    "name": "MISSING WIND",
+                    "aa": 0.42,
+                    "mins": 360
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.5,
+                    "mins": 360
+                },
+                {
+                    "name": "ICE IN THE FLOWER",
+                    "aa": 0.28,
+                    "mins": 180
+                },
+                {
+                    "name": "GREEN PRINCE",
+                    "aa": 0.32,
+                    "mins": 60
+                },
+                {
+                    "name": "THE TRAINER'S NIGHT",
+                    "aa": 0.56,
+                    "mins": 60
+                }
+            ],
+            "Sep": [
+                {
+                    "name": "THE ACADEMY'S WITCHES",
+                    "aa": 0.39,
+                    "mins": 180
+                },
+                {
+                    "name": "LAUGHING WAVES",
+                    "aa": 0.68,
+                    "mins": 240
+                },
+                {
+                    "name": "BIRTH OF CONSORT",
+                    "aa": 0.49,
+                    "mins": 120
+                },
+                {
+                    "name": "BRIDE IN THE PREDATOR",
+                    "aa": 0.47,
+                    "mins": 60
+                },
+                {
+                    "name": "THE PLANET'S DYING",
+                    "aa": 0.59,
+                    "mins": 60
+                },
+                {
+                    "name": "THE SCENT'S FIRE",
+                    "aa": 0.38,
+                    "mins": 60
+                },
+                {
+                    "name": "THE GREY HUNTER",
+                    "aa": 0.54,
+                    "mins": 60
+                },
+                {
+                    "name": "NAMES IN THE DREAMER",
+                    "aa": 0.63,
+                    "mins": 60
+                },
+                {
+                    "name": "BURNING TRUTH",
+                    "aa": 0.36,
+                    "mins": 124
+                },
+                {
+                    "name": "THE MOONS'S SILK",
+                    "aa": 0.33,
+                    "mins": 120
+                },
+                {
+                    "name": "THE YEARS OF THE BRIDGES",
+                    "aa": 0.46,
+                    "mins": 180
+                },
+                {
+                    "name": "DANGEROUS FAIRY",
+                    "aa": 0.54,
+                    "mins": 360
+                },
+                {
+                    "name": "THE RAGGED FIRE",
+                    "aa": 0.36,
+                    "mins": 180
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.3,
+                    "mins": 847
+                },
+                {
+                    "name": "DREAMS OF THE CHILD",
+                    "aa": 0.44,
+                    "mins": 180
+                }
+            ],
+            "Oct": [
+                {
+                    "name": "THE ACADEMY'S WITCHES",
+                    "aa": 0.21,
+                    "mins": 180
+                },
+                {
+                    "name": "LAUGHING WAVES",
+                    "aa": 0.49,
+                    "mins": 240
+                },
+                {
+                    "name": "BRIDE IN THE PREDATOR",
+                    "aa": 0.55,
+                    "mins": 180
+                },
+                {
+                    "name": "WINDOWS OF SCENT",
+                    "aa": 0.52,
+                    "mins": 60
+                },
+                {
+                    "name": "SWOLLEN TRAINER",
+                    "aa": 0.53,
+                    "mins": 480
+                },
+                {
+                    "name": "THE MOONS'S SILK",
+                    "aa": 0.31,
+                    "mins": 180
+                },
+                {
+                    "name": "DANGEROUS FAIRY",
+                    "aa": 0.23,
+                    "mins": 420
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.55,
+                    "mins": 967
+                },
+                {
+                    "name": "DREAMS OF THE CHILD",
+                    "aa": 0.57,
+                    "mins": 180
+                },
+                {
+                    "name": "BRIDGES IN THE LIGHT",
+                    "aa": 0.26,
+                    "mins": 173
+                }
+            ],
+            "Nov": [
+                {
+                    "name": "WINDOWS OF SCENT",
+                    "aa": 0.34,
+                    "mins": 420
+                },
+                {
+                    "name": "SWOLLEN TRAINER",
+                    "aa": 0.25,
+                    "mins": 480
+                },
+                {
+                    "name": "GREY LOVER",
+                    "aa": 0.52,
+                    "mins": 60
+                },
+                {
+                    "name": "DWINDLING SHARDS",
+                    "aa": 0.53,
+                    "mins": 60
+                },
+                {
+                    "name": "DANGEROUS FAIRY",
+                    "aa": 0.58,
+                    "mins": 660
+                },
+                {
+                    "name": "NOBODY IN THE MAN",
+                    "aa": 0.44,
+                    "mins": 120
+                },
+                {
+                    "name": "THE RAGGED FIRE",
+                    "aa": 0.45,
+                    "mins": 182
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.43,
+                    "mins": 726
+                },
+                {
+                    "name": "DREAMS OF THE CHILD",
+                    "aa": 0.46,
+                    "mins": 180
+                },
+                {
+                    "name": "SECRETS OF THE SPARK",
+                    "aa": 0.36,
+                    "mins": 120
+                },
+                {
+                    "name": "PIRATES OF THE SERVANT",
+                    "aa": 0.26,
+                    "mins": 180
+                }
+            ],
+            "Dec": [
+                {
+                    "name": "SOMETHING IN THE FLYING",
+                    "aa": 0.5,
+                    "mins": 240
+                },
+                {
+                    "name": "WINDOWS OF SCENT",
+                    "aa": 0.64,
+                    "mins": 420
+                },
+                {
+                    "name": "THE SKY OF THE MAN",
+                    "aa": 0.42,
+                    "mins": 121
+                },
+                {
+                    "name": "SWOLLEN TRAINER",
+                    "aa": 0.46,
+                    "mins": 120
+                },
+                {
+                    "name": "WIZARDS IN THE BEGINNING",
+                    "aa": 0.36,
+                    "mins": 180
+                },
+                {
+                    "name": "NOBODY IN THE MAN",
+                    "aa": 0.28,
+                    "mins": 300
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.38,
+                    "mins": 1200
+                },
+                {
+                    "name": "BRIDGES IN THE LIGHT",
+                    "aa": 0.55,
+                    "mins": 60
+                },
+                {
+                    "name": "THE SERVANTS'S ILLUSION",
+                    "aa": 0.54,
+                    "mins": 60
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.29,
+                    "mins": 600
+                },
+                {
+                    "name": "ICE IN THE FLOWER",
+                    "aa": 0.24,
+                    "mins": 120
+                },
+                {
+                    "name": "OBSESSION'S BRIDGES",
+                    "aa": 0.54,
+                    "mins": 240
+                },
+                {
+                    "name": "SECRETS OF THE SPARK",
+                    "aa": 0.61,
+                    "mins": 246
+                },
+                {
+                    "name": "THE EDGE'S WIFE",
+                    "aa": 0.37,
+                    "mins": 60
+                },
+                {
+                    "name": "PIRATES OF THE SERVANT",
+                    "aa": 0.56,
+                    "mins": 240
+                },
+                {
+                    "name": "THE NO SOMETHING",
+                    "aa": 0.4,
+                    "mins": 60
+                },
+                {
+                    "name": "SHORES OF SNOW",
+                    "aa": 0.34,
+                    "mins": 60
+                }
+            ],
+            "FullYear": [
+                {
+                    "name": "THE ACADEMY'S WITCHES",
+                    "aa": 0.28,
+                    "mins": 420
+                },
+                {
+                    "name": "THE LUCK OF THE SHIPS",
+                    "aa": 0.64,
+                    "mins": 183
+                },
+                {
+                    "name": "SOMETHING IN THE FLYING",
+                    "aa": 0.23,
+                    "mins": 240
+                },
+                {
+                    "name": "LAUGHING WAVES",
+                    "aa": 0.55,
+                    "mins": 661
+                },
+                {
+                    "name": "BIRTH OF CONSORT",
+                    "aa": 0.36,
+                    "mins": 900
+                },
+                {
+                    "name": "BRIDE IN THE PREDATOR",
+                    "aa": 0.31,
+                    "mins": 240
+                },
+                {
+                    "name": "FINAL LEGACY",
+                    "aa": 0.45,
+                    "mins": 303
+                },
+                {
+                    "name": "WINDOWS OF SCENT",
+                    "aa": 0.43,
+                    "mins": 900
+                },
+                {
+                    "name": "THE PLANET'S DYING",
+                    "aa": 0.21,
+                    "mins": 660
+                },
+                {
+                    "name": "THE SKY OF THE MAN",
+                    "aa": 0.58,
+                    "mins": 121
+                },
+                {
+                    "name": "THE SCENT'S FIRE",
+                    "aa": 0.31,
+                    "mins": 60
+                },
+                {
+                    "name": "THE FLAME'S BRIDE",
+                    "aa": 0.53,
+                    "mins": 60
+                },
+                {
+                    "name": "BUTTERFLY OF THE DOOR",
+                    "aa": 0.29,
+                    "mins": 60
+                },
+                {
+                    "name": "LAUGHING VOYAGE",
+                    "aa": 0.54,
+                    "mins": 60
+                },
+                {
+                    "name": "THE GREY HUNTER",
+                    "aa": 0.7,
+                    "mins": 120
+                },
+                {
+                    "name": "SWOLLEN TRAINER",
+                    "aa": 0.34,
+                    "mins": 1080
+                },
+                {
+                    "name": "THE FINAL FIRE",
+                    "aa": 0.73,
+                    "mins": 181
+                },
+                {
+                    "name": "NAMES IN THE DREAMER",
+                    "aa": 0.49,
+                    "mins": 60
+                },
+                {
+                    "name": "BURNING TRUTH",
+                    "aa": 0.62,
+                    "mins": 124
+                },
+                {
+                    "name": "LIGHTS IN THE LEGACY",
+                    "aa": 0.56,
+                    "mins": 734
+                },
+                {
+                    "name": "THE ALL DOOR",
+                    "aa": 0.59,
+                    "mins": 241
+                },
+                {
+                    "name": "SILK OF FLAMES",
+                    "aa": 0.51,
+                    "mins": 60
+                },
+                {
+                    "name": "THE FLOWER'S MOONS",
+                    "aa": 0.5,
+                    "mins": 61
+                },
+                {
+                    "name": "SWORDS IN THE ELVES",
+                    "aa": 0.31,
+                    "mins": 60
+                },
+                {
+                    "name": "THE WOMAN OF THE FLIGHT",
+                    "aa": 0.3,
+                    "mins": 180
+                },
+                {
+                    "name": "GREY LOVER",
+                    "aa": 0.26,
+                    "mins": 60
+                },
+                {
+                    "name": "DWINDLING SHARDS",
+                    "aa": 0.25,
+                    "mins": 60
+                },
+                {
+                    "name": "DREAMS OF MAGIC",
+                    "aa": 0.27,
+                    "mins": 60
+                },
+                {
+                    "name": "WIZARDS IN THE BEGINNING",
+                    "aa": 0.45,
+                    "mins": 180
+                },
+                {
+                    "name": "THE RISING SNOW",
+                    "aa": 0.45,
+                    "mins": 180
+                },
+                {
+                    "name": "THE SILENT GAME",
+                    "aa": 0.61,
+                    "mins": 183
+                },
+                {
+                    "name": "THE PETALS'S GIRL",
+                    "aa": 0.69,
+                    "mins": 60
+                },
+                {
+                    "name": "THE MOONS'S SILK",
+                    "aa": 0.52,
+                    "mins": 300
+                },
+                {
+                    "name": "THE YEARS OF THE BRIDGES",
+                    "aa": 0.52,
+                    "mins": 180
+                },
+                {
+                    "name": "DANGEROUS FAIRY",
+                    "aa": 0.46,
+                    "mins": 1440
+                },
+                {
+                    "name": "THE HUNTER OF THE CLOUD",
+                    "aa": 0.38,
+                    "mins": 360
+                },
+                {
+                    "name": "NOBODY IN THE MAN",
+                    "aa": 0.31,
+                    "mins": 420
+                },
+                {
+                    "name": "THE RAGGED FIRE",
+                    "aa": 0.64,
+                    "mins": 1505
+                },
+                {
+                    "name": "THE BOY'S VALLEY",
+                    "aa": 0.39,
+                    "mins": 60
+                },
+                {
+                    "name": "THE FLAME'S RAINBOW",
+                    "aa": 0.66,
+                    "mins": 128
+                },
+                {
+                    "name": "FEMALE OF THE SNOW",
+                    "aa": 0.49,
+                    "mins": 61
+                },
+                {
+                    "name": "DOOR IN THE VALLEY",
+                    "aa": 0.47,
+                    "mins": 60
+                },
+                {
+                    "name": "SOME CONSORT",
+                    "aa": 0.49,
+                    "mins": 7483
+                },
+                {
+                    "name": "TEACHER IN THE WAY",
+                    "aa": 0.4,
+                    "mins": 270
+                },
+                {
+                    "name": "THE SACRED HUSTLER",
+                    "aa": 0.53,
+                    "mins": 60
+                },
+                {
+                    "name": "THOUGHT OF STORM",
+                    "aa": 0.36,
+                    "mins": 720
+                },
+                {
+                    "name": "THE SAVIOR'S HISTORY",
+                    "aa": 0.38,
+                    "mins": 180
+                },
+                {
+                    "name": "SERVANTS OF GIRL",
+                    "aa": 0.24,
+                    "mins": 60
+                },
+                {
+                    "name": "THOUGHTS'S HUSBAND",
+                    "aa": 0.21,
+                    "mins": 60
+                },
+                {
+                    "name": "HUNTER OF THE ANGELS",
+                    "aa": 0.6,
+                    "mins": 60
+                },
+                {
+                    "name": "SPARK IN THE LEGEND",
+                    "aa": 0.66,
+                    "mins": 60
+                },
+                {
+                    "name": "THE UNWILLING SERVANT",
+                    "aa": 0.53,
+                    "mins": 60
+                },
+                {
+                    "name": "SOMEONE OF WOMAN",
+                    "aa": 0.58,
+                    "mins": 371
+                },
+                {
+                    "name": "DREAMS OF THE CHILD",
+                    "aa": 0.36,
+                    "mins": 720
+                },
+                {
+                    "name": "BRIDGES IN THE LIGHT",
+                    "aa": 0.23,
+                    "mins": 773
+                },
+                {
+                    "name": "THE ONLY EDGE",
+                    "aa": 0.5,
+                    "mins": 607
+                },
+                {
+                    "name": "MISSING WIND",
+                    "aa": 0.54,
+                    "mins": 360
+                },
+                {
+                    "name": "THE SERVANTS'S ILLUSION",
+                    "aa": 0.51,
+                    "mins": 60
+                },
+                {
+                    "name": "EMPEROR OF THE ROSES",
+                    "aa": 0.46,
+                    "mins": 3902
+                },
+                {
+                    "name": "ICE IN THE FLOWER",
+                    "aa": 0.35,
+                    "mins": 300
+                },
+                {
+                    "name": "FORGOTTEN STONE",
+                    "aa": 0.86,
+                    "mins": 401
+                },
+                {
+                    "name": "GREEN PRINCE",
+                    "aa": 0.66,
+                    "mins": 120
+                },
+                {
+                    "name": "THE TRAINER'S NIGHT",
+                    "aa": 0.61,
+                    "mins": 60
+                },
+                {
+                    "name": "OBSESSION'S BRIDGES",
+                    "aa": 0.29,
+                    "mins": 240
+                },
+                {
+                    "name": "SECRETS OF THE SPARK",
+                    "aa": 0.44,
+                    "mins": 366
+                },
+                {
+                    "name": "THE EDGE'S WIFE",
+                    "aa": 0.39,
+                    "mins": 60
+                },
+                {
+                    "name": "PIRATES OF THE SERVANT",
+                    "aa": 0.33,
+                    "mins": 780
+                },
+                {
+                    "name": "THE NO SOMETHING",
+                    "aa": 0.43,
+                    "mins": 60
+                },
+                {
+                    "name": "SHORES OF SNOW",
+                    "aa": 0.66,
+                    "mins": 60
+                }
+            ]
+        }
+    }
+}
