@@ -18,6 +18,8 @@
   margin: 4px;
   border-radius: 3px;
   color: #000;
+  background-color: #fff;
+  padding: 3px;
 }
 
 .closeSpan{
