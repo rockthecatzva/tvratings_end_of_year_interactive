@@ -1,0 +1,5619 @@
+{
+    "2016": {
+        "prime": {
+            "Jan": 0.29,
+            "Feb": 0.37,
+            "Mar": 0.35,
+            "Apr": 0.55,
+            "May": 0.29,
+            "Jun": 0.39,
+            "Jul": 0.55,
+            "Aug": 0.22,
+            "Sep": 0.31,
+            "Oct": 0.32,
+            "Nov": 0.27,
+            "Dec": 0.25,
+            "FullYear": 0.27
+        },
+        "premieres": {
+            "Jan": {
+                "aa": 0.43,
+                "mins": 1924
+            },
+            "Feb": {
+                "aa": 0.41,
+                "mins": 1314
+            },
+            "Mar": {
+                "aa": 0.52,
+                "mins": 474
+            },
+            "Apr": {
+                "aa": 0.55,
+                "mins": 1136
+            },
+            "May": {
+                "aa": 0.47,
+                "mins": 1675
+            },
+            "Jun": {
+                "aa": 0.42,
+                "mins": 1857
+            },
+            "Jul": {
+                "aa": 0.55,
+                "mins": 1437
+            },
+            "Aug": {
+                "aa": 0.3,
+                "mins": 772
+            },
+            "Sep": {
+                "aa": 0.41,
+                "mins": 858
+            },
+            "Oct": {
+                "aa": 0.4,
+                "mins": 1020
+            },
+            "Nov": {
+                "aa": 0.5,
+                "mins": 721
+            },
+            "Dec": {
+                "aa": 0.31,
+                "mins": 1445
+            },
+            "FullYear": {
+                "aa": 0.4,
+                "mins": 14633
+            }
+        },
+        "repeats": {
+            "Jan": {
+                "aa": 0.15,
+                "mins": 4376
+            },
+            "Feb": {
+                "aa": 0.33,
+                "mins": 3726
+            },
+            "Mar": {
+                "aa": 0.17,
+                "mins": 4566
+            },
+            "Apr": {
+                "aa": 0.55,
+                "mins": 3904
+            },
+            "May": {
+                "aa": 0.11,
+                "mins": 4625
+            },
+            "Jun": {
+                "aa": 0.37,
+                "mins": 3183
+            },
+            "Jul": {
+                "aa": 0.54,
+                "mins": 4863
+            },
+            "Aug": {
+                "aa": 0.14,
+                "mins": 4268
+            },
+            "Sep": {
+                "aa": 0.2,
+                "mins": 4182
+            },
+            "Oct": {
+                "aa": 0.23,
+                "mins": 5280
+            },
+            "Nov": {
+                "aa": 0.05,
+                "mins": 4319
+            },
+            "Dec": {
+                "aa": 0.19,
+                "mins": 3595
+            },
+            "FullYear": {
+                "aa": 0.13,
+                "mins": 50887
+            }
+        },
+        "series-prems": {
+            "Jan": [
+                {
+                    "name": "BEYOND THE ARMAGEDDON",
+                    "aa": 0.39,
+                    "mins": 180
+                },
+                {
+                    "name": "HERO OF SALVAGE",
+                    "aa": 0.48,
+                    "mins": 60
+                },
+                {
+                    "name": "THE CHAIR",
+                    "aa": 0.65,
+                    "mins": 362
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.62,
+                    "mins": 300
+                },
+                {
+                    "name": "FOR THE AFFAIR",
+                    "aa": 0.18,
+                    "mins": 120
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.66,
+                    "mins": 304
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.59,
+                    "mins": 186
+                },
+                {
+                    "name": "YELLOW CABIN",
+                    "aa": 0.36,
+                    "mins": 304
+                },
+                {
+                    "name": "AFRICA AND BIRD",
+                    "aa": 0.51,
+                    "mins": 120
+                }
+            ],
+            "Feb": [
+                {
+                    "name": "BEYOND THE ARMAGEDDON",
+                    "aa": 0.25,
+                    "mins": 60
+                },
+                {
+                    "name": "MASK OF PURPLE",
+                    "aa": 0.36,
+                    "mins": 181
+                },
+                {
+                    "name": "RADIANT SOUTHS",
+                    "aa": 0.25,
+                    "mins": 120
+                },
+                {
+                    "name": "LAST THIEF",
+                    "aa": 0.37,
+                    "mins": 61
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.67,
+                    "mins": 60
+                },
+                {
+                    "name": "NOT DANCING",
+                    "aa": 0.52,
+                    "mins": 60
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.67,
+                    "mins": 183
+                },
+                {
+                    "name": "BASKETS AND CABINS",
+                    "aa": 0.54,
+                    "mins": 61
+                },
+                {
+                    "name": "INFERNO SCREAMED",
+                    "aa": 0.37,
+                    "mins": 62
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.5,
+                    "mins": 60
+                },
+                {
+                    "name": "FACE OF GAME",
+                    "aa": 0.57,
+                    "mins": 61
+                },
+                {
+                    "name": "THE LIVING FOG",
+                    "aa": 0.3,
+                    "mins": 60
+                },
+                {
+                    "name": "YELLOW CABIN",
+                    "aa": 0.4,
+                    "mins": 120
+                },
+                {
+                    "name": "AFRICA AND BIRD",
+                    "aa": 0.49,
+                    "mins": 180
+                }
+            ],
+            "Mar": [
+                {
+                    "name": "MASK OF PURPLE",
+                    "aa": 0.29,
+                    "mins": 183
+                },
+                {
+                    "name": "FORTY CAVERN",
+                    "aa": 0.48,
+                    "mins": 1
+                },
+                {
+                    "name": "LAST THIEF",
+                    "aa": 0.34,
+                    "mins": 183
+                },
+                {
+                    "name": "THE HONOR",
+                    "aa": 0.42,
+                    "mins": 2
+                },
+                {
+                    "name": "MASK OF THUNDER",
+                    "aa": 0.37,
+                    "mins": 1
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.55,
+                    "mins": 122
+                }
+            ],
+            "Apr": [
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.44,
+                    "mins": 122
+                },
+                {
+                    "name": "THE CHAIR",
+                    "aa": 0.49,
+                    "mins": 246
+                },
+                {
+                    "name": "LAST THIEF",
+                    "aa": 0.42,
+                    "mins": 185
+                },
+                {
+                    "name": "WITH THE ELYSIUM",
+                    "aa": 0.42,
+                    "mins": 246
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.72,
+                    "mins": 184
+                },
+                {
+                    "name": "OUT OF THE DRAPES",
+                    "aa": 0.47,
+                    "mins": 61
+                },
+                {
+                    "name": "LIVED REVOLT",
+                    "aa": 0.57,
+                    "mins": 10
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.64,
+                    "mins": 125
+                }
+            ],
+            "May": [
+                {
+                    "name": "THE DAWN",
+                    "aa": 0.45,
+                    "mins": 61
+                },
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.61,
+                    "mins": 248
+                },
+                {
+                    "name": "LAST THIEF",
+                    "aa": 0.44,
+                    "mins": 183
+                },
+                {
+                    "name": "THE MESA",
+                    "aa": 0.3,
+                    "mins": 61
+                },
+                {
+                    "name": "KILLER IN THE NORTH",
+                    "aa": 0.62,
+                    "mins": 61
+                },
+                {
+                    "name": "WOLFHOUND SECRET",
+                    "aa": 0.25,
+                    "mins": 61
+                },
+                {
+                    "name": "WITH THE ELYSIUM",
+                    "aa": 0.52,
+                    "mins": 245
+                },
+                {
+                    "name": "FROM THE SECRET",
+                    "aa": 0.24,
+                    "mins": 61
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.68,
+                    "mins": 124
+                },
+                {
+                    "name": "ACROSS THE SALVAGE",
+                    "aa": 0.45,
+                    "mins": 249
+                },
+                {
+                    "name": "LIVED REVOLT",
+                    "aa": 0.65,
+                    "mins": 10
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.56,
+                    "mins": 183
+                },
+                {
+                    "name": "IN THE WE",
+                    "aa": 0.22,
+                    "mins": 61
+                },
+                {
+                    "name": "ORANGE KISS",
+                    "aa": 0.66,
+                    "mins": 125
+                }
+            ],
+            "Jun": [
+                {
+                    "name": "VIOLET DISCOVERY",
+                    "aa": 0.53,
+                    "mins": 61
+                },
+                {
+                    "name": "WITHOUT THE MOON",
+                    "aa": 0.38,
+                    "mins": 62
+                },
+                {
+                    "name": "THING SIP",
+                    "aa": 0.52,
+                    "mins": 1
+                },
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.55,
+                    "mins": 244
+                },
+                {
+                    "name": "GUN RISING",
+                    "aa": 0.39,
+                    "mins": 61
+                },
+                {
+                    "name": "HEIRLOOM ACCUSED",
+                    "aa": 0.41,
+                    "mins": 61
+                },
+                {
+                    "name": "WRETCHED BRIDGE",
+                    "aa": 0.45,
+                    "mins": 62
+                },
+                {
+                    "name": "FLAMELESS",
+                    "aa": 0.55,
+                    "mins": 247
+                },
+                {
+                    "name": "WITH THE ELYSIUM",
+                    "aa": 0.64,
+                    "mins": 122
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.41,
+                    "mins": 245
+                },
+                {
+                    "name": "NOT DANCING",
+                    "aa": 0.33,
+                    "mins": 122
+                },
+                {
+                    "name": "DESTROYING BLOODS",
+                    "aa": 0.41,
+                    "mins": 61
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.58,
+                    "mins": 244
+                },
+                {
+                    "name": "NOWHERE AND A BLOODLINE",
+                    "aa": 0.51,
+                    "mins": 244
+                },
+                {
+                    "name": "BLOGGER AND THE CASE",
+                    "aa": 0.55,
+                    "mins": 61
+                }
+            ],
+            "Jul": [
+                {
+                    "name": "HERO OF SALVAGE",
+                    "aa": 0.41,
+                    "mins": 197
+                },
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.71,
+                    "mins": 123
+                },
+                {
+                    "name": "FLAMELESS",
+                    "aa": 0.5,
+                    "mins": 305
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.32,
+                    "mins": 305
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.63,
+                    "mins": 62
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.44,
+                    "mins": 244
+                },
+                {
+                    "name": "NOWHERE AND A BLOODLINE",
+                    "aa": 0.47,
+                    "mins": 245
+                }
+            ],
+            "Aug": [
+                {
+                    "name": "CORRUPT GUARDIAN",
+                    "aa": 0.19,
+                    "mins": 122
+                },
+                {
+                    "name": "HERO OF SALVAGE",
+                    "aa": 0.56,
+                    "mins": 122
+                },
+                {
+                    "name": "FLAMELESS",
+                    "aa": 0.44,
+                    "mins": 183
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.47,
+                    "mins": 122
+                },
+                {
+                    "name": "THE PLAYER FEAR",
+                    "aa": 0.39,
+                    "mins": 61
+                },
+                {
+                    "name": "SOLDIERS AND THE FLOWER",
+                    "aa": 0.15,
+                    "mins": 61
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.45,
+                    "mins": 61
+                },
+                {
+                    "name": "TOMMY OF THE EXILE",
+                    "aa": 0.33,
+                    "mins": 61
+                }
+            ],
+            "Sep": [
+                {
+                    "name": "HERO OF SALVAGE",
+                    "aa": 0.46,
+                    "mins": 245
+                },
+                {
+                    "name": "THE COMPENDIUM",
+                    "aa": 0.11,
+                    "mins": 92
+                },
+                {
+                    "name": "LONG JOHN",
+                    "aa": 0.23,
+                    "mins": 61
+                },
+                {
+                    "name": "THE PLAYER FEAR",
+                    "aa": 0.4,
+                    "mins": 244
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.52,
+                    "mins": 61
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.58,
+                    "mins": 122
+                },
+                {
+                    "name": "WEAVING NORTHS",
+                    "aa": 0.3,
+                    "mins": 61
+                }
+            ],
+            "Oct": [
+                {
+                    "name": "HERO OF SALVAGE",
+                    "aa": 0.55,
+                    "mins": 120
+                },
+                {
+                    "name": "THE KILLED WRATH",
+                    "aa": 0.33,
+                    "mins": 301
+                },
+                {
+                    "name": "MISTLETOE AND THE HONOR",
+                    "aa": 0.57,
+                    "mins": 180
+                },
+                {
+                    "name": "CITY AND EAST",
+                    "aa": 0.34,
+                    "mins": 60
+                },
+                {
+                    "name": "THE PLAYER FEAR",
+                    "aa": 0.39,
+                    "mins": 60
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.54,
+                    "mins": 301
+                }
+            ],
+            "Nov": [
+                {
+                    "name": "THE KILLED WRATH",
+                    "aa": 0.29,
+                    "mins": 62
+                },
+                {
+                    "name": "MISTLETOE AND THE HONOR",
+                    "aa": 0.36,
+                    "mins": 121
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.76,
+                    "mins": 185
+                },
+                {
+                    "name": "THE BONES",
+                    "aa": 0.43,
+                    "mins": 180
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.57,
+                    "mins": 181
+                },
+                {
+                    "name": "LORD CAME",
+                    "aa": 0.16,
+                    "mins": 1
+                }
+            ],
+            "Dec": [
+                {
+                    "name": "FORTY CAVERN",
+                    "aa": 0.42,
+                    "mins": 1
+                },
+                {
+                    "name": "WAYWARD TALES",
+                    "aa": 0.15,
+                    "mins": 120
+                },
+                {
+                    "name": "THE UNCOMMON",
+                    "aa": 0.48,
+                    "mins": 120
+                },
+                {
+                    "name": "CIRCUS",
+                    "aa": 0.43,
+                    "mins": 2
+                },
+                {
+                    "name": "CITY AND EAST",
+                    "aa": 0.34,
+                    "mins": 60
+                },
+                {
+                    "name": "THE FATE",
+                    "aa": 0.55,
+                    "mins": 2
+                },
+                {
+                    "name": "FOREVER MOONLIGHTS",
+                    "aa": 0.2,
+                    "mins": 361
+                },
+                {
+                    "name": "LONG JOHN",
+                    "aa": 0.32,
+                    "mins": 60
+                },
+                {
+                    "name": "MODERN OF PERFECT ",
+                    "aa": 0.57,
+                    "mins": 60
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.72,
+                    "mins": 120
+                },
+                {
+                    "name": "THE BONES",
+                    "aa": 0.29,
+                    "mins": 180
+                },
+                {
+                    "name": "THE STUDY INTO",
+                    "aa": 0.43,
+                    "mins": 61
+                },
+                {
+                    "name": "GUARDIAN WILL",
+                    "aa": 0.29,
+                    "mins": 60
+                },
+                {
+                    "name": "EARTH FORGOT",
+                    "aa": 0.29,
+                    "mins": 62
+                },
+                {
+                    "name": "FACE OF GAME",
+                    "aa": 0.39,
+                    "mins": 61
+                },
+                {
+                    "name": "HEAVENS AND RIVERS ",
+                    "aa": 0.23,
+                    "mins": 120
+                },
+                {
+                    "name": "SHELL OF ETERNITY",
+                    "aa": 0.19,
+                    "mins": 120
+                }
+            ],
+            "FullYear": [
+                {
+                    "name": "THE DAWN",
+                    "aa": 0.35,
+                    "mins": 61
+                },
+                {
+                    "name": "BEYOND THE ARMAGEDDON",
+                    "aa": 0.27,
+                    "mins": 240
+                },
+                {
+                    "name": "VIOLET DISCOVERY",
+                    "aa": 0.49,
+                    "mins": 61
+                },
+                {
+                    "name": "CORRUPT GUARDIAN",
+                    "aa": 0.27,
+                    "mins": 122
+                },
+                {
+                    "name": "MASK OF PURPLE",
+                    "aa": 0.3,
+                    "mins": 364
+                },
+                {
+                    "name": "WITHOUT THE MOON",
+                    "aa": 0.54,
+                    "mins": 62
+                },
+                {
+                    "name": "RADIANT SOUTHS",
+                    "aa": 0.29,
+                    "mins": 120
+                },
+                {
+                    "name": "THING SIP",
+                    "aa": 0.63,
+                    "mins": 1
+                },
+                {
+                    "name": "HERO OF SALVAGE",
+                    "aa": 0.42,
+                    "mins": 744
+                },
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.53,
+                    "mins": 737
+                },
+                {
+                    "name": "GUN RISING",
+                    "aa": 0.55,
+                    "mins": 61
+                },
+                {
+                    "name": "THE CHAIR",
+                    "aa": 0.66,
+                    "mins": 608
+                },
+                {
+                    "name": "FORTY CAVERN",
+                    "aa": 0.53,
+                    "mins": 2
+                },
+                {
+                    "name": "HEIRLOOM ACCUSED",
+                    "aa": 0.39,
+                    "mins": 61
+                },
+                {
+                    "name": "WAYWARD TALES",
+                    "aa": 0.29,
+                    "mins": 120
+                },
+                {
+                    "name": "LAST THIEF",
+                    "aa": 0.35,
+                    "mins": 612
+                },
+                {
+                    "name": "THE MESA",
+                    "aa": 0.32,
+                    "mins": 61
+                },
+                {
+                    "name": "THE UNCOMMON",
+                    "aa": 0.31,
+                    "mins": 120
+                },
+                {
+                    "name": "WRETCHED BRIDGE",
+                    "aa": 0.55,
+                    "mins": 62
+                },
+                {
+                    "name": "KILLER IN THE NORTH",
+                    "aa": 0.59,
+                    "mins": 61
+                },
+                {
+                    "name": "THE KILLED WRATH",
+                    "aa": 0.27,
+                    "mins": 363
+                },
+                {
+                    "name": "FLAMELESS",
+                    "aa": 0.52,
+                    "mins": 735
+                },
+                {
+                    "name": "CIRCUS",
+                    "aa": 0.33,
+                    "mins": 2
+                },
+                {
+                    "name": "THE COMPENDIUM",
+                    "aa": 0.2,
+                    "mins": 92
+                },
+                {
+                    "name": "MISTLETOE AND THE HONOR",
+                    "aa": 0.55,
+                    "mins": 301
+                },
+                {
+                    "name": "CITY AND EAST",
+                    "aa": 0.29,
+                    "mins": 120
+                },
+                {
+                    "name": "WOLFHOUND SECRET",
+                    "aa": 0.37,
+                    "mins": 61
+                },
+                {
+                    "name": "WITH THE ELYSIUM",
+                    "aa": 0.58,
+                    "mins": 613
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.47,
+                    "mins": 1032
+                },
+                {
+                    "name": "NOT DANCING",
+                    "aa": 0.38,
+                    "mins": 182
+                },
+                {
+                    "name": "THE FATE",
+                    "aa": 0.53,
+                    "mins": 2
+                },
+                {
+                    "name": "FOREVER MOONLIGHTS",
+                    "aa": 0.2,
+                    "mins": 361
+                },
+                {
+                    "name": "FOR THE AFFAIR",
+                    "aa": 0.16,
+                    "mins": 120
+                },
+                {
+                    "name": "LONG JOHN",
+                    "aa": 0.29,
+                    "mins": 121
+                },
+                {
+                    "name": "MODERN OF PERFECT ",
+                    "aa": 0.73,
+                    "mins": 60
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.72,
+                    "mins": 792
+                },
+                {
+                    "name": "BASKETS AND CABINS",
+                    "aa": 0.68,
+                    "mins": 61
+                },
+                {
+                    "name": "THE BONES",
+                    "aa": 0.41,
+                    "mins": 360
+                },
+                {
+                    "name": "FROM THE SECRET",
+                    "aa": 0.27,
+                    "mins": 61
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.7,
+                    "mins": 308
+                },
+                {
+                    "name": "THE HONOR",
+                    "aa": 0.43,
+                    "mins": 2
+                },
+                {
+                    "name": "ACROSS THE SALVAGE",
+                    "aa": 0.5,
+                    "mins": 249
+                },
+                {
+                    "name": "OUT OF THE DRAPES",
+                    "aa": 0.59,
+                    "mins": 61
+                },
+                {
+                    "name": "DESTROYING BLOODS",
+                    "aa": 0.5,
+                    "mins": 61
+                },
+                {
+                    "name": "LIVED REVOLT",
+                    "aa": 0.58,
+                    "mins": 20
+                },
+                {
+                    "name": "THE PLAYER FEAR",
+                    "aa": 0.41,
+                    "mins": 365
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.55,
+                    "mins": 1157
+                },
+                {
+                    "name": "MASK OF THUNDER",
+                    "aa": 0.48,
+                    "mins": 1
+                },
+                {
+                    "name": "THE STUDY INTO",
+                    "aa": 0.46,
+                    "mins": 61
+                },
+                {
+                    "name": "GUARDIAN WILL",
+                    "aa": 0.23,
+                    "mins": 60
+                },
+                {
+                    "name": "EARTH FORGOT",
+                    "aa": 0.3,
+                    "mins": 62
+                },
+                {
+                    "name": "LORD CAME",
+                    "aa": 0.31,
+                    "mins": 1
+                },
+                {
+                    "name": "SOLDIERS AND THE FLOWER",
+                    "aa": 0.26,
+                    "mins": 61
+                },
+                {
+                    "name": "INFERNO SCREAMED",
+                    "aa": 0.48,
+                    "mins": 62
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.56,
+                    "mins": 795
+                },
+                {
+                    "name": "FACE OF GAME",
+                    "aa": 0.44,
+                    "mins": 122
+                },
+                {
+                    "name": "WEAVING NORTHS",
+                    "aa": 0.4,
+                    "mins": 61
+                },
+                {
+                    "name": "IN THE WE",
+                    "aa": 0.29,
+                    "mins": 61
+                },
+                {
+                    "name": "NOWHERE AND A BLOODLINE",
+                    "aa": 0.53,
+                    "mins": 489
+                },
+                {
+                    "name": "BLOGGER AND THE CASE",
+                    "aa": 0.45,
+                    "mins": 61
+                },
+                {
+                    "name": "HEAVENS AND RIVERS ",
+                    "aa": 0.4,
+                    "mins": 120
+                },
+                {
+                    "name": "TOMMY OF THE EXILE",
+                    "aa": 0.36,
+                    "mins": 61
+                },
+                {
+                    "name": "THE LIVING FOG",
+                    "aa": 0.18,
+                    "mins": 60
+                },
+                {
+                    "name": "SHELL OF ETERNITY",
+                    "aa": 0.29,
+                    "mins": 120
+                },
+                {
+                    "name": "YELLOW CABIN",
+                    "aa": 0.4,
+                    "mins": 424
+                },
+                {
+                    "name": "AFRICA AND BIRD",
+                    "aa": 0.35,
+                    "mins": 300
+                },
+                {
+                    "name": "ORANGE KISS",
+                    "aa": 0.58,
+                    "mins": 125
+                }
+            ]
+        },
+        "series-repeats": {
+            "Jan": [
+                {
+                    "name": "RULER AND A WAVE",
+                    "aa": 0.36,
+                    "mins": 180
+                },
+                {
+                    "name": "BOY CANARY",
+                    "aa": 0.24,
+                    "mins": 120
+                },
+                {
+                    "name": "THE PARLOUR",
+                    "aa": 0.22,
+                    "mins": 60
+                },
+                {
+                    "name": "CHANGING EVIL",
+                    "aa": 0.23,
+                    "mins": 61
+                },
+                {
+                    "name": "THE CHAIR",
+                    "aa": 0.22,
+                    "mins": 120
+                },
+                {
+                    "name": "INSECT",
+                    "aa": 0.37,
+                    "mins": 300
+                },
+                {
+                    "name": "BIRTHDAY PRESENTS ",
+                    "aa": 0.41,
+                    "mins": 120
+                },
+                {
+                    "name": "JUNGLE DRAGGING",
+                    "aa": 0.36,
+                    "mins": 120
+                },
+                {
+                    "name": "THE JAILER DOME",
+                    "aa": 0.28,
+                    "mins": 120
+                },
+                {
+                    "name": "THE CHILDHOOD",
+                    "aa": 0.34,
+                    "mins": 180
+                },
+                {
+                    "name": "MODERN OF PERFECT ",
+                    "aa": 0.11,
+                    "mins": 60
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.36,
+                    "mins": 60
+                },
+                {
+                    "name": "THE WATER ACROSS",
+                    "aa": 0.22,
+                    "mins": 240
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.4,
+                    "mins": 241
+                },
+                {
+                    "name": "THE STUDY INTO",
+                    "aa": 0.43,
+                    "mins": 60
+                },
+                {
+                    "name": "STEP GARDEN",
+                    "aa": 0.42,
+                    "mins": 360
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.35,
+                    "mins": 840
+                },
+                {
+                    "name": "FACE OF GAME",
+                    "aa": 0.53,
+                    "mins": 61
+                },
+                {
+                    "name": "BROKEN PLACE",
+                    "aa": 0.25,
+                    "mins": 420
+                },
+                {
+                    "name": "UNCOMMON FORCE",
+                    "aa": 0.41,
+                    "mins": 2
+                },
+                {
+                    "name": "NOT SEVENTH",
+                    "aa": 0.37,
+                    "mins": 60
+                },
+                {
+                    "name": "THE UNREQUITED NORTH",
+                    "aa": 0.33,
+                    "mins": 120
+                },
+                {
+                    "name": "AMAZING TOMMYS",
+                    "aa": 0.35,
+                    "mins": 540
+                }
+            ],
+            "Feb": [
+                {
+                    "name": "BEYOND THE ARMAGEDDON",
+                    "aa": 0.18,
+                    "mins": 60
+                },
+                {
+                    "name": "INFERNO BEYOND",
+                    "aa": 0.2,
+                    "mins": 182
+                },
+                {
+                    "name": "RULER AND A WAVE",
+                    "aa": 0.35,
+                    "mins": 60
+                },
+                {
+                    "name": "MASK OF PURPLE",
+                    "aa": 0.35,
+                    "mins": 121
+                },
+                {
+                    "name": "LAST THIEF",
+                    "aa": 0.26,
+                    "mins": 61
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.19,
+                    "mins": 122
+                },
+                {
+                    "name": "TREASURES REVOLT",
+                    "aa": 0.35,
+                    "mins": 303
+                },
+                {
+                    "name": "THE CHILDHOOD",
+                    "aa": 0.41,
+                    "mins": 62
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.39,
+                    "mins": 61
+                },
+                {
+                    "name": "LEAD CARNIVAL",
+                    "aa": 0.23,
+                    "mins": 240
+                },
+                {
+                    "name": "THE WATER ACROSS",
+                    "aa": 0.25,
+                    "mins": 603
+                },
+                {
+                    "name": "STEP GARDEN",
+                    "aa": 0.42,
+                    "mins": 122
+                },
+                {
+                    "name": "INFERNO SCREAMED",
+                    "aa": 0.27,
+                    "mins": 120
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.35,
+                    "mins": 300
+                },
+                {
+                    "name": "BROKEN PLACE",
+                    "aa": 0.35,
+                    "mins": 302
+                },
+                {
+                    "name": "SEALED FLOOR",
+                    "aa": 0.36,
+                    "mins": 120
+                },
+                {
+                    "name": "NOT SEVENTH",
+                    "aa": 0.26,
+                    "mins": 120
+                },
+                {
+                    "name": "THE UNREQUITED NORTH",
+                    "aa": 0.35,
+                    "mins": 120
+                },
+                {
+                    "name": "AMAZING TOMMYS",
+                    "aa": 0.23,
+                    "mins": 725
+                }
+            ],
+            "Mar": [
+                {
+                    "name": "PATCH AND THIEF",
+                    "aa": 0.28,
+                    "mins": 61
+                },
+                {
+                    "name": "INFERNO BEYOND",
+                    "aa": 0.36,
+                    "mins": 488
+                },
+                {
+                    "name": "KILLER AND HIGHWAY",
+                    "aa": 0.31,
+                    "mins": 61
+                },
+                {
+                    "name": "CIRCUS'S DWELLER",
+                    "aa": 0.32,
+                    "mins": 61
+                },
+                {
+                    "name": "FORTY CAVERN",
+                    "aa": 0.19,
+                    "mins": 2
+                },
+                {
+                    "name": "BIRTHDAY PRESENTS ",
+                    "aa": 0.31,
+                    "mins": 122
+                },
+                {
+                    "name": "NOT UNREQUITED",
+                    "aa": 0.39,
+                    "mins": 122
+                },
+                {
+                    "name": "LAST THIEF",
+                    "aa": 0.35,
+                    "mins": 366
+                },
+                {
+                    "name": "RIDER MESA",
+                    "aa": 0.41,
+                    "mins": 122
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.32,
+                    "mins": 244
+                },
+                {
+                    "name": "TREASURES REVOLT",
+                    "aa": 0.3,
+                    "mins": 366
+                },
+                {
+                    "name": "THE HONOR",
+                    "aa": 0.27,
+                    "mins": 8
+                },
+                {
+                    "name": "THE WATER ACROSS",
+                    "aa": 0.29,
+                    "mins": 1037
+                },
+                {
+                    "name": "WITH THE PRICELESS",
+                    "aa": 0.3,
+                    "mins": 122
+                },
+                {
+                    "name": "STEP GARDEN",
+                    "aa": 0.34,
+                    "mins": 62
+                },
+                {
+                    "name": "MASKLESS",
+                    "aa": 0.27,
+                    "mins": 61
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.31,
+                    "mins": 672
+                },
+                {
+                    "name": "FACE OF GAME",
+                    "aa": 0.32,
+                    "mins": 61
+                },
+                {
+                    "name": "BROKEN PLACE",
+                    "aa": 0.22,
+                    "mins": 183
+                },
+                {
+                    "name": "FIRE FATE",
+                    "aa": 0.2,
+                    "mins": 122
+                },
+                {
+                    "name": "AMAZING TOMMYS",
+                    "aa": 0.33,
+                    "mins": 366
+                }
+            ],
+            "Apr": [
+                {
+                    "name": "INVISIBLE PATROL",
+                    "aa": 0.23,
+                    "mins": 61
+                },
+                {
+                    "name": "RIVER OF BUTTERFLY",
+                    "aa": 0.41,
+                    "mins": 122
+                },
+                {
+                    "name": "THE CHAIR",
+                    "aa": 0.22,
+                    "mins": 183
+                },
+                {
+                    "name": "FORTY CAVERN",
+                    "aa": 0.28,
+                    "mins": 1
+                },
+                {
+                    "name": "NOT UNREQUITED",
+                    "aa": 0.39,
+                    "mins": 122
+                },
+                {
+                    "name": "LAST THIEF",
+                    "aa": 0.4,
+                    "mins": 305
+                },
+                {
+                    "name": "THE DESERT DUST",
+                    "aa": 0.23,
+                    "mins": 61
+                },
+                {
+                    "name": "ROBIN HOOD",
+                    "aa": 0.21,
+                    "mins": 61
+                },
+                {
+                    "name": "THE EIGHT",
+                    "aa": 0.34,
+                    "mins": 61
+                },
+                {
+                    "name": "RIDER MESA",
+                    "aa": 0.17,
+                    "mins": 122
+                },
+                {
+                    "name": "WITH THE ELYSIUM",
+                    "aa": 0.34,
+                    "mins": 122
+                },
+                {
+                    "name": "THE GREAT GAMBIT",
+                    "aa": 0.34,
+                    "mins": 122
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.34,
+                    "mins": 183
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.45,
+                    "mins": 183
+                },
+                {
+                    "name": "THE HONOR",
+                    "aa": 0.31,
+                    "mins": 4
+                },
+                {
+                    "name": "THE WATER ACROSS",
+                    "aa": 0.24,
+                    "mins": 488
+                },
+                {
+                    "name": "THE PLACE",
+                    "aa": 0.23,
+                    "mins": 122
+                },
+                {
+                    "name": "SIXTH EVENING OUT",
+                    "aa": 0.39,
+                    "mins": 315
+                },
+                {
+                    "name": "OUT OF THE DRAPES",
+                    "aa": 0.39,
+                    "mins": 61
+                },
+                {
+                    "name": "PRICELESS FEAR",
+                    "aa": 0.35,
+                    "mins": 183
+                },
+                {
+                    "name": "WITH THE PRICELESS",
+                    "aa": 0.27,
+                    "mins": 122
+                },
+                {
+                    "name": "THE DESTROYING ",
+                    "aa": 0.24,
+                    "mins": 122
+                },
+                {
+                    "name": "FORTY FOGS",
+                    "aa": 0.34,
+                    "mins": 63
+                },
+                {
+                    "name": "THE BIG HALL",
+                    "aa": 0.31,
+                    "mins": 122
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.21,
+                    "mins": 614
+                },
+                {
+                    "name": "REVEALING",
+                    "aa": 0.4,
+                    "mins": 123
+                },
+                {
+                    "name": "GATEWAY WOMAN",
+                    "aa": 0.31,
+                    "mins": 61
+                }
+            ],
+            "May": [
+                {
+                    "name": "RIVER OF BUTTERFLY",
+                    "aa": 0.39,
+                    "mins": 245
+                },
+                {
+                    "name": "INSECT",
+                    "aa": 0.27,
+                    "mins": 61
+                },
+                {
+                    "name": "WAYWARD CAVERN",
+                    "aa": 0.37,
+                    "mins": 122
+                },
+                {
+                    "name": "NOT UNREQUITED",
+                    "aa": 0.23,
+                    "mins": 61
+                },
+                {
+                    "name": "OUT OF THE FALL",
+                    "aa": 0.31,
+                    "mins": 426
+                },
+                {
+                    "name": "KILLER IN THE NORTH",
+                    "aa": 0.41,
+                    "mins": 122
+                },
+                {
+                    "name": "BRAIN AND WELL",
+                    "aa": 0.41,
+                    "mins": 120
+                },
+                {
+                    "name": "WOLFHOUND SECRET",
+                    "aa": 0.29,
+                    "mins": 61
+                },
+                {
+                    "name": "WITH THE ELYSIUM",
+                    "aa": 0.43,
+                    "mins": 61
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.25,
+                    "mins": 61
+                },
+                {
+                    "name": "THE FOREVER",
+                    "aa": 0.34,
+                    "mins": 61
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.28,
+                    "mins": 244
+                },
+                {
+                    "name": "ACROSS THE SALVAGE",
+                    "aa": 0.39,
+                    "mins": 184
+                },
+                {
+                    "name": "THE WATER ACROSS",
+                    "aa": 0.34,
+                    "mins": 610
+                },
+                {
+                    "name": "SIXTH EVENING OUT",
+                    "aa": 0.45,
+                    "mins": 442
+                },
+                {
+                    "name": "WITH THE PRICELESS",
+                    "aa": 0.18,
+                    "mins": 61
+                },
+                {
+                    "name": "THE DESTROYING ",
+                    "aa": 0.36,
+                    "mins": 244
+                },
+                {
+                    "name": "GUNFIGHTER JUNGLE",
+                    "aa": 0.31,
+                    "mins": 122
+                },
+                {
+                    "name": "THE BIG HALL",
+                    "aa": 0.37,
+                    "mins": 306
+                },
+                {
+                    "name": "MAD CAVERN",
+                    "aa": 0.3,
+                    "mins": 253
+                },
+                {
+                    "name": "EDGES AND HOMES ",
+                    "aa": 0.43,
+                    "mins": 153
+                },
+                {
+                    "name": "A HOME SAVED",
+                    "aa": 0.37,
+                    "mins": 61
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.26,
+                    "mins": 122
+                },
+                {
+                    "name": "REVEALING",
+                    "aa": 0.33,
+                    "mins": 185
+                },
+                {
+                    "name": "AMAZING TOMMYS",
+                    "aa": 0.45,
+                    "mins": 550
+                }
+            ],
+            "Jun": [
+                {
+                    "name": "THE DAWN",
+                    "aa": 0.28,
+                    "mins": 61
+                },
+                {
+                    "name": "VIOLET DISCOVERY",
+                    "aa": 0.33,
+                    "mins": 61
+                },
+                {
+                    "name": "CLUTCHING COLDS",
+                    "aa": 0.25,
+                    "mins": 61
+                },
+                {
+                    "name": "WITHOUT THE MOON",
+                    "aa": 0.44,
+                    "mins": 61
+                },
+                {
+                    "name": "RIVER OF BUTTERFLY",
+                    "aa": 0.44,
+                    "mins": 122
+                },
+                {
+                    "name": "GUN RISING",
+                    "aa": 0.34,
+                    "mins": 61
+                },
+                {
+                    "name": "HEIRLOOM ACCUSED",
+                    "aa": 0.18,
+                    "mins": 61
+                },
+                {
+                    "name": "THE LEAD KILLER",
+                    "aa": 0.3,
+                    "mins": 366
+                },
+                {
+                    "name": "FLAMELESS",
+                    "aa": 0.46,
+                    "mins": 183
+                },
+                {
+                    "name": "GRACES AND CELLS ",
+                    "aa": 0.33,
+                    "mins": 61
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.32,
+                    "mins": 183
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.33,
+                    "mins": 122
+                },
+                {
+                    "name": "THE WATER ACROSS",
+                    "aa": 0.26,
+                    "mins": 183
+                },
+                {
+                    "name": "EDGES AND HOMES ",
+                    "aa": 0.48,
+                    "mins": 219
+                },
+                {
+                    "name": "MAD GAMES",
+                    "aa": 0.17,
+                    "mins": 91
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.36,
+                    "mins": 366
+                },
+                {
+                    "name": "REVEALING",
+                    "aa": 0.29,
+                    "mins": 122
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.26,
+                    "mins": 122
+                },
+                {
+                    "name": "BROKEN PLACE",
+                    "aa": 0.27,
+                    "mins": 61
+                },
+                {
+                    "name": "BLOGGER AND THE CASE",
+                    "aa": 0.24,
+                    "mins": 61
+                },
+                {
+                    "name": "ORANGE KISS",
+                    "aa": 0.3,
+                    "mins": 244
+                },
+                {
+                    "name": "AMAZING TOMMYS",
+                    "aa": 0.28,
+                    "mins": 488
+                }
+            ],
+            "Jul": [
+                {
+                    "name": "INTO THE CRY",
+                    "aa": 0.25,
+                    "mins": 61
+                },
+                {
+                    "name": "MANUSCRIPT'S FIRE",
+                    "aa": 0.35,
+                    "mins": 45
+                },
+                {
+                    "name": "RIVER OF BUTTERFLY",
+                    "aa": 0.44,
+                    "mins": 61
+                },
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.33,
+                    "mins": 244
+                },
+                {
+                    "name": "SKY PUNCH",
+                    "aa": 0.18,
+                    "mins": 183
+                },
+                {
+                    "name": "OUT OF THE FALL",
+                    "aa": 0.41,
+                    "mins": 61
+                },
+                {
+                    "name": "THE LEAD KILLER",
+                    "aa": 0.27,
+                    "mins": 366
+                },
+                {
+                    "name": "KILLER IN THE NORTH",
+                    "aa": 0.17,
+                    "mins": 61
+                },
+                {
+                    "name": "FLAMELESS",
+                    "aa": 0.31,
+                    "mins": 61
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.29,
+                    "mins": 366
+                },
+                {
+                    "name": "TREASURES REVOLT",
+                    "aa": 0.34,
+                    "mins": 366
+                },
+                {
+                    "name": "THE JARS",
+                    "aa": 0.27,
+                    "mins": 61
+                },
+                {
+                    "name": "THE WATER ACROSS",
+                    "aa": 0.34,
+                    "mins": 122
+                },
+                {
+                    "name": "GUNFIGHTER JUNGLE",
+                    "aa": 0.25,
+                    "mins": 61
+                },
+                {
+                    "name": "MIND AND A ESCAPE",
+                    "aa": 0.24,
+                    "mins": 61
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.33,
+                    "mins": 428
+                },
+                {
+                    "name": "GATEWAY WOMAN",
+                    "aa": 0.36,
+                    "mins": 244
+                },
+                {
+                    "name": "CLUTCHING DECEPTION",
+                    "aa": 0.25,
+                    "mins": 61
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.37,
+                    "mins": 305
+                },
+                {
+                    "name": "BROKEN PLACE",
+                    "aa": 0.33,
+                    "mins": 366
+                },
+                {
+                    "name": "UNCOMMON FORCE",
+                    "aa": 0.29,
+                    "mins": 2
+                },
+                {
+                    "name": "NOWHERE AND A BLOODLINE",
+                    "aa": 0.3,
+                    "mins": 305
+                },
+                {
+                    "name": "NOT VELVET",
+                    "aa": 0.4,
+                    "mins": 61
+                },
+                {
+                    "name": "THE UNREQUITED NORTH",
+                    "aa": 0.29,
+                    "mins": 122
+                },
+                {
+                    "name": "AMAZING TOMMYS",
+                    "aa": 0.23,
+                    "mins": 854
+                }
+            ],
+            "Aug": [
+                {
+                    "name": "HERO OF SALVAGE",
+                    "aa": 0.19,
+                    "mins": 183
+                },
+                {
+                    "name": "MANUSCRIPT'S FIRE",
+                    "aa": 0.36,
+                    "mins": 61
+                },
+                {
+                    "name": "THE CHAIR",
+                    "aa": 0.29,
+                    "mins": 183
+                },
+                {
+                    "name": "BIRTHDAY PRESENTS ",
+                    "aa": 0.23,
+                    "mins": 122
+                },
+                {
+                    "name": "OUT OF THE FALL",
+                    "aa": 0.33,
+                    "mins": 244
+                },
+                {
+                    "name": "KILLER IN THE NORTH",
+                    "aa": 0.21,
+                    "mins": 61
+                },
+                {
+                    "name": "HALL AND NOWHERE",
+                    "aa": 0.29,
+                    "mins": 61
+                },
+                {
+                    "name": "FLAMELESS",
+                    "aa": 0.27,
+                    "mins": 305
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.21,
+                    "mins": 61
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.25,
+                    "mins": 122
+                },
+                {
+                    "name": "BOOK OF FISH",
+                    "aa": 0.31,
+                    "mins": 122
+                },
+                {
+                    "name": "THE PLAYER FEAR",
+                    "aa": 0.31,
+                    "mins": 122
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.22,
+                    "mins": 427
+                },
+                {
+                    "name": "STEP GARDEN",
+                    "aa": 0.12,
+                    "mins": 61
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.29,
+                    "mins": 488
+                },
+                {
+                    "name": "BROKEN PLACE",
+                    "aa": 0.3,
+                    "mins": 244
+                },
+                {
+                    "name": "NOWHERE AND A BLOODLINE",
+                    "aa": 0.25,
+                    "mins": 183
+                },
+                {
+                    "name": "NOT VELVET",
+                    "aa": 0.34,
+                    "mins": 183
+                },
+                {
+                    "name": "COMB OF JOHNNY",
+                    "aa": 0.23,
+                    "mins": 122
+                },
+                {
+                    "name": "THE CREEK",
+                    "aa": 0.16,
+                    "mins": 61
+                },
+                {
+                    "name": "YELLOW CABIN",
+                    "aa": 0.33,
+                    "mins": 183
+                },
+                {
+                    "name": "AMAZING TOMMYS",
+                    "aa": 0.39,
+                    "mins": 732
+                }
+            ],
+            "Sep": [
+                {
+                    "name": "HERO OF SALVAGE",
+                    "aa": 0.33,
+                    "mins": 61
+                },
+                {
+                    "name": "WEIRD CELL",
+                    "aa": 0.18,
+                    "mins": 61
+                },
+                {
+                    "name": "TWENTY CROW",
+                    "aa": 0.28,
+                    "mins": 183
+                },
+                {
+                    "name": "FLAMELESS",
+                    "aa": 0.29,
+                    "mins": 183
+                },
+                {
+                    "name": "THE DESERT DUST",
+                    "aa": 0.39,
+                    "mins": 61
+                },
+                {
+                    "name": "GRACES AND CELLS ",
+                    "aa": 0.31,
+                    "mins": 61
+                },
+                {
+                    "name": "THE COMPENDIUM",
+                    "aa": 0.1,
+                    "mins": 91
+                },
+                {
+                    "name": "MISTLETOE AND THE HONOR",
+                    "aa": 0.35,
+                    "mins": 183
+                },
+                {
+                    "name": "WOLFHOUND'S PILGRIM",
+                    "aa": 0.37,
+                    "mins": 61
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.33,
+                    "mins": 183
+                },
+                {
+                    "name": "TREASURES REVOLT",
+                    "aa": 0.24,
+                    "mins": 122
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.39,
+                    "mins": 305
+                },
+                {
+                    "name": "THE PLACE",
+                    "aa": 0.33,
+                    "mins": 122
+                },
+                {
+                    "name": "OPTIONS",
+                    "aa": 0.41,
+                    "mins": 122
+                },
+                {
+                    "name": "THE PLAYER FEAR",
+                    "aa": 0.19,
+                    "mins": 61
+                },
+                {
+                    "name": "STEELS AND SONGS ",
+                    "aa": 0.25,
+                    "mins": 122
+                },
+                {
+                    "name": "STOPPING CABINET",
+                    "aa": 0.27,
+                    "mins": 61
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.23,
+                    "mins": 305
+                },
+                {
+                    "name": "GATEWAY WOMAN",
+                    "aa": 0.27,
+                    "mins": 61
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.33,
+                    "mins": 367
+                },
+                {
+                    "name": "BROKEN PLACE",
+                    "aa": 0.33,
+                    "mins": 122
+                },
+                {
+                    "name": "WEAVING NORTHS",
+                    "aa": 0.22,
+                    "mins": 61
+                },
+                {
+                    "name": "NOWHERE AND A BLOODLINE",
+                    "aa": 0.27,
+                    "mins": 122
+                },
+                {
+                    "name": "NOT VELVET",
+                    "aa": 0.28,
+                    "mins": 183
+                },
+                {
+                    "name": "SEALED FLOOR",
+                    "aa": 0.22,
+                    "mins": 122
+                },
+                {
+                    "name": "AZTEC EYE",
+                    "aa": 0.3,
+                    "mins": 61
+                },
+                {
+                    "name": "THE UNREQUITED NORTH",
+                    "aa": 0.23,
+                    "mins": 122
+                },
+                {
+                    "name": "AMAZING TOMMYS",
+                    "aa": 0.22,
+                    "mins": 732
+                }
+            ],
+            "Oct": [
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.3,
+                    "mins": 540
+                },
+                {
+                    "name": "GUN RISING",
+                    "aa": 0.29,
+                    "mins": 60
+                },
+                {
+                    "name": "BIRTHDAY PRESENTS ",
+                    "aa": 0.26,
+                    "mins": 120
+                },
+                {
+                    "name": "RULER AND THE CITY",
+                    "aa": 0.25,
+                    "mins": 120
+                },
+                {
+                    "name": "THE MESA",
+                    "aa": 0.17,
+                    "mins": 60
+                },
+                {
+                    "name": "GLASS AND SEASON",
+                    "aa": 0.32,
+                    "mins": 60
+                },
+                {
+                    "name": "MISTLETOE AND THE HONOR",
+                    "aa": 0.3,
+                    "mins": 60
+                },
+                {
+                    "name": "CITY AND EAST",
+                    "aa": 0.28,
+                    "mins": 60
+                },
+                {
+                    "name": "THE PATH",
+                    "aa": 0.38,
+                    "mins": 180
+                },
+                {
+                    "name": "PLANS AND LIFES ",
+                    "aa": 0.38,
+                    "mins": 60
+                },
+                {
+                    "name": "WITH THE ELYSIUM",
+                    "aa": 0.27,
+                    "mins": 180
+                },
+                {
+                    "name": "OUT OF THE JAILER",
+                    "aa": 0.33,
+                    "mins": 120
+                },
+                {
+                    "name": "WOLFHOUND'S PILGRIM",
+                    "aa": 0.2,
+                    "mins": 240
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.37,
+                    "mins": 60
+                },
+                {
+                    "name": "MODERN OF PERFECT ",
+                    "aa": 0.34,
+                    "mins": 60
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.26,
+                    "mins": 240
+                },
+                {
+                    "name": "BLOOD AND THE DUST",
+                    "aa": 0.2,
+                    "mins": 123
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.24,
+                    "mins": 180
+                },
+                {
+                    "name": "THE PLAYER FEAR",
+                    "aa": 0.39,
+                    "mins": 60
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.32,
+                    "mins": 120
+                },
+                {
+                    "name": "A CUP CHANGED",
+                    "aa": 0.32,
+                    "mins": 360
+                },
+                {
+                    "name": "GATEWAY WOMAN",
+                    "aa": 0.36,
+                    "mins": 300
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.27,
+                    "mins": 300
+                },
+                {
+                    "name": "THE ULTIMATE WRATHS",
+                    "aa": 0.24,
+                    "mins": 600
+                },
+                {
+                    "name": "THE UNREQUITED NORTH",
+                    "aa": 0.29,
+                    "mins": 120
+                },
+                {
+                    "name": "THE VALLEY AFTER",
+                    "aa": 0.19,
+                    "mins": 60
+                },
+                {
+                    "name": "BEYOND THE ORANGE",
+                    "aa": 0.29,
+                    "mins": 120
+                },
+                {
+                    "name": "AMAZING TOMMYS",
+                    "aa": 0.24,
+                    "mins": 900
+                }
+            ],
+            "Nov": [
+                {
+                    "name": "GUN RISING",
+                    "aa": 0.26,
+                    "mins": 60
+                },
+                {
+                    "name": "THE WEB-AGE",
+                    "aa": 0.36,
+                    "mins": 120
+                },
+                {
+                    "name": "RULER AND THE CITY",
+                    "aa": 0.29,
+                    "mins": 180
+                },
+                {
+                    "name": "LAST THIEF",
+                    "aa": 0.2,
+                    "mins": 180
+                },
+                {
+                    "name": "OUT OF THE FALL",
+                    "aa": 0.24,
+                    "mins": 180
+                },
+                {
+                    "name": "AMAZING HAND",
+                    "aa": 0.21,
+                    "mins": 60
+                },
+                {
+                    "name": "THE DESERT DUST",
+                    "aa": 0.27,
+                    "mins": 60
+                },
+                {
+                    "name": "BRAIN AND WELL",
+                    "aa": 0.19,
+                    "mins": 120
+                },
+                {
+                    "name": "GAMBIT AND A FIRE",
+                    "aa": 0.41,
+                    "mins": 60
+                },
+                {
+                    "name": "RIDER MESA",
+                    "aa": 0.16,
+                    "mins": 120
+                },
+                {
+                    "name": "MISTLETOE AND THE HONOR",
+                    "aa": 0.33,
+                    "mins": 360
+                },
+                {
+                    "name": "CITY AND EAST",
+                    "aa": 0.26,
+                    "mins": 60
+                },
+                {
+                    "name": "THE PATH",
+                    "aa": 0.36,
+                    "mins": 180
+                },
+                {
+                    "name": "WITH THE ELYSIUM",
+                    "aa": 0.22,
+                    "mins": 180
+                },
+                {
+                    "name": "PERFECT HEART",
+                    "aa": 0.38,
+                    "mins": 120
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.31,
+                    "mins": 180
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.28,
+                    "mins": 240
+                },
+                {
+                    "name": "BOOK OF FISH",
+                    "aa": 0.3,
+                    "mins": 120
+                },
+                {
+                    "name": "OPTIONS",
+                    "aa": 0.21,
+                    "mins": 120
+                },
+                {
+                    "name": "A CUP CHANGED",
+                    "aa": 0.31,
+                    "mins": 480
+                },
+                {
+                    "name": "GATEWAY WOMAN",
+                    "aa": 0.43,
+                    "mins": 240
+                },
+                {
+                    "name": "STRANGER SEASON",
+                    "aa": 0.14,
+                    "mins": 180
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.17,
+                    "mins": 660
+                },
+                {
+                    "name": "THE ULTIMATE WRATHS",
+                    "aa": 0.32,
+                    "mins": 240
+                },
+                {
+                    "name": "SEALED FLOOR",
+                    "aa": 0.28,
+                    "mins": 120
+                }
+            ],
+            "Dec": [
+                {
+                    "name": "MANUSCRIPT'S FIRE",
+                    "aa": 0.18,
+                    "mins": 183
+                },
+                {
+                    "name": "ETERNITYBORN",
+                    "aa": 0.24,
+                    "mins": 180
+                },
+                {
+                    "name": "LAST THIEF",
+                    "aa": 0.19,
+                    "mins": 180
+                },
+                {
+                    "name": "OUT OF THE FALL",
+                    "aa": 0.22,
+                    "mins": 180
+                },
+                {
+                    "name": "WELL INTENTION",
+                    "aa": 0.26,
+                    "mins": 60
+                },
+                {
+                    "name": "MISTLETOE AND THE HONOR",
+                    "aa": 0.26,
+                    "mins": 300
+                },
+                {
+                    "name": "BEYOND THE MISTLETOE",
+                    "aa": 0.36,
+                    "mins": 120
+                },
+                {
+                    "name": "THE PATH",
+                    "aa": 0.34,
+                    "mins": 240
+                },
+                {
+                    "name": "OUT OF THE JAILER",
+                    "aa": 0.28,
+                    "mins": 120
+                },
+                {
+                    "name": "WOLFHOUND'S PILGRIM",
+                    "aa": 0.2,
+                    "mins": 60
+                },
+                {
+                    "name": "LONG JOHN",
+                    "aa": 0.18,
+                    "mins": 60
+                },
+                {
+                    "name": "PERFECT HEART",
+                    "aa": 0.36,
+                    "mins": 180
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.36,
+                    "mins": 240
+                },
+                {
+                    "name": "NOMADIC DAY",
+                    "aa": 0.11,
+                    "mins": 60
+                },
+                {
+                    "name": "STORM OF GUNFIGHTER",
+                    "aa": 0.39,
+                    "mins": 360
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.3,
+                    "mins": 301
+                },
+                {
+                    "name": "A CUP CHANGED",
+                    "aa": 0.38,
+                    "mins": 240
+                },
+                {
+                    "name": "CATS ON PARADE",
+                    "aa": 0.19,
+                    "mins": 120
+                },
+                {
+                    "name": "BONES OF LIGHT",
+                    "aa": 0.3,
+                    "mins": 61
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.24,
+                    "mins": 360
+                },
+                {
+                    "name": "THE ULTIMATE WRATHS",
+                    "aa": 0.4,
+                    "mins": 180
+                },
+                {
+                    "name": "TOMMY OF THE EXILE",
+                    "aa": 0.3,
+                    "mins": 60
+                }
+            ],
+            "FullYear": [
+                {
+                    "name": "THE DAWN",
+                    "aa": 0.27,
+                    "mins": 61
+                },
+                {
+                    "name": "BEYOND THE ARMAGEDDON",
+                    "aa": 0.28,
+                    "mins": 60
+                },
+                {
+                    "name": "PATCH AND THIEF",
+                    "aa": 0.31,
+                    "mins": 61
+                },
+                {
+                    "name": "INFERNO BEYOND",
+                    "aa": 0.3,
+                    "mins": 670
+                },
+                {
+                    "name": "RULER AND A WAVE",
+                    "aa": 0.22,
+                    "mins": 240
+                },
+                {
+                    "name": "INTO THE CRY",
+                    "aa": 0.34,
+                    "mins": 61
+                },
+                {
+                    "name": "VIOLET DISCOVERY",
+                    "aa": 0.37,
+                    "mins": 61
+                },
+                {
+                    "name": "KILLER AND HIGHWAY",
+                    "aa": 0.36,
+                    "mins": 61
+                },
+                {
+                    "name": "BOY CANARY",
+                    "aa": 0.24,
+                    "mins": 120
+                },
+                {
+                    "name": "CIRCUS'S DWELLER",
+                    "aa": 0.35,
+                    "mins": 61
+                },
+                {
+                    "name": "MASK OF PURPLE",
+                    "aa": 0.27,
+                    "mins": 121
+                },
+                {
+                    "name": "CLUTCHING COLDS",
+                    "aa": 0.43,
+                    "mins": 61
+                },
+                {
+                    "name": "WITHOUT THE MOON",
+                    "aa": 0.39,
+                    "mins": 61
+                },
+                {
+                    "name": "INVISIBLE PATROL",
+                    "aa": 0.29,
+                    "mins": 61
+                },
+                {
+                    "name": "HERO OF SALVAGE",
+                    "aa": 0.33,
+                    "mins": 244
+                },
+                {
+                    "name": "THE PARLOUR",
+                    "aa": 0.24,
+                    "mins": 60
+                },
+                {
+                    "name": "MANUSCRIPT'S FIRE",
+                    "aa": 0.31,
+                    "mins": 289
+                },
+                {
+                    "name": "RIVER OF BUTTERFLY",
+                    "aa": 0.34,
+                    "mins": 550
+                },
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.29,
+                    "mins": 784
+                },
+                {
+                    "name": "CHANGING EVIL",
+                    "aa": 0.13,
+                    "mins": 61
+                },
+                {
+                    "name": "WEIRD CELL",
+                    "aa": 0.3,
+                    "mins": 61
+                },
+                {
+                    "name": "ETERNITYBORN",
+                    "aa": 0.28,
+                    "mins": 180
+                },
+                {
+                    "name": "GUN RISING",
+                    "aa": 0.25,
+                    "mins": 181
+                },
+                {
+                    "name": "TWENTY CROW",
+                    "aa": 0.29,
+                    "mins": 183
+                },
+                {
+                    "name": "THE CHAIR",
+                    "aa": 0.26,
+                    "mins": 486
+                },
+                {
+                    "name": "INSECT",
+                    "aa": 0.27,
+                    "mins": 361
+                },
+                {
+                    "name": "FORTY CAVERN",
+                    "aa": 0.26,
+                    "mins": 3
+                },
+                {
+                    "name": "WAYWARD CAVERN",
+                    "aa": 0.4,
+                    "mins": 122
+                },
+                {
+                    "name": "BIRTHDAY PRESENTS ",
+                    "aa": 0.25,
+                    "mins": 484
+                },
+                {
+                    "name": "THE WEB-AGE",
+                    "aa": 0.25,
+                    "mins": 120
+                },
+                {
+                    "name": "HEIRLOOM ACCUSED",
+                    "aa": 0.2,
+                    "mins": 61
+                },
+                {
+                    "name": "SKY PUNCH",
+                    "aa": 0.26,
+                    "mins": 183
+                },
+                {
+                    "name": "RULER AND THE CITY",
+                    "aa": 0.2,
+                    "mins": 300
+                },
+                {
+                    "name": "NOT UNREQUITED",
+                    "aa": 0.26,
+                    "mins": 305
+                },
+                {
+                    "name": "LAST THIEF",
+                    "aa": 0.35,
+                    "mins": 1092
+                },
+                {
+                    "name": "THE MESA",
+                    "aa": 0.17,
+                    "mins": 60
+                },
+                {
+                    "name": "OUT OF THE FALL",
+                    "aa": 0.3,
+                    "mins": 1091
+                },
+                {
+                    "name": "THE LEAD KILLER",
+                    "aa": 0.29,
+                    "mins": 732
+                },
+                {
+                    "name": "KILLER IN THE NORTH",
+                    "aa": 0.39,
+                    "mins": 244
+                },
+                {
+                    "name": "AMAZING HAND",
+                    "aa": 0.18,
+                    "mins": 60
+                },
+                {
+                    "name": "GLASS AND SEASON",
+                    "aa": 0.28,
+                    "mins": 60
+                },
+                {
+                    "name": "HALL AND NOWHERE",
+                    "aa": 0.15,
+                    "mins": 61
+                },
+                {
+                    "name": "FLAMELESS",
+                    "aa": 0.27,
+                    "mins": 732
+                },
+                {
+                    "name": "JUNGLE DRAGGING",
+                    "aa": 0.31,
+                    "mins": 120
+                },
+                {
+                    "name": "THE DESERT DUST",
+                    "aa": 0.32,
+                    "mins": 182
+                },
+                {
+                    "name": "GRACES AND CELLS ",
+                    "aa": 0.28,
+                    "mins": 122
+                },
+                {
+                    "name": "ROBIN HOOD",
+                    "aa": 0.3,
+                    "mins": 61
+                },
+                {
+                    "name": "WELL INTENTION",
+                    "aa": 0.28,
+                    "mins": 60
+                },
+                {
+                    "name": "BRAIN AND WELL",
+                    "aa": 0.32,
+                    "mins": 240
+                },
+                {
+                    "name": "GAMBIT AND A FIRE",
+                    "aa": 0.27,
+                    "mins": 60
+                },
+                {
+                    "name": "THE JAILER DOME",
+                    "aa": 0.33,
+                    "mins": 120
+                },
+                {
+                    "name": "THE COMPENDIUM",
+                    "aa": 0.13,
+                    "mins": 91
+                },
+                {
+                    "name": "THE EIGHT",
+                    "aa": 0.26,
+                    "mins": 61
+                },
+                {
+                    "name": "RIDER MESA",
+                    "aa": 0.21,
+                    "mins": 364
+                },
+                {
+                    "name": "MISTLETOE AND THE HONOR",
+                    "aa": 0.22,
+                    "mins": 903
+                },
+                {
+                    "name": "BEYOND THE MISTLETOE",
+                    "aa": 0.25,
+                    "mins": 120
+                },
+                {
+                    "name": "CITY AND EAST",
+                    "aa": 0.37,
+                    "mins": 120
+                },
+                {
+                    "name": "THE PATH",
+                    "aa": 0.25,
+                    "mins": 600
+                },
+                {
+                    "name": "PLANS AND LIFES ",
+                    "aa": 0.44,
+                    "mins": 60
+                },
+                {
+                    "name": "WOLFHOUND SECRET",
+                    "aa": 0.27,
+                    "mins": 61
+                },
+                {
+                    "name": "WITH THE ELYSIUM",
+                    "aa": 0.23,
+                    "mins": 543
+                },
+                {
+                    "name": "THE GREAT GAMBIT",
+                    "aa": 0.44,
+                    "mins": 122
+                },
+                {
+                    "name": "OUT OF THE JAILER",
+                    "aa": 0.36,
+                    "mins": 240
+                },
+                {
+                    "name": "WOLFHOUND'S PILGRIM",
+                    "aa": 0.28,
+                    "mins": 361
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.38,
+                    "mins": 1463
+                },
+                {
+                    "name": "TREASURES REVOLT",
+                    "aa": 0.35,
+                    "mins": 1157
+                },
+                {
+                    "name": "THE FOREVER",
+                    "aa": 0.28,
+                    "mins": 61
+                },
+                {
+                    "name": "THE CHILDHOOD",
+                    "aa": 0.5,
+                    "mins": 242
+                },
+                {
+                    "name": "LONG JOHN",
+                    "aa": 0.17,
+                    "mins": 60
+                },
+                {
+                    "name": "PERFECT HEART",
+                    "aa": 0.32,
+                    "mins": 300
+                },
+                {
+                    "name": "MODERN OF PERFECT ",
+                    "aa": 0.23,
+                    "mins": 120
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.27,
+                    "mins": 721
+                },
+                {
+                    "name": "NOMADIC DAY",
+                    "aa": 0.29,
+                    "mins": 60
+                },
+                {
+                    "name": "LEAD CARNIVAL",
+                    "aa": 0.22,
+                    "mins": 240
+                },
+                {
+                    "name": "BLOOD AND THE DUST",
+                    "aa": 0.15,
+                    "mins": 123
+                },
+                {
+                    "name": "THE JARS",
+                    "aa": 0.35,
+                    "mins": 61
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.21,
+                    "mins": 1456
+                },
+                {
+                    "name": "THE HONOR",
+                    "aa": 0.47,
+                    "mins": 12
+                },
+                {
+                    "name": "ACROSS THE SALVAGE",
+                    "aa": 0.28,
+                    "mins": 184
+                },
+                {
+                    "name": "THE WATER ACROSS",
+                    "aa": 0.24,
+                    "mins": 3283
+                },
+                {
+                    "name": "THE PLACE",
+                    "aa": 0.36,
+                    "mins": 244
+                },
+                {
+                    "name": "BOOK OF FISH",
+                    "aa": 0.28,
+                    "mins": 242
+                },
+                {
+                    "name": "SIXTH EVENING OUT",
+                    "aa": 0.45,
+                    "mins": 757
+                },
+                {
+                    "name": "OUT OF THE DRAPES",
+                    "aa": 0.35,
+                    "mins": 61
+                },
+                {
+                    "name": "OPTIONS",
+                    "aa": 0.28,
+                    "mins": 242
+                },
+                {
+                    "name": "STORM OF GUNFIGHTER",
+                    "aa": 0.23,
+                    "mins": 360
+                },
+                {
+                    "name": "PRICELESS FEAR",
+                    "aa": 0.5,
+                    "mins": 183
+                },
+                {
+                    "name": "WITH THE PRICELESS",
+                    "aa": 0.38,
+                    "mins": 305
+                },
+                {
+                    "name": "THE DESTROYING ",
+                    "aa": 0.23,
+                    "mins": 366
+                },
+                {
+                    "name": "GUNFIGHTER JUNGLE",
+                    "aa": 0.33,
+                    "mins": 183
+                },
+                {
+                    "name": "FORTY FOGS",
+                    "aa": 0.44,
+                    "mins": 63
+                },
+                {
+                    "name": "THE BIG HALL",
+                    "aa": 0.31,
+                    "mins": 428
+                },
+                {
+                    "name": "MAD CAVERN",
+                    "aa": 0.42,
+                    "mins": 253
+                },
+                {
+                    "name": "EDGES AND HOMES ",
+                    "aa": 0.5,
+                    "mins": 372
+                },
+                {
+                    "name": "THE PLAYER FEAR",
+                    "aa": 0.24,
+                    "mins": 243
+                },
+                {
+                    "name": "STEELS AND SONGS ",
+                    "aa": 0.33,
+                    "mins": 122
+                },
+                {
+                    "name": "A HOME SAVED",
+                    "aa": 0.44,
+                    "mins": 61
+                },
+                {
+                    "name": "MIND AND A ESCAPE",
+                    "aa": 0.3,
+                    "mins": 61
+                },
+                {
+                    "name": "MAD GAMES",
+                    "aa": 0.32,
+                    "mins": 91
+                },
+                {
+                    "name": "STOPPING CABINET",
+                    "aa": 0.22,
+                    "mins": 61
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.36,
+                    "mins": 2924
+                },
+                {
+                    "name": "THE STUDY INTO",
+                    "aa": 0.43,
+                    "mins": 60
+                },
+                {
+                    "name": "REVEALING",
+                    "aa": 0.39,
+                    "mins": 430
+                },
+                {
+                    "name": "A CUP CHANGED",
+                    "aa": 0.2,
+                    "mins": 1080
+                },
+                {
+                    "name": "GATEWAY WOMAN",
+                    "aa": 0.3,
+                    "mins": 906
+                },
+                {
+                    "name": "STEP GARDEN",
+                    "aa": 0.45,
+                    "mins": 605
+                },
+                {
+                    "name": "MASKLESS",
+                    "aa": 0.29,
+                    "mins": 61
+                },
+                {
+                    "name": "CLUTCHING DECEPTION",
+                    "aa": 0.26,
+                    "mins": 61
+                },
+                {
+                    "name": "CATS ON PARADE",
+                    "aa": 0.34,
+                    "mins": 300
+                },
+                {
+                    "name": "BONES OF LIGHT",
+                    "aa": 0.18,
+                    "mins": 61
+                },
+                {
+                    "name": "INFERNO SCREAMED",
+                    "aa": 0.34,
+                    "mins": 120
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.31,
+                    "mins": 4414
+                },
+                {
+                    "name": "FACE OF GAME",
+                    "aa": 0.44,
+                    "mins": 122
+                },
+                {
+                    "name": "THE ULTIMATE WRATHS",
+                    "aa": 0.35,
+                    "mins": 1020
+                },
+                {
+                    "name": "BROKEN PLACE",
+                    "aa": 0.24,
+                    "mins": 1698
+                },
+                {
+                    "name": "UNCOMMON FORCE",
+                    "aa": 0.31,
+                    "mins": 4
+                },
+                {
+                    "name": "WEAVING NORTHS",
+                    "aa": 0.18,
+                    "mins": 61
+                },
+                {
+                    "name": "NOWHERE AND A BLOODLINE",
+                    "aa": 0.39,
+                    "mins": 610
+                },
+                {
+                    "name": "NOT VELVET",
+                    "aa": 0.24,
+                    "mins": 427
+                },
+                {
+                    "name": "COMB OF JOHNNY",
+                    "aa": 0.14,
+                    "mins": 122
+                },
+                {
+                    "name": "BLOGGER AND THE CASE",
+                    "aa": 0.34,
+                    "mins": 61
+                },
+                {
+                    "name": "SEALED FLOOR",
+                    "aa": 0.37,
+                    "mins": 362
+                },
+                {
+                    "name": "TOMMY OF THE EXILE",
+                    "aa": 0.24,
+                    "mins": 60
+                },
+                {
+                    "name": "AZTEC EYE",
+                    "aa": 0.34,
+                    "mins": 61
+                },
+                {
+                    "name": "THE CREEK",
+                    "aa": 0.2,
+                    "mins": 61
+                },
+                {
+                    "name": "FIRE FATE",
+                    "aa": 0.17,
+                    "mins": 122
+                },
+                {
+                    "name": "YELLOW CABIN",
+                    "aa": 0.38,
+                    "mins": 183
+                },
+                {
+                    "name": "NOT SEVENTH",
+                    "aa": 0.3,
+                    "mins": 180
+                },
+                {
+                    "name": "THE UNREQUITED NORTH",
+                    "aa": 0.28,
+                    "mins": 604
+                },
+                {
+                    "name": "THE VALLEY AFTER",
+                    "aa": 0.18,
+                    "mins": 60
+                },
+                {
+                    "name": "ORANGE KISS",
+                    "aa": 0.37,
+                    "mins": 244
+                },
+                {
+                    "name": "BEYOND THE ORANGE",
+                    "aa": 0.33,
+                    "mins": 120
+                },
+                {
+                    "name": "AMAZING TOMMYS",
+                    "aa": 0.31,
+                    "mins": 5887
+                }
+            ]
+        }
+    },
+    "2017": {
+        "prime": {
+            "Jan": 0.46,
+            "Feb": 0.4,
+            "Mar": 0.37,
+            "Apr": 0.5,
+            "May": 0.35,
+            "Jun": 0.21,
+            "Jul": 0.3,
+            "Aug": 0.41,
+            "Sep": 0.29,
+            "Oct": 0.3,
+            "Nov": 0.17,
+            "Dec": 0.17,
+            "FullYear": 0.42
+        },
+        "premieres": {
+            "Jan": {
+                "aa": 0.5,
+                "mins": 1515
+            },
+            "Feb": {
+                "aa": 0.41,
+                "mins": 1321
+            },
+            "Mar": {
+                "aa": 0.58,
+                "mins": 1020
+            },
+            "Apr": {
+                "aa": 0.58,
+                "mins": 1270
+            },
+            "May": {
+                "aa": 0.53,
+                "mins": 870
+            },
+            "Jun": {
+                "aa": 0.4,
+                "mins": 960
+            },
+            "Jul": {
+                "aa": 0.32,
+                "mins": 903
+            },
+            "Aug": {
+                "aa": 0.53,
+                "mins": 1141
+            },
+            "Sep": {
+                "aa": 0.4,
+                "mins": 1322
+            },
+            "Oct": {
+                "aa": 0.44,
+                "mins": 1451
+            },
+            "Nov": {
+                "aa": 0.31,
+                "mins": 1440
+            },
+            "Dec": {
+                "aa": 0.32,
+                "mins": 1267
+            },
+            "FullYear": {
+                "aa": 0.5,
+                "mins": 14480
+            }
+        },
+        "repeats": {
+            "Jan": {
+                "aa": 0.42,
+                "mins": 4785
+            },
+            "Feb": {
+                "aa": 0.38,
+                "mins": 3898
+            },
+            "Mar": {
+                "aa": 0.16,
+                "mins": 4020
+            },
+            "Apr": {
+                "aa": 0.42,
+                "mins": 5030
+            },
+            "May": {
+                "aa": 0.17,
+                "mins": 4170
+            },
+            "Jun": {
+                "aa": 0.03,
+                "mins": 4080
+            },
+            "Jul": {
+                "aa": 0.28,
+                "mins": 5397
+            },
+            "Aug": {
+                "aa": 0.29,
+                "mins": 3899
+            },
+            "Sep": {
+                "aa": 0.18,
+                "mins": 3718
+            },
+            "Oct": {
+                "aa": 0.17,
+                "mins": 4849
+            },
+            "Nov": {
+                "aa": 0.04,
+                "mins": 3600
+            },
+            "Dec": {
+                "aa": 0.03,
+                "mins": 5033
+            },
+            "FullYear": {
+                "aa": 0.34,
+                "mins": 52479
+            }
+        },
+        "series-prems": {
+            "Jan": [
+                {
+                    "name": "THE CHAIR",
+                    "aa": 0.55,
+                    "mins": 480
+                },
+                {
+                    "name": "NOMADIC LAND",
+                    "aa": 0.38,
+                    "mins": 240
+                },
+                {
+                    "name": "OUT OF THE FALL",
+                    "aa": 0.47,
+                    "mins": 120
+                },
+                {
+                    "name": "JOHN SILVER",
+                    "aa": 0.3,
+                    "mins": 60
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.61,
+                    "mins": 300
+                },
+                {
+                    "name": "EONS OF INFERNAL",
+                    "aa": 0.26,
+                    "mins": 28
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.44,
+                    "mins": 180
+                },
+                {
+                    "name": "SECOND FEASTS",
+                    "aa": 0.53,
+                    "mins": 60
+                },
+                {
+                    "name": "THE DESTROYING KEY",
+                    "aa": 0.3,
+                    "mins": 60
+                }
+            ],
+            "Feb": [
+                {
+                    "name": "THE AWAKENING",
+                    "aa": 0.23,
+                    "mins": 120
+                },
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.43,
+                    "mins": 241
+                },
+                {
+                    "name": "THE CHAIR",
+                    "aa": 0.52,
+                    "mins": 240
+                },
+                {
+                    "name": "AIR EVENING",
+                    "aa": 0.17,
+                    "mins": 60
+                },
+                {
+                    "name": "NOMADIC LAND",
+                    "aa": 0.28,
+                    "mins": 121
+                },
+                {
+                    "name": "FLAMELESS",
+                    "aa": 0.26,
+                    "mins": 120
+                },
+                {
+                    "name": "EONS OF INFERNAL",
+                    "aa": 0.17,
+                    "mins": 6
+                },
+                {
+                    "name": "JOURNEY AND THE COLD",
+                    "aa": 0.32,
+                    "mins": 60
+                },
+                {
+                    "name": "THE STUDY INTO",
+                    "aa": 0.31,
+                    "mins": 120
+                },
+                {
+                    "name": "FACE OF GAME",
+                    "aa": 0.45,
+                    "mins": 61
+                },
+                {
+                    "name": "CARNIVAL REVEALED",
+                    "aa": 0.35,
+                    "mins": 60
+                },
+                {
+                    "name": "TICKETLESS",
+                    "aa": 0.39,
+                    "mins": 120
+                }
+            ],
+            "Mar": [
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.45,
+                    "mins": 240
+                },
+                {
+                    "name": "FLAMELESS",
+                    "aa": 0.51,
+                    "mins": 240
+                },
+                {
+                    "name": "CLOSED TREASURES",
+                    "aa": 0.53,
+                    "mins": 240
+                },
+                {
+                    "name": "THE STUDY INTO",
+                    "aa": 0.35,
+                    "mins": 60
+                },
+                {
+                    "name": "JARS MARCH",
+                    "aa": 0.52,
+                    "mins": 1
+                },
+                {
+                    "name": "TICKETLESS",
+                    "aa": 0.52,
+                    "mins": 240
+                }
+            ],
+            "Apr": [
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.44,
+                    "mins": 241
+                },
+                {
+                    "name": "FLAMELESS",
+                    "aa": 0.48,
+                    "mins": 240
+                },
+                {
+                    "name": "WITH THE ELYSIUM",
+                    "aa": 0.44,
+                    "mins": 60
+                },
+                {
+                    "name": "WITCH",
+                    "aa": 0.71,
+                    "mins": 1
+                },
+                {
+                    "name": "CLOSED TREASURES",
+                    "aa": 0.58,
+                    "mins": 120
+                },
+                {
+                    "name": "CHASING GENTLEMAN",
+                    "aa": 0.36,
+                    "mins": 1
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.62,
+                    "mins": 189
+                },
+                {
+                    "name": "ANGEL AND A HATE",
+                    "aa": 0.37,
+                    "mins": 5
+                },
+                {
+                    "name": "LIVED REVOLT",
+                    "aa": 0.6,
+                    "mins": 4
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.44,
+                    "mins": 121
+                },
+                {
+                    "name": "MASK OF THUNDER",
+                    "aa": 0.39,
+                    "mins": 1
+                },
+                {
+                    "name": "NOWHERE AND A BLOODLINE",
+                    "aa": 0.41,
+                    "mins": 181
+                },
+                {
+                    "name": "TICKETLESS",
+                    "aa": 0.54,
+                    "mins": 120
+                }
+            ],
+            "May": [
+                {
+                    "name": "EXPRESS MANOR",
+                    "aa": 0.61,
+                    "mins": 62
+                },
+                {
+                    "name": "WITH THE ELYSIUM",
+                    "aa": 0.37,
+                    "mins": 180
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.73,
+                    "mins": 253
+                },
+                {
+                    "name": "ANGEL AND A HATE",
+                    "aa": 0.28,
+                    "mins": 5
+                },
+                {
+                    "name": "LIVED REVOLT",
+                    "aa": 0.68,
+                    "mins": 12
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.49,
+                    "mins": 180
+                },
+                {
+                    "name": "NOWHERE AND A BLOODLINE",
+                    "aa": 0.36,
+                    "mins": 180
+                }
+            ],
+            "Jun": [
+                {
+                    "name": "EXPRESS MANOR",
+                    "aa": 0.32,
+                    "mins": 241
+                },
+                {
+                    "name": "WITH THE ELYSIUM",
+                    "aa": 0.31,
+                    "mins": 240
+                },
+                {
+                    "name": "ACROSS THE SALVAGE",
+                    "aa": 0.39,
+                    "mins": 60
+                },
+                {
+                    "name": "HIEROGLYPH'S FOX",
+                    "aa": 0.25,
+                    "mins": 60
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.43,
+                    "mins": 240
+                },
+                {
+                    "name": "NOWHERE AND A BLOODLINE",
+                    "aa": 0.33,
+                    "mins": 120
+                }
+            ],
+            "Jul": [
+                {
+                    "name": "THE FOLK",
+                    "aa": 0.23,
+                    "mins": 60
+                },
+                {
+                    "name": "EXPRESS MANOR",
+                    "aa": 0.37,
+                    "mins": 60
+                },
+                {
+                    "name": "BIG GUARD",
+                    "aa": 0.39,
+                    "mins": 180
+                },
+                {
+                    "name": "SCREAMING DRAPES",
+                    "aa": 0.3,
+                    "mins": 120
+                },
+                {
+                    "name": "WITH THE ELYSIUM",
+                    "aa": 0.42,
+                    "mins": 240
+                },
+                {
+                    "name": "RULER'S TRAIN",
+                    "aa": 0.44,
+                    "mins": 2
+                },
+                {
+                    "name": "DWELLER'S CIRCUS",
+                    "aa": 0.2,
+                    "mins": 60
+                },
+                {
+                    "name": "THE CHASING",
+                    "aa": 0.32,
+                    "mins": 120
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.75,
+                    "mins": 60
+                },
+                {
+                    "name": "UNCOMMON FORCE",
+                    "aa": 0.35,
+                    "mins": 1
+                }
+            ],
+            "Aug": [
+                {
+                    "name": "BIG GUARD",
+                    "aa": 0.48,
+                    "mins": 180
+                },
+                {
+                    "name": "HEIRLOOMS AND LIGHTNINGS ",
+                    "aa": 0.29,
+                    "mins": 120
+                },
+                {
+                    "name": "THE FATE",
+                    "aa": 0.32,
+                    "mins": 1
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.57,
+                    "mins": 306
+                },
+                {
+                    "name": "JOURNEY AND DUSK",
+                    "aa": 0.4,
+                    "mins": 180
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.5,
+                    "mins": 301
+                },
+                {
+                    "name": "FACE OF GAME",
+                    "aa": 0.47,
+                    "mins": 60
+                }
+            ],
+            "Sep": [
+                {
+                    "name": "ACCIDENTAL THUNDER",
+                    "aa": 0.29,
+                    "mins": 122
+                },
+                {
+                    "name": "DUST OF BRONZE",
+                    "aa": 0.34,
+                    "mins": 61
+                },
+                {
+                    "name": "CLOSED TREASURES",
+                    "aa": 0.35,
+                    "mins": 243
+                },
+                {
+                    "name": "NINTH GLORY",
+                    "aa": 0.42,
+                    "mins": 64
+                },
+                {
+                    "name": "LONG JOHN",
+                    "aa": 0.26,
+                    "mins": 61
+                },
+                {
+                    "name": "MODERN OF PERFECT ",
+                    "aa": 0.53,
+                    "mins": 62
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.63,
+                    "mins": 248
+                },
+                {
+                    "name": "JOURNEY AND DUSK",
+                    "aa": 0.46,
+                    "mins": 182
+                },
+                {
+                    "name": "STEP'S GLASS",
+                    "aa": 0.42,
+                    "mins": 60
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.37,
+                    "mins": 243
+                }
+            ],
+            "Oct": [
+                {
+                    "name": "POWER OF ANGELO",
+                    "aa": 0.23,
+                    "mins": 120
+                },
+                {
+                    "name": "ACCIDENTAL THUNDER",
+                    "aa": 0.24,
+                    "mins": 60
+                },
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.51,
+                    "mins": 304
+                },
+                {
+                    "name": "MISTLETOE AND THE HONOR",
+                    "aa": 0.26,
+                    "mins": 243
+                },
+                {
+                    "name": "JAILER",
+                    "aa": 0.33,
+                    "mins": 303
+                },
+                {
+                    "name": "CLOSED TREASURES",
+                    "aa": 0.33,
+                    "mins": 121
+                },
+                {
+                    "name": "BOOK UNDER",
+                    "aa": 0.21,
+                    "mins": 120
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.41,
+                    "mins": 189
+                }
+            ],
+            "Nov": [
+                {
+                    "name": "WITHOUT THE WINGS",
+                    "aa": 0.34,
+                    "mins": 244
+                },
+                {
+                    "name": "AFFAIR OF MAD",
+                    "aa": 0.37,
+                    "mins": 183
+                },
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.54,
+                    "mins": 244
+                },
+                {
+                    "name": "MYSTERY OF BODY",
+                    "aa": 0.22,
+                    "mins": 244
+                },
+                {
+                    "name": "MISTLETOE AND THE HONOR",
+                    "aa": 0.43,
+                    "mins": 244
+                },
+                {
+                    "name": "JAILER",
+                    "aa": 0.44,
+                    "mins": 61
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.59,
+                    "mins": 244
+                }
+            ],
+            "Dec": [
+                {
+                    "name": "WITHOUT THE WINGS",
+                    "aa": 0.38,
+                    "mins": 245
+                },
+                {
+                    "name": "SOUL THIEF",
+                    "aa": 0.44,
+                    "mins": 61
+                },
+                {
+                    "name": "AFFAIR OF MAD",
+                    "aa": 0.3,
+                    "mins": 244
+                },
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.38,
+                    "mins": 61
+                },
+                {
+                    "name": "MYSTERY OF BODY",
+                    "aa": 0.37,
+                    "mins": 122
+                },
+                {
+                    "name": "MISTLETOE AND THE HONOR",
+                    "aa": 0.36,
+                    "mins": 245
+                },
+                {
+                    "name": "THE FATE",
+                    "aa": 0.41,
+                    "mins": 1
+                },
+                {
+                    "name": "RULER'S TRAIN",
+                    "aa": 0.5,
+                    "mins": 2
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.47,
+                    "mins": 183
+                },
+                {
+                    "name": "UNCOMMON FORCE",
+                    "aa": 0.38,
+                    "mins": 1
+                },
+                {
+                    "name": "JARS MARCH",
+                    "aa": 0.28,
+                    "mins": 1
+                },
+                {
+                    "name": "GARDEN IS RAW",
+                    "aa": 0.29,
+                    "mins": 120
+                }
+            ],
+            "FullYear": [
+                {
+                    "name": "POWER OF ANGELO",
+                    "aa": 0.25,
+                    "mins": 120
+                },
+                {
+                    "name": "WITHOUT THE WINGS",
+                    "aa": 0.24,
+                    "mins": 489
+                },
+                {
+                    "name": "SOUL THIEF",
+                    "aa": 0.31,
+                    "mins": 61
+                },
+                {
+                    "name": "THE AWAKENING",
+                    "aa": 0.21,
+                    "mins": 120
+                },
+                {
+                    "name": "ACCIDENTAL THUNDER",
+                    "aa": 0.16,
+                    "mins": 182
+                },
+                {
+                    "name": "DUST OF BRONZE",
+                    "aa": 0.27,
+                    "mins": 61
+                },
+                {
+                    "name": "AFFAIR OF MAD",
+                    "aa": 0.34,
+                    "mins": 427
+                },
+                {
+                    "name": "THE FOLK",
+                    "aa": 0.32,
+                    "mins": 60
+                },
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.59,
+                    "mins": 1331
+                },
+                {
+                    "name": "EXPRESS MANOR",
+                    "aa": 0.41,
+                    "mins": 363
+                },
+                {
+                    "name": "THE CHAIR",
+                    "aa": 0.43,
+                    "mins": 720
+                },
+                {
+                    "name": "AIR EVENING",
+                    "aa": 0.13,
+                    "mins": 60
+                },
+                {
+                    "name": "NOMADIC LAND",
+                    "aa": 0.29,
+                    "mins": 361
+                },
+                {
+                    "name": "BIG GUARD",
+                    "aa": 0.35,
+                    "mins": 360
+                },
+                {
+                    "name": "MYSTERY OF BODY",
+                    "aa": 0.21,
+                    "mins": 366
+                },
+                {
+                    "name": "OUT OF THE FALL",
+                    "aa": 0.36,
+                    "mins": 120
+                },
+                {
+                    "name": "SCREAMING DRAPES",
+                    "aa": 0.37,
+                    "mins": 120
+                },
+                {
+                    "name": "FLAMELESS",
+                    "aa": 0.44,
+                    "mins": 600
+                },
+                {
+                    "name": "MISTLETOE AND THE HONOR",
+                    "aa": 0.37,
+                    "mins": 732
+                },
+                {
+                    "name": "JAILER",
+                    "aa": 0.3,
+                    "mins": 364
+                },
+                {
+                    "name": "WITH THE ELYSIUM",
+                    "aa": 0.3,
+                    "mins": 720
+                },
+                {
+                    "name": "WITCH",
+                    "aa": 0.61,
+                    "mins": 1
+                },
+                {
+                    "name": "HEIRLOOMS AND LIGHTNINGS ",
+                    "aa": 0.16,
+                    "mins": 120
+                },
+                {
+                    "name": "CLOSED TREASURES",
+                    "aa": 0.45,
+                    "mins": 724
+                },
+                {
+                    "name": "THE FATE",
+                    "aa": 0.25,
+                    "mins": 2
+                },
+                {
+                    "name": "NINTH GLORY",
+                    "aa": 0.5,
+                    "mins": 64
+                },
+                {
+                    "name": "JOHN SILVER",
+                    "aa": 0.27,
+                    "mins": 60
+                },
+                {
+                    "name": "LONG JOHN",
+                    "aa": 0.18,
+                    "mins": 61
+                },
+                {
+                    "name": "MODERN OF PERFECT ",
+                    "aa": 0.36,
+                    "mins": 62
+                },
+                {
+                    "name": "RULER'S TRAIN",
+                    "aa": 0.51,
+                    "mins": 4
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.5,
+                    "mins": 854
+                },
+                {
+                    "name": "EONS OF INFERNAL",
+                    "aa": 0.34,
+                    "mins": 34
+                },
+                {
+                    "name": "DWELLER'S CIRCUS",
+                    "aa": 0.14,
+                    "mins": 60
+                },
+                {
+                    "name": "JOURNEY AND DUSK",
+                    "aa": 0.48,
+                    "mins": 362
+                },
+                {
+                    "name": "THE CHASING",
+                    "aa": 0.23,
+                    "mins": 120
+                },
+                {
+                    "name": "CHASING GENTLEMAN",
+                    "aa": 0.44,
+                    "mins": 1
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.75,
+                    "mins": 442
+                },
+                {
+                    "name": "ACROSS THE SALVAGE",
+                    "aa": 0.4,
+                    "mins": 60
+                },
+                {
+                    "name": "ANGEL AND A HATE",
+                    "aa": 0.32,
+                    "mins": 10
+                },
+                {
+                    "name": "LIVED REVOLT",
+                    "aa": 0.53,
+                    "mins": 16
+                },
+                {
+                    "name": "HIEROGLYPH'S FOX",
+                    "aa": 0.25,
+                    "mins": 60
+                },
+                {
+                    "name": "BOOK UNDER",
+                    "aa": 0.11,
+                    "mins": 120
+                },
+                {
+                    "name": "JOURNEY AND THE COLD",
+                    "aa": 0.36,
+                    "mins": 60
+                },
+                {
+                    "name": "STEP'S GLASS",
+                    "aa": 0.34,
+                    "mins": 60
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.47,
+                    "mins": 1217
+                },
+                {
+                    "name": "MASK OF THUNDER",
+                    "aa": 0.4,
+                    "mins": 1
+                },
+                {
+                    "name": "THE STUDY INTO",
+                    "aa": 0.46,
+                    "mins": 180
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.48,
+                    "mins": 724
+                },
+                {
+                    "name": "FACE OF GAME",
+                    "aa": 0.38,
+                    "mins": 121
+                },
+                {
+                    "name": "SECOND FEASTS",
+                    "aa": 0.38,
+                    "mins": 60
+                },
+                {
+                    "name": "UNCOMMON FORCE",
+                    "aa": 0.36,
+                    "mins": 2
+                },
+                {
+                    "name": "JARS MARCH",
+                    "aa": 0.38,
+                    "mins": 2
+                },
+                {
+                    "name": "NOWHERE AND A BLOODLINE",
+                    "aa": 0.5,
+                    "mins": 481
+                },
+                {
+                    "name": "THE DESTROYING KEY",
+                    "aa": 0.21,
+                    "mins": 60
+                },
+                {
+                    "name": "GARDEN IS RAW",
+                    "aa": 0.4,
+                    "mins": 120
+                },
+                {
+                    "name": "CARNIVAL REVEALED",
+                    "aa": 0.28,
+                    "mins": 60
+                },
+                {
+                    "name": "TICKETLESS",
+                    "aa": 0.38,
+                    "mins": 480
+                }
+            ]
+        },
+        "series-repeats": {
+            "Jan": [
+                {
+                    "name": "DAYLIGHTLESS",
+                    "aa": 0.29,
+                    "mins": 120
+                },
+                {
+                    "name": "JENNY EVERYWHERE",
+                    "aa": 0.24,
+                    "mins": 120
+                },
+                {
+                    "name": "THE CHAIR",
+                    "aa": 0.34,
+                    "mins": 600
+                },
+                {
+                    "name": "THE POWER",
+                    "aa": 0.31,
+                    "mins": 120
+                },
+                {
+                    "name": "OUT OF THE FALL",
+                    "aa": 0.37,
+                    "mins": 480
+                },
+                {
+                    "name": "MISTLETOE AND THE HONOR",
+                    "aa": 0.25,
+                    "mins": 660
+                },
+                {
+                    "name": "BEYOND THE MISTLETOE",
+                    "aa": 0.33,
+                    "mins": 120
+                },
+                {
+                    "name": "WITH THE ELYSIUM",
+                    "aa": 0.3,
+                    "mins": 180
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.35,
+                    "mins": 421
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.33,
+                    "mins": 540
+                },
+                {
+                    "name": "STORM OF GUNFIGHTER",
+                    "aa": 0.35,
+                    "mins": 180
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.35,
+                    "mins": 720
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.34,
+                    "mins": 600
+                }
+            ],
+            "Feb": [
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.39,
+                    "mins": 180
+                },
+                {
+                    "name": "THE CHAIR",
+                    "aa": 0.25,
+                    "mins": 180
+                },
+                {
+                    "name": "BIRTHDAY PRESENTS ",
+                    "aa": 0.31,
+                    "mins": 120
+                },
+                {
+                    "name": "NOMADIC LAND",
+                    "aa": 0.19,
+                    "mins": 180
+                },
+                {
+                    "name": "OUT OF THE FALL",
+                    "aa": 0.38,
+                    "mins": 360
+                },
+                {
+                    "name": "FLAMELESS",
+                    "aa": 0.29,
+                    "mins": 180
+                },
+                {
+                    "name": "MISTLETOE AND THE HONOR",
+                    "aa": 0.2,
+                    "mins": 180
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.19,
+                    "mins": 361
+                },
+                {
+                    "name": "THE FATE",
+                    "aa": 0.1,
+                    "mins": 2
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.18,
+                    "mins": 180
+                },
+                {
+                    "name": "THE BONES",
+                    "aa": 0.18,
+                    "mins": 180
+                },
+                {
+                    "name": "LEAD CARNIVAL",
+                    "aa": 0.24,
+                    "mins": 480
+                },
+                {
+                    "name": "INFERNAL SLEEPER",
+                    "aa": 0.03,
+                    "mins": 60
+                },
+                {
+                    "name": "EONS OF INFERNAL",
+                    "aa": 0.29,
+                    "mins": 2
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.35,
+                    "mins": 60
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.21,
+                    "mins": 360
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.38,
+                    "mins": 661
+                },
+                {
+                    "name": "NOWHERE AND A BLOODLINE",
+                    "aa": 0.19,
+                    "mins": 180
+                },
+                {
+                    "name": "AMAZING TOMMYS",
+                    "aa": 0.33,
+                    "mins": 180
+                }
+            ],
+            "Mar": [
+                {
+                    "name": "INFERNO BEYOND",
+                    "aa": 0.28,
+                    "mins": 180
+                },
+                {
+                    "name": "INSECT WITH THE HARE",
+                    "aa": 0.32,
+                    "mins": 60
+                },
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.33,
+                    "mins": 240
+                },
+                {
+                    "name": "THE UNCOMMON",
+                    "aa": 0.34,
+                    "mins": 120
+                },
+                {
+                    "name": "OUT OF THE FALL",
+                    "aa": 0.47,
+                    "mins": 180
+                },
+                {
+                    "name": "FLAMELESS",
+                    "aa": 0.32,
+                    "mins": 361
+                },
+                {
+                    "name": "WITH THE ELYSIUM",
+                    "aa": 0.2,
+                    "mins": 180
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.45,
+                    "mins": 600
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.28,
+                    "mins": 180
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.39,
+                    "mins": 240
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.33,
+                    "mins": 480
+                },
+                {
+                    "name": "THE STUDY INTO",
+                    "aa": 0.25,
+                    "mins": 120
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.28,
+                    "mins": 180
+                },
+                {
+                    "name": "THE DESTROYING KEY",
+                    "aa": 0.15,
+                    "mins": 60
+                },
+                {
+                    "name": "HEAVENS AND RIVERS ",
+                    "aa": 0.27,
+                    "mins": 120
+                },
+                {
+                    "name": "SEALED FLOOR",
+                    "aa": 0.34,
+                    "mins": 120
+                },
+                {
+                    "name": "SHELL OF ETERNITY",
+                    "aa": 0.33,
+                    "mins": 120
+                },
+                {
+                    "name": "CARNIVAL REVEALED",
+                    "aa": 0.22,
+                    "mins": 60
+                },
+                {
+                    "name": "AMAZING TOMMYS",
+                    "aa": 0.37,
+                    "mins": 300
+                },
+                {
+                    "name": "TICKETLESS",
+                    "aa": 0.32,
+                    "mins": 183
+                }
+            ],
+            "Apr": [
+                {
+                    "name": "INFERNO BEYOND",
+                    "aa": 0.31,
+                    "mins": 600
+                },
+                {
+                    "name": "RULER AND A WAVE",
+                    "aa": 0.41,
+                    "mins": 300
+                },
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.32,
+                    "mins": 121
+                },
+                {
+                    "name": "BIRTHDAY PRESENTS ",
+                    "aa": 0.35,
+                    "mins": 120
+                },
+                {
+                    "name": "LAST THIEF",
+                    "aa": 0.37,
+                    "mins": 360
+                },
+                {
+                    "name": "THE UNCOMMON",
+                    "aa": 0.28,
+                    "mins": 120
+                },
+                {
+                    "name": "KILLER IN THE NORTH",
+                    "aa": 0.32,
+                    "mins": 60
+                },
+                {
+                    "name": "FLAMELESS",
+                    "aa": 0.22,
+                    "mins": 602
+                },
+                {
+                    "name": "RIDER MESA",
+                    "aa": 0.39,
+                    "mins": 120
+                },
+                {
+                    "name": "WITH THE ELYSIUM",
+                    "aa": 0.33,
+                    "mins": 60
+                },
+                {
+                    "name": "WOLFHOUND'S PILGRIM",
+                    "aa": 0.21,
+                    "mins": 60
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.33,
+                    "mins": 420
+                },
+                {
+                    "name": "CLOSED TREASURES",
+                    "aa": 0.32,
+                    "mins": 60
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.39,
+                    "mins": 420
+                },
+                {
+                    "name": "RABBIT",
+                    "aa": 0.39,
+                    "mins": 120
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.19,
+                    "mins": 1141
+                },
+                {
+                    "name": "NOWHERE AND A BLOODLINE",
+                    "aa": 0.35,
+                    "mins": 60
+                },
+                {
+                    "name": "TICKETLESS",
+                    "aa": 0.29,
+                    "mins": 420
+                }
+            ],
+            "May": [
+                {
+                    "name": "INFERNO BEYOND",
+                    "aa": 0.28,
+                    "mins": 480
+                },
+                {
+                    "name": "RULER AND A WAVE",
+                    "aa": 0.27,
+                    "mins": 240
+                },
+                {
+                    "name": "WITH THE ELYSIUM",
+                    "aa": 0.26,
+                    "mins": 180
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.35,
+                    "mins": 540
+                },
+                {
+                    "name": "RULE EMBRACING",
+                    "aa": 0.18,
+                    "mins": 60
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.36,
+                    "mins": 1568
+                },
+                {
+                    "name": "THE PLACE",
+                    "aa": 0.29,
+                    "mins": 120
+                },
+                {
+                    "name": "BOOK OF FISH",
+                    "aa": 0.3,
+                    "mins": 120
+                },
+                {
+                    "name": "OPTIONS",
+                    "aa": 0.37,
+                    "mins": 120
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.36,
+                    "mins": 900
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.21,
+                    "mins": 120
+                }
+            ],
+            "Jun": [
+                {
+                    "name": "INFERNO BEYOND",
+                    "aa": 0.26,
+                    "mins": 360
+                },
+                {
+                    "name": "EXPRESS MANOR",
+                    "aa": 0.4,
+                    "mins": 120
+                },
+                {
+                    "name": "BIRTHDAY PRESENTS ",
+                    "aa": 0.29,
+                    "mins": 120
+                },
+                {
+                    "name": "THE UNCOMMON 2",
+                    "aa": 0.4,
+                    "mins": 120
+                },
+                {
+                    "name": "OUT OF THE FALL",
+                    "aa": 0.33,
+                    "mins": 420
+                },
+                {
+                    "name": "KILLER IN THE NORTH",
+                    "aa": 0.34,
+                    "mins": 60
+                },
+                {
+                    "name": "THE DRAGGED",
+                    "aa": 0.29,
+                    "mins": 360
+                },
+                {
+                    "name": "WITH THE ELYSIUM",
+                    "aa": 0.35,
+                    "mins": 180
+                },
+                {
+                    "name": "THE UNCOMMON",
+                    "aa": 0.38,
+                    "mins": 120
+                },
+                {
+                    "name": "WOLFHOUND'S PILGRIM",
+                    "aa": 0.3,
+                    "mins": 60
+                },
+                {
+                    "name": "RULE EMBRACING",
+                    "aa": 0.29,
+                    "mins": 60
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.29,
+                    "mins": 600
+                },
+                {
+                    "name": "RABBIT",
+                    "aa": 0.33,
+                    "mins": 120
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.34,
+                    "mins": 1140
+                },
+                {
+                    "name": "NOWHERE AND A BLOODLINE",
+                    "aa": 0.33,
+                    "mins": 120
+                },
+                {
+                    "name": "HEAVENS AND RIVERS ",
+                    "aa": 0.27,
+                    "mins": 120
+                },
+                {
+                    "name": "AMAZING TOMMYS",
+                    "aa": 0.24,
+                    "mins": 120
+                }
+            ],
+            "Jul": [
+                {
+                    "name": "INFERNO BEYOND",
+                    "aa": 0.29,
+                    "mins": 660
+                },
+                {
+                    "name": "LOGICAL ESCAPE",
+                    "aa": 0.31,
+                    "mins": 120
+                },
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.24,
+                    "mins": 120
+                },
+                {
+                    "name": "ETERNITYBORN",
+                    "aa": 0.31,
+                    "mins": 120
+                },
+                {
+                    "name": "THE WORLD'S AIR",
+                    "aa": 0.3,
+                    "mins": 120
+                },
+                {
+                    "name": "BIG GUARD",
+                    "aa": 0.23,
+                    "mins": 60
+                },
+                {
+                    "name": "LAST THIEF",
+                    "aa": 0.39,
+                    "mins": 540
+                },
+                {
+                    "name": "THE UNCOMMON",
+                    "aa": 0.29,
+                    "mins": 120
+                },
+                {
+                    "name": "OUT OF THE FALL",
+                    "aa": 0.24,
+                    "mins": 300
+                },
+                {
+                    "name": "SCREAMING DRAPES",
+                    "aa": 0.15,
+                    "mins": 120
+                },
+                {
+                    "name": "FLAMELESS",
+                    "aa": 0.34,
+                    "mins": 180
+                },
+                {
+                    "name": "MISTLETOE AND THE HONOR",
+                    "aa": 0.3,
+                    "mins": 120
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.35,
+                    "mins": 180
+                },
+                {
+                    "name": "MODERN OF PERFECT ",
+                    "aa": 0.35,
+                    "mins": 60
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.26,
+                    "mins": 420
+                },
+                {
+                    "name": "OUT OF THE BLOOD",
+                    "aa": 0.27,
+                    "mins": 60
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.32,
+                    "mins": 240
+                },
+                {
+                    "name": "HIEROGLYPH'S FOX",
+                    "aa": 0.18,
+                    "mins": 60
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.22,
+                    "mins": 720
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.18,
+                    "mins": 360
+                },
+                {
+                    "name": "AMAZING TOMMYS",
+                    "aa": 0.16,
+                    "mins": 600
+                },
+                {
+                    "name": "TICKETLESS",
+                    "aa": 0.24,
+                    "mins": 180
+                }
+            ],
+            "Aug": [
+                {
+                    "name": "INFERNO BEYOND",
+                    "aa": 0.35,
+                    "mins": 540
+                },
+                {
+                    "name": "BIRTHDAY PRESENTS ",
+                    "aa": 0.24,
+                    "mins": 120
+                },
+                {
+                    "name": "BIG GUARD",
+                    "aa": 0.3,
+                    "mins": 240
+                },
+                {
+                    "name": "LAST THIEF",
+                    "aa": 0.16,
+                    "mins": 60
+                },
+                {
+                    "name": "THE UNCOMMON",
+                    "aa": 0.33,
+                    "mins": 120
+                },
+                {
+                    "name": "OUT OF THE FALL",
+                    "aa": 0.24,
+                    "mins": 360
+                },
+                {
+                    "name": "FLAMELESS",
+                    "aa": 0.2,
+                    "mins": 180
+                },
+                {
+                    "name": "RIDER MESA",
+                    "aa": 0.33,
+                    "mins": 120
+                },
+                {
+                    "name": "MISTLETOE AND THE HONOR",
+                    "aa": 0.26,
+                    "mins": 120
+                },
+                {
+                    "name": "CITY COLD",
+                    "aa": 0.26,
+                    "mins": 60
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.23,
+                    "mins": 360
+                },
+                {
+                    "name": "PEOPLELESS",
+                    "aa": 0.3,
+                    "mins": 60
+                },
+                {
+                    "name": "ESCAPE CIRCLE",
+                    "aa": 0.34,
+                    "mins": 60
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.36,
+                    "mins": 240
+                },
+                {
+                    "name": "A HOME SAVED",
+                    "aa": 0.38,
+                    "mins": 60
+                },
+                {
+                    "name": "THE FROZEN",
+                    "aa": 0.33,
+                    "mins": 60
+                },
+                {
+                    "name": "CATS ON PARADE",
+                    "aa": 0.22,
+                    "mins": 60
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.33,
+                    "mins": 780
+                },
+                {
+                    "name": "AMAZING TOMMYS",
+                    "aa": 0.34,
+                    "mins": 360
+                }
+            ],
+            "Sep": [
+                {
+                    "name": "INFERNO BEYOND",
+                    "aa": 0.41,
+                    "mins": 360
+                },
+                {
+                    "name": "RULER AND A WAVE",
+                    "aa": 0.26,
+                    "mins": 240
+                },
+                {
+                    "name": "ACCIDENTAL THUNDER",
+                    "aa": 0.31,
+                    "mins": 60
+                },
+                {
+                    "name": "BIG GUARD",
+                    "aa": 0.21,
+                    "mins": 180
+                },
+                {
+                    "name": "OUT OF THE FALL",
+                    "aa": 0.24,
+                    "mins": 360
+                },
+                {
+                    "name": "DAUGHTER WAS ORANGE",
+                    "aa": 0.23,
+                    "mins": 60
+                },
+                {
+                    "name": "CLOSED TREASURES",
+                    "aa": 0.24,
+                    "mins": 660
+                },
+                {
+                    "name": "THE FATE",
+                    "aa": 0.34,
+                    "mins": 2
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.24,
+                    "mins": 120
+                },
+                {
+                    "name": "PEOPLELESS",
+                    "aa": 0.3,
+                    "mins": 60
+                },
+                {
+                    "name": "JOURNEY AND DUSK",
+                    "aa": 0.16,
+                    "mins": 120
+                },
+                {
+                    "name": "CATS ON PARADE",
+                    "aa": 0.19,
+                    "mins": 60
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.27,
+                    "mins": 840
+                },
+                {
+                    "name": "ORANGE KISS",
+                    "aa": 0.27,
+                    "mins": 120
+                },
+                {
+                    "name": "AMAZING TOMMYS",
+                    "aa": 0.26,
+                    "mins": 480
+                }
+            ],
+            "Oct": [
+                {
+                    "name": "INFERNO BEYOND",
+                    "aa": 0.27,
+                    "mins": 180
+                },
+                {
+                    "name": "RULER AND A WAVE",
+                    "aa": 0.13,
+                    "mins": 480
+                },
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.21,
+                    "mins": 240
+                },
+                {
+                    "name": "BIG GUARD",
+                    "aa": 0.15,
+                    "mins": 240
+                },
+                {
+                    "name": "LAST THIEF",
+                    "aa": 0.32,
+                    "mins": 300
+                },
+                {
+                    "name": "OUT OF THE FALL",
+                    "aa": 0.31,
+                    "mins": 120
+                },
+                {
+                    "name": "MISTLETOE AND THE HONOR",
+                    "aa": 0.3,
+                    "mins": 960
+                },
+                {
+                    "name": "JAILER",
+                    "aa": 0.27,
+                    "mins": 180
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.27,
+                    "mins": 240
+                },
+                {
+                    "name": "CLOSED TREASURES",
+                    "aa": 0.31,
+                    "mins": 720
+                },
+                {
+                    "name": "NINTH GLORY",
+                    "aa": 0.15,
+                    "mins": 60
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.26,
+                    "mins": 120
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.3,
+                    "mins": 420
+                },
+                {
+                    "name": "CATS ON PARADE",
+                    "aa": 0.23,
+                    "mins": 120
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.25,
+                    "mins": 361
+                },
+                {
+                    "name": "AMAZING TOMMYS",
+                    "aa": 0.27,
+                    "mins": 120
+                }
+            ],
+            "Nov": [
+                {
+                    "name": "WITHOUT THE WINGS",
+                    "aa": 0.2,
+                    "mins": 60
+                },
+                {
+                    "name": "BOY CANARY",
+                    "aa": 0.32,
+                    "mins": 120
+                },
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.28,
+                    "mins": 180
+                },
+                {
+                    "name": "BIRTHDAY PRESENTS ",
+                    "aa": 0.21,
+                    "mins": 120
+                },
+                {
+                    "name": "THE WEB-AGE",
+                    "aa": 0.21,
+                    "mins": 120
+                },
+                {
+                    "name": "THE UNCOMMON",
+                    "aa": 0.34,
+                    "mins": 120
+                },
+                {
+                    "name": "OUT OF THE FALL",
+                    "aa": 0.35,
+                    "mins": 720
+                },
+                {
+                    "name": "BRAIN AND WELL",
+                    "aa": 0.29,
+                    "mins": 60
+                },
+                {
+                    "name": "MISTLETOE AND THE HONOR",
+                    "aa": 0.28,
+                    "mins": 780
+                },
+                {
+                    "name": "JAILER",
+                    "aa": 0.18,
+                    "mins": 60
+                },
+                {
+                    "name": "THE CAME CELL",
+                    "aa": 0.19,
+                    "mins": 180
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.31,
+                    "mins": 420
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.32,
+                    "mins": 660
+                }
+            ],
+            "Dec": [
+                {
+                    "name": "INFERNO BEYOND",
+                    "aa": 0.36,
+                    "mins": 180
+                },
+                {
+                    "name": "RULER AND A WAVE",
+                    "aa": 0.31,
+                    "mins": 180
+                },
+                {
+                    "name": "WITHOUT THE WINGS",
+                    "aa": 0.34,
+                    "mins": 60
+                },
+                {
+                    "name": "AFFAIR OF MAD",
+                    "aa": 0.16,
+                    "mins": 60
+                },
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.27,
+                    "mins": 306
+                },
+                {
+                    "name": "THE CHAIR",
+                    "aa": 0.41,
+                    "mins": 180
+                },
+                {
+                    "name": "LAST THIEF",
+                    "aa": 0.27,
+                    "mins": 183
+                },
+                {
+                    "name": "THE UNCOMMON",
+                    "aa": 0.34,
+                    "mins": 120
+                },
+                {
+                    "name": "OUT OF THE FALL",
+                    "aa": 0.37,
+                    "mins": 360
+                },
+                {
+                    "name": "MISTLETOE AND THE HONOR",
+                    "aa": 0.24,
+                    "mins": 600
+                },
+                {
+                    "name": "CITY AND EAST",
+                    "aa": 0.33,
+                    "mins": 120
+                },
+                {
+                    "name": "JAILER",
+                    "aa": 0.14,
+                    "mins": 300
+                },
+                {
+                    "name": "WOLFHOUND'S PILGRIM",
+                    "aa": 0.27,
+                    "mins": 60
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.4,
+                    "mins": 180
+                },
+                {
+                    "name": "CLOSED TREASURES",
+                    "aa": 0.18,
+                    "mins": 181
+                },
+                {
+                    "name": "MODERN OF PERFECT ",
+                    "aa": 0.27,
+                    "mins": 60
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.2,
+                    "mins": 366
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.38,
+                    "mins": 420
+                },
+                {
+                    "name": "OPTIONS",
+                    "aa": 0.35,
+                    "mins": 120
+                },
+                {
+                    "name": "THE BURNED EVENING",
+                    "aa": 0.21,
+                    "mins": 120
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.33,
+                    "mins": 360
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.36,
+                    "mins": 540
+                },
+                {
+                    "name": "TICKETLESS",
+                    "aa": 0.17,
+                    "mins": 180
+                }
+            ],
+            "FullYear": [
+                {
+                    "name": "INFERNO BEYOND",
+                    "aa": 0.38,
+                    "mins": 3540
+                },
+                {
+                    "name": "RULER AND A WAVE",
+                    "aa": 0.24,
+                    "mins": 1440
+                },
+                {
+                    "name": "LOGICAL ESCAPE",
+                    "aa": 0.23,
+                    "mins": 120
+                },
+                {
+                    "name": "WITHOUT THE WINGS",
+                    "aa": 0.17,
+                    "mins": 120
+                },
+                {
+                    "name": "INSECT WITH THE HARE",
+                    "aa": 0.31,
+                    "mins": 60
+                },
+                {
+                    "name": "ACCIDENTAL THUNDER",
+                    "aa": 0.17,
+                    "mins": 60
+                },
+                {
+                    "name": "BOY CANARY",
+                    "aa": 0.34,
+                    "mins": 120
+                },
+                {
+                    "name": "AFFAIR OF MAD",
+                    "aa": 0.21,
+                    "mins": 60
+                },
+                {
+                    "name": "DAYLIGHTLESS",
+                    "aa": 0.25,
+                    "mins": 120
+                },
+                {
+                    "name": "JENNY EVERYWHERE",
+                    "aa": 0.33,
+                    "mins": 120
+                },
+                {
+                    "name": "SILENCE FALL",
+                    "aa": 0.26,
+                    "mins": 1387
+                },
+                {
+                    "name": "ETERNITYBORN",
+                    "aa": 0.33,
+                    "mins": 120
+                },
+                {
+                    "name": "EXPRESS MANOR",
+                    "aa": 0.32,
+                    "mins": 120
+                },
+                {
+                    "name": "THE CHAIR",
+                    "aa": 0.29,
+                    "mins": 960
+                },
+                {
+                    "name": "BIRTHDAY PRESENTS ",
+                    "aa": 0.26,
+                    "mins": 600
+                },
+                {
+                    "name": "THE WEB-AGE",
+                    "aa": 0.2,
+                    "mins": 120
+                },
+                {
+                    "name": "NOMADIC LAND",
+                    "aa": 0.14,
+                    "mins": 180
+                },
+                {
+                    "name": "THE WORLD'S AIR",
+                    "aa": 0.27,
+                    "mins": 120
+                },
+                {
+                    "name": "BIG GUARD",
+                    "aa": 0.26,
+                    "mins": 720
+                },
+                {
+                    "name": "LAST THIEF",
+                    "aa": 0.34,
+                    "mins": 1443
+                },
+                {
+                    "name": "THE UNCOMMON 2",
+                    "aa": 0.42,
+                    "mins": 840
+                },
+                {
+                    "name": "THE POWER",
+                    "aa": 0.37,
+                    "mins": 120
+                },
+                {
+                    "name": "OUT OF THE FALL",
+                    "aa": 0.27,
+                    "mins": 3660
+                },
+                {
+                    "name": "KILLER IN THE NORTH",
+                    "aa": 0.24,
+                    "mins": 120
+                },
+                {
+                    "name": "SCREAMING DRAPES",
+                    "aa": 0.12,
+                    "mins": 120
+                },
+                {
+                    "name": "FLAMELESS",
+                    "aa": 0.21,
+                    "mins": 1503
+                },
+                {
+                    "name": "DAUGHTER WAS ORANGE",
+                    "aa": 0.27,
+                    "mins": 60
+                },
+                {
+                    "name": "BRAIN AND WELL",
+                    "aa": 0.37,
+                    "mins": 60
+                },
+                {
+                    "name": "RIDER MESA",
+                    "aa": 0.37,
+                    "mins": 240
+                },
+                {
+                    "name": "MISTLETOE AND THE HONOR",
+                    "aa": 0.29,
+                    "mins": 3420
+                },
+                {
+                    "name": "BEYOND THE MISTLETOE",
+                    "aa": 0.43,
+                    "mins": 120
+                },
+                {
+                    "name": "CITY AND EAST",
+                    "aa": 0.26,
+                    "mins": 120
+                },
+                {
+                    "name": "THE DRAGGED",
+                    "aa": 0.28,
+                    "mins": 360
+                },
+                {
+                    "name": "JAILER",
+                    "aa": 0.16,
+                    "mins": 540
+                },
+                {
+                    "name": "WITH THE ELYSIUM",
+                    "aa": 0.22,
+                    "mins": 780
+                },
+                {
+                    "name": "THE CAME CELL",
+                    "aa": 0.15,
+                    "mins": 180
+                },
+                {
+                    "name": "THE UNCOMMON",
+                    "aa": 0.19,
+                    "mins": 120
+                },
+                {
+                    "name": "WOLFHOUND'S PILGRIM",
+                    "aa": 0.2,
+                    "mins": 180
+                },
+                {
+                    "name": "GUARD OF THE LINK",
+                    "aa": 0.33,
+                    "mins": 2521
+                },
+                {
+                    "name": "CLOSED TREASURES",
+                    "aa": 0.27,
+                    "mins": 1621
+                },
+                {
+                    "name": "THE FATE",
+                    "aa": 0.29,
+                    "mins": 4
+                },
+                {
+                    "name": "NINTH GLORY",
+                    "aa": 0.22,
+                    "mins": 60
+                },
+                {
+                    "name": "CITY COLD",
+                    "aa": 0.25,
+                    "mins": 60
+                },
+                {
+                    "name": "MODERN OF PERFECT ",
+                    "aa": 0.25,
+                    "mins": 120
+                },
+                {
+                    "name": "IRON MUSIC",
+                    "aa": 0.27,
+                    "mins": 2167
+                },
+                {
+                    "name": "PEOPLELESS",
+                    "aa": 0.27,
+                    "mins": 120
+                },
+                {
+                    "name": "RULE EMBRACING",
+                    "aa": 0.19,
+                    "mins": 120
+                },
+                {
+                    "name": "THE BONES",
+                    "aa": 0.22,
+                    "mins": 180
+                },
+                {
+                    "name": "LEAD CARNIVAL",
+                    "aa": 0.31,
+                    "mins": 480
+                },
+                {
+                    "name": "INFERNAL SLEEPER",
+                    "aa": 0.08,
+                    "mins": 60
+                },
+                {
+                    "name": "EONS OF INFERNAL",
+                    "aa": 0.34,
+                    "mins": 2
+                },
+                {
+                    "name": "OUT OF THE BLOOD",
+                    "aa": 0.29,
+                    "mins": 60
+                },
+                {
+                    "name": "JOURNEY AND DUSK",
+                    "aa": 0.29,
+                    "mins": 120
+                },
+                {
+                    "name": "ESCAPE CIRCLE",
+                    "aa": 0.16,
+                    "mins": 60
+                },
+                {
+                    "name": "THE MURDER",
+                    "aa": 0.25,
+                    "mins": 4328
+                },
+                {
+                    "name": "THE PLACE",
+                    "aa": 0.23,
+                    "mins": 120
+                },
+                {
+                    "name": "BOOK OF FISH",
+                    "aa": 0.3,
+                    "mins": 120
+                },
+                {
+                    "name": "OPTIONS",
+                    "aa": 0.36,
+                    "mins": 240
+                },
+                {
+                    "name": "STORM OF GUNFIGHTER",
+                    "aa": 0.36,
+                    "mins": 180
+                },
+                {
+                    "name": "HIEROGLYPH'S FOX",
+                    "aa": 0.13,
+                    "mins": 60
+                },
+                {
+                    "name": "RABBIT",
+                    "aa": 0.3,
+                    "mins": 240
+                },
+                {
+                    "name": "A HOME SAVED",
+                    "aa": 0.21,
+                    "mins": 60
+                },
+                {
+                    "name": "THE FROZEN",
+                    "aa": 0.31,
+                    "mins": 60
+                },
+                {
+                    "name": "THE BURNED EVENING",
+                    "aa": 0.2,
+                    "mins": 120
+                },
+                {
+                    "name": "RIDER OF BAD",
+                    "aa": 0.27,
+                    "mins": 6661
+                },
+                {
+                    "name": "THE STUDY INTO",
+                    "aa": 0.26,
+                    "mins": 120
+                },
+                {
+                    "name": "CATS ON PARADE",
+                    "aa": 0.2,
+                    "mins": 240
+                },
+                {
+                    "name": "A PATCH",
+                    "aa": 0.2,
+                    "mins": 5102
+                },
+                {
+                    "name": "NOWHERE AND A BLOODLINE",
+                    "aa": 0.22,
+                    "mins": 360
+                },
+                {
+                    "name": "THE DESTROYING KEY",
+                    "aa": 0.21,
+                    "mins": 60
+                },
+                {
+                    "name": "HEAVENS AND RIVERS ",
+                    "aa": 0.32,
+                    "mins": 240
+                },
+                {
+                    "name": "SEALED FLOOR",
+                    "aa": 0.21,
+                    "mins": 120
+                },
+                {
+                    "name": "SHELL OF ETERNITY",
+                    "aa": 0.15,
+                    "mins": 120
+                },
+                {
+                    "name": "CARNIVAL REVEALED",
+                    "aa": 0.2,
+                    "mins": 60
+                },
+                {
+                    "name": "ORANGE KISS",
+                    "aa": 0.24,
+                    "mins": 120
+                },
+                {
+                    "name": "AMAZING TOMMYS",
+                    "aa": 0.32,
+                    "mins": 2160
+                },
+                {
+                    "name": "TICKETLESS",
+                    "aa": 0.29,
+                    "mins": 963
+                }
+            ]
+        }
+    }
+}

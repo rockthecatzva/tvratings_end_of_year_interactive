@@ -1,0 +1,4174 @@
+{
+    "2016": {
+        "prime": {
+            "Jan": 0.29,
+            "Feb": 0.2,
+            "Mar": 0.2,
+            "Apr": 0.11,
+            "May": 0.24,
+            "Jun": 0.35,
+            "Jul": 0.19,
+            "Aug": 0.27,
+            "Sep": 0.2,
+            "Oct": 0.13,
+            "Nov": 0.27,
+            "Dec": 0.31,
+            "FullYear": 0.33
+        },
+        "premieres": {
+            "Jan": {
+                "aa": 0.33,
+                "mins": 1470
+            },
+            "Feb": {
+                "aa": 0.36,
+                "mins": 690
+            },
+            "Mar": {
+                "aa": 0.32,
+                "mins": 720
+            },
+            "Apr": {
+                "aa": 0.2,
+                "mins": 540
+            },
+            "May": {
+                "aa": 0.27,
+                "mins": 870
+            },
+            "Jun": {
+                "aa": 0.37,
+                "mins": 720
+            },
+            "Jul": {
+                "aa": 0.21,
+                "mins": 960
+            },
+            "Aug": {
+                "aa": 0.29,
+                "mins": 450
+            },
+            "Sep": {
+                "aa": 0.25,
+                "mins": 870
+            },
+            "Oct": {
+                "aa": 0.22,
+                "mins": 1620
+            },
+            "Nov": {
+                "aa": 0.39,
+                "mins": 1020
+            },
+            "Dec": {
+                "aa": 0.39,
+                "mins": 960
+            },
+            "FullYear": {
+                "aa": 0.34,
+                "mins": 10890
+            }
+        },
+        "repeats": {
+            "Jan": {
+                "aa": 0.26,
+                "mins": 4830
+            },
+            "Feb": {
+                "aa": 0.04,
+                "mins": 4350
+            },
+            "Mar": {
+                "aa": 0.08,
+                "mins": 4320
+            },
+            "Apr": {
+                "aa": 0.02,
+                "mins": 4500
+            },
+            "May": {
+                "aa": 0.21,
+                "mins": 5430
+            },
+            "Jun": {
+                "aa": 0.33,
+                "mins": 4320
+            },
+            "Jul": {
+                "aa": 0.17,
+                "mins": 5340
+            },
+            "Aug": {
+                "aa": 0.25,
+                "mins": 4590
+            },
+            "Sep": {
+                "aa": 0.16,
+                "mins": 4170
+            },
+            "Oct": {
+                "aa": 0.03,
+                "mins": 4680
+            },
+            "Nov": {
+                "aa": 0.16,
+                "mins": 4020
+            },
+            "Dec": {
+                "aa": 0.24,
+                "mins": 4080
+            },
+            "FullYear": {
+                "aa": 0.31,
+                "mins": 54630
+            }
+        },
+        "series-prems": {
+            "Jan": [
+                {
+                    "name": "THE SEVENTH LORDS",
+                    "aa": 0.19,
+                    "mins": 120
+                },
+                {
+                    "name": "THE ALIEN'S GIRL",
+                    "aa": 0.34,
+                    "mins": 1020
+                },
+                {
+                    "name": "THE ICE OF THE STARS",
+                    "aa": 0.26,
+                    "mins": 60
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.23,
+                    "mins": 90
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.3,
+                    "mins": 180
+                },
+                {
+                    "name": "THE AZURE NAME",
+                    "aa": 0.34,
+                    "mins": 120
+                }
+            ],
+            "Feb": [
+                {
+                    "name": "UNWILLING SNOW",
+                    "aa": 0.29,
+                    "mins": 60
+                },
+                {
+                    "name": "THE AZURE NAME",
+                    "aa": 0.34,
+                    "mins": 90
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.38,
+                    "mins": 240
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.35,
+                    "mins": 300
+                }
+            ],
+            "Mar": [
+                {
+                    "name": "WHISPERING GIRLFRIEND",
+                    "aa": 0.2,
+                    "mins": 150
+                },
+                {
+                    "name": "BEGINNING OF MOONS",
+                    "aa": 0.27,
+                    "mins": 120
+                },
+                {
+                    "name": "THE AZURE NAME",
+                    "aa": 0.3,
+                    "mins": 90
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.35,
+                    "mins": 120
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.3,
+                    "mins": 240
+                }
+            ],
+            "Apr": [
+                {
+                    "name": "WHISPERING GIRLFRIEND",
+                    "aa": 0.17,
+                    "mins": 150
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.37,
+                    "mins": 120
+                },
+                {
+                    "name": "BEGINNING OF MOONS",
+                    "aa": 0.33,
+                    "mins": 120
+                },
+                {
+                    "name": "PRINCESS OF SECRETS",
+                    "aa": 0.14,
+                    "mins": 30
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.32,
+                    "mins": 120
+                }
+            ],
+            "May": [
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.26,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.28,
+                    "mins": 240
+                },
+                {
+                    "name": "BEGINNING OF MOONS",
+                    "aa": 0.24,
+                    "mins": 150
+                },
+                {
+                    "name": "TRAINER OF THE SILENCE",
+                    "aa": 0.32,
+                    "mins": 120
+                },
+                {
+                    "name": "THEFT IN THE SWORDS",
+                    "aa": 0.15,
+                    "mins": 120
+                }
+            ],
+            "Jun": [
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.38,
+                    "mins": 150
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.27,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.33,
+                    "mins": 240
+                },
+                {
+                    "name": "THEFT IN THE SWORDS",
+                    "aa": 0.24,
+                    "mins": 90
+                }
+            ],
+            "Jul": [
+                {
+                    "name": "THE SEVENTH WIFE",
+                    "aa": 0.21,
+                    "mins": 180
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.29,
+                    "mins": 150
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.45,
+                    "mins": 180
+                },
+                {
+                    "name": "THEFT IN THE SWORDS",
+                    "aa": 0.27,
+                    "mins": 150
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.32,
+                    "mins": 300
+                }
+            ],
+            "Aug": [
+                {
+                    "name": "THE SEVENTH WIFE",
+                    "aa": 0.2,
+                    "mins": 180
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.39,
+                    "mins": 60
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.26,
+                    "mins": 60
+                },
+                {
+                    "name": "THEFT IN THE SWORDS",
+                    "aa": 0.13,
+                    "mins": 30
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.44,
+                    "mins": 120
+                }
+            ],
+            "Sep": [
+                {
+                    "name": "WIZARD IN THE WIFE",
+                    "aa": 0.33,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.23,
+                    "mins": 30
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.39,
+                    "mins": 120
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.33,
+                    "mins": 150
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.3,
+                    "mins": 60
+                },
+                {
+                    "name": "BLADE OF THE STAR",
+                    "aa": 0.23,
+                    "mins": 30
+                },
+                {
+                    "name": "SLEEPING WITCHES",
+                    "aa": 0.19,
+                    "mins": 120
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.38,
+                    "mins": 120
+                }
+            ],
+            "Oct": [
+                {
+                    "name": "THE ALIEN'S GIRL",
+                    "aa": 0.2,
+                    "mins": 540
+                },
+                {
+                    "name": "WIZARD IN THE WIFE",
+                    "aa": 0.21,
+                    "mins": 300
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.51,
+                    "mins": 240
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.31,
+                    "mins": 300
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.33,
+                    "mins": 180
+                },
+                {
+                    "name": "SLEEPING WITCHES",
+                    "aa": 0.17,
+                    "mins": 240
+                }
+            ],
+            "Nov": [
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.42,
+                    "mins": 180
+                },
+                {
+                    "name": "ABSENT WILLOW",
+                    "aa": 0.29,
+                    "mins": 300
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.35,
+                    "mins": 240
+                },
+                {
+                    "name": "SLEEPING WITCHES",
+                    "aa": 0.28,
+                    "mins": 120
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.28,
+                    "mins": 120
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.5,
+                    "mins": 180
+                }
+            ],
+            "Dec": [
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.47,
+                    "mins": 240
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.43,
+                    "mins": 240
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.35,
+                    "mins": 240
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.51,
+                    "mins": 240
+                }
+            ],
+            "FullYear": [
+                {
+                    "name": "WHISPERING GIRLFRIEND",
+                    "aa": 0.17,
+                    "mins": 300
+                },
+                {
+                    "name": "THE SEVENTH LORDS",
+                    "aa": 0.17,
+                    "mins": 120
+                },
+                {
+                    "name": "THE ALIEN'S GIRL",
+                    "aa": 0.37,
+                    "mins": 1560
+                },
+                {
+                    "name": "THE ICE OF THE STARS",
+                    "aa": 0.1,
+                    "mins": 60
+                },
+                {
+                    "name": "WIZARD IN THE WIFE",
+                    "aa": 0.23,
+                    "mins": 540
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.43,
+                    "mins": 660
+                },
+                {
+                    "name": "ABSENT WILLOW",
+                    "aa": 0.27,
+                    "mins": 300
+                },
+                {
+                    "name": "THE SEVENTH WIFE",
+                    "aa": 0.28,
+                    "mins": 360
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.25,
+                    "mins": 480
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.38,
+                    "mins": 840
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.43,
+                    "mins": 390
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.39,
+                    "mins": 660
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.3,
+                    "mins": 60
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.41,
+                    "mins": 360
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.39,
+                    "mins": 480
+                },
+                {
+                    "name": "BEGINNING OF MOONS",
+                    "aa": 0.27,
+                    "mins": 390
+                },
+                {
+                    "name": "TRAINER OF THE SILENCE",
+                    "aa": 0.15,
+                    "mins": 120
+                },
+                {
+                    "name": "PRINCESS OF SECRETS",
+                    "aa": 0.19,
+                    "mins": 30
+                },
+                {
+                    "name": "UNWILLING SNOW",
+                    "aa": 0.3,
+                    "mins": 60
+                },
+                {
+                    "name": "THE AZURE NAME",
+                    "aa": 0.23,
+                    "mins": 300
+                },
+                {
+                    "name": "BLADE OF THE STAR",
+                    "aa": 0.28,
+                    "mins": 30
+                },
+                {
+                    "name": "SLEEPING WITCHES",
+                    "aa": 0.21,
+                    "mins": 480
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.34,
+                    "mins": 720
+                },
+                {
+                    "name": "THEFT IN THE SWORDS",
+                    "aa": 0.23,
+                    "mins": 390
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.29,
+                    "mins": 1620
+                }
+            ]
+        },
+        "series-repeats": {
+            "Jan": [
+                {
+                    "name": "THE SEVENTH LORDS",
+                    "aa": 0.22,
+                    "mins": 120
+                },
+                {
+                    "name": "THE ALIEN'S GIRL",
+                    "aa": 0.37,
+                    "mins": 300
+                },
+                {
+                    "name": "THE ICE OF THE STARS",
+                    "aa": 0.3,
+                    "mins": 120
+                },
+                {
+                    "name": "WIZARD IN THE WIFE",
+                    "aa": 0.1,
+                    "mins": 60
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.19,
+                    "mins": 960
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.14,
+                    "mins": 210
+                },
+                {
+                    "name": "CRACKED GAME",
+                    "aa": 0.21,
+                    "mins": 120
+                },
+                {
+                    "name": "WIND OF SEX",
+                    "aa": 0.24,
+                    "mins": 120
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.13,
+                    "mins": 480
+                },
+                {
+                    "name": "THE LIVING PERSON",
+                    "aa": 0.33,
+                    "mins": 180
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.27,
+                    "mins": 180
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.2,
+                    "mins": 360
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.16,
+                    "mins": 180
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.2,
+                    "mins": 660
+                },
+                {
+                    "name": "THE SCENT'S FUTURE",
+                    "aa": 0.21,
+                    "mins": 60
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.21,
+                    "mins": 300
+                },
+                {
+                    "name": "THE AZURE NAME",
+                    "aa": 0.27,
+                    "mins": 120
+                },
+                {
+                    "name": "THE WAY'S WAVES",
+                    "aa": 0.25,
+                    "mins": 120
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.29,
+                    "mins": 240
+                },
+                {
+                    "name": "STARS OF WORLD",
+                    "aa": 0.32,
+                    "mins": 60
+                }
+            ],
+            "Feb": [
+                {
+                    "name": "WIZARD IN THE WIFE",
+                    "aa": 0.2,
+                    "mins": 60
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.2,
+                    "mins": 360
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.3,
+                    "mins": 120
+                },
+                {
+                    "name": "WIND OF SEX",
+                    "aa": 0.3,
+                    "mins": 240
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.14,
+                    "mins": 420
+                },
+                {
+                    "name": "THE LIVING PERSON",
+                    "aa": 0.25,
+                    "mins": 240
+                },
+                {
+                    "name": "RIVER OF HEALER",
+                    "aa": 0.14,
+                    "mins": 180
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.22,
+                    "mins": 180
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.22,
+                    "mins": 360
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.28,
+                    "mins": 120
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.08,
+                    "mins": 360
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.17,
+                    "mins": 240
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.27,
+                    "mins": 180
+                },
+                {
+                    "name": "THE AZURE NAME",
+                    "aa": 0.26,
+                    "mins": 270
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.36,
+                    "mins": 240
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.25,
+                    "mins": 480
+                },
+                {
+                    "name": "STARS OF WORLD",
+                    "aa": 0.15,
+                    "mins": 180
+                },
+                {
+                    "name": "THIEF IN THE MAN",
+                    "aa": 0.13,
+                    "mins": 120
+                }
+            ],
+            "Mar": [
+                {
+                    "name": "WHISPERING GIRLFRIEND",
+                    "aa": 0.28,
+                    "mins": 90
+                },
+                {
+                    "name": "WIZARD IN THE WIFE",
+                    "aa": 0.27,
+                    "mins": 180
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.17,
+                    "mins": 420
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.26,
+                    "mins": 120
+                },
+                {
+                    "name": "BOYFRIEND OF THE SOUL",
+                    "aa": 0.23,
+                    "mins": 120
+                },
+                {
+                    "name": "DOOR IN THE WAY",
+                    "aa": 0.32,
+                    "mins": 60
+                },
+                {
+                    "name": "CRACKED GAME",
+                    "aa": 0.2,
+                    "mins": 180
+                },
+                {
+                    "name": "WIND OF SEX",
+                    "aa": 0.26,
+                    "mins": 60
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.14,
+                    "mins": 240
+                },
+                {
+                    "name": "RIVER OF HEALER",
+                    "aa": 0.12,
+                    "mins": 180
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.29,
+                    "mins": 360
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.21,
+                    "mins": 120
+                },
+                {
+                    "name": "BEGINNING OF MOONS",
+                    "aa": 0.23,
+                    "mins": 60
+                },
+                {
+                    "name": "ENTWINED FLYING",
+                    "aa": 0.29,
+                    "mins": 120
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.15,
+                    "mins": 60
+                },
+                {
+                    "name": "SHIP OF THOUGHTS",
+                    "aa": 0.17,
+                    "mins": 60
+                },
+                {
+                    "name": "UNWILLING SNOW",
+                    "aa": 0.3,
+                    "mins": 60
+                },
+                {
+                    "name": "THE AZURE NAME",
+                    "aa": 0.31,
+                    "mins": 90
+                },
+                {
+                    "name": "THE WAY'S WAVES",
+                    "aa": 0.25,
+                    "mins": 240
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.15,
+                    "mins": 600
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.31,
+                    "mins": 900
+                }
+            ],
+            "Apr": [
+                {
+                    "name": "WHISPERING GIRLFRIEND",
+                    "aa": 0.32,
+                    "mins": 90
+                },
+                {
+                    "name": "THE ALIEN'S GIRL",
+                    "aa": 0.34,
+                    "mins": 840
+                },
+                {
+                    "name": "WIZARD IN THE WIFE",
+                    "aa": 0.23,
+                    "mins": 60
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.22,
+                    "mins": 540
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.27,
+                    "mins": 210
+                },
+                {
+                    "name": "DOOR IN THE WAY",
+                    "aa": 0.24,
+                    "mins": 180
+                },
+                {
+                    "name": "CRACKED GAME",
+                    "aa": 0.14,
+                    "mins": 180
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.25,
+                    "mins": 300
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.13,
+                    "mins": 300
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.16,
+                    "mins": 180
+                },
+                {
+                    "name": "BEGINNING OF MOONS",
+                    "aa": 0.28,
+                    "mins": 120
+                },
+                {
+                    "name": "ENTWINED FLYING",
+                    "aa": 0.28,
+                    "mins": 180
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.29,
+                    "mins": 600
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.19,
+                    "mins": 180
+                },
+                {
+                    "name": "UNWILLING SNOW",
+                    "aa": 0.22,
+                    "mins": 60
+                },
+                {
+                    "name": "THE WAY'S WAVES",
+                    "aa": 0.17,
+                    "mins": 180
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.25,
+                    "mins": 120
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.21,
+                    "mins": 360
+                },
+                {
+                    "name": "BRIDGES OF THE STREAMS",
+                    "aa": 0.29,
+                    "mins": 120
+                }
+            ],
+            "May": [
+                {
+                    "name": "WIZARD IN THE WIFE",
+                    "aa": 0.25,
+                    "mins": 60
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.17,
+                    "mins": 300
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.19,
+                    "mins": 180
+                },
+                {
+                    "name": "THE LAST PLANET",
+                    "aa": 0.14,
+                    "mins": 180
+                },
+                {
+                    "name": "THE TRUTH'S DYING",
+                    "aa": 0.22,
+                    "mins": 180
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.24,
+                    "mins": 420
+                },
+                {
+                    "name": "THE LIVING PERSON",
+                    "aa": 0.19,
+                    "mins": 120
+                },
+                {
+                    "name": "RIVER OF HEALER",
+                    "aa": 0.33,
+                    "mins": 180
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.3,
+                    "mins": 240
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.15,
+                    "mins": 510
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.13,
+                    "mins": 420
+                },
+                {
+                    "name": "ABSENT CONSORT",
+                    "aa": 0.2,
+                    "mins": 180
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.21,
+                    "mins": 360
+                },
+                {
+                    "name": "BEGINNING OF MOONS",
+                    "aa": 0.29,
+                    "mins": 150
+                },
+                {
+                    "name": "ENTWINED FLYING",
+                    "aa": 0.24,
+                    "mins": 120
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.26,
+                    "mins": 120
+                },
+                {
+                    "name": "PRINCESS OF SECRETS",
+                    "aa": 0.19,
+                    "mins": 30
+                },
+                {
+                    "name": "THE AZURE NAME",
+                    "aa": 0.26,
+                    "mins": 180
+                },
+                {
+                    "name": "THE WAY'S WAVES",
+                    "aa": 0.3,
+                    "mins": 180
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.09,
+                    "mins": 240
+                },
+                {
+                    "name": "THEFT IN THE SWORDS",
+                    "aa": 0.17,
+                    "mins": 60
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.31,
+                    "mins": 900
+                },
+                {
+                    "name": "THIEF IN THE MAN",
+                    "aa": 0.25,
+                    "mins": 120
+                }
+            ],
+            "Jun": [
+                {
+                    "name": "THE ALIEN'S GIRL",
+                    "aa": 0.28,
+                    "mins": 600
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.27,
+                    "mins": 420
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.19,
+                    "mins": 210
+                },
+                {
+                    "name": "RIVER OF HEALER",
+                    "aa": 0.15,
+                    "mins": 180
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.1,
+                    "mins": 90
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.23,
+                    "mins": 180
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.26,
+                    "mins": 180
+                },
+                {
+                    "name": "ABSENT CONSORT",
+                    "aa": 0.27,
+                    "mins": 180
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.2,
+                    "mins": 300
+                },
+                {
+                    "name": "TRAINER OF THE SILENCE",
+                    "aa": 0.09,
+                    "mins": 120
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.24,
+                    "mins": 300
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.19,
+                    "mins": 180
+                },
+                {
+                    "name": "THE AZURE NAME",
+                    "aa": 0.23,
+                    "mins": 180
+                },
+                {
+                    "name": "THE WAY'S WAVES",
+                    "aa": 0.18,
+                    "mins": 300
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.2,
+                    "mins": 180
+                },
+                {
+                    "name": "THEFT IN THE SWORDS",
+                    "aa": 0.27,
+                    "mins": 60
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.25,
+                    "mins": 600
+                },
+                {
+                    "name": "THIEF IN THE MAN",
+                    "aa": 0.27,
+                    "mins": 120
+                }
+            ],
+            "Jul": [
+                {
+                    "name": "WHISPERING GIRLFRIEND",
+                    "aa": 0.19,
+                    "mins": 60
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.25,
+                    "mins": 300
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.27,
+                    "mins": 330
+                },
+                {
+                    "name": "DOOR IN THE WAY",
+                    "aa": 0.12,
+                    "mins": 120
+                },
+                {
+                    "name": "CRACKED GAME",
+                    "aa": 0.16,
+                    "mins": 120
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.19,
+                    "mins": 420
+                },
+                {
+                    "name": "RIVER OF HEALER",
+                    "aa": 0.22,
+                    "mins": 120
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.2,
+                    "mins": 240
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.25,
+                    "mins": 420
+                },
+                {
+                    "name": "THE MOON'S SCHOOL",
+                    "aa": 0.25,
+                    "mins": 120
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.32,
+                    "mins": 300
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.3,
+                    "mins": 540
+                },
+                {
+                    "name": "ENTWINED FLYING",
+                    "aa": 0.24,
+                    "mins": 240
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.2,
+                    "mins": 480
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.25,
+                    "mins": 240
+                },
+                {
+                    "name": "THE AZURE NAME",
+                    "aa": 0.15,
+                    "mins": 120
+                },
+                {
+                    "name": "THE WAY'S WAVES",
+                    "aa": 0.21,
+                    "mins": 120
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.19,
+                    "mins": 240
+                },
+                {
+                    "name": "THEFT IN THE SWORDS",
+                    "aa": 0.12,
+                    "mins": 150
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.13,
+                    "mins": 660
+                }
+            ],
+            "Aug": [
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.21,
+                    "mins": 60
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.29,
+                    "mins": 420
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.2,
+                    "mins": 540
+                },
+                {
+                    "name": "THE LIVING PERSON",
+                    "aa": 0.23,
+                    "mins": 60
+                },
+                {
+                    "name": "RIVER OF HEALER",
+                    "aa": 0.13,
+                    "mins": 120
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.16,
+                    "mins": 120
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.13,
+                    "mins": 480
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.17,
+                    "mins": 180
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.2,
+                    "mins": 300
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.3,
+                    "mins": 240
+                },
+                {
+                    "name": "ENTWINED FLYING",
+                    "aa": 0.31,
+                    "mins": 240
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.29,
+                    "mins": 240
+                },
+                {
+                    "name": "THE AZURE NAME",
+                    "aa": 0.15,
+                    "mins": 120
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.19,
+                    "mins": 60
+                },
+                {
+                    "name": "SECRET OF DOOR",
+                    "aa": 0.28,
+                    "mins": 180
+                },
+                {
+                    "name": "THEFT IN THE SWORDS",
+                    "aa": 0.13,
+                    "mins": 30
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.26,
+                    "mins": 1200
+                }
+            ],
+            "Sep": [
+                {
+                    "name": "WIZARD IN THE WIFE",
+                    "aa": 0.22,
+                    "mins": 240
+                },
+                {
+                    "name": "SWOLLEN BEGINNING",
+                    "aa": 0.22,
+                    "mins": 60
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.27,
+                    "mins": 120
+                },
+                {
+                    "name": "THE SEVENTH WIFE",
+                    "aa": 0.23,
+                    "mins": 60
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.3,
+                    "mins": 510
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.24,
+                    "mins": 240
+                },
+                {
+                    "name": "THE LIVING PERSON",
+                    "aa": 0.22,
+                    "mins": 300
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.27,
+                    "mins": 120
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.13,
+                    "mins": 180
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.3,
+                    "mins": 360
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.14,
+                    "mins": 120
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.17,
+                    "mins": 420
+                },
+                {
+                    "name": "ENTWINED FLYING",
+                    "aa": 0.23,
+                    "mins": 120
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.25,
+                    "mins": 120
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.25,
+                    "mins": 300
+                },
+                {
+                    "name": "STONE IN THE TRUTH",
+                    "aa": 0.26,
+                    "mins": 60
+                },
+                {
+                    "name": "THE AZURE NAME",
+                    "aa": 0.13,
+                    "mins": 180
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.22,
+                    "mins": 420
+                },
+                {
+                    "name": "BRIDGES OF THE STREAMS",
+                    "aa": 0.29,
+                    "mins": 60
+                },
+                {
+                    "name": "THIEF IN THE MAN",
+                    "aa": 0.21,
+                    "mins": 180
+                }
+            ],
+            "Oct": [
+                {
+                    "name": "THE ALIEN'S GIRL",
+                    "aa": 0.3,
+                    "mins": 360
+                },
+                {
+                    "name": "WIZARD IN THE WIFE",
+                    "aa": 0.26,
+                    "mins": 360
+                },
+                {
+                    "name": "THE SEVENTH WIFE",
+                    "aa": 0.12,
+                    "mins": 180
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.29,
+                    "mins": 540
+                },
+                {
+                    "name": "THE LAST PLANET",
+                    "aa": 0.28,
+                    "mins": 120
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.15,
+                    "mins": 600
+                },
+                {
+                    "name": "THE LIVING PERSON",
+                    "aa": 0.23,
+                    "mins": 300
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.2,
+                    "mins": 120
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.13,
+                    "mins": 120
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.29,
+                    "mins": 180
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.24,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.24,
+                    "mins": 180
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.25,
+                    "mins": 180
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.24,
+                    "mins": 180
+                },
+                {
+                    "name": "THE WIFE OF THE ILLUSION",
+                    "aa": 0.33,
+                    "mins": 120
+                },
+                {
+                    "name": "STONE IN THE TRUTH",
+                    "aa": 0.16,
+                    "mins": 300
+                },
+                {
+                    "name": "UNWILLING SNOW",
+                    "aa": 0.3,
+                    "mins": 60
+                },
+                {
+                    "name": "THE AZURE NAME",
+                    "aa": 0.24,
+                    "mins": 180
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.28,
+                    "mins": 540
+                }
+            ],
+            "Nov": [
+                {
+                    "name": "WHISPERING GIRLFRIEND",
+                    "aa": 0.18,
+                    "mins": 60
+                },
+                {
+                    "name": "WIZARD IN THE WIFE",
+                    "aa": 0.13,
+                    "mins": 120
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.33,
+                    "mins": 600
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.14,
+                    "mins": 300
+                },
+                {
+                    "name": "WIND OF SEX",
+                    "aa": 0.28,
+                    "mins": 120
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.09,
+                    "mins": 480
+                },
+                {
+                    "name": "THE LIVING PERSON",
+                    "aa": 0.26,
+                    "mins": 120
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.15,
+                    "mins": 150
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.24,
+                    "mins": 180
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.2,
+                    "mins": 180
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.14,
+                    "mins": 180
+                },
+                {
+                    "name": "ABSENT CONSORT",
+                    "aa": 0.26,
+                    "mins": 120
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.25,
+                    "mins": 180
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.17,
+                    "mins": 180
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.17,
+                    "mins": 180
+                },
+                {
+                    "name": "THE WAY'S WAVES",
+                    "aa": 0.19,
+                    "mins": 240
+                },
+                {
+                    "name": "MOONS IN THE DRAGON",
+                    "aa": 0.21,
+                    "mins": 30
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.31,
+                    "mins": 600
+                }
+            ],
+            "Dec": [
+                {
+                    "name": "WIZARD IN THE WIFE",
+                    "aa": 0.21,
+                    "mins": 180
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.31,
+                    "mins": 240
+                },
+                {
+                    "name": "WIND OF SEX",
+                    "aa": 0.28,
+                    "mins": 120
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.2,
+                    "mins": 180
+                },
+                {
+                    "name": "THE LIVING PERSON",
+                    "aa": 0.26,
+                    "mins": 60
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.23,
+                    "mins": 180
+                },
+                {
+                    "name": "HUSBAND IN THE KISS",
+                    "aa": 0.25,
+                    "mins": 60
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.33,
+                    "mins": 120
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.17,
+                    "mins": 360
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.21,
+                    "mins": 360
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.22,
+                    "mins": 240
+                },
+                {
+                    "name": "THE EDGE'S EDGE",
+                    "aa": 0.18,
+                    "mins": 120
+                },
+                {
+                    "name": "THE WAY'S WAVES",
+                    "aa": 0.31,
+                    "mins": 300
+                },
+                {
+                    "name": "SLEEPING WITCHES",
+                    "aa": 0.24,
+                    "mins": 180
+                },
+                {
+                    "name": "THE BLADE'S TRUTH",
+                    "aa": 0.24,
+                    "mins": 120
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.21,
+                    "mins": 420
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.17,
+                    "mins": 840
+                }
+            ],
+            "FullYear": [
+                {
+                    "name": "WHISPERING GIRLFRIEND",
+                    "aa": 0.16,
+                    "mins": 300
+                },
+                {
+                    "name": "THE SEVENTH LORDS",
+                    "aa": 0.2,
+                    "mins": 120
+                },
+                {
+                    "name": "THE ALIEN'S GIRL",
+                    "aa": 0.15,
+                    "mins": 2100
+                },
+                {
+                    "name": "THE ICE OF THE STARS",
+                    "aa": 0.28,
+                    "mins": 120
+                },
+                {
+                    "name": "WIZARD IN THE WIFE",
+                    "aa": 0.31,
+                    "mins": 1320
+                },
+                {
+                    "name": "SWOLLEN BEGINNING",
+                    "aa": 0.19,
+                    "mins": 60
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.2,
+                    "mins": 4320
+                },
+                {
+                    "name": "THE SEVENTH WIFE",
+                    "aa": 0.18,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.17,
+                    "mins": 3150
+                },
+                {
+                    "name": "BOYFRIEND OF THE SOUL",
+                    "aa": 0.15,
+                    "mins": 120
+                },
+                {
+                    "name": "DOOR IN THE WAY",
+                    "aa": 0.18,
+                    "mins": 360
+                },
+                {
+                    "name": "CRACKED GAME",
+                    "aa": 0.27,
+                    "mins": 600
+                },
+                {
+                    "name": "THE LAST PLANET",
+                    "aa": 0.13,
+                    "mins": 300
+                },
+                {
+                    "name": "WIND OF SEX",
+                    "aa": 0.28,
+                    "mins": 660
+                },
+                {
+                    "name": "THE TRUTH'S DYING",
+                    "aa": 0.16,
+                    "mins": 180
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.24,
+                    "mins": 4320
+                },
+                {
+                    "name": "THE LIVING PERSON",
+                    "aa": 0.24,
+                    "mins": 1380
+                },
+                {
+                    "name": "RIVER OF HEALER",
+                    "aa": 0.17,
+                    "mins": 960
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.18,
+                    "mins": 1140
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.23,
+                    "mins": 2820
+                },
+                {
+                    "name": "HUSBAND IN THE KISS",
+                    "aa": 0.26,
+                    "mins": 60
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.18,
+                    "mins": 2550
+                },
+                {
+                    "name": "THE MOON'S SCHOOL",
+                    "aa": 0.22,
+                    "mins": 120
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.28,
+                    "mins": 2100
+                },
+                {
+                    "name": "ABSENT CONSORT",
+                    "aa": 0.28,
+                    "mins": 480
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.14,
+                    "mins": 3120
+                },
+                {
+                    "name": "BEGINNING OF MOONS",
+                    "aa": 0.14,
+                    "mins": 330
+                },
+                {
+                    "name": "TRAINER OF THE SILENCE",
+                    "aa": 0.07,
+                    "mins": 120
+                },
+                {
+                    "name": "ENTWINED FLYING",
+                    "aa": 0.23,
+                    "mins": 1020
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.13,
+                    "mins": 3360
+                },
+                {
+                    "name": "PRINCESS OF SECRETS",
+                    "aa": 0.17,
+                    "mins": 30
+                },
+                {
+                    "name": "THE SCENT'S FUTURE",
+                    "aa": 0.32,
+                    "mins": 60
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.17,
+                    "mins": 1800
+                },
+                {
+                    "name": "SHIP OF THOUGHTS",
+                    "aa": 0.2,
+                    "mins": 60
+                },
+                {
+                    "name": "THE EDGE'S EDGE",
+                    "aa": 0.21,
+                    "mins": 120
+                },
+                {
+                    "name": "THE WIFE OF THE ILLUSION",
+                    "aa": 0.22,
+                    "mins": 120
+                },
+                {
+                    "name": "STONE IN THE TRUTH",
+                    "aa": 0.26,
+                    "mins": 360
+                },
+                {
+                    "name": "UNWILLING SNOW",
+                    "aa": 0.3,
+                    "mins": 180
+                },
+                {
+                    "name": "THE AZURE NAME",
+                    "aa": 0.17,
+                    "mins": 1440
+                },
+                {
+                    "name": "THE WAY'S WAVES",
+                    "aa": 0.19,
+                    "mins": 1680
+                },
+                {
+                    "name": "MOONS IN THE DRAGON",
+                    "aa": 0.16,
+                    "mins": 30
+                },
+                {
+                    "name": "SLEEPING WITCHES",
+                    "aa": 0.17,
+                    "mins": 180
+                },
+                {
+                    "name": "THE BLADE'S TRUTH",
+                    "aa": 0.19,
+                    "mins": 120
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.28,
+                    "mins": 2100
+                },
+                {
+                    "name": "SECRET OF DOOR",
+                    "aa": 0.35,
+                    "mins": 180
+                },
+                {
+                    "name": "THEFT IN THE SWORDS",
+                    "aa": 0.08,
+                    "mins": 300
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.2,
+                    "mins": 7740
+                },
+                {
+                    "name": "STARS OF WORLD",
+                    "aa": 0.17,
+                    "mins": 240
+                },
+                {
+                    "name": "BRIDGES OF THE STREAMS",
+                    "aa": 0.21,
+                    "mins": 180
+                },
+                {
+                    "name": "THIEF IN THE MAN",
+                    "aa": 0.12,
+                    "mins": 540
+                }
+            ]
+        }
+    },
+    "2017": {
+        "prime": {
+            "Jan": 0.39,
+            "Feb": 0.14,
+            "Mar": 0.31,
+            "Apr": 0.32,
+            "May": 0.17,
+            "Jun": 0.16,
+            "Jul": 0.31,
+            "Aug": 0.18,
+            "Sep": 0.26,
+            "Oct": 0.21,
+            "Nov": 0.41,
+            "Dec": 0.23,
+            "FullYear": 0.2
+        },
+        "premieres": {
+            "Jan": {
+                "aa": 0.42,
+                "mins": 1530
+            },
+            "Feb": {
+                "aa": 0.19,
+                "mins": 600
+            },
+            "Mar": {
+                "aa": 0.37,
+                "mins": 870
+            },
+            "Apr": {
+                "aa": 0.38,
+                "mins": 1140
+            },
+            "May": {
+                "aa": 0.19,
+                "mins": 900
+            },
+            "Jun": {
+                "aa": 0.26,
+                "mins": 900
+            },
+            "Jul": {
+                "aa": 0.34,
+                "mins": 900
+            },
+            "Aug": {
+                "aa": 0.3,
+                "mins": 990
+            },
+            "Sep": {
+                "aa": 0.32,
+                "mins": 1140
+            },
+            "Oct": {
+                "aa": 0.41,
+                "mins": 1770
+            },
+            "Nov": {
+                "aa": 0.41,
+                "mins": 1500
+            },
+            "Dec": {
+                "aa": 0.36,
+                "mins": 1740
+            },
+            "FullYear": {
+                "aa": 0.35,
+                "mins": 13980
+            }
+        },
+        "repeats": {
+            "Jan": {
+                "aa": 0.36,
+                "mins": 4770
+            },
+            "Feb": {
+                "aa": 0.1,
+                "mins": 4440
+            },
+            "Mar": {
+                "aa": 0.24,
+                "mins": 4170
+            },
+            "Apr": {
+                "aa": 0.25,
+                "mins": 5160
+            },
+            "May": {
+                "aa": 0.15,
+                "mins": 4140
+            },
+            "Jun": {
+                "aa": 0.07,
+                "mins": 4140
+            },
+            "Jul": {
+                "aa": 0.28,
+                "mins": 5400
+            },
+            "Aug": {
+                "aa": 0.05,
+                "mins": 4050
+            },
+            "Sep": {
+                "aa": 0.2,
+                "mins": 3900
+            },
+            "Oct": {
+                "aa": 0.01,
+                "mins": 4530
+            },
+            "Nov": {
+                "aa": 0.41,
+                "mins": 3540
+            },
+            "Dec": {
+                "aa": 0.11,
+                "mins": 4560
+            },
+            "FullYear": {
+                "aa": 0.04,
+                "mins": 52800
+            }
+        },
+        "series-prems": {
+            "Jan": [
+                {
+                    "name": "THE ALIEN'S GIRL",
+                    "aa": 0.38,
+                    "mins": 1020
+                },
+                {
+                    "name": "THE ICE OF THE STARS",
+                    "aa": 0.19,
+                    "mins": 30
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.62,
+                    "mins": 60
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.46,
+                    "mins": 240
+                },
+                {
+                    "name": "SILENT GATE",
+                    "aa": 0.25,
+                    "mins": 60
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.35,
+                    "mins": 120
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.49,
+                    "mins": 120
+                }
+            ],
+            "Feb": [
+                {
+                    "name": "PETALS IN THE FLAME",
+                    "aa": 0.27,
+                    "mins": 300
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.3,
+                    "mins": 60
+                },
+                {
+                    "name": "ROSES IN THE EMPEROR",
+                    "aa": 0.24,
+                    "mins": 60
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.29,
+                    "mins": 120
+                },
+                {
+                    "name": "UNWILLING SNOW",
+                    "aa": 0.33,
+                    "mins": 60
+                },
+                {
+                    "name": "THE AZURE NAME",
+                    "aa": 0.26,
+                    "mins": 120
+                }
+            ],
+            "Mar": [
+                {
+                    "name": "WHISPERING GIRLFRIEND",
+                    "aa": 0.21,
+                    "mins": 120
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.39,
+                    "mins": 90
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.45,
+                    "mins": 60
+                },
+                {
+                    "name": "WINGS OF THE DARKNESS",
+                    "aa": 0.41,
+                    "mins": 60
+                },
+                {
+                    "name": "BEGINNING OF MOONS",
+                    "aa": 0.24,
+                    "mins": 90
+                },
+                {
+                    "name": "ROSES IN THE EMPEROR",
+                    "aa": 0.21,
+                    "mins": 180
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.28,
+                    "mins": 120
+                },
+                {
+                    "name": "THE AZURE NAME",
+                    "aa": 0.26,
+                    "mins": 120
+                },
+                {
+                    "name": "DOOR OF BODY",
+                    "aa": 0.22,
+                    "mins": 30
+                }
+            ],
+            "Apr": [
+                {
+                    "name": "WHISPERING GIRLFRIEND",
+                    "aa": 0.27,
+                    "mins": 30
+                },
+                {
+                    "name": "THE SEVENTH WIFE",
+                    "aa": 0.14,
+                    "mins": 60
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.3,
+                    "mins": 150
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.35,
+                    "mins": 300
+                },
+                {
+                    "name": "WINGS OF THE DARKNESS",
+                    "aa": 0.31,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.24,
+                    "mins": 180
+                },
+                {
+                    "name": "BEGINNING OF MOONS",
+                    "aa": 0.3,
+                    "mins": 120
+                },
+                {
+                    "name": "THE AZURE NAME",
+                    "aa": 0.29,
+                    "mins": 60
+                }
+            ],
+            "May": [
+                {
+                    "name": "THE SEVENTH WIFE",
+                    "aa": 0.1,
+                    "mins": 180
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.21,
+                    "mins": 60
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.27,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.36,
+                    "mins": 240
+                },
+                {
+                    "name": "BEGINNING OF MOONS",
+                    "aa": 0.19,
+                    "mins": 120
+                },
+                {
+                    "name": "SHARD OF DREAMING",
+                    "aa": 0.4,
+                    "mins": 60
+                }
+            ],
+            "Jun": [
+                {
+                    "name": "THE SEVENTH WIFE",
+                    "aa": 0.18,
+                    "mins": 60
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.32,
+                    "mins": 240
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.33,
+                    "mins": 180
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.42,
+                    "mins": 180
+                },
+                {
+                    "name": "BEGINNING OF MOONS",
+                    "aa": 0.23,
+                    "mins": 60
+                },
+                {
+                    "name": "SHARD OF DREAMING",
+                    "aa": 0.33,
+                    "mins": 180
+                }
+            ],
+            "Jul": [
+                {
+                    "name": "SNOW OF PIRATES",
+                    "aa": 0.23,
+                    "mins": 240
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.31,
+                    "mins": 240
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.48,
+                    "mins": 180
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.31,
+                    "mins": 60
+                },
+                {
+                    "name": "SHARD OF DREAMING",
+                    "aa": 0.48,
+                    "mins": 180
+                }
+            ],
+            "Aug": [
+                {
+                    "name": "SNOW OF PIRATES",
+                    "aa": 0.22,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.34,
+                    "mins": 90
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.36,
+                    "mins": 120
+                },
+                {
+                    "name": "DYING SHARDS",
+                    "aa": 0.1,
+                    "mins": 60
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.36,
+                    "mins": 240
+                },
+                {
+                    "name": "DEEP VALLEY",
+                    "aa": 0.37,
+                    "mins": 240
+                }
+            ],
+            "Sep": [
+                {
+                    "name": "SWORDS OF SNAKE",
+                    "aa": 0.24,
+                    "mins": 30
+                },
+                {
+                    "name": "YEARS OF WIZARDS",
+                    "aa": 0.24,
+                    "mins": 30
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.27,
+                    "mins": 120
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.36,
+                    "mins": 60
+                },
+                {
+                    "name": "DYING SHARDS",
+                    "aa": 0.25,
+                    "mins": 240
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.3,
+                    "mins": 240
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.29,
+                    "mins": 180
+                },
+                {
+                    "name": "DEEP VALLEY",
+                    "aa": 0.25,
+                    "mins": 240
+                }
+            ],
+            "Oct": [
+                {
+                    "name": "THE ALIEN'S GIRL",
+                    "aa": 0.34,
+                    "mins": 360
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.46,
+                    "mins": 300
+                },
+                {
+                    "name": "ASHES OF TOUCH",
+                    "aa": 0.31,
+                    "mins": 180
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.32,
+                    "mins": 30
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.39,
+                    "mins": 240
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.35,
+                    "mins": 300
+                },
+                {
+                    "name": "THE GAME'S SNOW",
+                    "aa": 0.32,
+                    "mins": 60
+                },
+                {
+                    "name": "THE BLUE BRIDE",
+                    "aa": 0.34,
+                    "mins": 60
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.45,
+                    "mins": 250
+                }
+            ],
+            "Nov": [
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.48,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.35,
+                    "mins": 60
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.39,
+                    "mins": 120
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.23,
+                    "mins": 60
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.32,
+                    "mins": 120
+                },
+                {
+                    "name": "WINGS OF THE DARKNESS",
+                    "aa": 0.3,
+                    "mins": 120
+                },
+                {
+                    "name": "MISTY SOARING",
+                    "aa": 0.43,
+                    "mins": 180
+                },
+                {
+                    "name": "SLEEPING WITCHES",
+                    "aa": 0.31,
+                    "mins": 120
+                },
+                {
+                    "name": "THE DOOR'S TRAINER",
+                    "aa": 0.24,
+                    "mins": 240
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.37,
+                    "mins": 240
+                }
+            ],
+            "Dec": [
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.49,
+                    "mins": 300
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.45,
+                    "mins": 300
+                },
+                {
+                    "name": "THE PURPLE DEATH",
+                    "aa": 0.27,
+                    "mins": 300
+                },
+                {
+                    "name": "MISTY SOARING",
+                    "aa": 0.51,
+                    "mins": 300
+                },
+                {
+                    "name": "SLEEPING WITCHES",
+                    "aa": 0.36,
+                    "mins": 240
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.36,
+                    "mins": 240
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.42,
+                    "mins": 60
+                }
+            ],
+            "FullYear": [
+                {
+                    "name": "SWORDS OF SNAKE",
+                    "aa": 0.13,
+                    "mins": 30
+                },
+                {
+                    "name": "WHISPERING GIRLFRIEND",
+                    "aa": 0.23,
+                    "mins": 150
+                },
+                {
+                    "name": "SNOW OF PIRATES",
+                    "aa": 0.26,
+                    "mins": 480
+                },
+                {
+                    "name": "THE ALIEN'S GIRL",
+                    "aa": 0.31,
+                    "mins": 1380
+                },
+                {
+                    "name": "THE ICE OF THE STARS",
+                    "aa": 0.26,
+                    "mins": 30
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.39,
+                    "mins": 900
+                },
+                {
+                    "name": "YEARS OF WIZARDS",
+                    "aa": 0.13,
+                    "mins": 30
+                },
+                {
+                    "name": "PETALS IN THE FLAME",
+                    "aa": 0.2,
+                    "mins": 300
+                },
+                {
+                    "name": "THE SEVENTH WIFE",
+                    "aa": 0.11,
+                    "mins": 300
+                },
+                {
+                    "name": "ASHES OF TOUCH",
+                    "aa": 0.26,
+                    "mins": 180
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.34,
+                    "mins": 600
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.41,
+                    "mins": 1020
+                },
+                {
+                    "name": "DYING SHARDS",
+                    "aa": 0.28,
+                    "mins": 300
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.36,
+                    "mins": 600
+                },
+                {
+                    "name": "THE GAME'S SNOW",
+                    "aa": 0.35,
+                    "mins": 60
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.33,
+                    "mins": 1500
+                },
+                {
+                    "name": "SILENT GATE",
+                    "aa": 0.38,
+                    "mins": 60
+                },
+                {
+                    "name": "THE BLUE BRIDE",
+                    "aa": 0.33,
+                    "mins": 60
+                },
+                {
+                    "name": "WINGS OF THE DARKNESS",
+                    "aa": 0.28,
+                    "mins": 420
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.47,
+                    "mins": 600
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.4,
+                    "mins": 660
+                },
+                {
+                    "name": "BEGINNING OF MOONS",
+                    "aa": 0.28,
+                    "mins": 390
+                },
+                {
+                    "name": "ROSES IN THE EMPEROR",
+                    "aa": 0.31,
+                    "mins": 240
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.24,
+                    "mins": 360
+                },
+                {
+                    "name": "DEEP VALLEY",
+                    "aa": 0.39,
+                    "mins": 480
+                },
+                {
+                    "name": "THE PURPLE DEATH",
+                    "aa": 0.31,
+                    "mins": 300
+                },
+                {
+                    "name": "UNWILLING SNOW",
+                    "aa": 0.37,
+                    "mins": 60
+                },
+                {
+                    "name": "THE AZURE NAME",
+                    "aa": 0.35,
+                    "mins": 300
+                },
+                {
+                    "name": "SHARD OF DREAMING",
+                    "aa": 0.44,
+                    "mins": 420
+                },
+                {
+                    "name": "MISTY SOARING",
+                    "aa": 0.48,
+                    "mins": 480
+                },
+                {
+                    "name": "SLEEPING WITCHES",
+                    "aa": 0.21,
+                    "mins": 360
+                },
+                {
+                    "name": "DOOR OF BODY",
+                    "aa": 0.27,
+                    "mins": 30
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.34,
+                    "mins": 240
+                },
+                {
+                    "name": "THE DOOR'S TRAINER",
+                    "aa": 0.23,
+                    "mins": 240
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.42,
+                    "mins": 670
+                }
+            ]
+        },
+        "series-repeats": {
+            "Jan": [
+                {
+                    "name": "THE ALIEN'S GIRL",
+                    "aa": 0.3,
+                    "mins": 300
+                },
+                {
+                    "name": "THE ICE OF THE STARS",
+                    "aa": 0.26,
+                    "mins": 60
+                },
+                {
+                    "name": "WIZARD IN THE WIFE",
+                    "aa": 0.2,
+                    "mins": 180
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.24,
+                    "mins": 540
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.23,
+                    "mins": 300
+                },
+                {
+                    "name": "WIND OF SEX",
+                    "aa": 0.36,
+                    "mins": 180
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.35,
+                    "mins": 420
+                },
+                {
+                    "name": "THE LIVING PERSON",
+                    "aa": 0.23,
+                    "mins": 60
+                },
+                {
+                    "name": "THE DARK DESTINY",
+                    "aa": 0.29,
+                    "mins": 60
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.13,
+                    "mins": 180
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.25,
+                    "mins": 360
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.18,
+                    "mins": 180
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.11,
+                    "mins": 120
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.15,
+                    "mins": 60
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.23,
+                    "mins": 180
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.19,
+                    "mins": 210
+                },
+                {
+                    "name": "THE WIFE OF THE ILLUSION",
+                    "aa": 0.19,
+                    "mins": 240
+                },
+                {
+                    "name": "THE WAY'S WAVES",
+                    "aa": 0.22,
+                    "mins": 240
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.24,
+                    "mins": 300
+                },
+                {
+                    "name": "PERSON OF THE RAINBOW",
+                    "aa": 0.38,
+                    "mins": 120
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.28,
+                    "mins": 600
+                }
+            ],
+            "Feb": [
+                {
+                    "name": "WIZARD IN THE WIFE",
+                    "aa": 0.11,
+                    "mins": 240
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.29,
+                    "mins": 420
+                },
+                {
+                    "name": "WIND OF SEX",
+                    "aa": 0.2,
+                    "mins": 240
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.15,
+                    "mins": 420
+                },
+                {
+                    "name": "THE LIVING PERSON",
+                    "aa": 0.27,
+                    "mins": 240
+                },
+                {
+                    "name": "THE DARK DESTINY",
+                    "aa": 0.26,
+                    "mins": 240
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.16,
+                    "mins": 360
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.14,
+                    "mins": 240
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.22,
+                    "mins": 120
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.3,
+                    "mins": 180
+                },
+                {
+                    "name": "TRAINER OF THE SILENCE",
+                    "aa": 0.08,
+                    "mins": 60
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.29,
+                    "mins": 300
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.27,
+                    "mins": 120
+                },
+                {
+                    "name": "THE WIFE OF THE ILLUSION",
+                    "aa": 0.23,
+                    "mins": 120
+                },
+                {
+                    "name": "THE AZURE NAME",
+                    "aa": 0.31,
+                    "mins": 60
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.28,
+                    "mins": 60
+                },
+                {
+                    "name": "PERSON OF THE RAINBOW",
+                    "aa": 0.25,
+                    "mins": 480
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.17,
+                    "mins": 540
+                }
+            ],
+            "Mar": [
+                {
+                    "name": "WHISPERING GIRLFRIEND",
+                    "aa": 0.17,
+                    "mins": 60
+                },
+                {
+                    "name": "WIZARD IN THE WIFE",
+                    "aa": 0.19,
+                    "mins": 60
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.14,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.12,
+                    "mins": 210
+                },
+                {
+                    "name": "WIND OF SEX",
+                    "aa": 0.21,
+                    "mins": 240
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.3,
+                    "mins": 240
+                },
+                {
+                    "name": "THE LIVING PERSON",
+                    "aa": 0.4,
+                    "mins": 180
+                },
+                {
+                    "name": "THE DARK DESTINY",
+                    "aa": 0.29,
+                    "mins": 210
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.24,
+                    "mins": 150
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.19,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.17,
+                    "mins": 180
+                },
+                {
+                    "name": "TRAINER OF THE SILENCE",
+                    "aa": 0.17,
+                    "mins": 120
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.32,
+                    "mins": 240
+                },
+                {
+                    "name": "UNWILLING SNOW",
+                    "aa": 0.1,
+                    "mins": 60
+                },
+                {
+                    "name": "THE AZURE NAME",
+                    "aa": 0.34,
+                    "mins": 120
+                },
+                {
+                    "name": "THE WAY'S WAVES",
+                    "aa": 0.22,
+                    "mins": 60
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.14,
+                    "mins": 240
+                },
+                {
+                    "name": "PERSON OF THE RAINBOW",
+                    "aa": 0.21,
+                    "mins": 600
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.16,
+                    "mins": 660
+                },
+                {
+                    "name": "BRIDGES OF THE STREAMS",
+                    "aa": 0.12,
+                    "mins": 60
+                }
+            ],
+            "Apr": [
+                {
+                    "name": "WHISPERING GIRLFRIEND",
+                    "aa": 0.18,
+                    "mins": 90
+                },
+                {
+                    "name": "THE ALIEN'S GIRL",
+                    "aa": 0.37,
+                    "mins": 840
+                },
+                {
+                    "name": "WIZARD IN THE WIFE",
+                    "aa": 0.16,
+                    "mins": 120
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.28,
+                    "mins": 600
+                },
+                {
+                    "name": "THE DEATH'S SCENT",
+                    "aa": 0.17,
+                    "mins": 60
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.24,
+                    "mins": 150
+                },
+                {
+                    "name": "WIND OF SEX",
+                    "aa": 0.37,
+                    "mins": 120
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.32,
+                    "mins": 360
+                },
+                {
+                    "name": "THE LIVING PERSON",
+                    "aa": 0.16,
+                    "mins": 60
+                },
+                {
+                    "name": "THE DARK DESTINY",
+                    "aa": 0.08,
+                    "mins": 120
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.31,
+                    "mins": 180
+                },
+                {
+                    "name": "ABSENT CONSORT",
+                    "aa": 0.16,
+                    "mins": 60
+                },
+                {
+                    "name": "ROSES IN THE EMPEROR",
+                    "aa": 0.21,
+                    "mins": 180
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.2,
+                    "mins": 120
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.2,
+                    "mins": 120
+                },
+                {
+                    "name": "UNWILLING SNOW",
+                    "aa": 0.18,
+                    "mins": 60
+                },
+                {
+                    "name": "THE AZURE NAME",
+                    "aa": 0.18,
+                    "mins": 180
+                },
+                {
+                    "name": "THE WAY'S WAVES",
+                    "aa": 0.23,
+                    "mins": 360
+                },
+                {
+                    "name": "SLEEPING WITCHES",
+                    "aa": 0.31,
+                    "mins": 180
+                },
+                {
+                    "name": "PERSON OF THE RAINBOW",
+                    "aa": 0.16,
+                    "mins": 600
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.13,
+                    "mins": 840
+                },
+                {
+                    "name": "BRIDGES OF THE STREAMS",
+                    "aa": 0.21,
+                    "mins": 60
+                }
+            ],
+            "May": [
+                {
+                    "name": "WHISPERING GIRLFRIEND",
+                    "aa": 0.13,
+                    "mins": 60
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.28,
+                    "mins": 360
+                },
+                {
+                    "name": "THE SEVENTH WIFE",
+                    "aa": 0.28,
+                    "mins": 60
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.13,
+                    "mins": 240
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.35,
+                    "mins": 240
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.26,
+                    "mins": 240
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.16,
+                    "mins": 180
+                },
+                {
+                    "name": "WINGS OF THE DARKNESS",
+                    "aa": 0.23,
+                    "mins": 360
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.14,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.2,
+                    "mins": 300
+                },
+                {
+                    "name": "TRAINER OF THE SILENCE",
+                    "aa": 0.09,
+                    "mins": 180
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.25,
+                    "mins": 360
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.14,
+                    "mins": 240
+                },
+                {
+                    "name": "THE WAY'S WAVES",
+                    "aa": 0.28,
+                    "mins": 300
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.26,
+                    "mins": 120
+                },
+                {
+                    "name": "SECRET OF DOOR",
+                    "aa": 0.27,
+                    "mins": 180
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.28,
+                    "mins": 480
+                }
+            ],
+            "Jun": [
+                {
+                    "name": "THE ALIEN'S GIRL",
+                    "aa": 0.19,
+                    "mins": 600
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.25,
+                    "mins": 240
+                },
+                {
+                    "name": "WIND OF SEX",
+                    "aa": 0.19,
+                    "mins": 120
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.18,
+                    "mins": 360
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.17,
+                    "mins": 120
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.16,
+                    "mins": 240
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.17,
+                    "mins": 180
+                },
+                {
+                    "name": "WINGS OF THE DARKNESS",
+                    "aa": 0.24,
+                    "mins": 240
+                },
+                {
+                    "name": "ABSENT CONSORT",
+                    "aa": 0.13,
+                    "mins": 60
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.18,
+                    "mins": 420
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.35,
+                    "mins": 120
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.13,
+                    "mins": 240
+                },
+                {
+                    "name": "SHARD OF DREAMING",
+                    "aa": 0.2,
+                    "mins": 240
+                },
+                {
+                    "name": "THE WAY'S WAVES",
+                    "aa": 0.23,
+                    "mins": 180
+                },
+                {
+                    "name": "SECRET OF DOOR",
+                    "aa": 0.26,
+                    "mins": 180
+                },
+                {
+                    "name": "PERSON OF THE RAINBOW",
+                    "aa": 0.13,
+                    "mins": 240
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.22,
+                    "mins": 420
+                }
+            ],
+            "Jul": [
+                {
+                    "name": "WHISPERING GIRLFRIEND",
+                    "aa": 0.09,
+                    "mins": 60
+                },
+                {
+                    "name": "SNOW OF PIRATES",
+                    "aa": 0.22,
+                    "mins": 180
+                },
+                {
+                    "name": "WIZARD IN THE WIFE",
+                    "aa": 0.08,
+                    "mins": 60
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.15,
+                    "mins": 180
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.27,
+                    "mins": 180
+                },
+                {
+                    "name": "WIND OF SEX",
+                    "aa": 0.25,
+                    "mins": 120
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.13,
+                    "mins": 600
+                },
+                {
+                    "name": "THE DARK DESTINY",
+                    "aa": 0.11,
+                    "mins": 60
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.22,
+                    "mins": 60
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.23,
+                    "mins": 240
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.16,
+                    "mins": 540
+                },
+                {
+                    "name": "ABSENT CONSORT",
+                    "aa": 0.23,
+                    "mins": 60
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.18,
+                    "mins": 240
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.24,
+                    "mins": 360
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.19,
+                    "mins": 360
+                },
+                {
+                    "name": "SHARD OF DREAMING",
+                    "aa": 0.21,
+                    "mins": 600
+                },
+                {
+                    "name": "THE WAY'S WAVES",
+                    "aa": 0.21,
+                    "mins": 300
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.12,
+                    "mins": 120
+                },
+                {
+                    "name": "SECRET OF DOOR",
+                    "aa": 0.36,
+                    "mins": 180
+                },
+                {
+                    "name": "PERSON OF THE RAINBOW",
+                    "aa": 0.12,
+                    "mins": 180
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.16,
+                    "mins": 600
+                },
+                {
+                    "name": "THIEF IN THE MAN",
+                    "aa": 0.22,
+                    "mins": 120
+                }
+            ],
+            "Aug": [
+                {
+                    "name": "SNOW OF PIRATES",
+                    "aa": 0.17,
+                    "mins": 180
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.25,
+                    "mins": 540
+                },
+                {
+                    "name": "ASHES OF TOUCH",
+                    "aa": 0.27,
+                    "mins": 180
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.26,
+                    "mins": 270
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.17,
+                    "mins": 240
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.1,
+                    "mins": 180
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.26,
+                    "mins": 120
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.23,
+                    "mins": 180
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.33,
+                    "mins": 480
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.23,
+                    "mins": 180
+                },
+                {
+                    "name": "DEEP VALLEY",
+                    "aa": 0.26,
+                    "mins": 60
+                },
+                {
+                    "name": "THE WIFE OF THE ILLUSION",
+                    "aa": 0.24,
+                    "mins": 120
+                },
+                {
+                    "name": "SHARD OF DREAMING",
+                    "aa": 0.3,
+                    "mins": 240
+                },
+                {
+                    "name": "THE WAY'S WAVES",
+                    "aa": 0.26,
+                    "mins": 180
+                },
+                {
+                    "name": "SLEEPING WITCHES",
+                    "aa": 0.27,
+                    "mins": 180
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.11,
+                    "mins": 180
+                },
+                {
+                    "name": "SECRET OF DOOR",
+                    "aa": 0.29,
+                    "mins": 120
+                },
+                {
+                    "name": "PERSON OF THE RAINBOW",
+                    "aa": 0.26,
+                    "mins": 180
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.25,
+                    "mins": 240
+                }
+            ],
+            "Sep": [
+                {
+                    "name": "SNOW OF PIRATES",
+                    "aa": 0.26,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.22,
+                    "mins": 120
+                },
+                {
+                    "name": "WIND OF SEX",
+                    "aa": 0.15,
+                    "mins": 180
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.2,
+                    "mins": 300
+                },
+                {
+                    "name": "DYING SHARDS",
+                    "aa": 0.22,
+                    "mins": 180
+                },
+                {
+                    "name": "THE GAME'S SNOW",
+                    "aa": 0.19,
+                    "mins": 120
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.25,
+                    "mins": 420
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.23,
+                    "mins": 180
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.3,
+                    "mins": 420
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.3,
+                    "mins": 180
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.27,
+                    "mins": 300
+                },
+                {
+                    "name": "DEEP VALLEY",
+                    "aa": 0.26,
+                    "mins": 240
+                },
+                {
+                    "name": "SHARD OF DREAMING",
+                    "aa": 0.24,
+                    "mins": 240
+                },
+                {
+                    "name": "THE WAY'S WAVES",
+                    "aa": 0.1,
+                    "mins": 60
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.19,
+                    "mins": 120
+                },
+                {
+                    "name": "SECRET OF DOOR",
+                    "aa": 0.31,
+                    "mins": 120
+                },
+                {
+                    "name": "PERSON OF THE RAINBOW",
+                    "aa": 0.17,
+                    "mins": 60
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.2,
+                    "mins": 420
+                }
+            ],
+            "Oct": [
+                {
+                    "name": "SNOW OF PIRATES",
+                    "aa": 0.15,
+                    "mins": 120
+                },
+                {
+                    "name": "THE ALIEN'S GIRL",
+                    "aa": 0.31,
+                    "mins": 360
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.28,
+                    "mins": 300
+                },
+                {
+                    "name": "THE SEVENTH WIFE",
+                    "aa": 0.14,
+                    "mins": 120
+                },
+                {
+                    "name": "ASHES OF TOUCH",
+                    "aa": 0.22,
+                    "mins": 60
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.17,
+                    "mins": 90
+                },
+                {
+                    "name": "WIND OF SEX",
+                    "aa": 0.19,
+                    "mins": 300
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.13,
+                    "mins": 480
+                },
+                {
+                    "name": "THE LIVING PERSON",
+                    "aa": 0.19,
+                    "mins": 60
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.16,
+                    "mins": 420
+                },
+                {
+                    "name": "THE GAME'S SNOW",
+                    "aa": 0.19,
+                    "mins": 180
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.13,
+                    "mins": 180
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.25,
+                    "mins": 420
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.09,
+                    "mins": 180
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.22,
+                    "mins": 240
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.31,
+                    "mins": 60
+                },
+                {
+                    "name": "DEEP VALLEY",
+                    "aa": 0.23,
+                    "mins": 360
+                },
+                {
+                    "name": "SHARD OF DREAMING",
+                    "aa": 0.3,
+                    "mins": 300
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.27,
+                    "mins": 480
+                }
+            ],
+            "Nov": [
+                {
+                    "name": "SNOW OF PIRATES",
+                    "aa": 0.16,
+                    "mins": 180
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.36,
+                    "mins": 660
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.3,
+                    "mins": 60
+                },
+                {
+                    "name": "WIND OF SEX",
+                    "aa": 0.27,
+                    "mins": 120
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.31,
+                    "mins": 180
+                },
+                {
+                    "name": "THE LIVING PERSON",
+                    "aa": 0.23,
+                    "mins": 300
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.21,
+                    "mins": 60
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.2,
+                    "mins": 300
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.32,
+                    "mins": 180
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.25,
+                    "mins": 60
+                },
+                {
+                    "name": "ABSENT CONSORT",
+                    "aa": 0.36,
+                    "mins": 60
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.2,
+                    "mins": 60
+                },
+                {
+                    "name": "THE HEALER'S BUTTERFLY",
+                    "aa": 0.35,
+                    "mins": 60
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.32,
+                    "mins": 360
+                },
+                {
+                    "name": "UNWILLING SNOW",
+                    "aa": 0.26,
+                    "mins": 180
+                },
+                {
+                    "name": "SHARD OF DREAMING",
+                    "aa": 0.15,
+                    "mins": 240
+                },
+                {
+                    "name": "PERSON OF THE RAINBOW",
+                    "aa": 0.34,
+                    "mins": 120
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.22,
+                    "mins": 360
+                }
+            ],
+            "Dec": [
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.35,
+                    "mins": 840
+                },
+                {
+                    "name": "ASHES OF TOUCH",
+                    "aa": 0.24,
+                    "mins": 120
+                },
+                {
+                    "name": "WIND OF SEX",
+                    "aa": 0.26,
+                    "mins": 60
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.15,
+                    "mins": 360
+                },
+                {
+                    "name": "THE LIVING PERSON",
+                    "aa": 0.16,
+                    "mins": 120
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.32,
+                    "mins": 120
+                },
+                {
+                    "name": "WINGS OF THE DARKNESS",
+                    "aa": 0.26,
+                    "mins": 180
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.27,
+                    "mins": 360
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.26,
+                    "mins": 180
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.3,
+                    "mins": 180
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.31,
+                    "mins": 180
+                },
+                {
+                    "name": "THE PURPLE DEATH",
+                    "aa": 0.31,
+                    "mins": 240
+                },
+                {
+                    "name": "SHARD OF DREAMING",
+                    "aa": 0.31,
+                    "mins": 300
+                },
+                {
+                    "name": "THE WAY'S WAVES",
+                    "aa": 0.24,
+                    "mins": 420
+                },
+                {
+                    "name": "MISTY SOARING",
+                    "aa": 0.35,
+                    "mins": 240
+                },
+                {
+                    "name": "SLEEPING WITCHES",
+                    "aa": 0.22,
+                    "mins": 240
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.35,
+                    "mins": 180
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.12,
+                    "mins": 240
+                }
+            ],
+            "FullYear": [
+                {
+                    "name": "WHISPERING GIRLFRIEND",
+                    "aa": 0.28,
+                    "mins": 270
+                },
+                {
+                    "name": "SNOW OF PIRATES",
+                    "aa": 0.12,
+                    "mins": 900
+                },
+                {
+                    "name": "THE ALIEN'S GIRL",
+                    "aa": 0.18,
+                    "mins": 2100
+                },
+                {
+                    "name": "THE ICE OF THE STARS",
+                    "aa": 0.25,
+                    "mins": 60
+                },
+                {
+                    "name": "WIZARD IN THE WIFE",
+                    "aa": 0.25,
+                    "mins": 660
+                },
+                {
+                    "name": "THE WANTON SILK",
+                    "aa": 0.28,
+                    "mins": 4920
+                },
+                {
+                    "name": "THE DEATH'S SCENT",
+                    "aa": 0.31,
+                    "mins": 60
+                },
+                {
+                    "name": "THE SEVENTH WIFE",
+                    "aa": 0.17,
+                    "mins": 180
+                },
+                {
+                    "name": "ASHES OF TOUCH",
+                    "aa": 0.22,
+                    "mins": 360
+                },
+                {
+                    "name": "THE SECRET'S MAGE",
+                    "aa": 0.24,
+                    "mins": 1620
+                },
+                {
+                    "name": "WIND OF SEX",
+                    "aa": 0.23,
+                    "mins": 1680
+                },
+                {
+                    "name": "MISTS IN THE WITCHES",
+                    "aa": 0.23,
+                    "mins": 4200
+                },
+                {
+                    "name": "THE LIVING PERSON",
+                    "aa": 0.16,
+                    "mins": 1020
+                },
+                {
+                    "name": "DYING SHARDS",
+                    "aa": 0.13,
+                    "mins": 180
+                },
+                {
+                    "name": "THE DARK DESTINY",
+                    "aa": 0.25,
+                    "mins": 690
+                },
+                {
+                    "name": "GIFT OF TALES",
+                    "aa": 0.24,
+                    "mins": 1530
+                },
+                {
+                    "name": "THE GAME'S SNOW",
+                    "aa": 0.26,
+                    "mins": 300
+                },
+                {
+                    "name": "THE END OF THE BRIDE",
+                    "aa": 0.2,
+                    "mins": 2700
+                },
+                {
+                    "name": "WAVE OF BOY",
+                    "aa": 0.15,
+                    "mins": 1740
+                },
+                {
+                    "name": "WINGS OF THE DARKNESS",
+                    "aa": 0.26,
+                    "mins": 780
+                },
+                {
+                    "name": "WAY IN THE SWORD",
+                    "aa": 0.27,
+                    "mins": 1980
+                },
+                {
+                    "name": "ABSENT CONSORT",
+                    "aa": 0.19,
+                    "mins": 240
+                },
+                {
+                    "name": "THE SILENT SHARDS",
+                    "aa": 0.2,
+                    "mins": 1800
+                },
+                {
+                    "name": "THE HEALER'S BUTTERFLY",
+                    "aa": 0.27,
+                    "mins": 60
+                },
+                {
+                    "name": "TRAINER OF THE SILENCE",
+                    "aa": 0.22,
+                    "mins": 360
+                },
+                {
+                    "name": "ROSES IN THE EMPEROR",
+                    "aa": 0.06,
+                    "mins": 180
+                },
+                {
+                    "name": "BARE FLAMES",
+                    "aa": 0.16,
+                    "mins": 3000
+                },
+                {
+                    "name": "SERVANTS IN THE SILK",
+                    "aa": 0.2,
+                    "mins": 1950
+                },
+                {
+                    "name": "DEEP VALLEY",
+                    "aa": 0.2,
+                    "mins": 660
+                },
+                {
+                    "name": "THE PURPLE DEATH",
+                    "aa": 0.2,
+                    "mins": 240
+                },
+                {
+                    "name": "THE WIFE OF THE ILLUSION",
+                    "aa": 0.19,
+                    "mins": 480
+                },
+                {
+                    "name": "UNWILLING SNOW",
+                    "aa": 0.21,
+                    "mins": 300
+                },
+                {
+                    "name": "THE AZURE NAME",
+                    "aa": 0.31,
+                    "mins": 360
+                },
+                {
+                    "name": "SHARD OF DREAMING",
+                    "aa": 0.2,
+                    "mins": 2160
+                },
+                {
+                    "name": "THE WAY'S WAVES",
+                    "aa": 0.25,
+                    "mins": 2100
+                },
+                {
+                    "name": "MISTY SOARING",
+                    "aa": 0.36,
+                    "mins": 240
+                },
+                {
+                    "name": "SLEEPING WITCHES",
+                    "aa": 0.19,
+                    "mins": 600
+                },
+                {
+                    "name": "SILKEN ABYSS",
+                    "aa": 0.14,
+                    "mins": 1320
+                },
+                {
+                    "name": "SECRET OF DOOR",
+                    "aa": 0.21,
+                    "mins": 780
+                },
+                {
+                    "name": "PERSON OF THE RAINBOW",
+                    "aa": 0.32,
+                    "mins": 2580
+                },
+                {
+                    "name": "THE UNWILLING STORMS",
+                    "aa": 0.27,
+                    "mins": 5880
+                },
+                {
+                    "name": "BRIDGES OF THE STREAMS",
+                    "aa": 0.17,
+                    "mins": 120
+                },
+                {
+                    "name": "THIEF IN THE MAN",
+                    "aa": 0.16,
+                    "mins": 120
+                }
+            ]
+        }
+    }
+}
